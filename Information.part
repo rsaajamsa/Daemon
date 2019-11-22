@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Information.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Dark Sun" type="Information" internal-id="ID_INTERNAL_INFORMATION_DARK_SUN" source="Dragon Magazine 390">
+    <specific name="Short Description"> A Dark Sun Campaign on the continent of Athas. </specific>
+	  
+Psionic energy suffuses Athas, making it the most common and accessible power source. Most inhabitants of Athas are born with some small aptitude for psionics. In time, these abilities develop into psionic tricks called wild talents. 
+
+This selection enables Wild Talents in your campaign.
+   </RulesElement>
+  <RulesElement name="Spellbook" type="Information" internal-id="ID_INTERNAL_INFORMATION_SPELLBOOK" source="Core">
+At the end of each of your extended rests, you can prepare encounter attack powers, daily attack powers, and utility powers from your spellbook. These are the powers that you can use during that day, in addition to your at-will attack powers, cantrips, and nonwizard powers, such as a racial power.
+   </RulesElement>
+  <RulesElement name="Toggling a Source" type="Information" internal-id="ID_INTERNAL_INFORMATION_TOGGLING_A_SOURCE" source="Core">
+This setting controls how elements in a source are toggled when you click the checkbox next to that source's name. Elements that appear in only that source are toggled as expected with any setting.
+
+	All:  Every element in the source is toggled.
+
+	Exclusive:  Elements that appear in only the source are toggled. Any element that appears in other sources as well is left alone.
+
+	Introduced:  Elements that first appeared in the source are toggled. Any element that was published in an earlier source is left alone.
+   </RulesElement>
+  <RulesElement name="Inherent Bonuses" type="Information" internal-id="ID_INTERNAL_INFORMATION_INHERENT_BONUSES" source="Core">
+    <specific name="Short Description"> Your character gets inherent enhancement bonuses to your attacks and defenses as you level. </specific>
+The Dungeon Master's Guide 2 (pg 138) has guidelines for removing magic items from your campaign. Characters with no magic items will need inherent bonuses to their attacks, damage, and defenses to compensate.
+
+	This option gives your character enhancement bonuses to your attack rolls, damage rolls, and defenses that increases as you level. In addition, it makes unenchanted masterwork armor available for purchase.
+   </RulesElement>
+  <RulesElement name="Spellscarred" type="Information" internal-id="ID_INTERNAL_INFORMATION_SPELLSCARRED" source="Core">
+    <specific name="Short Description"> Forgotten Realms characters can optionally start with a spellscar. </specific>
+Spellscars are granted by the Dungeon Master.
+
+    Spellscarred
+
+    When the changes the Spellplague induce in a creature lie under the skin, concealed by a façade of normalcy, that creature is called spellscarred. Although many folk see spellscars as marks of abomination, dooming those who have them to exile, others have learned to master the abilities granted by their spellscars.
+
+    Gaining a Spellscar
+
+    Any creature can be spellscarred. Exposure to the Spellplague in any form can cause the condition, and some unfortunates are spellscarred without ever going near a dangerous land or creature. If you want to have a spellscar, you can choose to when you create your character—or later, after consulting with your Dungeon Master.
+
+    Spellscarred Susceptibility: A spellscarred creature takes a -2 penalty to all defenses and saving throws against the Spellplague and plaguechanged or spellscarred creatures.
+    Spellplague Sense: As a small return, the creature knows when a Spellplagued area, or plaguechanged or spellscarred creature, is within 5 squares of him or her.
+
+    Creating a Spellscarred
+
+    While creatures can have spellscars without training, to master a spellscar, you need rigorous mental discipline and the courage to experiment with the energies of the Spellplague and wield them as tools.
+    To harness the power of your spellscar, you must first take the Student of the Plague multiclass feat. This grants you a specific trait of your spellscar (see the Student of the Plague feat below). By taking the Novice Power, Acolyte Power, or Adept Power power-swap feats (see the Player's Handbook), you can then exchange powers of your class for one or more of powers in the Spellscarred Power section below. (Remember that you can select a higher-level power when you retrain after gaining a level. See the Player's Handbook.)
+    Although being spellscarred is sometimes a physical abnormality, most often it manifests as an intangible mark that appears only when you use a spellscarred power. An active spellscar might appear as jagged cracks of blue light racing across the forearms and hands, a corona of azure flame, a blazing blue glyph on the forehead, or even wings of cobalt flame. In all instances, blue fire is a sure indicator of the use of a spellscar.
+
+    Spellscarred Multiclassing Paragon Path: The paragon path for spellscarred multiclassing is the spellscarred savant. Do not use the regular paragon multiclassing rules in the Player's Handbook for spellscarred characters.
+   </RulesElement>
+  <RulesElement name="Circle of Smoke and Whispers" type="Information" internal-id="ID_INTERNAL_INFORMATION_CIRCLE_OF_SMOKE_AND_WHISPERS" source="Dragon Magazine 390">
+    <specific name="Short Description"> Membership in the Circle of Smoke and Whispers. </specific>
+Few have ever successfully sought out the circle; more commonly heroes are approached before they even know of the circle's existence. Members always remain alert for the rise of a potential ally. Most frequently, such recruits are vetted through a series of missions before a member approaches them. Sometimes members notice a rising star within their usual cadre of informants and agents. In any event the examination is rigorous before the circle finally reveals itself.
+
+    Once accepted by the local chief, the new member immediately joins whatever local operations he or she might benefit. At any given time, such operations are likely numerous. Members frequently perform such tasks as recruiting more members, uncovering enemy agents, intercepting or redirecting communications, or staging tactical assaults to disrupt enemy activity or acquire valuable intelligence. Legend speaks of certain champions infiltrating the Nine Hells to challenge Shemathi leadership.
+   </RulesElement>
+  <RulesElement name="Harper" type="Information" internal-id="ID_INTERNAL_INFORMATION_HARPER" source="Forgotten Realms Player's Guide">
+    <specific name="Short Description"> Forgotten Realms characters who gain membership in the Harpers. </specific>
+The Harpers are few in number these days, and they carefully hide their affiliation with the organization. Most are brought into the society by experienced Harpers, who keep their eyes open for heroes who show courage, compassion, discretion, and effectiveness in their adventures. Sometimes this is a matter of happenstance—a Harper agent might recruit a band of footloose adventurers for a mission she can't take on alone, and winds up impressed by the talents of her companions. Other times heroes with the qualities the Harpers admire gain fame during their own adventures and are quietly approached about membership. There are no special requirements other than the desire to fight oppression in any form (but especially the Empire of Netheril and its plots), and the ability to keep secrets and use your common sense. You don't even have to be able to play a harp.
+
+    The principle benefits of membership in the Harpers are information, allies, and refuge. Many people in different parts of Faerûn are friendly to Those Who Harp, and they can help obtain information about local troublemakers, establish fake identities, provide safe hiding places, or relay messages for Harpers passing through the area. Player characters are under no formal chain of command. From time to time, they might be asked to take on specific missions, or look into trouble somewhere and take care of it. (Turn down too many missions, and after a while the Harpers look elsewhere for help.) But other than that, Harpers are expected to be guided by their own consciences and do what they can, where they can.
+
+    This epic destiny works best if your character becomes a member of the Harpers earlier in his or her career. If you have not yet established any such connection, your character might be drawn into this destiny by divine visitation—the deities who sponsor the Harpers might recognize in you the courage and compassion they need to serve their purposes, so they choose to bestow their gifts even if you have never met a Harper . . . although any epic hero so honored soon finds that the Harpers are interested in setting up a meeting.
+   </RulesElement>
+  <RulesElement name="House Vadalis" type="Information" internal-id="ID_INTERNAL_INFORMATION_HOUSE_VADALIS" source="Eberron Player's Guide">
+    <specific name="Short Description"> Eberron characters who are members of House Vadalis. </specific>
+Members of this house bear the Mark of Handling, which grants them great facility in the breeding and training of animals. Although famous for the magebred horses and the griffons used by most armies in the latter days of the Last War, House Vadalis experiments with both traditional animals and captured monsters. Recently it has begun to turn the power of its mark toward the cultivation of rare herbs and other plants.
+   </RulesElement>
+  <RulesElement name="Bonuses" type="Information" internal-id="ID_INTERNAL_INFORMATION_BONUSES" source="Core">
+On this page you will find many of the stats for your character. The total given for each is the calculated value from your character plus any arbitrary bonus you choose to give. Giving such a bonus will make your character houseruled.
+
+    Any section that you have given a bonus will be marked in its header with the houserule icon. You can click that icon to clear all bonuses in that section.
+   </RulesElement>
+  <RulesElement name="Summary" type="Information" internal-id="ID_INTERNAL_INFORMATION_SUMMARY" source="Core">
+This summary is in a simple text format so that you can copy and paste your character into an email or a forum post.
+   </RulesElement>
+  <RulesElement name="Companion" type="Information" internal-id="ID_INTERNAL_INFORMATION_COMPANION" source="Core">
+Beastmaster rangers, Sentinel druids, and characters with the Arcane Familiar feat gain companions which are selected on this page.
+    A Beastmaster Ranger gains a beast companion, chosen from one of these categories: bear, boar, cat, lizard, raptor, serpent, spider, or wolf. These categories do not describe specific animals, but rather groups of similarly themed creatures in the D&amp;D world. You decide the creature's relevant details—its species, physical details, and so forth—making sure they are appropriate for its category and the campaign.
+    For example, if your character hails from a swampy region, your lizard companion might be a crocodile. The lizard companion of a ranger from a different region might be a giant monitor lizard or a drake. A beast companion's species doesn't affect its game statistics, which are based on its category and level.
+    A Sentinel Druid gains an animal companion associated with the season they chose for their Acolyte of the Natural Cycle class feature.
+    The animal companion's level is equal to theirs, and its hit points, defenses, and attacks are determined by the druid's level level, as noted in its stat block.
+    The animal companion shares the druid's healing surge total. Whenever an effect requires the animal companion to spend a healing surge, the surge is deducted from the druid's total. 
+  
+    A familiar is a spirit that accompanies you as your friend and ally. It's not a real creature, and it doesn't need to eat or breathe. The most common type is a creature familiar—a spirit that takes the form of a little animal or monster.
+</RulesElement>
+  <RulesElement name="Campaign" type="Information" internal-id="ID_INTERNAL_INFORMATION_CAMPAIGN" source="Core">
+Not all campaigns allow the same rules. Your DM may choose to disallow certain rules elements or to create custom rules which are allowed in his campaign. This screen lets you disallow rules using the restrictions tab or create new ones in the custom rules tab.
+    You can enter this information, as provided by your DM, yourself, or your DM can do this and export a file with this information that you can then import. You can also import settings from another character built under the campaign restrictions you will be using.
+
+    If you are playing in an RPGA campaign, pre-defined campaign filters are provided — use the LOAD CAMPAIGN button to access them. More information on the RPGA can be found at http://www.wizards.com/default.asp?x=rpga/downloads
+   </RulesElement>
+  <RulesElement name="Journal" type="Information" internal-id="ID_INTERNAL_INFORMATION_JOURNAL" source="Core">
+Your journal allows you to record information about your character's adventures. You can create new entries to enter any text you'd like to note, as well as add Image entries which can be any image file.
+    By default, entries are named to the date and time you made the entry. However, you can click the title of the displayed entry to edit the entry's name.
+   </RulesElement>
+  <RulesElement name="Leveling" type="Information" internal-id="ID_INTERNAL_INFORMATION_LEVELING" source="Core">
+Here you can record your character's experience point total and level up your character. Change either the level or the experience points for your character, then click the SET XP button (which will change to a LEVEL UP or DELEVEL button as appropriate if you will be changing levels). The status window below will update to indicate what choices you need to make, and if you have made any illegal choices.
+    You can also view your character as he or she was at an earlier level. Select that earlier level in the level combobox and click the VIEW AT LEVEL button. The character sheet will open and be populated with your character's stats at that earlier level.
+   </RulesElement>
+  <RulesElement name="Portrait" type="Information" internal-id="ID_INTERNAL_INFORMATION_PORTRAIT" source="Core">
+Your character's portrait allows you to choose a picture to represent your character. The CHOOSE PORTRAIT button will take you to sample portraits provided with the builder, but you can browse to select any image of your choosing.
+    RESET TO DEFAULT will revert back to the default portrait for your character which is based on your character's class and race.
+    Press the BLANK ON SHEET button to leave the character sheet portrait blank. This allows you to draw your own picture.
+   </RulesElement>
+  <RulesElement name="Deity" type="Information" internal-id="ID_INTERNAL_INFORMATION_DEITY" source="Core">
+Deities are the most powerful immortal creatures, residents of the countless dominions that swirl through the Astral Sea. They appear in dreams and visions to their followers and wear countless different faces, and artwork depicting them shows them in a variety of forms. Their true nature is beyond any physical form. Corellon is often depicted as an eladrin, but he is no more an eladrin than he is a fey panther-he is a god, and he transcends the physical laws that bind even angels to their concrete forms.
+    Some deities are good or lawful good, some are evil or chaotic evil, and some are unaligned. Each deity has a vision of how the world should be, and the agents of the deities seek to bring that vision to life in the world. Except for the chaotic evil gods (Gruumsh and Lolth), all deities are enemies of the demons, which would rather destroy the world than govern it.
+    Most people revere more than one deity, praying to different gods at different times. Commoners in a small town might visit a temple that has three altars, where they pray to Bahamut for protection, Pelor for fertile crops, and Moradin to aid their skill at crafting. Clerics and paladins more often serve a single deity, championing that god's particular cause in the world. Other adventurers range across the spectrum, from paying lip service to the whole pantheon, to fervently serving a single god, to ignoring the gods entirely as they pursue their own divine ascension.
+    Many deities have contradictory versions of how the world should work. Even the agents and worshipers of deities who share an alignment can come into conflict.
+   </RulesElement>
+  <RulesElement name="Epic Destiny" type="Information" internal-id="ID_INTERNAL_INFORMATION_EPIC_DESTINY" source="Core">
+After twenty levels of adventure, what trials could be left to challenge you? You have conquered countless foes and become a hero to common folk everywhere. Deadly dragons and powerful mages alike have fallen to your might. Your gaze has begun to turn to the planes beyond the world, and even to the gods themselves. Finally, you realize there are no heights you cannot achieve.
+    It's time for you to assume your epic destiny and shape your legend in the universe forevermore.
+    Like a paragon path, an epic destiny grants special powers in addition to your class powers and features. Unlike paragon paths, epic destinies are not extensions of your class. Instead, they offer extraordinary abilities that represent your journey toward your ultimate fate . . . as you define it.
+   </RulesElement>
+  <RulesElement name="Paragon Path" type="Information" internal-id="ID_INTERNAL_INFORMATION_PARAGON_PATH" source="Core">
+You have survived and thrived through ten levels of adventure.
+    You've explored dank dungeons, defeated vile monsters, and learned priceless secrets. You've started making a name for yourself.
+    Now you're ready to take the next step: you're ready to choose a paragon path.
+    As your class describes your basic role in the party, your paragon path represents a particular area of expertise within that role. It's a form of specialization beyond even what a build choice represents. You might be a battle cleric and specialize in melee powers, but starting at 11th level you can be a warpriest and specialize in battle prayers.
+    Your paragon path gives you new capabilities from 11th level through 20th level. But adopting a paragon path doesn't mean you stop advancing in your class. All the powers and features you gain from your paragon path come in addition to your class powers and features, not instead of them. You don't stop being a cleric when you become a radiant servant. Instead, you gain new capabilities that extend, enhance, and complement the abilities of your class.
+    Paragon paths also broaden the use of action points in different ways. Each paragon path features a different, extra capability that characters can unlock by spending action points. So, once you pick your paragon path, you can still spend an action point to take an extra action. But you'll also have a new capability for action points that is unique to your path. Some of these capabilities come in addition to the extra action you get for spending an action point, some are used instead of getting an extra action.
+    When you reach 11th level, choose a paragon path. All paths have prerequisites, conditions you have to fulfill before you can adopt that path.
+
+    Paragon Multiclassing: You might choose to take on powers from a second class in place of a paragon path. If you have the Novice Power, Acolyte Power, and Adept Power feats for a class, you can choose to continue to gain powers from that class rather than take a paragon path. If you choose this option, you gain several benefits.
+    At 11th level, you can choose to replace one of your at-will powers with an at-will power from your second class.
+    In place of the paragon path encounter power gained at 11th level, you can select any encounter power of 7th level or lower from your second class.
+    In place of the paragon path utility power gained at 12th level, you can select any utility power of 10th level or lower from your second class.
+    In place of the paragon path daily power gained at 20th level, you can select any daily power of 19th level or lower from your second class.
+   </RulesElement>
+  <RulesElement name="Build" type="Information" internal-id="ID_INTERNAL_INFORMATION_BUILD" source="Core">
+A build is the theme you think about when choosing your powers and other abilities. The build you choose (if you choose one) suggests what abilities you should prioritize and gives you some guidance as you choose powers, at 1st level and as you gain levels.
+    A build isn't intended as a constraint, but as a way to help you make informed choices. If you want to be a fighter with a greataxe, rather than wielding a one-handed weapon and a shield, the great weapon fighter build points you toward the powers that are most effective in your hands. You can choose powers intended for the guardian fighter build instead, of course, and they might help your character be a little more balanced. Some of those powers, though, won't be as good for you as they'd be for a fighter with a shield. Builds aren't required; they exist to help guide your decisions.
+    Each build includes suggestions for choosing feats, skills, and powers for your 1st-level character. These are only suggestions-you are free to choose the feats, skills, and powers that most appeal to you and best fit with your character concept.
+   </RulesElement>
+  <RulesElement name="Money" type="Information" internal-id="ID_INTERNAL_INFORMATION_MONEY" source="Core">
+Your character's wealth is divided up between the money carried on his person and that stored in a bank, house, stronghold, or other safe place. Money on your person is immediately available, but weighs you down. Money stored does not count against your weight. Be sure to discuss with your DM exactly how this money is stored. It may be divided up in several locations and be in non-monetary forms like works of arts or debt owed by others. You may wish to note such complex assets on the details page in a journal entry. The value here is meant as an easy reference for campaigns in which it is appropriate.
+
+    Enter the amount of money you wish to work with such as '10 gp' then select the button that indicates what you wish to do with that amount of money. The top two buttons let you add the amount directly into your carried or stored money total (or subtract the amount if it is negative). The bottom two buttons let you transfer the amount between your carried and stored money totals.
+
+    The 'Level-Appropriate' button will set your character's money to a value appropriate for your level, useful for starting at higher than first level.
+   </RulesElement>
+  <RulesElement name="Martial Practices" type="Information" internal-id="ID_INTERNAL_INFORMATION_MARTIAL_PRACTICES" source="Core">
+Beyond the exploits for which they're famed, martial adventurers can push the bounds of what is possible for ordinary mortals by mastering challenging techniques called martial practices. Using these rare methods, an adventurer can run for days, swim to great depths, and even create magic items. Although martial practices approach what's possible with rituals, they exist wholly in the realm of martial power.
+    A martial practice is similar to a ritual. To learn martial practices, you must first have the Practiced Study feat. To use a martial practice, you must then acquire a practice, master it, and perform it. A practice you master must be associated with a skill in which you are trained. The component costs sometimes include healing surges. After you finish performing a practice, you gain its benefit.
+   </RulesElement>
+  <RulesElement name="Alchemy" type="Information" internal-id="ID_INTERNAL_INFORMATION_ALCHEMY" source="Core">
+Alchemical formulas are like rituals; they are usually written down in a book or on a scroll. Unlike rituals, though, formulas are nonmagical and recorded with normal materials. As a result, alchemical formulas are generally less expensive than rituals. They also cannot be performed from a scroll like rituals. A character wishing to use a formula must buy the formula and learn it or else pay someone to teach it to him or her (the same market price).
+    Alchemical formulas have a cost and creation time that the character creating an alchemical item must spend. The components used in alchemical formulas are the same as those used for rituals.
+   </RulesElement>
+  <RulesElement name="Character Sheet" type="Information" internal-id="ID_INTERNAL_INFORMATION_CHARACTER_SHEET" source="Core">
+The Character Builder automatically fills out a standard D&amp;D character sheet with your character's information. You can refer to this sheet at any time during the build process to see how your character is progressing.
+    The print option following the character sheet button in the toolbar above will allow you to print your character sheet.
+   </RulesElement>
+  <RulesElement name="Rituals" type="Information" internal-id="ID_INTERNAL_INFORMATION_RITUALS" source="Core">
+Rituals are complex ceremonies that create magic effects. You don't memorize or prepare a ritual; a ritual is so long and complex that no one could ever commit the whole thing to memory. To perform a ritual, you need to read from a book or a scroll containing it.
+    A ritual book contains one or more rituals that you can use as often and as many times as you like, as long as you can spare the time and the components to perform the ritual.
+    A ritual scroll contains a single ritual, and you can perform the ritual from that scroll only once. After that, the magic contained in the scroll is expended, and the scroll turns to dust. Anyone can use a ritual scroll to perform the ritual it contains, as long as the appropriate components are expended.
+   </RulesElement>
+  <RulesElement name="Details" type="Information" internal-id="ID_INTERNAL_INFORMATION_DETAILS" source="Core">
+The DUNGEONS &amp; DRAGONS game is, first and foremost, a roleplaying game, which means that it's all about taking on the role of a character in the game. Some people take to this playacting naturally and easily; others find it more of a challenge. This section is here to help you out, whether you're comfortable and familiar with roleplaying or you're new to the concept.
+    Your character is more than a combination of race, class, and feats. He or she is also one of the protagonists in a living, evolving story line. Like the hero of any fantasy novel or film, he or she has ambitions and fears, likes and dislikes, motivations and mannerisms, moments of glory and of failure. The best D&amp;D characters blend the ongoing story of their adventuring careers with memorable characteristics or traits. Jaden the 4th-level human fighter is a perfectly playable character even without any embellishment, but Jaden the Grim's personality-brooding, fatalistic, and honest-suggests a particular approach to negotiating with NPCs or discussing issues with the other characters. A well-crafted character personality expands your experience of the game dramatically.
+    D&amp;D is a roleplaying game but not necessarily an exercise in improvisational theater. Sometimes, the role you play is defender or leader-the character you're playing is engaged in combat and has a job to do so that your team comes out victorious. Even in combat, though, you can interject bits of personality and dialogue that make your character more than just the statistics on your character sheet.
+   </RulesElement>
+  <RulesElement name="Equipment" type="Information" internal-id="ID_INTERNAL_INFORMATION_EQUIPMENT" source="Core">
+When you leave the safety of a city or other refuge for the wilderness and the unknown, you must be prepared. Being ready means you need protection, arms, and tools to see you through potential challenges, dangers, and hardships. An unprepared explorer all too often winds up injured or lost-or worse—so gear up for the hazards you expect on your adventures.
+    When you create a 1st-level character, you start with basic clothing and 100 gold pieces to spend on armor, weapons, and adventuring gear. This is an abstraction; your character probably doesn't walk into a store one day with a bag of coins—unless you just came into an inheritance or won a tournament of some sort. Rather, the items you start with, and any gold you have left over, might come your way as gifts from family, gear used during military service, equipment issued by a patron, or even something you made yourself.
+    As you go up in level, you acquire more gold that you can spend, not just on mundane gear, but on fabulous magic items as well.
+
+    STARTING AT HIGHER THAN 1ST LEVEL
+
+    If you are creating a character at higher than first level, you begin with more than the standard 100 gold pieces. The AUTO ADD button will randomly assign you the equipment you are entitled to. Alternately, you can take items of your own choosing using the ADD button - one item of your level, one item a level higher than your level, and one item a level lower than your level. In addition, you may take any non-magical adventuring gear that you like.
+    Your character also gets an amount of gold to spend on additional magic items (or to save). AUTO ADD assigns this amount for you. To do it by hand, click the TOTAL MONEY button to get to the money manipulation screen. The "Level-Appropriate" button on that screen will set your money to the amount you are entitled to. You can use the BUY button to spend that money on additional magic items.
+   </RulesElement>
+  <RulesElement name="Retraining" type="Information" internal-id="ID_INTERNAL_INFORMATION_RETRAINING" source="Core">
+Sometimes you make decisions when you create or advance your character that you later regret. Perhaps a power you chose isn't working with your character concept, or a feat never comes into play the way you anticipated. Fortunately in such a case, level advancement isn't only a time to learn new powers-it's also an opportunity to change some of those decisions.
+    Every time you gain a level, you can retrain your character: change one feat, power, or skill selection you made previously. You can make only one change at each level. When your class table tells you to replace a power you know with a different power of a higher level, that doesn't count as retraining-you can still retrain an additional feat, power, or skill as normal.
+    If your character is multiclassed, you can take feats that allow you to swap one of your powers for a power from that class. This choice can be changed each level to take advantage of new, higher-level powers you are gaining and swap those for higher-level powers of your second class. These swaps are in addition to your normal retraining each level.
+   </RulesElement>
+  <RulesElement name="Powers" type="Information" internal-id="ID_INTERNAL_INFORMATION_POWERS" source="Core">
+Every class has access to a mix of attack powers (used to harm your enemies in combat, more or less directly) and utility powers (used to overcome a variety of obstacles both in and out of combat). Within each type, different powers have different restrictions on how often you can use them: at-will, encounter, or daily.
+   </RulesElement>
+  <RulesElement name="Feats" type="Information" internal-id="ID_INTERNAL_INFORMATION_FEATS" source="Core">
+As you advance in level, you gain a number of benefits that improve your capabilities. These benefits are called feats. Typically, a feat doesn't give you a new ability, but instead improves something you're already able to do. A feat might provide a bonus to a skill check, grant a bonus to one of your defense scores, or allow you to ignore a particular restriction or penalty in certain situations. Some feats also allow you to use skills in different ways, alter the effects of your powers, improve your racial traits, or even grant you capabilities from another class.
+   </RulesElement>
+  <RulesElement name="Skills" type="Information" internal-id="ID_INTERNAL_INFORMATION_SKILLS" source="Core">
+Has your character studied ancient tomes that describe the nature of magic and the structure of the universe? Do you have a golden tongue that can pass off the most outrageous lies as truth? Do you have a knack for getting information out of people, or have you trained in balance and tumbling? These capabilities are represented in the game by skills.
+    As an adventurer, you have a basic level of competence in every skill, and you get more competent as you advance in level. Your ability scores affect your use of skills; a halfling rogue with a high Dexterity is better at Acrobatics than a clumsy dwarf paladin with a lower Dexterity. Your aptitude at a skill is measured in the game with a skill check—a d20 roll that determines whether and sometimes how well you succeed at any skill-based task you might attempt.
+   </RulesElement>
+  <RulesElement name="Ability Scores" type="Information" internal-id="ID_INTERNAL_INFORMATION_ABILITY_SCORES" source="Core">
+After you choose your race and class, determine your ability scores. Six abilities provide a quick description of your character's physical and mental characteristics. Are you muscle-bound and insightful? Brilliant and charming? Nimble and hardy? Your ability scores define these qualities-your strengths as well as your weaknesses.
+   </RulesElement>
+  <RulesElement name="Class" type="Information" internal-id="ID_INTERNAL_INFORMATION_CLASS" source="Core">
+Your class is the primary definition of what your character can do in the extraordinary magical landscape of the DUNGEONS &amp; DRAGONS world. A class is more than a profession; it is your character's calling. Your class choice shapes every action you take as you adventure across a spell-tangled, monster-ridden, battle-torn fantasy world. Will you be a gutsy, youthful sword fighter? A pact-sworn warlock with questionable ties? A gods-worshiping cleric who knows too much? A flamboyant rogue with a dagger up your sleeve? A tattooed wizard with a crystal staff? The choice is yours.
+   </RulesElement>
+  <RulesElement name="Race" type="Information" internal-id="ID_INTERNAL_INFORMATION_RACE" source="Core">
+A variety of cultures and societies populate the world of the DUNGEONS &amp; DRAGONS game, some made up of humans but others made up of fantastic races such as elves, dwarves, and tieflings. Adventurers and heroes can arise from these various peoples. Your choice of character race provides you with a basic set of advantages and special abilities. If you're a fighter, are you a stubborn dwarf monster-slayer, a graceful elf blademaster, or a fierce dragonborn gladiator? If you're a wizard, are you a brave human spell-for-hire or a devious tiefling conjurer? Your character race not only affects your ability scores and powers but also provides the first cues for building your character's story.
+   </RulesElement>
+  <RulesElement name="Background" type="Information" internal-id="ID_INTERNAL_INFORMATION_BACKGROUND" source="Core">
+Backgrounds help define your character by providing clues about your character's past. Listed to the left are the published backgrounds you can select for your character.
+
+The general backgrounds presented in Player's Handbook 2 are suitable for any D&amp;D character. Specific campaign worlds may provide additional background options. If your character hails from the Forgotten Realms, you may also choose from the available Forgotten Realms backgrounds. If you are playing the Scales of War Adventure Path (published in Dungeon magazine), you may also choose from the Scales of War backgrounds.
+    
+Regardless of how many background elements you use, when you create a character you can (with your DM's consent) select one of the following background benefits:
+
+• Gain a +2 bonus to checks with a skill associated with your background.
+• Add a skill associated with your background to your class's skills list before you choose your trained skills.
+• Choose one language connected to your background. You can speak, read, and write that language fluently.
+• If you are using a campaign setting that offers regional benefits (such as the FORGOTTEN REALMS setting), gain a regional benefit.
+   </RulesElement>
+
+</D20Rules>

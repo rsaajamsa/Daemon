@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Hybrid Class.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Hybrid Vampire" type="Hybrid Class" internal-id="ID_CDJ_HYBRID_CLASS_40002" source="Dragon Magazine 400" revision-date="3/29/2011 3:03:59 PM">
+    <specific name="Key Abilities"> Dexterity, Charisma </specific>
+    <specific name="Implements"> Holy symbols, ki focuses </specific>
+    <specific name="Armor Proficiencies"> Cloth </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 2 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Acrobatics (Dex), Arcana (Int), Athletics (Str), Bluff (Cha), Diplomacy (Cha), History (Int), Intimidate (Cha), Perception (Wis), Religion (Int), Stealth (Dex), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Blood Drinker (Hybrid), Blood Is Life, Child of the Night (Hybrid), Enduring Soul, Hidden Might </specific>
+    <specific name="Role"> Striker. Infused with the power of darkness and having already experienced death, you are a lethal creature of the night. As your power increases, your supernatural nature comes to the fore—but will your humanity pay the price? </specific>
+    <specific name="Power Source"> Shadow. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental" />
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_6 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Embrace Undeath, Vampiric Reflexes </specific>
+    <specific name="Short Description"> Infused with the power of darkness and having already experienced death, you are a lethal creature of the night. </specific>
+    <specific name="_ParentClass"> ID_FMP_CLASS_817 </specific>
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_817 </specific>
+    <specific name="_SUGGESTED_FEATS" />
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_VAMPIRE" type="Grants" />
+      <textstring name="_CLASSNAME" value="ID_CDJ_HYBRID_CLASS_40002" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <grant name="ID_INTERNAL_VAMPIRE_HEALING_SURGES" type="Internal" />
+      <select type="Class Feature" number="1" Category="ID_CDJ_HYBRID_CLASS_40002_DEFENSE" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+    </rules>
+You are a monster, fated and infected by a vile curse that transformed you into a creature of nightmare. Normal emotions have become alien to you. Only cold, gnawing hunger remains.
+	Most of those who become vampires are victims of monstrous attacks, created by a callous hunter who drained them dry of blood and life force, then cast them aside. Others seek out this path from their own fear of infirmity and death, discovering the arcane rites and alchemical formulas that promise dark power. In some cases, a character finds his or her vampirism invoked by an ancient family curse, or that he or she is a member of an extended clan of vampires who pass their blood down to those they deem worthy—whether by choice or not.
+	Whatever their origins, vampire characters are not slaves to their creators. Even those beholden to an older vampire retain free will, and have a chance to avoid sinking into the bestial depravity so common among their kind. Vampire characters are the most exceptional examples of those who carry this dark curse, using their powers not solely for murder and personal gain. Some become the greatest of heroes, but even those vampires are aware that few among the common folk have the ability to see past the frightening reality of their dark nature. Avoiding the scrutiny of superstitious folk and disguising his or her needs and abilities serves a vampire best. Trusted companions, enemies to slay and feast upon, and reasons to avoid civilized areas for extended times make an adventuring life the perfect choice for such characters.
+</RulesElement>
+  <RulesElement name="Hybrid Executioner" type="Hybrid Class" internal-id="ID_CDJ_HYBRID_CLASS_40001" source="Dragon Magazine 400" revision-date="8/27/2010 12:42:25 PM">
+    <Prereqs> !ID_FMP_HYBRID_CLASS_641 </Prereqs>
+    <specific name="Key Abilities"> Dexterity, Charisma </specific>
+    <specific name="Implements"> Ki focuses </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather </specific>
+    <specific name="Weapon Proficiencies"> Simple one-handed melee, military one-handed melee, simple ranged, blowgun, bola, garrote, shortbow </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or Will </specific>
+    <specific name="Hit Points at 1st Level"> 6 + Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Acrobatics (Dex), Arcana (Int), Athletics (Str), Bluff (Cha), Endurance (Con), Insight (Wis), Intimidate (Cha), Perception (Wis), Stealth (Dex), Streetwise (Cha), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Assassin's Strike (Hybrid), Attack Finesse (Hybrid), Guild Attacks (Hybrid), Poison Use (Hybrid) </specific>
+    <specific name="Role"> Striker. </specific>
+    <specific name="Power Source"> Martial and Shadow. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental" />
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_1, ID_FMP_POWER_SOURCE_6 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Nimble Drop, Flawless Disguise </specific>
+    <specific name="Short Description"> You tap the raw arcane power of the cosmos, bending reality to your will with your focus. </specific>
+    <specific name="_ParentClass"> ID_FMP_CLASS_466 </specific>
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_466 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_EXECUTIONER" type="Grants" />
+      <textstring name="_CLASSNAME" value="ID_CDJ_HYBRID_CLASS_40001" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_CDJ_HYBRID_CLASS_40001_DEFENSE" />
+    </rules>
+Hybrid executioners are surprisingly common; many members of this class study arcane magic, worship deities of death, or cultivate other cover identities to mask their true talents.
+   </RulesElement>
+  <RulesElement name="Hybrid Blackguard" type="Hybrid Class" internal-id="ID_CDJ_HYBRID_CLASS_40003" source="Dragon Magazine 400" revision-date="3/29/2011 3:03:59 PM">
+    <Prereqs> !ID_FMP_HYBRID_CLASS_354, !ID_CDJ_HYBRID_CLASS_40004 </Prereqs>
+    <specific name="Key Abilities"> Strength, Charisma </specific>
+    <specific name="Implements"> Holy symbols </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail, scale, plate; light shield, heavy shield </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged, military ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude, Reflex or Will </specific>
+    <specific name="Hit Points at 1st Level"> 7.5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 3 </specific>
+    <specific name="Healing Surges"> 5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Athletics (Str), Bluff (Cha), Endurance (Con), Heal (Wis), History (Int), Intimidate (Cha), Religion (Int), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Dark Menace (Hybrid), Dread Smite (Hybrid), Spirit of Vice (Hybrid) </specific>
+    <specific name="Role"> Striker.  You are a warrior who focuses divine power through a dark vice. You wield this vice as a weapon, using it to slay any who oppose you. </specific>
+    <specific name="Power Source"> Divine </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental" />
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_3 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Paladin Armor Proficiency, Shroud of Shadow (Hybrid) </specific>
+    <specific name="Short Description"> Embracing the dark desires within, you channel divine power to smite your foes. </specific>
+    <specific name="_ParentClass"> ID_FMP_CLASS_4 </specific>
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_4 </specific>
+    <specific name="_SUGGESTED_FEATS" />
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_BLACKGUARD" type="Grants" />
+      <textstring name="_CLASSNAME" value="ID_CDJ_HYBRID_CLASS_40003" />
+      <statadd name="_LEVEL-ONE-HPS" value="+7" half-point="true" />
+      <statadd name="_PER-LEVEL-HPS" value="+3" />
+      <statadd name="Healing Surges" value="+5" />
+      <select type="Class Feature" number="1" Category="ID_CDJ_HYBRID_CLASS_40003_DEFENSE" />
+    </rules>
+The world knows paladins to be shining paragons who champion lofty ideals such as compassion, nobility, sacrifice, and valor. Such virtuous figures are symbols to the common people, icons from which they draw the strength and courage to stand fast against the encroaching darkness. Yet in every light a shadow lurks - the brightness of these noble warriors is equaled by the shadow spreading from their sinister counterparts.
+</RulesElement>
+  <RulesElement name="Hybrid Cavalier" type="Hybrid Class" internal-id="ID_CDJ_HYBRID_CLASS_40004" source="Dragon Magazine 400" revision-date="3/29/2011 3:03:59 PM">
+    <Prereqs> !ID_FMP_HYBRID_CLASS_354, !ID_CDJ_HYBRID_CLASS_40003 </Prereqs>
+    <specific name="Key Abilities"> Strength, Charisma </specific>
+    <specific name="Implements"> Holy symbols </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail, scale, plate; light shield, heavy shield </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged, military ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude, Reflex or Will </specific>
+    <specific name="Hit Points at 1st Level"> 7.5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 3 </specific>
+    <specific name="Healing Surges"> 5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Athletics (Str), Diplomacy (Cha), Endurance (Con), Heal (Wis), History (Int), Insight (Wis), Intimidate (Cha), Religion (Int) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Defender Aura, Holy Smite (Hybrid), Righteous Radiance, Spirit of Virtue (Hybrid) </specific>
+    <specific name="Role"> Defender. You are a warrior of virtue, a champion of the righteous, and a defender of the weak. With your sword and your faith, you will shield the world from evil. </specific>
+    <specific name="Power Source"> Divine. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental" />
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_4 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_3 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Paladin Armor Proficiency, Righteous Shield (Hybrid) </specific>
+    <specific name="Short Description"> A holy warrior devoted to a higher power, you smite enemies of your faith with divine power. </specific>
+    <specific name="_ParentClass"> ID_FMP_CLASS_4 </specific>
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_4 </specific>
+    <specific name="_SUGGESTED_FEATS" />
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_CAVALIER" type="Grants" />
+      <textstring name="_CLASSNAME" value="ID_CDJ_HYBRID_CLASS_40004" />
+      <statadd name="_LEVEL-ONE-HPS" value="+7" half-point="true" />
+      <statadd name="_PER-LEVEL-HPS" value="+3" />
+      <statadd name="Healing Surges" value="+5" />
+      <select type="Class Feature" number="1" Category="ID_CDJ_HYBRID_CLASS_40004_DEFENSE" />
+    </rules>
+Some warriors fight for gold. Others seek glory, power, or prestige. There are a few, however, who seek the warrior's path for reasons that transcend the material and mundane. Called by divine powers to stand as champions of the light against the ever-encroaching darkness, paladins fight not because they choose to, but because, deep within their souls, they know they must. The paladin's life is not a choice. It is a destiny.
+     Paladins are holy warriors, defenders of good and enemies of evil. Paladins are well trained with their weapons and armor, but they augment that skill with divine powers that allow them to shield their allies and smite their enemies. A single paladin can turn the tide of an entire war through a combination of skill at arms and inspiring leadership. As icons of virtue and heroism, paladins are a deadly threat to those who would rule through fear, intimidation, and violence.
+     Paladins typically wander the land either alone or in small groups. They seek out wrongs to right and villainy to defeat. Most paladins begin as squires to more experienced holy warriors. Through training and arduous tests, a squire's bravery, battle skill, and ethics are all tested to see if the squire is worthy of becoming a paladin.
+     A cavalier is a paladin who has embraced one of the heroic virtues, such as compassion, justice, sacrifice, or valor. His or her belief in this virtue is so strong that it manifests as divine magic. Although many cavaliers pledge their faith to the gods, others follow no specific religion. Regardless of one's divine affiliation (or lack thereof), a cavalier's virtue stands paramount. It guides his or her actions, pointing to the best way to protect the ever-flickering light of hope and civilization in the world.
+	 Opposing the cavaliers and the virtues that they champion are the blackguards, who embody the dreaded vices that the cavaliers stand against. Where cavaliers embrace compassion, justice, sacrifice, and valor, blackguards epitomize fury, tyranny, greed, and terror. Since the earliest days of history, these two factions have fought each other. Both wander the land, gathering allies and working to further the cause of their virtues or vices.
+     At one time, cavaliers formed into chivalrous orders that were dedicated to the ideal of protecting the civilized realms. The forgotten kingdoms that ruled the land relied on cavaliers to help keep the peace. Those cavaliers maintained not only the military security of the land, but also its moral strength. A cavalier might drive off a marauding troll, but she could also mediate a dispute between two farmers, break the power of a corrupt noble, or free a wrongly accused prisoner.
+     As with many things from the time of the forgotten kingdoms, the cavaliers' glory proved fleeting. The kingdoms of old grew weak, and some of their decline could be laid at the feet of cavaliers who strayed from the righteous path. All too often, cavaliers fell victim to the very evils they had sworn to combat. Power corrupts, and in many cases cavaliers served as perfect examples of how power can twist the most resolute heart.
+     The grand orders of cavaliers have long since faded, but their glory is not forgotten. Even as evil casts its shadow across the land, there are those who hear the call to the cavalier's path. Many of the cavaliers of old strayed from their purpose, but that purpose and the power behind it remains strong for those who stay true to it.
+</RulesElement>
+  <RulesElement name="Hybrid Sentinel" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_894" source="Dragon Magazine 400" revision-date="3/29/2011 3:03:59 PM">
+    <Prereqs> !ID_FMP_CLASS_126, !ID_FMP_HYBRID_CLASS_442 </Prereqs>
+    <specific name="Key Abilities"> Wisdom, Constitution </specific>
+    <specific name="Implements"> Staffs, totems </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather, hide; light shield </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Athletics (Str), Diplomacy (Cha), Endurance (Con), Heal (Wis), History (Int), Insight (Wis), Nature (Wis), Perception (Wis) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Acolyte of the Natural Cycle (Hybrid), Animal Companion, Combined Attack (Hybrid), Healing Word (Hybrid Sentinel) </specific>
+    <specific name="Role"> Leader. You wield the magic of the natural world, using your connection to the primal spirits to tend the wounds of your allies and lead them to victory. </specific>
+    <specific name="Power Source"> Primal. As a sentinel, you use primal power to shelter your allies and defeat those that would disrupt the balance of the natural world. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental" />
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_2 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_4 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Wilderness Knack (Hybrid), Druid Armor Proficiency, Paragon of the Natural Cycle, Animal Companion Power, Nature's Bounty </specific>
+    <specific name="Short Description"> You want to play a weapon-wielding master of primal magic who has an animal companion. </specific>
+    <specific name="_ParentClass"> ID_FMP_CLASS_126 </specific>
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_126 </specific>
+    <specific name="_SUGGESTED_FEATS" />
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_SENTINEL" type="Grants" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_894" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <statadd name="Fortitude Defense Class Bonus" value="+1" />
+    </rules>
+The world experiences perpetual cycles of life, death, and rebirth. The four seasons are signposts that mark the world's progress through time, each with its own recognizable traits. The mortal races have learned to live in harmony with this cycle, using the bounty of spring, summer, and autumn to enable them to endure the desolation of winter. In you, that harmony manifests itself in a special way. You have learned to harness the greatest power of the natural world: that of primal magic.
+     Druids are guardians of the world. They provide guidance to the common folk and tend to villages, towns, and vast stretches of unspoiled land in the same way that a gardener keeps watch over his flowers and vegetables. A druid works to ensure that the natural order remains strong. A wise druid allows a band of hunting goblins to gather food and game for their survival. But if those same goblins wreak havoc purely for the joy of destruction, the druid calls upon primal magic to smite and scatter them. As long as creatures live within the cycle of nature, a druid lives and lets live.
+     Druids provide guidance and protection to farmers, wild animals, and plants in equal measure. In a druid's eyes, all living creatures have the same right to live within the world. A druid might help a village plant crops, but then turn against the villagers if they hunt to near extinction the wolves that prey on their cattle. Balance is the key to maintaining nature's integrity.
+</RulesElement>
+  <RulesElement name="Hybrid Binder" type="Hybrid Class" internal-id="ID_CDJ_HYBRID_CLASS_40006" source="Dragon Magazine 400" revision-date="3/29/2011 3:03:59 PM">
+    <Prereqs> !ID_FMP_CLASS_7, !ID_FMP_HYBRID_CLASS_358 </Prereqs>
+    <specific name="Key Abilities"> Charisma; Dexterity or Intelligence </specific>
+    <specific name="Implements"> Rods, wands </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Reflex or Will </specific>
+    <specific name="Hit Points at 1st Level"> 6 + Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3 + Constitution Modifier </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Bluff (Cha), Dungeoneering (Wis), History (Int), Insight (Wis), Intimidate (Cha), Religion (Int), Streetwise (Cha), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Pact Boon (Binder), Shadow Twist (Hybrid) </specific>
+    <specific name="Role"> Controller. </specific>
+    <specific name="Power Source"> Arcane. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental" />
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_1 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_2 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Shadow Walk </specific>
+    <specific name="Short Description"> You bend extraplanar entities to your will as a means to channel arcane power. </specific>
+    <specific name="_ParentClass"> ID_FMP_CLASS_7 </specific>
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_7 </specific>
+    <specific name="_SUGGESTED_FEATS" />
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_BINDER" type="Grants" />
+      <textstring name="_CLASSNAME" value="ID_CDJ_HYBRID_CLASS_40006" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" />
+      <select type="Class Feature" number="1" Category="ID_CDJ_HYBRID_CLASS_40006_DEFENSE" />
+    </rules>
+Warlocks manipulate arcane power, as wizards do, but their conduit to that power is vastly different. For a warlock, it's as much about who you know as what you know - and in effect, the two are the same.
+	All warlocks gain access to their power by entering into a pact with some force or entity in which that power rests. In return for their continuing loyalty and service to the source of their power, warlocks become more adept at their craft, and the abilities they bring to the battlefield grow more lethal.
+</RulesElement>
+  <RulesElement name="Hybrid Assassin" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_641" source="Dragon Magazine 385" revision-date="8/27/2010 12:44:19 PM">
+    <specific name="Key Abilities"> Dexterity, Charisma, Constitution </specific>
+    <specific name="Implements"> Ki focuses </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather; light shields </specific>
+    <specific name="Weapon Proficiencies"> Simple one-handed melee, simple ranged, military heavy blade, military light blade </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2 </specific>
+    <specific name="Healing Surges"> 3 </specific>
+    <specific name="Trained Skills"> You gain one extra trained skill, chosen from the list of class skills below. </specific>
+    <specific name="Class Skills"> Acrobatics (Dex), Arcana (Int), Athletics (Str), Bluff (Cha), Endurance (Con), Insight (Wis), Perception (Wis), Stealth (Dex), Streetwise (Cha), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Assassin's Shroud (Hybrid) </specific>
+    <specific name="Role"> Striker. </specific>
+    <specific name="Power Source"> Shadow. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+Assassins combine best with other striker classes since doing so provides two methods for dealing striker damage. The strongest combinations include assassin/rogue, assassin/monk, and assassin/ranger. If you want to develop leader techniques, the assassin/bard is a good choice. For defender, think about the assassin/paladin to improve your durability and gain self-healing. Combining an assassin with controller classes is difficult since few abilities overlap. To add control techniques, you are served better by picking up the sorcerer or warlock. Although they are not controllers, many spells available to them have controller effects. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_6 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Guild Training (Hybrid), Shade Form, Shadow Step. </specific>
+    <specific name="Short Description"> The darkness within gives you the ability to capitalize on your enemy's weaknesses. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_466 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_ASSASSIN" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_641" />
+      <statadd name="_LEVEL-ONE-HPS" value="+5" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" />
+      <statadd name="Healing Surges" value="+3" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_641 Defense" />
+      <select type="Skill Training" number="1" Category="ID_FMP_HYBRID_CLASS_641" />
+      <statadd name="_WeaponsAsImplements" value="+1" />
+    </rules>
+You have accepted your dark reflection and understand its place in your soul. Yet you are unwilling to surrender completely to the darkness you now harbor. 
+
+What drove you to seek out the Shadowfell's power? Were you driven by grief, guilt, hatred, or vengeance? Something else? Is your divided focus the result of an incomplete bond? Or do you dabble in other areas to better conceal your sinister nature?
+
+As a hybrid assassin, you can call forth shrouds to help guide your attacks where they can deal the most damage, but you sacrifice many of the techniques assassins use to evade their enemies.
+   </RulesElement>
+  <RulesElement name="Hybrid Seeker" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_612" source="Player's Handbook 3" revision-date="8/27/2010 12:44:08 PM">
+    <specific name="Key Abilities"> Wisdom, Strength, Dexterity </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged, military ranged </specific>
+    <specific name="Bonus to Defense"> +1 Reflex or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Acrobatics (Dex), Athletics (Str), Endurance (Con), Heal (Wis), Insight (Wis), Intimidate (Cha), Nature (Wis), Perception (Wis), Stealth (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Inevitable Shot (Hybrid), Seeker's Bond (Hybrid) </specific>
+    <specific name="Role"> Controller. </specific>
+    <specific name="Power Source"> Primal. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+The best hybrid combination for this class is ranger/seeker, creating a ranged attack specialist. Your Wisdom and Dexterity scores should be equally high, with Strength a good third choice.
+
+The rogue/seeker can pick up ranged attacks from both classes, using thrown daggers or a hand crossbow rather than a longbow. Ability score assignment is difficult; you'll need high Wisdom and Dexterity scores, and your secondary ability options require some tough choices.
+
+The fighter/seeker can be a mighty warrior. Strength and Wisdom should be your top ability scores. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_1 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_4 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> True Seeker's Bond. </specific>
+    <specific name="Short Description"> A primal champion, you use thrown and ranged weapons to destroy your enemies. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_472 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_SEEKER" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_612" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_612 Defense" />
+    </rules>
+You have forged a tenuous bond with primal spirits of the hunt. What keeps you from giving yourself fully to the primal spirits? Do you fear loss of control? Do you mistrust their motives? Or are you simply not spiritually strong enough to hold the power they offer?
+
+As a hybrid seeker, you give up some battlefield control ability in exchange for features and powers of a second class.
+   </RulesElement>
+  <RulesElement name="Hybrid Runepriest" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_611" source="Player's Handbook 3" revision-date="8/27/2010 12:44:07 PM">
+    <specific name="Key Abilities"> Strength, Constitution, Wisdom </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail, scale; light shields </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Athletics (Str), Endurance (Con), Heal (Wis), History (Int), Insight (Wis), Religion (Int), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Rune of Mending (Hybrid), Runic Artistry </specific>
+    <specific name="Role"> Leader. </specific>
+    <specific name="Power Source"> Divine. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+The cleric/runepriest combines leadership from two divine classes, offering a wealth of story and tactical options. Make Strength and Wisdom your two best ability scores, with either Constitution or Charisma in third place.
+
+Both the fighter/runepriest and the paladin/runepriest offer similar blends of the leader and defender roles, and also allow you to maximize your class armor proficiencies. Strength should be your primary ability score, with Constitution or Wisdom a good second choice.
+
+The barbarian/runepriest provides a hefty dose of damage-dealing capability, allowing you to put the fear of your god into foes. Your highest ability score should be Strength, with Constitution second. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_2 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_3 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Rune Master, Runepriest Armor Proficiency. </specific>
+    <specific name="Short Description"> You seek to unlock the secrets of divine runes, turning them into words and signs of power. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_602 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_RUNEPRIEST" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_611" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <statadd name="Will Defense Class Bonus" value="+1" />
+    </rules>
+You have begun to unlock the mysteries of divine runes, but you lack the focus needed for true mastery. What keeps you from achieving this focus? Have you recognized that runic study alone is insufficient to stand against the forces of evil? Or have you started dabbling in rune magic to enhance your already formidable talents in battle?
+
+As a hybrid runepriest, you forgo some battlefield healing and mastery of basic runes in exchange for a second class's features and powers.
+   </RulesElement>
+  <RulesElement name="Hybrid Psion" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_610" source="Player's Handbook 3" revision-date="8/27/2010 12:44:06 PM">
+    <specific name="Key Abilities"> Intelligence, Charisma, Wisdom </specific>
+    <specific name="Implements"> Orbs, Staffs </specific>
+    <specific name="Armor Proficiencies"> Cloth </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2 </specific>
+    <specific name="Healing Surges"> 3 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Bluff (Cha), Diplomacy (Cha), Dungeoneering (Wis), History (Int), Insight (Wis), Intimidate (Cha), Perception (Wis) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Discipline Focus (Hybrid), Psionic Augmentation (Hybrid) </specific>
+    <specific name="Role"> Controller. </specific>
+    <specific name="Power Source"> Psionic. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+The psion/wizard is a controller extraordinaire, using a high Intelligence to rain down arcane and psionic destruction on enemies.
+
+A bard/psion combines discipline with guile to outfox enemies just long enough to defeat them. You'll want high Intelligence and Charisma scores.
+
+The psion/warlock grasps for power from all sources, whether by mastering your own psionic potential or by drawing on bargains with otherworldly entities. With good Intelligence and Charisma scores, you should be able to gather all the power you need. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_1 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_5 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Expanded Discipline Focus. </specific>
+    <specific name="Short Description"> You unleash the potential of your mind, manipulating objects and enemies with a thought. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_437 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_PSION" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_610" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" />
+      <statadd name="Healing Surges" value="+3" />
+      <statadd name="Will Defense Class Bonus" value="+1" />
+    </rules>
+You can bend your enemies' wills to your own, yet that is not enough. What led you to meld the psion's powers of mental control with the powers of another class? Have you discovered a secret connection between psionics and another power source? Or do your mental talents represent the ace up your sleeve, an unexpected well of tricks that supplement your other abilities?
+
+As a hybrid psion, you forgo that class's innate talent with rituals and minor psionic powers to gain features and powers from a second class.
+   </RulesElement>
+  <RulesElement name="Hybrid Monk" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_609" source="Player's Handbook 3" revision-date="8/27/2010 12:44:06 PM">
+    <specific name="Key Abilities"> Dexterity, Strength, Wisdom </specific>
+    <specific name="Implements"> Ki focus, weapons with which you have proficiency </specific>
+    <specific name="Armor Proficiencies"> Cloth </specific>
+    <specific name="Weapon Proficiencies"> Club, dagger, quarterstaff, shuriken, sling, spear </specific>
+    <specific name="Bonus to Defense"> +1 Any </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Acrobatics (Dex), Athletics (Str), Diplomacy (Cha), Endurance (Con), Heal (Wis), Insight (Wis), Perception (Wis), Religion (Int), Stealth (Dex), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Monastic Tradition (Hybrid) </specific>
+    <specific name="Role"> Striker. </specific>
+    <specific name="Power Source"> Psionic. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+The monk/rogue is an excellent combination, resulting in a character who can use a dagger to deliver flurries and sneak attacks alike. Focus on a good Dexterity score and make Strength second best.
+
+The avenger/monk combination suggests years of training in a secret monastery dedicated to disciplined vengeance. You'll need a high score in both Dexterity and Wisdom to maximize accuracy.
+
+The fighter/monk can call out foes for one-on-one battle, and then slip away when things get too rough. Put high scores in both Dexterity and Strength, with Wisdom a strong third score. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_5 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Expanded Tradition, Unarmed Combatant, Unarmored Defense. </specific>
+    <specific name="Short Description"> Channeling psionic energy within yourself, you fortify your body and sharpen your mind. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_362 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_MONK" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_609" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_609 Defense" />
+      <statadd name="_WeaponsAsImplements" value="+1" />
+    </rules>
+You are an enigma, blending supreme discipline and focus with a multifaceted approach to victory in battle. How do you explain this seeming contradiction? Are you a failed student of monastic discipline, turning to alternative talents to stay alive? Or have you newly discovered an ascetic lifestyle and now seek to leave behind your former life?
+
+As a hybrid monk, you sacrifice some of the training of your monastic tradition, including significant unarmed prowess, in order to gain aspects of a second class.
+   </RulesElement>
+  <RulesElement name="Hybrid Battlemind" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_590" source="Player's Handbook 3" revision-date="8/27/2010 12:43:58 PM">
+    <specific name="Key Abilities"> Constitution, Wisdom, Charisma </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail, scale; heavy shields, light shields </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 7.5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 3 </specific>
+    <specific name="Healing Surges"> 4.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Athletics (Str), Bluff (Cha), Diplomacy (Cha), Endurance (Con), Heal (Wis), Insight (Wis), Intimidate (Cha) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Psionic Augmentation (Hybrid), Psionic Defense (Hybrid) </specific>
+    <specific name="Role"> Defender. </specific>
+    <specific name="Power Source"> Psionic. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+The battlemind/fighter has plenty of durability, but you'll need to assign high scores to both Strength and Constitution, with Wisdom as your third-best score.
+
+The ardent/battlemind also needs two high scores—Constitution and Charisma—but can manage without a third good score. This combination also gives you the full array of power points for your augmentable powers.
+
+A battlemind/warlock can get away with only one high ability score (Constitution), and Charisma makes a great secondary score for both classes. Unfortunately, you're a little fragile for a defender, so either shore up those defenses or find a tough ally to stand next to. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_4 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_5 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Battlemind Armor Proficiency, Psionic Study (Hybrid). </specific>
+    <specific name="Short Description"> A hardy warrior, you use psionic power to transform yourself into a living weapon. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_124 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_BATTLEMIND" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_590" />
+      <statadd name="_LEVEL-ONE-HPS" value="+7" half-point="true" />
+      <statadd name="_PER-LEVEL-HPS" value="+3" />
+      <statadd name="Healing Surges" value="+4" half-point="true" />
+      <statadd name="Will Defense Class Bonus" value="+1" />
+    </rules>
+When you start with a sturdy mind and body, you can add almost any other set of talents to achieve a strong whole—or so you like to tell yourself.
+
+What led you to add another class's abilities to your own mental and physical perfection as a battlemind? Do you secretly believe your psionic talents to be unreliable, at least compared to a strong blade or a reliance on other forms of magic? Or have you only recently discovered your psionic capabilities?
+
+As a hybrid battlemind, you give up some battlefield control and psionic tricks in order to add another class's features and powers to your arsenal.
+   </RulesElement>
+  <RulesElement name="Hybrid Ardent" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_588" source="Player's Handbook 3" revision-date="8/27/2010 12:43:57 PM">
+    <specific name="Key Abilities"> Charisma, Constitution, Wisdom </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Athletics (Str), Bluff (Cha), Diplomacy (Cha), Endurance (Con), Heal (Wis), Insight (Wis), Intimidate (Cha), Streetwise (Cha) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Ardent Mantle (Hybrid), Ardent Surge (Hybrid), Psionic Augmentation (Hybrid) </specific>
+    <specific name="Role"> Leader. </specific>
+    <specific name="Power Source"> Psionic. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+The ardent/bard is a great combination thematically,
+and the two classes' roles and key ability scores match. It's easy to imagine a character who taps into others' emotions through both mental manipulation and song.
+
+If you prefer to stay fully psionic, the ardent/battlemind delivers durability in battle and retains important leader functions.
+
+One can easily compare the emotional discipline of an ardent to that required to be a paladin, and mixing these two classes creates an interesting hybrid. Charisma should be your best ability score, with Strength, Constitution, and Wisdom all vying for second place. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_2 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_5 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Ardent Armor Proficiency, Mantle Power. </specific>
+    <specific name="Short Description"> You use psionic power to manipulate the emotions of your allies and enemies, to their boon or despair. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_529 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_ARDENT" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_588" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_588 Defense" />
+    </rules>
+Like most ardents, your psionic power comes from self-discovered potential rather than training. Why did you choose not to focus on honing your talent for harnessing emotion? Do you fear this ability, preferring to supplement it with the abilities of another class? Have you only begun to unlock this mysterious power?
+
+As a hybrid ardent, you provide occasional but timely bursts of emotion to allies and enemies alike. However, by blending this power with the talents of another class, you give up the depth of your control over others' emotions.
+   </RulesElement>
+  <RulesElement name="Hybrid Artificer" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_536" source="Player's Handbook 3" revision-date="8/27/2010 12:43:38 PM">
+    <specific name="Key Abilities"> Intelligence, Constitution, Wisdom </specific>
+    <specific name="Implements"> Rods, staffs, wands </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Diplomacy (Cha), Dungeoneering (Wis), Heal (Wis), History (Int), Perception (Wis), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Healing Infusion (Hybrid) </specific>
+    <specific name="Role"> Leader. </specific>
+    <specific name="Power Source"> Arcane. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+The artificer/wizard is a master of arcane secrets, using Intelligence to attack enemies and heal allies.
+
+The artificer/swordmage might prefer melee powers. Choose Constitution as your secondary ability score to maximize synergy between the two classes.
+	
+The artificer/warlock can be an effective mix of leadership and damage-dealing, particularly if you set Intel-ligence and Constitution as your two highest ability scores. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_2 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_2 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Arcane Empowerment, Arcane Rejuvenation. </specific>
+    <specific name="Short Description"> You use magical formulae to channel energy into items, assembling a device for any situation. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_125 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_ARTIFICER" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_536" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_536 Defense" />
+    </rules>
+Whether student or tinkerer, you have learned many tricks for imbuing magic into objects and creatures. Your expertise is spotty, however, with many gaps that a true artificer might scoff at. Of course, you know plenty of tricks beyond the skill of that artificer.
+
+Why does your knowledge have such gaps? Do you lack the discipline or talent to master some of the formulas and recipes of the artificer? Or have you recognized that technical skills must be supplemented with other abilities?
+
+As a hybrid artificer, you retain some of the artificer's healing ability, but you trade away magic item manipulation in exchange for another class's abilities.
+   </RulesElement>
+  <RulesElement name="Hybrid Warden" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_446" source="Player's Handbook 3" revision-date="8/27/2010 12:43:04 PM">
+    <specific name="Key Abilities"> Strength, Constitution, Wisdom </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather, hide; heavy shields, light shields </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 8.5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 3.5 </specific>
+    <specific name="Healing Surges"> 4.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Athletics (Str), Dungeoneering (Wis), Endurance (Con), Heal (Wis), Intimidate (Cha), Nature (Wis), Perception (Wis) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Nature's Wrath (Hybrid) </specific>
+    <specific name="Role"> Defender. </specific>
+    <specific name="Power Source"> Primal. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+The fighter/warden offers great durability and melee attacks, though this combination might need some help with AC; Warden's Armored Might or Fighter Armor Proficiency are good fixes.
+
+Adding the hybrid cleric gives the hybrid warden useful healing powers; Wisdom is likely your secondary ability.
+
+Combining the hybrid warden with the hybrid ranger increases your damage output without hurting your AC too much. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_4 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_4 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Font of Life, Warden's Armored Might. </specific>
+    <specific name="Short Description"> You draw on the primal spirits to protect the natural world from corrupting forces. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_134 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_WARDEN" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_446" />
+      <statadd name="_LEVEL-ONE-HPS" value="+8" half-point="true" />
+      <statadd name="_PER-LEVEL-HPS" value="+3" half-point="true" />
+      <statadd name="Healing Surges" value="+4" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_446 Defense" />
+    </rules>
+To stand strong against the defilers of the natural world, you have buttressed your primal tenacity with the capabilities of another class. These capabilities might be other ways of channeling primal spirits, or you might have decided that you can't count on the spirits for all your strength.
+
+As a hybrid warden, you can still punish foes for attacking your allies. However, because you divide your focus between two classes, you must give up some of the class's innate durability (in the form of Font of Life and Guardian Might).
+   </RulesElement>
+  <RulesElement name="Hybrid Sorcerer" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_445" source="Player's Handbook 3" revision-date="8/27/2010 12:43:03 PM">
+    <specific name="Key Abilities"> Charisma, Dexterity, Strength </specific>
+    <specific name="Implements"> Daggers, staffs </specific>
+    <specific name="Armor Proficiencies"> Cloth </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Athletics (Str), Bluff (Cha), Diplomacy (Cha), Dungeoneering (Wis), Endurance (Con), History (Int), Insight (Wis), Intimidate (Cha), Nature (Wis) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Sorcerous Power </specific>
+    <specific name="Role"> Striker. </specific>
+    <specific name="Power Source"> Arcane. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+One can easily imagine a young sorcerer turning to an Eldritch Pact to gain access to even greater power. Indeed, the sorcerer/warlock is a potent striker who has a variety of attacks, though the classes' secondary abilities don't match up well.
+
+Add the hybrid bard to your hybrid sorcerer to gain healing powers and to heighten your character's reputation as a valorous trickster.
+
+A rogue/sorcerer gains some useful melee attack powers, as long as he or she favors Dexterity. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_2 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Soul of the Sorcerer. </specific>
+    <specific name="Short Description"> You channel wild, unpredictable arcane energy, harnessing the magic inherent in your blood. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_128 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_SORCERER" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_445" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" />
+      <statadd name="Will Defense Class Bonus" value="+1" />
+    </rules>
+You know the innate power of arcane magic flowing through your body and blood, yet it does not speak to you as strongly as it would if you were only a sorcerer.
+
+Is your sorcerous bloodline diluted, requiring you to learn other talents to survive as an adventurer? Or do you fear what might happen if you gave yourself fully to the luring pulse of magic?
+
+As a hybrid sorcerer, you're capable of unleashing powerful gouts of arcane fury. But you don't have the resilience of a nonhybrid sorcerer or the other quirks derived from a dedication to sorcerous ways.
+   </RulesElement>
+  <RulesElement name="Hybrid Shaman" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_444" source="Player's Handbook 3" revision-date="8/27/2010 12:43:03 PM">
+    <specific name="Key Abilities"> Wisdom, Constitution, Intelligence </specific>
+    <specific name="Implements"> Totems </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, longspear </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Athletics (Str), Endurance (Con), Heal (Wis), History (Int), Insight (Wis), Nature (Wis), Perception (Wis), Religion (Int) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Companion Spirit (Hybrid), Healing Spirit (Hybrid), Speak with Spirits </specific>
+    <specific name="Role"> Leader. </specific>
+    <specific name="Power Source"> Primal. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+A druid/shaman has a wide array of options on the battlefield, including area attacks and healing effects.
+
+The hybrid shaman seeking to add melee prowess would do well to consider the hybrid warden.
+
+A melee-focused hybrid shaman might add the hybrid avenger, favoring Intelligence as a secondary ability. Would such a character be more loyal to the primal spirits or to the divine patron who schooled him or her in the arts of retribution? </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_2 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_4 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Spirit Boon (Hybrid), Spirit's Power. </specific>
+    <specific name="Short Description"> You command the services of a faithful spirit guide, using it to inspire allies and destroy enemies. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_147 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_SHAMAN" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_444" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_444 Defense" />
+    </rules>
+You have learned to call a spirit companion to your side, yet your connection to primal spirits isn't as strong as a shaman's. What caused this deficiency? Did you flee or fail a rite of passage before its completion, weakening your link to the spirit world? Have you angered the spirits, causing their voices to quiet in your mind?
+
+As a hybrid shaman, you have a spirit companion, as well as the ability to call on spirits for healing, but you give up many of your other talents to pursue a second class.
+   </RulesElement>
+  <RulesElement name="Hybrid Invoker" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_443" source="Player's Handbook 3" revision-date="8/27/2010 12:43:02 PM">
+    <specific name="Key Abilities"> Wisdom, Constitution, Intelligence </specific>
+    <specific name="Implements"> Rods, staffs </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Reflex or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2 </specific>
+    <specific name="Healing Surges"> 3 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Diplomacy (Cha), Endurance (Con), History (Int), Insight (Wis), Intimidate (Cha), Religion (Int) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Covenant Manifestation </specific>
+    <specific name="Role"> Controller. </specific>
+    <specific name="Power Source"> Divine. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+A cleric/invoker offers a divine combination of mass devastation and healing powers.
+
+An invoker/wizard has access to a vast array of controller powers. Consider taking the Hybrid Talent feat to get the Channel Divinity power preserver's rebuke in order to make optimal use of a high Intelligence score.
+
+The invoker/shaman mixes two very different traditions of power to great effect on the battlefield. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_1 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_3 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Channel Divinity (Hybrid Invoker), Invoker Armor proficiency. </specific>
+    <specific name="Short Description"> Imbued with divine power, you speak the words of creation to shape the world to your will. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_127 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_INVOKER" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_443" />
+      <statadd name="_LEVEL-ONE-HPS" value="+5" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" />
+      <statadd name="Healing Surges" value="+3" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_443 Defense" />
+    </rules>
+You wield the might of the gods, mixed with powers more earthly. But why would you forgo pure devotion to the secrets of the invoker? Did you uncover a mystery that frightened you from wielding such unfettered power? Or has your understanding of divinity only recently awakened? As a hybrid invoker, you wield the gods' own might to smite your foes. However, you forgo the versatility of Channel Divinity and Ritual Casting to gain the benefits of another class.
+   </RulesElement>
+  <RulesElement name="Hybrid Druid" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_442" source="Player's Handbook 3" revision-date="8/27/2010 12:43:02 PM">
+    <specific name="Key Abilities"> Wisdom, Dexterity, Constitution </specific>
+    <specific name="Implements"> Staffs, totems </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather, hide </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Reflex or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Athletics (Str), Diplomacy (Cha), Endurance (Con), Heal (Wis), History (Int), Insight (Wis), Nature (Wis), Perception (Wis) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Wild Shape </specific>
+    <specific name="Role"> Controller. </specific>
+    <specific name="Power Source"> Primal. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Selecting Druid Powers
+
+Despite automatically gaining the wild shape power, a hybrid druid doesn't come with beast form powers; you must select them from your limited array of druid powers.
+At 1st level, you should consider selecting a beast form power as your lone druid at-will power. You can use your other at-will power in humanoid form even if that power isn't a druid power. (Human hybrid druids can afford to pick up both a beast form  and a nonbeast form druid at-will power.)
+If you don't have any beast form powers, you're wasting wild shape, so include beast form powers among your attack powers and utility powers. Having a beast form power you can use in every encounter makes your wild shape more valuable.
+
+Suggested Combinations
+The druid/shaman is an ideal combination of primal classes, mixing the druid's control and melee powers with the shaman's leadership. 
+
+A druid/invoker mixes powers and features from two different Wisdom-based controller classes and can offer an interesting character background: What brought you to mesh the ancient power of the gods with the might of primal spirits?
+
+Hybrid druids who want to increase their deadliness in melee should consider the avenger, ranger, and rogue classes. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_1 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_4 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Druid Armor Proficiency, Primal Aspect. </specific>
+    <specific name="Short Description"> One with the natural world, you can assume the forms of animals and call on the fury of nature. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_126 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_DRUID" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_442" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_442 Defense" />
+    </rules>
+Your ability to take on the form of a beast marks you unmistakably as a druid, but your bond to the spirits of nature remains somewhat tenuous. Do your druid powers stem from an innate but undeveloped link to primal spirits? Or have you just begun to explore the mysteries of nature after a life spent in other pursuits? 
+As a hybrid druid, you can assume beast form and likely know powers useful in that form. However, you sacrifice some connections to the natural world—including Primal Aspect and Ritual Casting—to explore another class's talents.
+   </RulesElement>
+  <RulesElement name="Hybrid Bard" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_441" source="Player's Handbook 3" revision-date="8/27/2010 12:43:01 PM">
+    <specific name="Key Abilities"> Charisma, Intelligence, Constitution </specific>
+    <specific name="Implements"> Wands </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail; light shields </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged, military ranged, longsword, scimitar, short sword </specific>
+    <specific name="Bonus to Defense"> +1 Reflex or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills"> You gain one extra trained skill, chosen from the list of class skills below. </specific>
+    <specific name="Class Skills"> Acrobatics (Dex), Arcana (Int), Athletics (Str), Bluff (Cha), Diplomacy (Cha), Dungeoneering (Wis), Heal (Wis), History (Int), Insight (Wis), Intimidate (Cha), Nature (Wis), Perception (Wis), Religion (Int), Streetwise (Cha) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Majestic Word (Hybrid), Skill Versatility </specific>
+    <specific name="Role"> Leader. </specific>
+    <specific name="Power Source"> Arcane. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+The bard and warlock classes make a good hybrid combination, with complete overlap between primary and secondary abilities. Focus on ranged implement attacks when choosing bard powers.
+
+A bard/paladin can mix leadership and defense and maintain accuracy with Charisma attack powers. You'll need a little help with AC, particularly if you're the only defender in the group.
+
+Combining a bard with a warlord can create a leader who has powers that move allies and enemies around the battlefield with ease. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_2 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_2 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Bard Armor Proficiency, Bardic Virtue, Song of Rest, Words of Friendship. </specific>
+    <specific name="Short Description"> You channel your arcane prowess through an artistic medium, using your power to warp reality. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_104 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_BARD" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_441" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_441 Defense" />
+      <select type="Skill Training" number="1" Category="ID_FMP_HYBRID_CLASS_441" />
+    </rules>
+You are a dabbler among dabblers. The versatility of the typical bard isn't enough for you, so you have branched out even further into other talents. Alternatively, you might have been incapable of mastering the bard's full repertoire of performance and inspiration and have chosen to explore other areas to augment your abilities. As a hybrid bard, you retain some of the bard's healing power, but trade away much of that class's innate versatility in exchange for access to another class's tricks.
+   </RulesElement>
+  <RulesElement name="Hybrid Barbarian" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_440" source="Player's Handbook 3" revision-date="8/27/2010 12:43 PM">
+    <specific name="Key Abilities"> Strength, Constitution, Charisma </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather, hide </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude </specific>
+    <specific name="Hit Points at 1st Level"> 7.5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 3 </specific>
+    <specific name="Healing Surges"> 4 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Acrobatics (Dex), Athletics (Str), Endurance (Con), Heal (Wis), Intimidate (Cha), Nature (Wis), Perception (Wis) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Rampage </specific>
+    <specific name="Role"> Striker. </specific>
+    <specific name="Power Source"> Primal. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+The hybrid barbarian can be joined with the hybrid fighter for great durability and melee prowess. Choose a Hybrid Talent option to improve your AC, either Barbarian Armored Agility or Fighter Armor Proficiency.
+
+If you are a barbarian/cleric who chooses Strength-based healing powers, you gain valuable healing capability that you can use to keep yourself fighting.
+
+A barbarian/ranger is a potent combatant. Such a character can use barbarian powers requiring a two-handed weapon as well as ranger powers requiring two melee weapons. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_4 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Barbarian Armored Agility, Feral Might. </specific>
+    <specific name="Short Description"> You are a proud and fierce warrior, dealing out powerful blows with your mighty weapon. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_148 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_BARBARIAN" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_440" />
+      <statadd name="_LEVEL-ONE-HPS" value="+7" half-point="true" />
+      <statadd name="_PER-LEVEL-HPS" value="+3" />
+      <statadd name="Healing Surges" value="+4" />
+      <statadd name="Fortitude Defense Class Bonus" value="+1" />
+    </rules>
+In your heart, you know the power of rage. However, your link to the primal spirits that unleash these rages isn't quite as strong as a typical barbarian's. Perhaps you've been away from the tribe for too long, or maybe you have only begun to harness primal power. Regardless of the reason, as a hybrid barbarian you can't unleash the burning rage in your heart quite as easily as a full member of that class, but you remain capable of occasional frenzied bursts of energy.
+   </RulesElement>
+  <RulesElement name="Hybrid Avenger" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_439" source="Player's Handbook 3" revision-date="8/27/2010 12:42:59 PM">
+    <specific name="Key Abilities"> Wisdom, Dexterity, Intelligence </specific>
+    <specific name="Implements"> Holy symbols </specific>
+    <specific name="Armor Proficiencies"> Cloth </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Reflex or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 7+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 3 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Acrobatics (Dex), Athletics (Str), Endurance (Con), Heal (Wis), Intimidate (Cha), Perception (Wis), Religion (Int), Stealth (Dex), Streetwise (Cha) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Oath of Enmity (Hybrid) </specific>
+    <specific name="Role"> Striker. </specific>
+    <specific name="Power Source"> Divine. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+The avenger/invoker enjoys a variety of melee and nonmelee attacks, all based on Wisdom. You can control enemies at a distance, making it even easier for you to hunt down your prey.
+
+The avenger/wizard seems like an unusual combination at first glance, but both classes suggest the study of secret lore. With good Wisdom and Intelligence scores, you can achieve the same variety of attacks as an avenger/invoker can. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_3 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Armor of Faith, Avenger's Censure (Hybrid), Channel Divinity (Hybrid Avenger). </specific>
+    <specific name="Short Description"> You swear a holy vow to pursue divine vengeance against all the foes of your faith. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_129 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_AVENGER" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_439" />
+      <statadd name="_LEVEL-ONE-HPS" value="+7" />
+      <statadd name="_PER-LEVEL-HPS" value="+3" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_439 Defense" />
+    </rules>
+You blend secret monastic training with other talents to become  a unique servant of the gods. Do your vows represent an earlier stage of your life, all but left behind, or a newfound mission?
+As a hybrid avenger, you pursue your foes with great skill, but you must sacrifice some of your offensive and defensive capabilities to dabble in a second class.
+   </RulesElement>
+  <RulesElement name="Hybrid Wizard" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_360" source="Player's Handbook 3" revision-date="8/27/2010 12:42:25 PM">
+    <specific name="Key Abilities"> Intelligence, Wisdom, Dexterity </specific>
+    <specific name="Implements"> Orbs, staffs, wands, tomes </specific>
+    <specific name="Armor Proficiencies"> Cloth </specific>
+    <specific name="Weapon Proficiencies"> Dagger, quarterstaff </specific>
+    <specific name="Bonus to Defense"> +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2 </specific>
+    <specific name="Healing Surges"> 3 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Diplomacy (Cha), Dungeoneering (Wis), History (Int), Insight (Wis), Nature (Wis), Religion (Int) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Cantrips </specific>
+    <specific name="Role"> Controller. </specific>
+    <specific name="Power Source"> Arcane. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+As a hybrid wizard, you're not particularly durable, so you must choose your second hybrid class, as well as your powers, with care.
+
+The swordmage shares the same key ability, but that class's predilection for melee combat is at odds with the typical wizard's preference for staying out of the fray. To keep up in melee, select a good mix of close attack powers and some feats that improve your survivability. Alternatively, focus your swordmage power selection on ranged powers and area powers and enter melee only as a last resort.
+
+A cleric/wizard who has good Intelligence and Wisdom scores can safely and effectively remain in the back ranks while supporting allies with battlefield control and healing.
+
+Adding the avenger class to your hybrid wizard allows you to surprise your enemies with the occasional deadly melee attack. Taking Armor of Faith through the Hybrid Talent feat gives you the boost to AC you need to stay close enough to deliver such an attack. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_1 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_2 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Arcane Implement Mastery. </specific>
+    <specific name="Short Description"> You tap the raw arcane power of the cosmos, bending reality to your will with your focus. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_9 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_WIZARD" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_360" />
+      <statadd name="_LEVEL-ONE-HPS" value="+5" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" />
+      <statadd name="Healing Surges" value="+3" />
+      <statadd name="Will Defense Class Bonus" value="+1" />
+    </rules>
+The path of wizardry demands focus and study, yet you have mastered several elements of arcane magic while still having time for other learning.
+
+Did you give up a promising academic life to pursue a less sheltered existence? Did your mentor abandon you before sharing the final secrets of arcane lore? Or have you only recently begun the long task of master-ing the arcane power that permeates the cosmos?
+
+As a hybrid wizard, you have much of a wizard's versatility in power selection, but you give up the flexibility provided by the Ritual Casting and Spellbook class features, as well as the Arcane Implement Mastery class feature.
+   </RulesElement>
+  <RulesElement name="Hybrid Warlord" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_359" source="Player's Handbook 3" revision-date="8/27/2010 12:42:25 PM">
+    <specific name="Key Abilities"> Strength, Intelligence, Charisma </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail; light shields </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Athletics (Str), Diplomacy (Cha), Endurance (Con), Heal (Wis), History (Int), Intimidate (Cha) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Inspiring Word (Hybrid), Warlord Leadership </specific>
+    <specific name="Role"> Leader. </specific>
+    <specific name="Power Source"> Martial. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+The paladin/warlord and fighter/warlord combinations provide durability and melee control as well as healing.
+
+For a barbarian/warlord, what's more inspiring than charging into battle with a savage war cry? Make Charisma your second-highest ability score and pick powers from the two classes that take advantage of it.
+
+A consummate leader, the cleric/warlord should focus on powers that use Strength and Charisma. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_2 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_1 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Commanding Presence (Hybrid), Warlord Armor Proficiency. </specific>
+    <specific name="Short Description"> You stand toe to toe with your enemies, issuing commands that maximize your allies' prowess. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_8 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_WARLORD" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_359" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_359 Defense" />
+    </rules>
+You have combined your talent for command with other skills, rather than focusing entirely on leadership. How and where did you come to learn the intricacies of command? Did an early stint in the military or tutelage at the feet of a tribal leader inspire you to grasp the reins of authority? Or have you only recently donned the mantle of leadership?
+
+As a hybrid warlord, you bring talents of combat leadership and healing to a group, although you give up the Commanding Presence class feature.
+   </RulesElement>
+  <RulesElement name="Hybrid Warlock" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_358" source="Player's Handbook 3" revision-date="8/27/2010 12:42:24 PM">
+    <specific name="Key Abilities"> Charisma, Constitution, Intelligence </specific>
+    <specific name="Implements"> Rods, wands </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Reflex or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Bluff (Cha), History (Int), Insight (Wis), Intimidate (Cha), Religion (Int), Streetwise (Cha), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Eldritch Pact (Hybrid), Warlock's Curse (Hybrid) </specific>
+    <specific name="Role"> Striker. </specific>
+    <specific name="Power Source"> Arcane. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+A sorcerer/warlock can be a potent striker, with Charisma as the highest ability score.
+
+Combining the warlock with the wizard creates a synergistic power list, and the wizard's key ability, Intelligence, is a good secondary ability for the warlock.
+
+A combination of warlock and bard works quite well, thanks to the ability score overlap of the two classes and the diversity of their power selection. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_2 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Prime Shot, Shadow Walk, Warlock Pact Boon. </specific>
+    <specific name="Short Description"> You draw on a pact formed with a greater power, using that alliance to vex your enemies. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_7 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_WARLOCK" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_358" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_358 Defense" />
+    </rules>
+You draw power from snippets of arcane lore wrested from dusty tomes and primeval entities, but these secrets do not wholly define or limit your abilities. What keeps you from fully embracing the pacts of a warlock? Do you fear the price that such bargains might entail? Or have you not yet managed to pin down the final secret that would unleash your arcane destiny? As a hybrid warlock, you command excellent damage-dealing ability along with some control powers, but you must give up some of the more notable features of the class, including the Pact Boon and Shadow Walk.
+   </RulesElement>
+  <RulesElement name="Hybrid Swordmage" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_357" source="Player's Handbook 3" revision-date="8/27/2010 12:42:23 PM">
+    <specific name="Key Abilities"> Intelligence, Strength, Constitution </specific>
+    <specific name="Implements"> Light blades, heavy blades </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged, military light blade, military heavy blade </specific>
+    <specific name="Bonus to Defense"> +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 7.5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 3 </specific>
+    <specific name="Healing Surges"> 4 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Athletics (Str), Diplomacy (Cha), Endurance (Con), History (Int), Insight (Wis), Intimidate (Cha) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Swordbond, Swordmage Aegis (Hybrid) </specific>
+    <specific name="Role"> Defender. </specific>
+    <specific name="Power Source"> Arcane. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+Most hybrid swordmages sacrifice some of their defense for greater versatility. Combining the hybrid swordmage with the hybrid wizard gives you a great breadth of powers that share the same key ability.
+
+If you're dedicated to staying in melee, consider adding the hybrid warlord, and put your Intelligence to good use as a tactician.
+
+Although the hybrid swordmage and the hybrid shaman might seem incompatible, the spirit companion and the spirit's fangs power give a swordmage an extra option for battlefield control that doesn't require you to stay in the forefront every round. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_4 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_2 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Swordmage Warding. </specific>
+    <specific name="Short Description"> You combine arcane magic with physical training to hone and perfect your melee capability. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_53 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_SWORDMAGE" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_357" />
+      <statadd name="_LEVEL-ONE-HPS" value="+7" half-point="true" />
+      <statadd name="_PER-LEVEL-HPS" value="+3" />
+      <statadd name="Healing Surges" value="+4" />
+      <statadd name="Will Defense Class Bonus" value="+1" />
+    </rules>
+You are no stranger to discipline and training, but you don't have the single-minded commitment to arcane swordplay that a swordmage has. Perhaps in your youth you dabbled in the fundamentals of spell and blade but never dedicated yourself to these studies wholeheartedly. Some hybrid swordmages are new students of ancient magical traditions, coming most often from other arcane or martial traditions.
+
+As a hybrid swordmage, you provide a good mix of melee prowess, battlefield control, and utility, but you can't hold back waves of enemies quite as well as a full-fledged swordmage can.
+   </RulesElement>
+  <RulesElement name="Hybrid Rogue" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_356" source="Player's Handbook 3" revision-date="8/27/2010 12:42:23 PM">
+    <specific name="Key Abilities"> Dexterity, Strength, Charisma </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather </specific>
+    <specific name="Weapon Proficiencies"> Dagger, hand crossbow, short sword, shuriken, sling </specific>
+    <specific name="Bonus to Defense"> +1 Reflex </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3 </specific>
+    <specific name="Trained Skills"> You gain two extra trained skills, chosen from the list of class skills below. </specific>
+    <specific name="Class Skills"> Acrobatics (Dex), Athletics (Str), Bluff (Cha), Dungeoneering (Wis), Insight (Wis), Intimidate (Cha), Perception (Wis), Stealth (Dex), Streetwise (Cha), Thievery (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Sneak Attack (Hybrid) </specific>
+    <specific name="Role"> Striker. </specific>
+    <specific name="Power Source"> Martial. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+Most hybrid rogues need two good ability scores, making hybrid combinations tricky to build.
+
+A rogue/sorcerer can add some devious ranged and burst attacks to a repertoire of melee powers.
+
+Combining the hybrid rogue with the hybrid bard creates a master trickster, who uses Charisma and Dexterity to alternately befuddle and eviscerate foes.
+
+If you prefer brawn over guile, combine the hybrid fighter with the hybrid rogue, choose Rogue Tactics through the Hybrid Talent feat, and then pick either the Brutal Scoundrel class feature or the Ruthless Ruffian class feature. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_1 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> First Strike, Rogue Combat Talent, Rogue Tactics (Hybrid). </specific>
+    <specific name="Short Description"> Stealthy, cunning, and deadly—you appear from out of nowhere to strike your enemies. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_6 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_ROGUE" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_356" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" />
+      <statadd name="Reflex Defense Class Bonus" value="+1" />
+      <select type="Skill Training" number="2" Category="ID_FMP_HYBRID_CLASS_356" />
+    </rules>
+You know the value of a well-placed knife, even if you don't bring the rogue's full complement of talents to every situation.
+The most common backstory for a hybrid rogue is a childhood spent on the mean streets of a city, learning enough tricks to stay alive and out of prison. Alternatively, you might have been a respected member of society once, driven to a rogue's life by cruel fate or the machinations of your enemies. You can be just as sneaky and deadly as a nonhybrid rogue, but you must sacrifice some rogue options to gain those of another class.
+   </RulesElement>
+  <RulesElement name="Hybrid Ranger" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_355" source="Player's Handbook 3" revision-date="8/27/2010 12:42:22 PM">
+    <specific name="Key Abilities"> Strength, Dexterity, Wisdom </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather, hide </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged, military ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Reflex </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3 </specific>
+    <specific name="Trained Skills"> You gain one extra trained skill, chosen from the list of class skills below. </specific>
+    <specific name="Class Skills"> Acrobatics (Dex), Athletics (Str), Dungeoneering (Wis), Endurance (Con), Heal (Wis), Nature (Wis), Perception (Wis), Stealth (Dex) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Hunter's Quarry (Hybrid) </specific>
+    <specific name="Role"> Striker. </specific>
+    <specific name="Power Source"> Martial. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+Fighter/ranger is an effective combination if you focus on melee powers designed for two weapons.
+
+A ranger/rogue is undoubtedly a master damage-dealer. However, when combining the ranger and rogue classes, choose your powers carefully; many of these powers have weapon requirements that don't match up well. For example, if you want to use ranged powers from both classes, you need a crossbow.
+
+Even though the druid/ranger must balance multiple key abilities, this combination adds a fun primal flavor to the hybrid ranger. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_3 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_1 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Ranger Armor Proficiency, Ranger Combat Talent, Ranger Fighting Style. </specific>
+    <specific name="Short Description"> A master of bow and blade, you excel at hit-and-run tactics and avoiding danger. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_5 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_RANGER" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_355" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_355 Defense" />
+      <select type="Skill Training" number="1" Category="ID_FMP_HYBRID_CLASS_355" />
+    </rules>
+You blend the hunter's dogged pursuit of a quarry with other talents to become a formidable warrior. You might have learned your ranger powers as a young wanderer or an independent scout before taking up new skills. Alternatively, you might have been driven only recently to a life in the wilderness.
+
+You retain the ranger's damage-dealing capability. However, you initially give up the specialization of the ranger's Fighting Style class feature.
+   </RulesElement>
+  <RulesElement name="Hybrid Paladin" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_354" source="Player's Handbook 3" revision-date="8/27/2010 12:42:21 PM">
+    <specific name="Key Abilities"> Strength, Charisma, Wisdom </specific>
+    <specific name="Implements"> Holy symbols </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail, scale, plate; heavy shields, light shields </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude or +1 Reflex or +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 7.5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 3 </specific>
+    <specific name="Healing Surges"> 5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Diplomacy (Cha), Endurance (Con), Heal (Wis), History (Int), Insight (Wis), Intimidate (Cha), Religion (Int) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Divine Challenge (Hybrid) </specific>
+    <specific name="Role"> Defender. </specific>
+    <specific name="Power Source"> Divine. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+Combining the hybrid fighter with the hybrid paladin keeps your AC up and mixes two different styles of melee control.
+
+It's easy to see the value of combining paladin and cleric, but the paladin/warlord—favoring Charisma over Intelligence—might well be the most valiant battlefield leader imaginable.
+
+Perhaps a strange combination, the paladin/warlock meshes melee prowess with deadly ranged attacks, as well as the ability to keep distant foes marked with divine challenge. For this combination, Paladin Armor Proficiency is a must-have option. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_4 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_3 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Channel Divinity (Hybrid Paladin), Paladin Armor Proficiency. </specific>
+    <specific name="Short Description"> A holy warrior devoted to a higher power, you smite enemies of your faith with divine power. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_4 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_PALADIN" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_354" />
+      <statadd name="_LEVEL-ONE-HPS" value="+7" half-point="true" />
+      <statadd name="_PER-LEVEL-HPS" value="+3" />
+      <statadd name="Healing Surges" value="+5" />
+      <select type="Class Feature" number="1" Category="ID_FMP_HYBRID_CLASS_354 Defense" />
+    </rules>
+You combine the divine authority of a paladin with the talents of another class to become a formidable protector. Many hybrid paladins have only recently pledged themselves to the path of the divine warrior after years spent in other pursuits. A few, however, have recognized that single-minded devotion isn't for them and have expanded their abilities accordingly.
+
+As a hybrid paladin, you bring a useful marking ability and strong melee powers to a group. Like other de-fenders, you are durable and can protect allies well, but you give up some healing capability to gain the tal-ents of another class.
+   </RulesElement>
+  <RulesElement name="Hybrid Fighter" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_353" source="Player's Handbook 3" revision-date="8/27/2010 12:42:20 PM">
+    <specific name="Key Abilities"> Strength, Dexterity, Wisdom, Constitution </specific>
+    <specific name="Implements" />
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail, scale; heavy shields, light shields </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, military melee, simple ranged, military ranged </specific>
+    <specific name="Bonus to Defense"> +1 Fortitude </specific>
+    <specific name="Hit Points at 1st Level"> 7.5+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 3 </specific>
+    <specific name="Healing Surges"> 4.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Athletics (Str), Endurance (Con), Heal (Wis), Intimidate (Cha), Streetwise (Cha) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Combat Challenge (Hybrid) </specific>
+    <specific name="Role"> Defender. </specific>
+    <specific name="Power Source"> Martial. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+A fighter/paladin draws on two different flavors of tenacity and resilience to create a single defender.
+
+By adding hybrid warlord to hybrid fighter, you can dabble in either tactical genius or inspirational brilliance without giving up melee prowess.
+
+If you're looking to add some nonmelee attacks to your hybrid fighter, consider the hybrid invoker. You don't give up much AC (particularly if you are going to wield a two-handed weapon), and it doesn't hurt for a fighter to have a high Wisdom score. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_4 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_1 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Combat Specialty, Fighter Armor Proficiency, Fighter Combat Talent. </specific>
+    <specific name="Short Description"> You define the front line of combat, crushing foes in melee while protecting your allies. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_3 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_FIGHTER" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_353" />
+      <statadd name="_LEVEL-ONE-HPS" value="+7" half-point="true" />
+      <statadd name="_PER-LEVEL-HPS" value="+3" />
+      <statadd name="Healing Surges" value="+4" half-point="true" />
+      <statadd name="Fortitude Defense Class Bonus" value="+1" />
+    </rules>
+You call on your martial training to guard allies and strike down enemies, and because of your hybrid training, you have tricks up your sleeve that your enemies don't expect.
+
+Many hybrid fighters learned their martial talents in a military or a mercenary organization, but these experiences typically represent only a portion of the character's background. Perhaps your character has moved on from military service to a new area of expertise, or maybe you have taken up the sword as part of a new direction in your life after months or years of other studies.
+
+As a hybrid fighter, you protect your comrades as any other defender does: with durability, martial prowess, and battlefield control. However, you give up some of the fighter's talent with weapons, and you can't mark enemies with all your powers.
+   </RulesElement>
+  <RulesElement name="Hybrid Cleric" type="Hybrid Class" internal-id="ID_FMP_HYBRID_CLASS_352" source="Player's Handbook 3" revision-date="8/27/2010 12:42:19 PM">
+    <specific name="Key Abilities"> Wisdom, Strength, Charisma </specific>
+    <specific name="Implements"> Holy symbols </specific>
+    <specific name="Armor Proficiencies"> Cloth, leather, hide, chainmail </specific>
+    <specific name="Weapon Proficiencies"> Simple melee, simple ranged </specific>
+    <specific name="Bonus to Defense"> +1 Will </specific>
+    <specific name="Hit Points at 1st Level"> 6+ Constitution Score </specific>
+    <specific name="Hit Points per Level Gained"> 2.5 </specific>
+    <specific name="Healing Surges"> 3.5 </specific>
+    <specific name="Trained Skills" />
+    <specific name="Class Skills"> Arcana (Int), Diplomacy (Cha), Heal (Wis), History (Int), Insight (Wis), Religion (Int) </specific>
+    <specific name="Build Options" />
+    <specific name="_PARSED_CLASS_FEATURE"> Healer's Lore, Healing Word (Hybrid) </specific>
+    <specific name="Role"> Leader. </specific>
+    <specific name="Power Source"> Divine. </specific>
+    <specific name="Creating" />
+    <specific name="Class Features" />
+    <specific name="Supplemental"> Suggested Combinations
+
+Cleric/fighter and cleric/paladin offer similar benefits: a great mix of Strength-based melee attacks, high durability, and healing powers to keep yourself and your allies in the fight.
+
+A cleric/invoker stays at the back of the party, launching helpful ranged attacks and devastating area blasts from a position of relative safety.
+
+A cleric/warlord combines leader powers from two different classes to make an effective whole. </specific>
+    <specific name="Implement" />
+    <specific name="Powers" />
+    <specific name="Power Name" />
+    <specific name="_RoleElement"> ID_FMP_ROLE_2 </specific>
+    <specific name="_PowerSourceElement"> ID_FMP_POWER_SOURCE_3 </specific>
+    <specific name="_SecondaryPowerSourceElement" />
+    <specific name="Secondary Abilities" />
+    <specific name="Hybrid Talent Options"> Channel Divinity (Hybrid Cleric), Cleric Armor Proficiency. </specific>
+    <specific name="Short Description"> You are the servant of a divine power, using prayers to devastate foes and bolster allies. </specific>
+    <specific name="_ParentClass" />
+    <specific name="Trait Package" />
+    <specific name="_BaseClass"> ID_FMP_CLASS_2 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HYBRID_CLERIC" type="Grants" />
+      <select type="Power" name="Power At-Will 1" number="1" Category="$$CLASS,at-will,1" />
+      <textstring name="_CLASSNAME" value="ID_FMP_HYBRID_CLASS_352" />
+      <statadd name="_LEVEL-ONE-HPS" value="+6" />
+      <statadd name="_PER-LEVEL-HPS" value="+2" half-point="true" />
+      <statadd name="Healing Surges" value="+3" half-point="true" />
+      <statadd name="Will Defense Class Bonus" value="+1" />
+    </rules>
+By learning talents beyond those taught to the typical cleric, you have honed yourself into a distinctive divine leader. Your cleric training might represent a youthful devotion or a newly discovered dedication to a god.
+
+As a hybrid cleric, you offer useful healing to a group, although less than a full-fledged cleric could. You also give up the versatility of the Channel Divinity and Ritual Casting class features in order to master new talents.
+   </RulesElement>
+
+</D20Rules>

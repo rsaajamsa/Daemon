@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Category.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Expert in Your Field Skill" type="Category" internal-id="ID_INTERNAL_CATEGORY_EXPERT_IN_YOUR_FIELD_SKILL" source="Dragon Magazine 397">
+    <specific name="_SupportsID"> ID_FMP_CLASS_FEATURE_3825 </specific>
+Category for skill choice
+	</RulesElement>
+  <RulesElement name="Expert in Your Field Ability" type="Category" internal-id="ID_INTERNAL_CATEGORY_EXPERT_IN_YOUR_FIELD_ABILITY" source="Dragon Magazine 397">
+    <specific name="_SupportsID"> ID_FMP_CLASS_FEATURE_3825 </specific>
+Category for ability increase
+	</RulesElement>
+  <RulesElement name="EmergentPrimordialAbilityChoice" type="Category" internal-id="ID_INTERNAL_INTERNAL_EMERGENTPRIMORDIALABILITYCHOICE" source="Core" />
+  <RulesElement name="EmergentPrimordialResistChoice" type="Category" internal-id="ID_INTERNAL_INTERNAL_EMERGENTPRIMORDIALRESISTCHOICE" source="Core" />
+  <RulesElement name="Hybrid Vampire Defenses" type="Category" internal-id="ID_CDJ_HYBRID_CLASS_40002_DEFENSE" source="Core" revision-date="1/25/2011 10:34:07 AM" />
+  <RulesElement name="Hybrid Guilds" type="Category" internal-id="ID_CDJ_CLASS_FEATURE_HYBRID_GUILDS" source="Core" revision-date="1/25/2011 10:34:07 AM" />
+  <RulesElement name="Executioner Guilds" type="Category" internal-id="ID_CDJ_CLASS_FEATURE_EXECUTIONER_GUILDS" source="Core" revision-date="1/25/2011 10:34:07 AM" />
+  <RulesElement name="Hybrid Executioner Defenses" type="Category" internal-id="ID_CDJ_HYBRID_CLASS_40001_DEFENSE" source="Core" revision-date="1/25/2011 10:34:07 AM" />
+  <RulesElement name="Hybrid Blackguard Defenses" type="Category" internal-id="ID_CDJ_HYBRID_CLASS_40003_DEFENSE" source="Core" revision-date="1/25/2011 10:34:07 AM" />
+  <RulesElement name="Hybrid Cavalier Defenses" type="Category" internal-id="ID_CDJ_HYBRID_CLASS_40004_DEFENSE" source="Core" revision-date="1/25/2011 10:34:07 AM" />
+  <RulesElement name="Hybrid Binder Defenses" type="Category" internal-id="ID_CDJ_HYBRID_CLASS_40006_DEFENSE" source="Core" revision-date="1/25/2011 10:34:07 AM" />
+  <RulesElement name="HexbladeFeyPact" type="Category" internal-id="ID_INTERNAL_COUNTS_AS_FEY_HEXBLADE" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingPactBlade" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_PACT_BLADE" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="Multiclass Vampire" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_VAMPIRE" source="Core" />
+  <RulesElement name="BindingInitiateChoice" type="Category" internal-id="ID_INTERNAL_INTERNAL_ID_FMP_FEAT_3633_CHOICE" source="Core" />
+  <RulesElement name="MaxedOutSkillsScholar" type="Category" internal-id="ID_INTERNAL_MAXED_OUT_SCHOLAR_SKILLS" source="Dragon Magazine 399">
+    <specific name="_SupportsID"> ID_FMP_CLASS_FEATURE_3883 </specific>
+  </RulesElement>
+  <RulesElement name="MotebornLanguageChoice" type="Category" internal-id="ID_INTERNAL_INTERNAL_MOTEBORNLANGUAGECHOICE" source="Core" />
+  <RulesElement name="TreasureHunterFocusChoice" type="Category" internal-id="ID_INTERNAL_INTERNAL_TREASUREHUNTERFOCUSCHOICE" source="Core" />
+  <RulesElement name="Perfection of Mind" type="Category" internal-id="ID_INTERNAL_CATEGORY_PERFECTION_OF_MIND_CHOICE" source="Core" />
+  <RulesElement name="Draconic Transformation" type="Category" internal-id="ID_INTERNAL_CATEGORY_DRACONIC_TRANSFORMATION_CHOICE" source="Core" />
+  <RulesElement name="Strong in Mind and Spirit" type="Category" internal-id="ID_INTERNAL_CATEGORY_STRONG_IN_MIND_AND_SPIRIT_CHOICE" source="Core" />
+  <RulesElement name="Horde Champion" type="Category" internal-id="ID_INTERNAL_CATEGORY_HORDE_CHAMPION_CHOICE" source="Core" />
+  <RulesElement name="Arena Weapon Group" type="Category" internal-id="ID_INTERNAL_CATEGORY_ARENA_WEAPON_GROUP" source="Core" />
+  <RulesElement name="Dark Sun Arcane Option" type="Category" internal-id="ID_INTERNAL_ARCANE_DEFILING" source="Core" />
+  <RulesElement name="Humanity's Heir Skill" type="Category" internal-id="ID_INTERNAL_CATEGORY_HUMANITY'S_HEIR_SKILL" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_FEAT_3214 </specific>
+Internal
+</RulesElement>
+  <RulesElement name="Humanity's Heir Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_HUMANITY'S_HEIR_DEFENSE" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_FEAT_3214 </specific>
+Internal
+</RulesElement>
+  <RulesElement name="WearingOffHandAxe" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_OFF_HAND_AXE" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_790 </specific>
+  </RulesElement>
+  <RulesElement name="WearingOffHandLightBlade" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_OFF_HAND_LIGHT_BLADE" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_790 </specific>
+  </RulesElement>
+  <RulesElement name="WearingRod" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_ROD" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingAccurateRod" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_ACCURATE_ROD" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingAshenRod" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_ASHEN_ROD" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingDeathboneRod" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_DEATHBONE_ROD" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingDefiantRod" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_DEFIANT_ROD" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingWand" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_WAND" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingAccurateWand" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_ACCURATE_WAND" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingCinderWand" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_CINDER_WAND" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingDragontoothWand" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_DRAGONTOOTH_WAND" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="WearingRowanWand" type="Category" internal-id="ID_INTERNAL_WOG_WEARING_ROWAN_WAND" source="Player Essentials: Heroes of the Forgotten Kingdoms">
+    <specific name="_SupportsID"> ID_FMP_CLASS_793 </specific>
+  </RulesElement>
+  <RulesElement name="Aura" type="Category" internal-id="ID_FMP_CATEGORY_40" source="Core" revision-date="2/6/2009 1:47:34 PM" />
+  <RulesElement name="Transmutation" type="Category" internal-id="ID_FMP_CATEGORY_71" source="Core" revision-date="12/13/2010 10:32:05 AM" />
+  <RulesElement name="Necromancy" type="Category" internal-id="ID_FMP_CATEGORY_72" source="Core" revision-date="2/18/2011 9:53:41 AM" />
+  <RulesElement name="Nethermancy" type="Category" internal-id="ID_FMP_CATEGORY_73" source="Core" revision-date="2/18/2011 9:54:18 AM" />
+  <RulesElement name="Elemental" type="Category" internal-id="ID_FMP_CATEGORY_74" source="Core" revision-date="2/22/2011 4:26:32 PM" />
+  <RulesElement name="Any Class" type="Category" internal-id="ID_INTERNAL_CATEGORY_ANY_CLASS" source="Core" />
+  <RulesElement name="Racial Power" type="Category" internal-id="ID_INTERNAL_CATEGORY_RACIAL_POWER" source="Core" />
+  <RulesElement name="Racial Utility" type="Category" internal-id="ID_INTERNAL_CATEGORY_RACIAL_UTILITY" source="Core" />
+  <RulesElement name="Swappable Utility" type="Category" internal-id="ID_INTERNAL_CATEGORY_SWAPPABLE_UTILITY" source="Core" />
+  <RulesElement name="Swappable Encounter" type="Category" internal-id="ID_INTERNAL_CATEGORY_SWAPPABLE_ENCOUNTER" source="Core" />
+  <RulesElement name="Swappable Daily" type="Category" internal-id="ID_INTERNAL_CATEGORY_SWAPPABLE_DAILY" source="Core" />
+  <RulesElement name="Class Power" type="Category" internal-id="ID_INTERNAL_CATEGORY_CLASS_POWER" source="Core" />
+  <RulesElement name="Martial Practice" type="Category" internal-id="ID_INTERNAL_CATEGORY_MARTIAL_PRACTICE" source="Core" />
+  <RulesElement name="Alchemical Formula" type="Category" internal-id="ID_INTERNAL_CATEGORY_ALCHEMICAL_FORMULA" source="Core" />
+  <RulesElement name="Ritual" type="Category" internal-id="ID_INTERNAL_CATEGORY_RITUAL" source="Core" />
+  <RulesElement name="Warding" type="Category" internal-id="ID_INTERNAL_CATEGORY_WARDING" source="Core" />
+  <RulesElement name="Deception" type="Category" internal-id="ID_INTERNAL_CATEGORY_DECEPTION" source="Core" />
+  <RulesElement name="Exploration" type="Category" internal-id="ID_INTERNAL_CATEGORY_EXPLORATION" source="Core" />
+  <RulesElement name="Binding" type="Category" internal-id="ID_INTERNAL_CATEGORY_BINDING" source="Core" />
+  <RulesElement name="Travel" type="Category" internal-id="ID_INTERNAL_CATEGORY_TRAVEL" source="Core" />
+  <RulesElement name="Scrying" type="Category" internal-id="ID_INTERNAL_CATEGORY_SCRYING" source="Core" />
+  <RulesElement name="Restoration" type="Category" internal-id="ID_INTERNAL_CATEGORY_RESTORATION" source="Core" />
+  <RulesElement name="Divination" type="Category" internal-id="ID_INTERNAL_CATEGORY_DIVINATION" source="Core" />
+  <RulesElement name="Curative" type="Category" internal-id="ID_INTERNAL_CATEGORY_CURATIVE" source="Core" />
+  <RulesElement name="Other" type="Category" internal-id="ID_INTERNAL_CATEGORY_OTHER" source="Core" />
+  <RulesElement name="Volatile" type="Category" internal-id="ID_INTERNAL_CATEGORY_VOLATILE" source="Core" />
+  <RulesElement name="Oil" type="Category" internal-id="ID_INTERNAL_CATEGORY_OIL" source="Core" />
+  <RulesElement name="Bladespell" type="Category" internal-id="ID_FMP_CATEGORY_75" source="Core" />
+  <RulesElement name="Blade Magic" type="Category" internal-id="ID_NWC_CATEGORY_BLADE_MAGIC" source="Core" />
+  <RulesElement name="Hybrid Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_HYBRID_PARAGON_PATH" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_641 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_641_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_612 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_612_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_609 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_609_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_588 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_588_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_536 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_536_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_446 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_446_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_444 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_444_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_443 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_443_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_442 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_442_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_441 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_441_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_439 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_439_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_359 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_359_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_358 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_358_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_355 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_355_DEFENSE" source="Core" />
+  <RulesElement name="ID_FMP_HYBRID_CLASS_354 Defense" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_HYBRID_CLASS_354_DEFENSE" source="Core" />
+  <RulesElement name="Runepriest Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_RUNEPRIEST_PARAGON_PATH" source="Core" />
+  <RulesElement name="Ardent Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_ARDENT_PARAGON_PATH" source="Core" />
+  <RulesElement name="Seeker Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_SEEKER_PARAGON_PATH" source="Core" />
+  <RulesElement name="Assassin Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_ASSASSIN_PARAGON_PATH" source="Core" />
+  <RulesElement name="Psion Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_PSION_PARAGON_PATH" source="Core" />
+  <RulesElement name="Monk Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_MONK_PARAGON_PATH" source="Core" />
+  <RulesElement name="Barbarian Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_BARBARIAN_PARAGON_PATH" source="Core" />
+  <RulesElement name="Shaman Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_SHAMAN_PARAGON_PATH" source="Core" />
+  <RulesElement name="Warden Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_WARDEN_PARAGON_PATH" source="Core" />
+  <RulesElement name="Avenger Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_AVENGER_PARAGON_PATH" source="Core" />
+  <RulesElement name="Sorcerer Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_SORCERER_PARAGON_PATH" source="Core" />
+  <RulesElement name="Invoker Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_INVOKER_PARAGON_PATH" source="Core" />
+  <RulesElement name="Druid Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_DRUID_PARAGON_PATH" source="Core" />
+  <RulesElement name="Artificer Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_ARTIFICER_PARAGON_PATH" source="Core" />
+  <RulesElement name="Battlemind Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_BATTLEMIND_PARAGON_PATH" source="Core" />
+  <RulesElement name="Bard Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_BARD_PARAGON_PATH" source="Core" />
+  <RulesElement name="Swordmage Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_SWORDMAGE_PARAGON_PATH" source="Core" />
+  <RulesElement name="Wizard Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_WIZARD_PARAGON_PATH" source="Core" />
+  <RulesElement name="Warlord Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_WARLORD_PARAGON_PATH" source="Core" />
+  <RulesElement name="Warlock Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_WARLOCK_PARAGON_PATH" source="Core" />
+  <RulesElement name="Rogue Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_ROGUE_PARAGON_PATH" source="Core" />
+  <RulesElement name="Ranger Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_RANGER_PARAGON_PATH" source="Core" />
+  <RulesElement name="Paladin Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_PALADIN_PARAGON_PATH" source="Core" />
+  <RulesElement name="Fighter Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_FIGHTER_PARAGON_PATH" source="Core" />
+  <RulesElement name="Cleric Paragon Path" type="Category" internal-id="ID_INTERNAL_CATEGORY_CLERIC_PARAGON_PATH" source="Core" />
+  <RulesElement name="Augment" type="Category" internal-id="ID_INTERNAL_CATEGORY_AUGMENT" source="Core" />
+  <RulesElement name="Versatile Expertise Implement" type="Category" internal-id="ID_INTERNAL_CATEGORY_VERSATILE_EXPERTISE_IMPLEMENT" source="Core" />
+  <RulesElement name="Versatile Expertise Weapon Group" type="Category" internal-id="ID_INTERNAL_CATEGORY_VERSATILE_EXPERTISE_WEAPON_GROUP" source="Core" />
+  <RulesElement name="Greater Pact" type="Category" internal-id="ID_INTERNAL_CATEGORY_GREATER_PACT" source="Core" />
+  <RulesElement name="Lesser Pact" type="Category" internal-id="ID_INTERNAL_CATEGORY_LESSER_PACT" source="Core" />
+  <RulesElement name="Greater Style" type="Category" internal-id="ID_INTERNAL_CATEGORY_GREATER_STYLE" source="Core" />
+  <RulesElement name="Lesser Style" type="Category" internal-id="ID_INTERNAL_CATEGORY_LESSER_STYLE" source="Core" />
+  <RulesElement name="Rune" type="Category" internal-id="ID_INTERNAL_CATEGORY_RUNE" source="Core" />
+  <RulesElement name="Dragonmark" type="Category" internal-id="ID_INTERNAL_CATEGORY_DRAGONMARK" source="Core" />
+  <RulesElement name="Familiar" type="Category" internal-id="ID_INTERNAL_CATEGORY_FAMILIAR" source="Core" />
+  <RulesElement name="Divinity" type="Category" internal-id="ID_INTERNAL_CATEGORY_DIVINITY" source="Core" />
+  <RulesElement name="Arena Fighting" type="Category" internal-id="ID_INTERNAL_CATEGORY_ARENA_FIGHTING" source="Core" />
+  <RulesElement name="Heritage" type="Category" internal-id="ID_INTERNAL_CATEGORY_HERITAGE" source="Core" />
+  <RulesElement name="Guild" type="Category" internal-id="ID_INTERNAL_CATEGORY_GUILD" source="Core" />
+  <RulesElement name="Tribal" type="Category" internal-id="ID_INTERNAL_CATEGORY_TRIBAL" source="Core" />
+  <RulesElement name="Multiclass Shade" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_SHADE" source="Core" />
+  <RulesElement name="Multiclass Bahamut" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_BAHAMUT" source="Core" />
+  <RulesElement name="Multiclass Garrote" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_GARROTE" source="Core" />
+  <RulesElement name="Multiclass Cutthroat" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_CUTTHROAT" source="Core" />
+  <RulesElement name="Multiclass Bravo" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_BRAVO" source="Core" />
+  <RulesElement name="Multiclass Blowgun" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_BLOWGUN" source="Core" />
+  <RulesElement name="Multiclass Spiked Chain" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_SPIKED_CHAIN" source="Core" />
+  <RulesElement name="Multiclass Poisoner" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_POISONER" source="Core" />
+  <RulesElement name="Multiclass Whip" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_WHIP" source="Core" />
+  <RulesElement name="Multiclass Net" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_NET" source="Core" />
+  <RulesElement name="Multiclass Bola" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_BOLA" source="Core" />
+  <RulesElement name="Multiclass Spellscarred" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_SPELLSCARRED" source="Core" />
+  <RulesElement name="Multiclass Utility" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_UTILITY" source="Core" />
+  <RulesElement name="Multiclass Daily" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_DAILY" source="Core" />
+  <RulesElement name="Multiclass Encounter" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_ENCOUNTER" source="Core" />
+  <RulesElement name="Multiclass Battlemind" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_BATTLEMIND" source="Core" />
+  <RulesElement name="Multiclass Seeker" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_SEEKER" source="Core" />
+  <RulesElement name="Multiclass Runepriest" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_RUNEPRIEST" source="Core" />
+  <RulesElement name="Multiclass Monk" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_MONK" source="Core" />
+  <RulesElement name="Multiclass Ardent" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_ARDENT" source="Core" />
+  <RulesElement name="Multiclass Psion" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_PSION" source="Core" />
+  <RulesElement name="Multiclass Assassin" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_ASSASSIN" source="Core" />
+  <RulesElement name="Multiclass Artificer" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_ARTIFICER" source="Core" />
+  <RulesElement name="Multiclass Warden" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_WARDEN" source="Core" />
+  <RulesElement name="Multiclass Avenger" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_AVENGER" source="Core" />
+  <RulesElement name="Multiclass Shaman" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_SHAMAN" source="Core" />
+  <RulesElement name="Multiclass Invoker" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_INVOKER" source="Core" />
+  <RulesElement name="Multiclass Druid" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_DRUID" source="Core" />
+  <RulesElement name="Multiclass Barbarian" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_BARBARIAN" source="Core" />
+  <RulesElement name="Multiclass Warlord" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_WARLORD" source="Core" />
+  <RulesElement name="Multiclass Paladin" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_PALADIN" source="Core" />
+  <RulesElement name="Multiclass Cleric" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_CLERIC" source="Core" />
+  <RulesElement name="Multiclass Rogue" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_ROGUE" source="Core" />
+  <RulesElement name="Multiclass Ranger" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_RANGER" source="Core" />
+  <RulesElement name="Multiclass Fighter" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_FIGHTER" source="Core" />
+  <RulesElement name="Multiclass Warlock" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_WARLOCK" source="Core" />
+  <RulesElement name="Multiclass Sorcerer" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_SORCERER" source="Core" />
+  <RulesElement name="Multiclass Bard" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_BARD" source="Core" />
+  <RulesElement name="Multiclass Swordmage" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_SWORDMAGE" source="Core" />
+  <RulesElement name="Multiclass Wizard" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS_WIZARD" source="Core" />
+  <RulesElement name="Class-Specific Multiclass" type="Category" internal-id="ID_INTERNAL_CATEGORY_CLASS-SPECIFIC_MULTICLASS" source="Core" />
+  <RulesElement name="Multiclass" type="Category" internal-id="ID_INTERNAL_CATEGORY_MULTICLASS" source="Core" />
+  <RulesElement name="Assassin Poison" type="Category" internal-id="ID_INTERNAL_CATEGORY_ASSASSIN_POISON" source="Core" />
+  <RulesElement name="Heavy" type="Category" internal-id="ID_INTERNAL_CATEGORY_HEAVY" source="Core" />
+  <RulesElement name="Heavy Shields" type="Category" internal-id="ID_INTERNAL_CATEGORY_HEAVY_SHIELDS" source="Core" />
+  <RulesElement name="Light Shields" type="Category" internal-id="ID_INTERNAL_CATEGORY_LIGHT_SHIELDS" source="Core" />
+  <RulesElement name="Scale" type="Category" internal-id="ID_INTERNAL_CATEGORY_SCALE" source="Core" />
+  <RulesElement name="Chain" type="Category" internal-id="ID_INTERNAL_CATEGORY_CHAIN" source="Core" />
+  <RulesElement name="Plate" type="Category" internal-id="ID_INTERNAL_CATEGORY_PLATE" source="Core" />
+  <RulesElement name="Hide" type="Category" internal-id="ID_INTERNAL_CATEGORY_HIDE" source="Core" />
+  <RulesElement name="Leather" type="Category" internal-id="ID_INTERNAL_CATEGORY_LEATHER" source="Core" />
+  <RulesElement name="Cloth" type="Category" internal-id="ID_INTERNAL_CATEGORY_CLOTH" source="Core" />
+  <RulesElement name="Staff" type="Category" internal-id="ID_INTERNAL_CATEGORY_STAFF" source="Core" />
+  <RulesElement name="Selectable" type="Category" internal-id="ID_INTERNAL_CATEGORY_SELECTABLE" source="Core" />
+  <RulesElement name="Two-Handed" type="Category" internal-id="ID_INTERNAL_CATEGORY_TWO-HANDED" source="Core" />
+  <RulesElement name="One-Handed" type="Category" internal-id="ID_INTERNAL_CATEGORY_ONE-HANDED" source="Core" />
+  <RulesElement name="Main-Hand" type="Category" internal-id="ID_INTERNAL_CATEGORY_MAIN-HAND" source="Core" />
+  <RulesElement name="Two-Hands" type="Category" internal-id="ID_INTERNAL_CATEGORY_TWO-HANDS" source="Core" />
+  <RulesElement name="One-hand" type="Category" internal-id="ID_INTERNAL_CATEGORY_ONE-HAND" source="Core" />
+  <RulesElement name="Ranged" type="Category" internal-id="ID_INTERNAL_CATEGORY_RANGED" source="Core" />
+  <RulesElement name="Melee" type="Category" internal-id="ID_INTERNAL_CATEGORY_MELEE" source="Core" />
+  <RulesElement name="Improvised" type="Category" internal-id="ID_INTERNAL_CATEGORY_IMPROVISED" source="Core" />
+  <RulesElement name="Superior" type="Category" internal-id="ID_INTERNAL_CATEGORY_SUPERIOR" source="Core" />
+  <RulesElement name="Simple" type="Category" internal-id="ID_INTERNAL_CATEGORY_SIMPLE" source="Core" />
+  <RulesElement name="Military" type="Category" internal-id="ID_INTERNAL_CATEGORY_MILITARY" source="Core" />
+  <RulesElement name="Element Choice" type="Category" internal-id="ID_INTERNAL_CATEGORY_ELEMENT_CHOICE" source="Core" />
+  <RulesElement name="Ability Choice" type="Category" internal-id="ID_INTERNAL_CATEGORY_ABILITY_CHOICE" source="Core" />
+  <RulesElement name="No Action" type="Category" internal-id="ID_INTERNAL_CATEGORY_NO_ACTION" source="Core" />
+  <RulesElement name="Opportunity Action" type="Category" internal-id="ID_INTERNAL_CATEGORY_OPPORTUNITY_ACTION" source="Core" />
+  <RulesElement name="Short Rest Action" type="Category" internal-id="ID_INTERNAL_CATEGORY_SHORT_REST_ACTION" source="Core" />
+  <RulesElement name="Immediate Interrupt" type="Category" internal-id="ID_INTERNAL_CATEGORY_IMMEDIATE_INTERRUPT" source="Core" />
+  <RulesElement name="Immediate Reaction" type="Category" internal-id="ID_INTERNAL_CATEGORY_IMMEDIATE_REACTION" source="Core" />
+  <RulesElement name="Free Action" type="Category" internal-id="ID_INTERNAL_CATEGORY_FREE_ACTION" source="Core" />
+  <RulesElement name="Move Action" type="Category" internal-id="ID_INTERNAL_CATEGORY_MOVE_ACTION" source="Core" />
+  <RulesElement name="Minor Action" type="Category" internal-id="ID_INTERNAL_CATEGORY_MINOR_ACTION" source="Core" />
+  <RulesElement name="Standard action" type="Category" internal-id="ID_INTERNAL_CATEGORY_STANDARD_ACTION" source="Core" />
+  <RulesElement name="Wild Talent Cantrip" type="Category" internal-id="ID_INTERNAL_CATEGORY_WILD_TALENT_CANTRIP" source="Core" />
+  <RulesElement name="Domain" type="Category" internal-id="ID_INTERNAL_CATEGORY_DOMAIN" source="Core" />
+  <RulesElement name="Hybrid Pact" type="Category" internal-id="ID_INTERNAL_CATEGORY_HYBRID_PACT" source="Core" />
+  <RulesElement name="Pact Boon" type="Category" internal-id="ID_INTERNAL_CATEGORY_PACT_BOON" source="Core" />
+  <RulesElement name="Augmentable At-Will" type="Category" internal-id="ID_INTERNAL_CATEGORY_AUGMENTABLE_AT-WILL" source="Core" />
+  <RulesElement name="Miss" type="Category" internal-id="ID_INTERNAL_CATEGORY_MISS" source="Core" />
+  <RulesElement name="Utility" type="Category" internal-id="ID_INTERNAL_CATEGORY_UTILITY" source="Core" />
+  <RulesElement name="Attack" type="Category" internal-id="ID_INTERNAL_CATEGORY_ATTACK" source="Core" />
+  <RulesElement name="Daily" type="Category" internal-id="ID_INTERNAL_CATEGORY_DAILY" source="Core" />
+  <RulesElement name="Encounter" type="Category" internal-id="ID_INTERNAL_CATEGORY_ENCOUNTER" source="Core" />
+  <RulesElement name="At-Will" type="Category" internal-id="ID_INTERNAL_CATEGORY_AT-WILL" source="Core" />
+  <RulesElement name="Daily Usage" type="Category" internal-id="ID_INTERNAL_CATEGORY_DAILY_USAGE" source="Core" />
+  <RulesElement name="Encounter Usage" type="Category" internal-id="ID_INTERNAL_CATEGORY_ENCOUNTER_USAGE" source="Core" />
+  <RulesElement name="At-Will Usage" type="Category" internal-id="ID_INTERNAL_CATEGORY_AT-WILL_USAGE" source="Core" />
+  <RulesElement name="Dragon Soul Resist Choice" type="Category" internal-id="ID_INTERNAL_CATEGORY_DRAGON_SOUL_RESIST_CHOICE" source="Core" />
+  <RulesElement name="Prophetic Blessing Physical" type="Category" internal-id="ID_INTERNAL_CATEGORY_PROPHETIC_BLESSING_PHYSICAL" source="Core" />
+  <RulesElement name="Prophetic Blessing Mental" type="Category" internal-id="ID_INTERNAL_CATEGORY_PROPHETIC_BLESSING_MENTAL" source="Core" />
+  <RulesElement name="ID_FMP_CLASS_5 Choice" type="Category" internal-id="ID_INTERNAL_CATEGORY_ID_FMP_CLASS_5_CHOICE" source="Core" />
+  <RulesElement name="Knowledge" type="Category" internal-id="ID_INTERNAL_CATEGORY_KNOWLEDGE" source="Core" />
+  <RulesElement name="House Vadalis" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_VADALIS" source="Core" />
+  <RulesElement name="House Thuranni" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_THURANNI" source="Core" />
+  <RulesElement name="House Tharashk" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_THARASHK" source="Core" />
+  <RulesElement name="House Sivis" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_SIVIS" source="Core" />
+  <RulesElement name="House Phiarlan" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_PHIARLAN" source="Core" />
+  <RulesElement name="House Orien" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_ORIEN" source="Core" />
+  <RulesElement name="House Medani" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_MEDANI" source="Core" />
+  <RulesElement name="House Lyrandar" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_LYRANDAR" source="Core" />
+  <RulesElement name="House Kundarak" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_KUNDARAK" source="Core" />
+  <RulesElement name="House Jorasco" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_JORASCO" source="Core" />
+  <RulesElement name="House Ghallanda" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_GHALLANDA" source="Core" />
+  <RulesElement name="House Deneith" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_DENEITH" source="Core" />
+  <RulesElement name="House Cannith" type="Category" internal-id="ID_INTERNAL_CATEGORY_HOUSE_CANNITH" source="Core" />
+  <RulesElement name="Racial" type="Category" internal-id="ID_INTERNAL_CATEGORY_RACIAL" source="Core" />
+  <RulesElement name="Occupation" type="Category" internal-id="ID_INTERNAL_CATEGORY_OCCUPATION" source="Core" />
+  <RulesElement name="Adulthood" type="Category" internal-id="ID_INTERNAL_CATEGORY_ADULTHOOD" source="Core" />
+  <RulesElement name="Birth" type="Category" internal-id="ID_INTERNAL_CATEGORY_BIRTH" source="Core" />
+  <RulesElement name="Society" type="Category" internal-id="ID_INTERNAL_CATEGORY_SOCIETY" source="Core" />
+  <RulesElement name="Geography" type="Category" internal-id="ID_INTERNAL_CATEGORY_GEOGRAPHY" source="Core" />
+  <RulesElement name="Flavor" type="Category" internal-id="ID_INTERNAL_CATEGORY_FLAVOR" source="Core" />
+  <RulesElement name="Theme Power" type="Category" internal-id="ID_INTERNAL_CATEGORY_THEME_POWER" source="Core" />
+  <RulesElement name="Skill Power" type="Category" internal-id="ID_INTERNAL_CATEGORY_SKILL_POWER" source="Core" />
+  <RulesElement name="Skill Bonus" type="Category" internal-id="ID_INTERNAL_CATEGORY_SKILL_BONUS" source="Core" />
+  <RulesElement name="Starting" type="Category" internal-id="ID_INTERNAL_CATEGORY_STARTING" source="Core" />
+  <RulesElement name="Unknown" type="Category" internal-id="ID_INTERNAL_CATEGORY_UNKNOWN" source="Core" />
+  <RulesElement name="Enchantment" type="Category" internal-id="ID_FMP_CATEGORY_70" source="Core" revision-date="7/5/2010 2:56:47 PM" />
+  <RulesElement name="Evocation" type="Category" internal-id="ID_FMP_CATEGORY_69" source="Core" revision-date="7/5/2010 2:56:09 PM" />
+  <RulesElement name="Aura" type="Category" internal-id="ID_FMP_CATEGORY_68" source="Core" revision-date="6/29/2010 6:13:07 PM" />
+  <RulesElement name="Channel Divinity" type="Category" internal-id="ID_FMP_CATEGORY_67" source="Core" revision-date="6/29/2010 4:42:41 PM" />
+  <RulesElement name="Mount" type="Category" internal-id="ID_FMP_CATEGORY_66" source="Core" revision-date="2/1/2010 11:20:54 AM" />
+  <RulesElement name="Runic" type="Category" internal-id="ID_FMP_CATEGORY_65" source="Core" revision-date="3/8/2010 4:45:29 PM" />
+  <RulesElement name="Disease" type="Category" internal-id="ID_FMP_CATEGORY_64" source="Core" revision-date="11/2/2009 8:31:28 AM" />
+  <RulesElement name="Gaze" type="Category" internal-id="ID_FMP_CATEGORY_63" source="Core" revision-date="3/1/2010 9:46:10 AM" />
+  <RulesElement name="Consumable" type="Category" internal-id="ID_FMP_CATEGORY_62" source="Core" revision-date="11/23/2009 3:36:26 PM" />
+  <RulesElement name="Augmentable" type="Category" internal-id="ID_FMP_CATEGORY_61" source="Core" revision-date="6/25/2009 3:09:22 PM" />
+  <RulesElement name="Full Discipline" type="Category" internal-id="ID_FMP_CATEGORY_60" source="Core" revision-date="5/4/2009 4:30:24 PM" />
+  <RulesElement name="Spirit" type="Category" internal-id="ID_FMP_CATEGORY_57" source="Core" revision-date="2/6/2009 1:34:25 PM" />
+  <RulesElement name="Varies" type="Category" internal-id="ID_FMP_CATEGORY_56" source="Core" revision-date="2/17/2009 12:12:35 PM" />
+  <RulesElement name="Special" type="Category" internal-id="ID_FMP_CATEGORY_55" source="Core" revision-date="2/6/2009 1:32:26 PM" />
+  <RulesElement name="Beast" type="Category" internal-id="ID_FMP_CATEGORY_54" source="Core" revision-date="3/27/2009 12:01:33 PM" />
+  <RulesElement name="Rage" type="Category" internal-id="ID_FMP_CATEGORY_53" source="Core" revision-date="2/6/2009 1:26:21 PM" />
+  <RulesElement name="Artifice" type="Category" internal-id="ID_FMP_CATEGORY_52" source="Core" revision-date="2/6/2009 12:57:45 PM" />
+  <RulesElement name="Summoning" type="Category" internal-id="ID_FMP_CATEGORY_51" source="Core" revision-date="2/26/2009 10:45:24 AM" />
+  <RulesElement name="Beast Form" type="Category" internal-id="ID_FMP_CATEGORY_50" source="Core" revision-date="3/27/2009 11:57:30 AM" />
+  <RulesElement name="Rattling" type="Category" internal-id="ID_FMP_CATEGORY_48" source="Core" revision-date="3/1/2010 10:32:39 AM" />
+  <RulesElement name="Invigorating" type="Category" internal-id="ID_FMP_CATEGORY_47" source="Core" revision-date="3/27/2009 12:14:07 PM" />
+  <RulesElement name="Zone" type="Category" internal-id="ID_FMP_CATEGORY_39" source="Core" revision-date="2/6/2009 1:47:34 PM" />
+  <RulesElement name="Shadow" type="Category" internal-id="ID_FMP_CATEGORY_38" source="Core" revision-date="2/12/2009 9:11:11 AM" />
+  <RulesElement name="Martial" type="Category" internal-id="ID_FMP_CATEGORY_36" source="Core" revision-date="2/9/2009 10:08:41 AM" />
+  <RulesElement name="Psionic" type="Category" internal-id="ID_FMP_CATEGORY_35" source="Core" revision-date="2/6/2009 10:47:10 AM" />
+  <RulesElement name="Ki" type="Category" internal-id="ID_FMP_CATEGORY_34" source="Core" revision-date="2/6/2009 10:47:10 AM" />
+  <RulesElement name="Primal" type="Category" internal-id="ID_FMP_CATEGORY_33" source="Core" revision-date="2/6/2009 1:22:18 PM" />
+  <RulesElement name="Divine" type="Category" internal-id="ID_FMP_CATEGORY_32" source="Core" revision-date="2/9/2009 10:11:15 AM" />
+  <RulesElement name="Arcane" type="Category" internal-id="ID_FMP_CATEGORY_31" source="Core" revision-date="2/6/2009 1:02:14 PM" />
+  <RulesElement name="Stance" type="Category" internal-id="ID_FMP_CATEGORY_28" source="Core" revision-date="2/6/2009 1:34:42 PM" />
+  <RulesElement name="Conjuration" type="Category" internal-id="ID_FMP_CATEGORY_26" source="Core" revision-date="3/27/2009 12:13:38 PM" />
+  <RulesElement name="Implement" type="Category" internal-id="ID_FMP_CATEGORY_25" source="Core" revision-date="3/27/2009 12:13:49 PM" />
+  <RulesElement name="Weapon" type="Category" internal-id="ID_FMP_CATEGORY_24" source="Core" revision-date="2/6/2009 1:47:12 PM" />
+  <RulesElement name="Reliable" type="Category" internal-id="ID_FMP_CATEGORY_22" source="Core" revision-date="5/15/2009 12:26:19 PM" />
+  <RulesElement name="Thunder" type="Category" internal-id="ID_FMP_CATEGORY_20" source="Core" revision-date="2/6/2009 1:46:54 PM" />
+  <RulesElement name="Teleportation" type="Category" internal-id="ID_FMP_CATEGORY_19" source="Core" revision-date="2/6/2009 1:35:40 PM" />
+  <RulesElement name="Sleep" type="Category" internal-id="ID_FMP_CATEGORY_17" source="Core" revision-date="2/6/2009 1:30:40 PM" />
+  <RulesElement name="Psychic" type="Category" internal-id="ID_FMP_CATEGORY_16" source="Core" revision-date="2/6/2009 1:23:32 PM" />
+  <RulesElement name="Polymorph" type="Category" internal-id="ID_FMP_CATEGORY_15" source="Core" revision-date="3/27/2009 12:03:51 PM" />
+  <RulesElement name="Poison" type="Category" internal-id="ID_FMP_CATEGORY_14" source="Core" revision-date="2/6/2009 1:14:33 PM" />
+  <RulesElement name="Paralysis" type="Category" internal-id="ID_FMP_CATEGORY_13" source="Core" revision-date="2/6/2009 1:46:16 PM" />
+  <RulesElement name="Necrotic" type="Category" internal-id="ID_FMP_CATEGORY_12" source="Core" revision-date="2/6/2009 1:13:11 PM" />
+  <RulesElement name="Lightning" type="Category" internal-id="ID_FMP_CATEGORY_11" source="Core" revision-date="2/6/2009 1:12:23 PM" />
+  <RulesElement name="Illusion" type="Category" internal-id="ID_FMP_CATEGORY_10" source="Core" revision-date="2/6/2009 1:36:17 PM" />
+  <RulesElement name="Healing" type="Category" internal-id="ID_FMP_CATEGORY_9" source="Core" revision-date="2/6/2009 1:10:41 PM" />
+  <RulesElement name="Force" type="Category" internal-id="ID_FMP_CATEGORY_8" source="Core" revision-date="2/6/2009 1:10:03 PM" />
+  <RulesElement name="Fear" type="Category" internal-id="ID_FMP_CATEGORY_7" source="Core" revision-date="2/6/2009 1:09:43 PM" />
+  <RulesElement name="Charm" type="Category" internal-id="ID_FMP_CATEGORY_6" source="Core" revision-date="2/6/2009 1:08:09 PM" />
+  <RulesElement name="Acid" type="Category" internal-id="ID_FMP_CATEGORY_5" source="Core" revision-date="2/6/2009 1:00:33 PM" />
+  <RulesElement name="Fire" type="Category" internal-id="ID_FMP_CATEGORY_3" source="Core" revision-date="2/6/2009 1:35:54 PM" />
+  <RulesElement name="Radiant" type="Category" internal-id="ID_FMP_CATEGORY_2" source="Core" revision-date="2/6/2009 1:23:54 PM" />
+  <RulesElement name="Cold" type="Category" internal-id="ID_FMP_CATEGORY_1" source="Core" revision-date="11/5/2009 4:54:35 PM" />
+
+ 
+</D20Rules>

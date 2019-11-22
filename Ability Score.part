@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Ability Score.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog /> <!-- Original Data -->
+  <RulesElement name="Charisma" type="Ability Score" internal-id="ID_FMP_ABILITY_SCORE_6" source="Core">
+Charisma (Cha) measures your force of personality, persuasiveness, leadership, and physical attractiveness.
+✦ Many paladin and warlock powers are based on Charisma.
+✦ Your Charisma contributes to your Will defense.
+✦ Charisma is the key ability for Bluff, Diplomacy, Intimidate, and Streetwise skill checks.
+   </RulesElement>
+  <RulesElement name="Wisdom" type="Ability Score" internal-id="ID_FMP_ABILITY_SCORE_5" source="Core">
+Wisdom (Wis) measures your common sense, perception, self-discipline, and empathy. You use your Wisdom score to notice details, sense danger, and “read” other people.
+✦ Many cleric powers are based on Wisdom.
+✦ Your Wisdom contributes to your Will defense.
+✦ Wisdom is the key ability for Dungeoneering, Heal, Insight, Nature, and Perception skill checks.
+   </RulesElement>
+  <RulesElement name="Intelligence" type="Ability Score" internal-id="ID_FMP_ABILITY_SCORE_4" source="Core">
+Intelligence (Int) describes how well your character learns and reasons.
+✦ Wizard powers are based on Intelligence.
+✦ Your Intelligence contributes to your Reflex defense.
+✦ If you wear light armor, your Intelligence contributes to your Armor Class.
+✦ Intelligence is the key ability for Arcana, History, and Religion skill checks.
+   </RulesElement>
+  <RulesElement name="Dexterity" type="Ability Score" internal-id="ID_FMP_ABILITY_SCORE_3" source="Core">
+Dexterity (Dex) measures hand-eye coordination, agility, reflexes, and balance.
+✦ Ranged basic attacks are based on Dexterity.
+✦ Many ranger and rogue powers are based on Dexterity.
+✦ Your Dexterity contributes to your Reflex defense.
+✦ If you wear light armor, your Dexterity contributes to your Armor Class.
+✦ Dexterity is the key ability for Acrobatics, Stealth, and Thievery skill checks.
+   </RulesElement>
+  <RulesElement name="Constitution" type="Ability Score" internal-id="ID_FMP_ABILITY_SCORE_2" source="Core">
+Constitution (Con) represents your character's health, stamina, and vital force. All characters benefit from a good Constitution score.
+✦ Your Constitution score is added to your hit points at 1st level.
+✦ The number of healing surges you can use each day is influenced by your Constitution.
+✦ Many warlock powers are based on Constitution.
+✦ Your Constitution contributes to your Fortitude defense.
+✦ Constitution is the key ability for Endurance skill checks.
+   </RulesElement>
+  <RulesElement name="Strength" type="Ability Score" internal-id="ID_FMP_ABILITY_SCORE_1" source="Core">
+Strength (Str) measures your character's physical power. It's important for most characters who fight hand-to-hand.
+✦ Melee basic attacks are based on Strength.
+✦ Clerics, fighters, paladins, rangers, and warlords
+have powers based on Strength.
+✦ Your Strength contributes to your Fortitude defense.
+✦ Strength is the key ability for Athletics skill checks.
+   </RulesElement>
+   
+ </D20Rules>

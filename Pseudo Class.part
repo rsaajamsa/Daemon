@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Pseudo Class.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog /> <!-- Original Data -->
+  <RulesElement name="Spellscarred" type="Pseudo Class" internal-id="ID_FMP_PSEUDO_CLASS_216" source="Forgotten Realms Player's Guide" revision-date="8/27/2010 12:41:29 PM">
+“Spellscarred” functions like a class that exists not independently but instead serves mainly as a source of powers for characters to take using multiclass feats. As described in the Forgotten Realms Player's Guide, a creature with a spellscar gains Spellscarred Susceptibility and Spellplague Sense. The spellscar is a prerequisite for the Student of the Plague multiclass spellscarred feat. Using Novice, Acolyte, and Adept Power feats, you can swap in spellscarred powers. A spellscar and the Student of the Plague feat are also prerequisites for a spellscarred paragon path, spellscarred savant.
+   </RulesElement>
+ </D20Rules>

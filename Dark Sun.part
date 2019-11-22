@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Dark Sun.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+    <RulesElement name="Dark Sun" type="tag" internal-id="ID_FMP_TAG_8" source="Core">
+  </RulesElement>
+</D20Rules>
