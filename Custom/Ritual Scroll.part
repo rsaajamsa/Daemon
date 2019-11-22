@@ -1,0 +1,2491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Ritual Scroll.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Scroll of Create Primal Element" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CREATE_PRIMAL_ELEMENT" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_341 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="Type"> Ritual </specific>
+A scroll containing a single use of the ritual Create Primal Element.
+</RulesElement>
+  <RulesElement name="Scroll of Create Tree of Life" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CREATE_TREE_OF_LIFE" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_342 </specific>
+    <specific name="Market Price"> 200000 gp </specific>
+    <specific name="Level"> 25 </specific>
+    <specific name="Type"> Ritual </specific>
+A scroll containing a single use of the ritual Create Tree of Life.
+</RulesElement>
+  <RulesElement name="Scroll of Land Ward" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LAND_WARD" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_343 </specific>
+    <specific name="Market Price"> 2600 gp </specific>
+    <specific name="Level"> 11 </specific>
+    <specific name="Type"> Ritual </specific>
+A scroll containing a single use of the ritual Land Ward.
+</RulesElement>
+  <RulesElement name="Scroll of Revitalize" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_REVITALIZE" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_344 </specific>
+    <specific name="Market Price"> 8000 gp </specific>
+    <specific name="Level"> 15 </specific>
+    <specific name="Type"> Ritual </specific>
+A scroll containing a single use of the ritual Revitalize.
+</RulesElement>
+  <RulesElement name="Scroll of Silt Walk" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SILT_WALK" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_345 </specific>
+    <specific name="Market Price"> 2600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="Type"> Ritual </specific>
+A scroll containing a single use of the ritual Silt Walk.
+</RulesElement>
+  <RulesElement name="Scroll of Create Scarecrow" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CREATE_SCARECROW" source="Dungeon Magazine 183">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_346 </specific>
+    <specific name="Market Price"> 22500 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="Type"> Ritual </specific>
+A scroll containing a single use of the ritual Create Scarecrow.
+</RulesElement>
+  <RulesElement name="Scroll of Aberrant Totemic Link" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ABERRANT_TOTEMIC_LINK" source="Dragon Magazine 394">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_347 </specific>
+    <specific name="Market Price"> 3200 gp </specific>
+    <specific name="Level"> 13 </specific>
+    <specific name="Type"> Ritual </specific>
+A scroll containing a single use of the ritual Aberrant Totemic Link.
+</RulesElement>
+  <RulesElement name="Scroll of Clarity Salts" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CLARITY_SALTS" source="Dungeon Magazine 186">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_348 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="Type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Clarity Salts.
+</RulesElement>
+  <RulesElement name="Scroll of Giggle Gas" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GIGGLE_GAS" source="Dungeon Magazine 186">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_349 </specific>
+    <specific name="Market Price"> 1280 gp </specific>
+    <specific name="Level"> 9 </specific>
+    <specific name="Type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Giggle Gas.
+</RulesElement>
+  <RulesElement name="Scroll of Kinetic Oil" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_KINETIC_OIL" source="Dungeon Magazine 186">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_350 </specific>
+    <specific name="Market Price"> 500 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="Type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Kinetic Oil.
+</RulesElement>
+  <RulesElement name="Scroll of Walking Death" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WALKING_DEATH" source="Dungeon Magazine 186">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_351 </specific>
+    <specific name="Market Price"> 400 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="Type"> Ritual </specific>
+A scroll containing a single use of the ritual Walking Death.
+</RulesElement>
+  <RulesElement name="Scroll of Reordination" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_REORDINATION" source="Dragon Magazine 397">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_352 </specific>
+    <specific name="Market Price"> 1000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="Type"> Ritual </specific>
+A scroll containing a single use of the ritual Reordination.
+</RulesElement>
+  <RulesElement name="Scroll of Alarm" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ALARM" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_357 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Alarm.
+</RulesElement>
+  <RulesElement name="Scroll of Animate Rope" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ANIMATE_ROPE" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_358-2 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Animate Rope.
+</RulesElement>
+  <RulesElement name="Scroll of Breach Disguise" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BREACH_DISGUISE" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_359 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Breach Disguise.
+</RulesElement>
+  <RulesElement name="Scroll of Calm Emotions" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CALM_EMOTIONS" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_360 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Calm Emotions.
+</RulesElement>
+  <RulesElement name="Scroll of Change Self" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CHANGE_SELF" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_361 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Change Self.
+</RulesElement>
+  <RulesElement name="Scroll of Continual Light" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CONTINUAL_LIGHT" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_362 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Continual Light.
+</RulesElement>
+  <RulesElement name="Scroll of Dancing Lights" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DANCING_LIGHTS" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_363 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Dancing Lights.
+</RulesElement>
+  <RulesElement name="Scroll of Deep Pockets" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DEEP_POCKETS" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_364 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Deep Pockets.
+</RulesElement>
+  <RulesElement name="Scroll of Explosive Runes" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EXPLOSIVE_RUNES" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_365 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+    <specific name="_DisplayPowers"> ID_TIV_POWER_DRAGON_405_01-9-1 </specific>
+    <rules>
+      <grant name="ID_TIV_POWER_DRAGON_405_01-9-1" type="Power" />
+    </rules>
+A scroll containing a single use of the ritual Explosive Runes.
+</RulesElement>
+  <RulesElement name="Scroll of Find Traps" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FIND_TRAPS" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_366 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Find Traps.
+</RulesElement>
+  <RulesElement name="Scroll of Glyph of Warding" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GLYPH_OF_WARDING" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_367 </specific>
+    <specific name="Market Price"> 520 gp </specific>
+    <specific name="Level"> 7 </specific>
+    <specific name="type"> Ritual </specific>
+    <specific name="_DisplayPowers"> ID_TIV_POWER_DRAGON_405_01-11-1 </specific>
+    <rules>
+      <grant name="ID_TIV_POWER_DRAGON_405_01-11-1" type="Power" />
+    </rules>
+A scroll containing a single use of the ritual Glyph of Warding.
+</RulesElement>
+  <RulesElement name="Scroll of Hallucinatory Terrain" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HALLUCINATORY_TERRAIN" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_368 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Hallucinatory Terrain.
+</RulesElement>
+  <RulesElement name="Scroll of Leomund's Tiny Hut" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LEOMUND'S_TINY_HUT" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_370 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Leomund's Tiny Hut.
+</RulesElement>
+  <RulesElement name="Scroll of Leomund's Trap" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LEOMUND'S_TRAP" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_371 </specific>
+    <specific name="Market Price"> 125 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Leomund's Trap.
+</RulesElement>
+  <RulesElement name="Scroll of Lesser Telepathy" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LESSER_TELEPATHY" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_372 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Lesser Telepathy.
+</RulesElement>
+  <RulesElement name="Scroll of Object Meld" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_OBJECT_MELD" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_374 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Object Meld.
+</RulesElement>
+  <RulesElement name="Scroll of Pass Without Trace" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PASS_WITHOUT_TRACE" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_375 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Pass Without Trace.
+</RulesElement>
+  <RulesElement name="Scroll of Portal Jump" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PORTAL_JUMP" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_376 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Portal Jump.
+</RulesElement>
+  <RulesElement name="Scroll of Protection from Energy" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PROTECTION_FROM_ENERGY" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_377 </specific>
+    <specific name="Market Price"> 520 gp </specific>
+    <specific name="Level"> 7 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Protection from Energy.
+</RulesElement>
+  <RulesElement name="Scroll of Reduce Beast" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_REDUCE_BEAST" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_379 </specific>
+    <specific name="Market Price"> 520 gp </specific>
+    <specific name="Level"> 7 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Reduce Beast.
+</RulesElement>
+  <RulesElement name="Scroll of Reflecting Pool" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_REFLECTING_POOL" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_380 </specific>
+    <specific name="Market Price"> 840 gp </specific>
+    <specific name="Level"> 9 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Reflecting Pool.
+</RulesElement>
+  <RulesElement name="Scroll of Seal Death's Door" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SEAL_DEATH'S_DOOR" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_381 </specific>
+    <specific name="Market Price"> 200 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Seal Death's Door.
+</RulesElement>
+  <RulesElement name="Scroll of Shatter" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SHATTER" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_382 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Shatter.
+</RulesElement>
+  <RulesElement name="Scroll of Shatter Bonds" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SHATTER_BONDS" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_383 </specific>
+    <specific name="Market Price"> 800 gp </specific>
+    <specific name="Level"> 9 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Shatter Bonds.
+</RulesElement>
+  <RulesElement name="Scroll of Silent Image" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SILENT_IMAGE" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_384 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Silent Image.
+</RulesElement>
+  <RulesElement name="Scroll of Steady Strength" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_STEADY_STRENGTH" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_385 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Steady Strength.
+</RulesElement>
+  <RulesElement name="Scroll of Stone Shape" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_STONE_SHAPE" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_386 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Stone Shape.
+</RulesElement>
+  <RulesElement name="Scroll of Sundered Skies" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SUNDERED_SKIES" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_387 </specific>
+    <specific name="Market Price"> 500 gp </specific>
+    <specific name="Level"> 7 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Sundered Skies.
+</RulesElement>
+  <RulesElement name="Scroll of Tongues" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TONGUES" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_388 </specific>
+    <specific name="Market Price"> 200 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Tongues.
+</RulesElement>
+  <RulesElement name="Scroll of Wind Words" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WIND_WORDS" source="Dragon Magazine 405">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_389 </specific>
+    <specific name="Market Price"> 125 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Wind Words.
+</RulesElement>
+  <RulesElement name="Scroll of Summon Demon" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SUMMON_DEMON" source="Demonomicon">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_340 </specific>
+    <specific name="Market Price"> 9000 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Summon Demon.
+   </RulesElement>
+  <RulesElement name="Scroll of Windmaster's Mantle" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WINDMASTER'S_MANTLE" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_339 </specific>
+    <specific name="Market Price"> 25000 gp </specific>
+    <specific name="Level"> 20 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Windmaster's Mantle.
+   </RulesElement>
+  <RulesElement name="Scroll of Wavestrider Enchantment" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WAVESTRIDER_ENCHANTMENT" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_338 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Wavestrider Enchantment.
+   </RulesElement>
+  <RulesElement name="Scroll of Snowstorm Summons" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SNOWSTORM_SUMMONS" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_337 </specific>
+    <specific name="Market Price"> 4500 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Snowstorm Summons.
+   </RulesElement>
+  <RulesElement name="Scroll of Self-Holding Bag" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SELF-HOLDING_BAG" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_336 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Self-Holding Bag.
+   </RulesElement>
+  <RulesElement name="Scroll of Quench the Flame" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_QUENCH_THE_FLAME" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_335 </specific>
+    <specific name="Market Price"> 2600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Quench the Flame.
+   </RulesElement>
+  <RulesElement name="Scroll of Memory of the Dragon" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MEMORY_OF_THE_DRAGON" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_334 </specific>
+    <specific name="Market Price"> 2600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Memory of the Dragon.
+   </RulesElement>
+  <RulesElement name="Scroll of Memory of a Thousand Deaths" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MEMORY_OF_A_THOUSAND_DEATHS" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_333 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Memory of a Thousand Deaths.
+   </RulesElement>
+  <RulesElement name="Scroll of Follow the Voice" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FOLLOW_THE_VOICE" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_332 </specific>
+    <specific name="Market Price"> 9000 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Follow the Voice.
+   </RulesElement>
+  <RulesElement name="Scroll of Evard's Extensible Rope" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EVARD'S_EXTENSIBLE_ROPE" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_331 </specific>
+    <specific name="Market Price"> 1000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Evard's Extensible Rope.
+   </RulesElement>
+  <RulesElement name="Scroll of Dragonward" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DRAGONWARD" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_330 </specific>
+    <specific name="Market Price"> 1000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Dragonward.
+   </RulesElement>
+  <RulesElement name="Scroll of Donning Trollflesh" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DONNING_TROLLFLESH" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_329 </specific>
+    <specific name="Market Price"> 2600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Donning Trollflesh.
+   </RulesElement>
+  <RulesElement name="Scroll of Corpselike Visage" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CORPSELIKE_VISAGE" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_328 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Corpselike Visage.
+   </RulesElement>
+  <RulesElement name="Scroll of Aura of True Vision" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_AURA_OF_TRUE_VISION" source="Dragon Magazine 385">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_327 </specific>
+    <specific name="Market Price"> 5000 gp </specific>
+    <specific name="Level"> 15 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Aura of True Vision.
+   </RulesElement>
+  <RulesElement name="Scroll of Word on the Street" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WORD_ON_THE_STREET" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_326 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 11 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Word on the Street.
+   </RulesElement>
+  <RulesElement name="Scroll of Warded Campsite" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WARDED_CAMPSITE" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_325 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Warded Campsite.
+   </RulesElement>
+  <RulesElement name="Scroll of Use Scroll" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_USE_SCROLL" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_324 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 15 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Use Scroll.
+   </RulesElement>
+  <RulesElement name="Scroll of Uncanny Strength" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_UNCANNY_STRENGTH" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_323 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Uncanny Strength.
+   </RulesElement>
+  <RulesElement name="Scroll of Travel Sense" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRAVEL_SENSE" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_322 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Travel Sense.
+   </RulesElement>
+  <RulesElement name="Scroll of Tracker's Eye" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRACKER'S_EYE" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_321 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Tracker's Eye.
+   </RulesElement>
+  <RulesElement name="Scroll of Thorough Search" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_THOROUGH_SEARCH" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_320 </specific>
+    <specific name="Market Price"> 75 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Thorough Search.
+   </RulesElement>
+  <RulesElement name="Scroll of Temporary Fix" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TEMPORARY_FIX" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_319 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Temporary Fix.
+   </RulesElement>
+  <RulesElement name="Scroll of Survivor's Preparation" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SURVIVOR'S_PREPARATION" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_318 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Survivor's Preparation.
+   </RulesElement>
+  <RulesElement name="Scroll of Survivor's Assurance" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SURVIVOR'S_ASSURANCE" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_317 </specific>
+    <specific name="Market Price"> 4,500 gp </specific>
+    <specific name="Level"> 17 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Survivor's Assurance.
+   </RulesElement>
+  <RulesElement name="Scroll of Reliable Balance" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_RELIABLE_BALANCE" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_316 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Reliable Balance.
+   </RulesElement>
+  <RulesElement name="Scroll of Peerless Exploration" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PEERLESS_EXPLORATION" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_315 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Peerless Exploration.
+   </RulesElement>
+  <RulesElement name="Scroll of Master Artisan" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MASTER_ARTISAN" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_314 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Master Artisan.
+   </RulesElement>
+  <RulesElement name="Scroll of Long-Distance Runner" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LONG-DISTANCE_RUNNER" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_313 </specific>
+    <specific name="Market Price"> 150 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Long-Distance Runner.
+   </RulesElement>
+  <RulesElement name="Scroll of Hidden Pocket" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HIDDEN_POCKET" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_312 </specific>
+    <specific name="Market Price"> 80 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Hidden Pocket.
+   </RulesElement>
+  <RulesElement name="Scroll of Handle Steed" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HANDLE_STEED" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_311 </specific>
+    <specific name="Market Price"> 275 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Handle Steed.
+   </RulesElement>
+  <RulesElement name="Scroll of Fortify Beast" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FORTIFY_BEAST" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_310 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Fortify Beast.
+   </RulesElement>
+  <RulesElement name="Scroll of Forge Weapon" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FORGE_WEAPON" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_309 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Forge Weapon.
+   </RulesElement>
+  <RulesElement name="Scroll of Forge Armor" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FORGE_ARMOR" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_308 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Forge Armor.
+   </RulesElement>
+  <RulesElement name="Scroll of Feign Death" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FEIGN_DEATH" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_307 </specific>
+    <specific name="Market Price"> 275 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Feign Death.
+   </RulesElement>
+  <RulesElement name="Scroll of Embalm" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EMBALM" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_306 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Embalm.
+   </RulesElement>
+  <RulesElement name="Scroll of Decipher Script" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DECIPHER_SCRIPT" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_305 </specific>
+    <specific name="Market Price"> 150 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Decipher Script.
+   </RulesElement>
+  <RulesElement name="Scroll of Familiar Mount" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FAMILIAR_MOUNT" source="Dragon Magazine 382">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_304 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Familiar Mount.
+   </RulesElement>
+  <RulesElement name="Scroll of Endure Primordial Elements" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ENDURE_PRIMORDIAL_ELEMENTS" source="The Plane Below: Secrets of the Elemental Chaos">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_303 </specific>
+    <specific name="Market Price"> 12000 gp </specific>
+    <specific name="Level"> 17 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Endure Primordial Elements.
+   </RulesElement>
+  <RulesElement name="Scroll of Vistani Passkey" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_VISTANI_PASSKEY" source="Dragon Magazine 380">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_302 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Vistani Passkey.
+   </RulesElement>
+  <RulesElement name="Scroll of Spirit Fetch" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SPIRIT_FETCH" source="Dragon Magazine 380">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_301 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Spirit Fetch.
+   </RulesElement>
+  <RulesElement name="Scroll of Hunter's Curse" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HUNTER'S_CURSE" source="Dragon Magazine 380">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_300 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Hunter's Curse.
+   </RulesElement>
+  <RulesElement name="Scroll of Hunter's Blessing" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HUNTER'S_BLESSING" source="Dragon Magazine 380">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_299 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Hunter's Blessing.
+   </RulesElement>
+  <RulesElement name="Scroll of Ghost Walk" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GHOST_WALK" source="Dragon Magazine 380">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_298 </specific>
+    <specific name="Market Price"> 800 gp </specific>
+    <specific name="Level"> 9 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Ghost Walk.
+   </RulesElement>
+  <RulesElement name="Scroll of Comrades' Succor" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_COMRADES'_SUCCOR" source="Dragon Magazine 380">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_297 </specific>
+    <specific name="Market Price"> 150 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Comrades' Succor.
+   </RulesElement>
+  <RulesElement name="Scroll of False Aura" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FALSE_AURA" source="Draconomicon: Chromatic Dragons">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_296 </specific>
+    <specific name="Market Price"> 4500 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual False Aura.
+   </RulesElement>
+  <RulesElement name="Scroll of Speech Without Words" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SPEECH_WITHOUT_WORDS" source="Dragon Magazine 381,Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_295 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Speech Without Words.
+   </RulesElement>
+  <RulesElement name="Scroll of Precise Forgery" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PRECISE_FORGERY" source="Dragon Magazine 381,Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_294 </specific>
+    <specific name="Market Price"> 80 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Precise Forgery.
+   </RulesElement>
+  <RulesElement name="Scroll of Alter Ego" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ALTER_EGO" source="Dragon Magazine 381,Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_293 </specific>
+    <specific name="Market Price"> 275 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Martial Practice </specific>
+A scroll containing the alchemical formula for Alter Ego.
+   </RulesElement>
+  <RulesElement name="Scroll of Water's Gift" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WATER'S_GIFT" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_292 </specific>
+    <specific name="Market Price"> 1000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Water's Gift.
+   </RulesElement>
+  <RulesElement name="Scroll of Traveler's Camouflage" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRAVELER'S_CAMOUFLAGE" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_291 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Traveler's Camouflage.
+   </RulesElement>
+  <RulesElement name="Scroll of Starshine" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_STARSHINE" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_290 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Starshine.
+   </RulesElement>
+  <RulesElement name="Scroll of Primal Prison" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PRIMAL_PRISON" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_289 </specific>
+    <specific name="Market Price"> 4200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Primal Prison.
+   </RulesElement>
+  <RulesElement name="Scroll of Primal Grove" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PRIMAL_GROVE" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_288 </specific>
+    <specific name="Market Price"> 21000 gp </specific>
+    <specific name="Level"> 19 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Primal Grove.
+   </RulesElement>
+  <RulesElement name="Scroll of Portend Weather" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PORTEND_WEATHER" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_287 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Portend Weather.
+   </RulesElement>
+  <RulesElement name="Scroll of Eagle's Flight" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EAGLE'S_FLIGHT" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_286 </specific>
+    <specific name="Market Price"> 1000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Eagle's Flight.
+   </RulesElement>
+  <RulesElement name="Scroll of Dowsing Rod" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DOWSING_ROD" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_285 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Dowsing Rod.
+   </RulesElement>
+  <RulesElement name="Scroll of Rite of Arkentaash" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_RITE_OF_ARKENTAASH" source="Seekers of the Ashen Crown">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_284 </specific>
+    <specific name="Market Price"> n/a </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Rite of Arkentaash.
+   </RulesElement>
+  <RulesElement name="Scroll of Argent Portal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ARGENT_PORTAL" source="Revenge of the Giants">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_283 </specific>
+    <specific name="Market Price"> Not applicable </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Argent Portal.
+   </RulesElement>
+  <RulesElement name="Scroll of Bravery Powder" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BRAVERY_POWDER" source="Dragon Magazine 376">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_282 </specific>
+    <specific name="Market Price"> 30 gp </specific>
+    <specific name="Level"> 3+ </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Bravery Powder.
+   </RulesElement>
+  <RulesElement name="Scroll of Corrosive Oil" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CORROSIVE_OIL" source="Dragon Magazine 376">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_281 </specific>
+    <specific name="Market Price"> 400 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Corrosive Oil.
+   </RulesElement>
+  <RulesElement name="Scroll of Rust Bomb" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_RUST_BOMB" source="Dragon Magazine 376">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_280 </specific>
+    <specific name="Market Price"> 200 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Rust Bomb.
+   </RulesElement>
+  <RulesElement name="Scroll of Thief's Lament" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_THIEF'S_LAMENT" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_279 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Thief's Lament.
+   </RulesElement>
+  <RulesElement name="Scroll of Succor" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SUCCOR" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_278 </specific>
+    <specific name="Market Price"> 25,000 gp </specific>
+    <specific name="Level"> 20 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Succor.
+   </RulesElement>
+  <RulesElement name="Scroll of Mark of Justice" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MARK_OF_JUSTICE" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_277 </specific>
+    <specific name="Market Price"> 2600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Mark of Justice.
+   </RulesElement>
+  <RulesElement name="Scroll of Iron Vigil" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_IRON_VIGIL" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_276 </specific>
+    <specific name="Market Price"> 170 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Iron Vigil.
+   </RulesElement>
+  <RulesElement name="Scroll of Hallowed Temple" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HALLOWED_TEMPLE" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_275 </specific>
+    <specific name="Market Price"> 1300 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Hallowed Temple.
+   </RulesElement>
+  <RulesElement name="Scroll of Ease Spirit" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EASE_SPIRIT" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_274 </specific>
+    <specific name="Market Price"> 70,000 gp </specific>
+    <specific name="Level"> 25 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Ease Spirit.
+   </RulesElement>
+  <RulesElement name="Scroll of Create Holy Water" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CREATE_HOLY_WATER" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_273 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Create Holy Water.
+   </RulesElement>
+  <RulesElement name="Scroll of Adjure" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ADJURE" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_272 </specific>
+    <specific name="Market Price"> 7500 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Adjure.
+   </RulesElement>
+  <RulesElement name="Scroll of Mindshape Warwing Drake" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MINDSHAPE_WARWING_DRAKE" source="Dungeon Magazine 165">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_271 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Mindshape Warwing Drake.
+   </RulesElement>
+  <RulesElement name="Scroll of Imprint Anaxim" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_IMPRINT_ANAXIM" source="Dragon Magazine 375">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_270 </specific>
+    <specific name="Market Price"> 1000 </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Imprint Anaxim.
+   </RulesElement>
+  <RulesElement name="Scroll of Summon Winds" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SUMMON_WINDS" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_269 </specific>
+    <specific name="Market Price"> 125 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Summon Winds.
+   </RulesElement>
+  <RulesElement name="Scroll of Steed Summons" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_STEED_SUMMONS" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_268 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Steed Summons.
+   </RulesElement>
+  <RulesElement name="Scroll of Spirit Idol" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SPIRIT_IDOL" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_267 </specific>
+    <specific name="Market Price"> 520 gp </specific>
+    <specific name="Level"> 7 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Spirit Idol.
+   </RulesElement>
+  <RulesElement name="Scroll of Seeming" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SEEMING" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_266 </specific>
+    <specific name="Market Price"> 1,700 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Seeming.
+   </RulesElement>
+  <RulesElement name="Scroll of Secure Shelter" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SECURE_SHELTER" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_265 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Secure Shelter.
+   </RulesElement>
+  <RulesElement name="Scroll of Scry Trap" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SCRY_TRAP" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_264 </specific>
+    <specific name="Market Price"> 25,000 gp </specific>
+    <specific name="Level"> 20 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Scry Trap.
+   </RulesElement>
+  <RulesElement name="Scroll of Masking Shroud" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MASKING_SHROUD" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_263 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Masking Shroud.
+   </RulesElement>
+  <RulesElement name="Scroll of Inquisitive's Eyes" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_INQUISITIVE'S_EYES" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_262 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Inquisitive's Eyes.
+   </RulesElement>
+  <RulesElement name="Scroll of Fluid Funds" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FLUID_FUNDS" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_261 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Fluid Funds.
+   </RulesElement>
+  <RulesElement name="Scroll of Find the Path" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FIND_THE_PATH" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_260 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Find the Path.
+   </RulesElement>
+  <RulesElement name="Scroll of Fantastic Recuperation" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FANTASTIC_RECUPERATION" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_259 </specific>
+    <specific name="Market Price"> 9,000 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Fantastic Recuperation.
+   </RulesElement>
+  <RulesElement name="Scroll of Enhance Vessel" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ENHANCE_VESSEL" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_258 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Enhance Vessel.
+   </RulesElement>
+  <RulesElement name="Scroll of Eavesdropper's Foil" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EAVESDROPPER'S_FOIL" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_257 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Eavesdropper's Foil.
+   </RulesElement>
+  <RulesElement name="Scroll of Conceal Dragon mark" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CONCEAL_DRAGON_MARK" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_256 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Conceal Dragon mark.
+   </RulesElement>
+  <RulesElement name="Scroll of Banish Illusions" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BANISH_ILLUSIONS" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_255 </specific>
+    <specific name="Market Price"> 1,800 gp </specific>
+    <specific name="Level"> 11 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Banish Illusions.
+   </RulesElement>
+  <RulesElement name="Scroll of Ancestral Whispers" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ANCESTRAL_WHISPERS" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_254 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Ancestral Whispers.
+   </RulesElement>
+  <RulesElement name="Scroll of Woundpatch" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WOUNDPATCH" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_253 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Woundpatch.
+   </RulesElement>
+  <RulesElement name="Scroll of Tethercord" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TETHERCORD" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_252 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Tethercord.
+   </RulesElement>
+  <RulesElement name="Scroll of Tension Wheel" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TENSION_WHEEL" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_251 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Tension Wheel.
+   </RulesElement>
+  <RulesElement name="Scroll of Suppression Crystal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SUPPRESSION_CRYSTAL" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_250 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Suppression Crystal.
+   </RulesElement>
+  <RulesElement name="Scroll of Spotted Toadstool Venom" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SPOTTED_TOADSTOOL_VENOM" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_249 </specific>
+    <specific name="Market Price"> 600 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Spotted Toadstool Venom.
+   </RulesElement>
+  <RulesElement name="Scroll of Resonance Crystal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_RESONANCE_CRYSTAL" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_248 </specific>
+    <specific name="Market Price"> 160 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Resonance Crystal.
+   </RulesElement>
+  <RulesElement name="Scroll of Panther Tears" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PANTHER_TEARS" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_247 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Panther Tears.
+   </RulesElement>
+  <RulesElement name="Scroll of Noxious Grenade" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_NOXIOUS_GRENADE" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_246 </specific>
+    <specific name="Market Price"> 700 gp </specific>
+    <specific name="Level"> 11 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Noxious Grenade.
+   </RulesElement>
+  <RulesElement name="Scroll of Lodret Leaf" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LODRET_LEAF" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_245 </specific>
+    <specific name="Market Price"> 200 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Lodret Leaf.
+   </RulesElement>
+  <RulesElement name="Scroll of Keen Oil" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_KEEN_OIL" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_244 </specific>
+    <specific name="Market Price"> 600 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Keen Oil.
+   </RulesElement>
+  <RulesElement name="Scroll of Inferno Oil" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_INFERNO_OIL" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_243 </specific>
+    <specific name="Market Price"> 200 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Inferno Oil.
+   </RulesElement>
+  <RulesElement name="Scroll of Heartflow" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HEARTFLOW" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_242 </specific>
+    <specific name="Market Price"> 90 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Heartflow.
+   </RulesElement>
+  <RulesElement name="Scroll of Grayflower Perfume" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GRAYFLOWER_PERFUME" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_241 </specific>
+    <specific name="Market Price"> 800 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Grayflower Perfume.
+   </RulesElement>
+  <RulesElement name="Scroll of Clockwork Bomb" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CLOCKWORK_BOMB" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_240 </specific>
+    <specific name="Market Price"> 160 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Clockwork Bomb.
+   </RulesElement>
+  <RulesElement name="Scroll of Clear-Path Mist" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CLEAR-PATH_MIST" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_239 </specific>
+    <specific name="Market Price"> 375 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Clear-Path Mist.
+   </RulesElement>
+  <RulesElement name="Scroll of Alchemist's Spark" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ALCHEMIST'S_SPARK" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_238 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Alchemist's Spark.
+   </RulesElement>
+  <RulesElement name="Scroll of Acidic Fire" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ACIDIC_FIRE" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_237 </specific>
+    <specific name="Market Price"> 200 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Acidic Fire.
+   </RulesElement>
+  <RulesElement name="Scroll of Solace Bole" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SOLACE_BOLE" source="Dungeon Magazine 165">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_236 </specific>
+    <specific name="Market Price"> 2,600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Solace Bole.
+   </RulesElement>
+  <RulesElement name="Scroll of Flashbang Powder" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FLASHBANG_POWDER" source="Dragon Magazine 373">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_235 </specific>
+    <specific name="Market Price"> 500 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Flashbang Powder.
+   </RulesElement>
+  <RulesElement name="Scroll of Eyesting" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EYESTING" source="Dragon Magazine 373">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_234 </specific>
+    <specific name="Market Price"> 240 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Eyesting.
+   </RulesElement>
+  <RulesElement name="Scroll of Drowsy Dust" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DROWSY_DUST" source="Dragon Magazine 373">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_233 </specific>
+    <specific name="Market Price"> 160 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Drowsy Dust.
+   </RulesElement>
+  <RulesElement name="Scroll of Whispers of the Edifice" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WHISPERS_OF_THE_EDIFICE" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_231 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Whispers of the Edifice.
+   </RulesElement>
+  <RulesElement name="Scroll of Unseen Servant" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_UNSEEN_SERVANT" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_230 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Unseen Servant.
+   </RulesElement>
+  <RulesElement name="Scroll of Telepathic Bond" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TELEPATHIC_BOND" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_229 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Telepathic Bond.
+   </RulesElement>
+  <RulesElement name="Scroll of Shrink" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SHRINK" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_228 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Shrink.
+   </RulesElement>
+  <RulesElement name="Scroll of Purify Water" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PURIFY_WATER" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_227 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Purify Water.
+   </RulesElement>
+  <RulesElement name="Scroll of Object Reading" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_OBJECT_READING" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_225 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Object Reading.
+   </RulesElement>
+  <RulesElement name="Scroll of Magic Map" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MAGIC_MAP" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_224 </specific>
+    <specific name="Market Price"> 800 gp </specific>
+    <specific name="Level"> 9 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Magic Map.
+   </RulesElement>
+  <RulesElement name="Scroll of Lower Water" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LOWER_WATER" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_223 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Lower Water.
+   </RulesElement>
+  <RulesElement name="Scroll of Imprisonment" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_IMPRISONMENT" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_222 </specific>
+    <specific name="Market Price"> 500,000 gp </specific>
+    <specific name="Level"> 28 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Imprisonment.
+   </RulesElement>
+  <RulesElement name="Scroll of History Revealed" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HISTORY_REVEALED" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_221 </specific>
+    <specific name="Market Price"> 2,900 gp </specific>
+    <specific name="Level"> 11 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual History Revealed.
+   </RulesElement>
+  <RulesElement name="Scroll of Guards and Wards" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GUARDS_AND_WARDS" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_220 </specific>
+    <specific name="Market Price"> 17,000 gp </specific>
+    <specific name="Level"> 18 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Guards and Wards.
+   </RulesElement>
+  <RulesElement name="Scroll of Fool's Gold" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FOOL'S_GOLD" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_219 </specific>
+    <specific name="Market Price"> 125 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Fool's Gold.
+   </RulesElement>
+  <RulesElement name="Scroll of Detect Treasure" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DETECT_TREASURE" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_218 </specific>
+    <specific name="Market Price"> 800 gp </specific>
+    <specific name="Level"> 9 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Detect Treasure.
+   </RulesElement>
+  <RulesElement name="Scroll of Call of Friendship" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CALL_OF_FRIENDSHIP" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_217 </specific>
+    <specific name="Market Price"> 215 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Call of Friendship.
+   </RulesElement>
+  <RulesElement name="Scroll of Beast Growth" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BEAST_GROWTH" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_216 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Beast Growth.
+   </RulesElement>
+  <RulesElement name="Scroll of Anthem of Unity" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ANTHEM_OF_UNITY" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_214 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Anthem of Unity.
+   </RulesElement>
+  <RulesElement name="Scroll of Transfer Enchantment" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRANSFER_ENCHANTMENT" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_212 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Transfer Enchantment.
+   </RulesElement>
+  <RulesElement name="Scroll of Wyvern Watch" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WYVERN_WATCH" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_210 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Wyvern Watch.
+   </RulesElement>
+  <RulesElement name="Scroll of Tune of Merriment" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TUNE_OF_MERRIMENT" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_209 </specific>
+    <specific name="Market Price"> 900 gp </specific>
+    <specific name="Level"> 9 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Tune of Merriment.
+   </RulesElement>
+  <RulesElement name="Scroll of Tree Stride" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TREE_STRIDE" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_208 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Tree Stride.
+   </RulesElement>
+  <RulesElement name="Scroll of Tree Shape" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TREE_SHAPE" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_207 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Tree Shape.
+   </RulesElement>
+  <RulesElement name="Scroll of Traveler's Chant" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRAVELER'S_CHANT" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_206 </specific>
+    <specific name="Market Price"> 75 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Traveler's Chant.
+   </RulesElement>
+  <RulesElement name="Scroll of Speak with Nature" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SPEAK_WITH_NATURE" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_205 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Speak with Nature.
+   </RulesElement>
+  <RulesElement name="Scroll of Song of Sustenance" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SONG_OF_SUSTENANCE" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_204 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Song of Sustenance.
+   </RulesElement>
+  <RulesElement name="Scroll of Song of Restfulness" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SONG_OF_RESTFULNESS" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_203 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Song of Restfulness.
+   </RulesElement>
+  <RulesElement name="Scroll of Snare" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SNARE" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_202 </specific>
+    <specific name="Market Price"> 150 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Snare.
+   </RulesElement>
+  <RulesElement name="Scroll of Reverse Portal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_REVERSE_PORTAL" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_201 </specific>
+    <specific name="Market Price"> 2,600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Reverse Portal.
+   </RulesElement>
+  <RulesElement name="Scroll of Pyrotechnics" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PYROTECHNICS" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_200 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Pyrotechnics.
+   </RulesElement>
+  <RulesElement name="Scroll of Lullaby" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LULLABY" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_199 </specific>
+    <specific name="Market Price"> 125 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Lullaby.
+   </RulesElement>
+  <RulesElement name="Scroll of Ironwood" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_IRONWOOD" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_198 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Ironwood.
+   </RulesElement>
+  <RulesElement name="Scroll of Glib Limerick" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GLIB_LIMERICK" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_197 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Glib Limerick.
+   </RulesElement>
+  <RulesElement name="Scroll of Fool's Speech" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FOOL'S_SPEECH" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_196 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Fool's Speech.
+   </RulesElement>
+  <RulesElement name="Scroll of Create Campsite" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CREATE_CAMPSITE" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_195 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Create Campsite.
+   </RulesElement>
+  <RulesElement name="Scroll of Control Weather" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CONTROL_WEATHER" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_194 </specific>
+    <specific name="Market Price"> 4,500 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Control Weather.
+   </RulesElement>
+  <RulesElement name="Scroll of Chorus of Truth" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CHORUS_OF_TRUTH" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_193 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Chorus of Truth.
+   </RulesElement>
+  <RulesElement name="Scroll of Call Wilderness Guide" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CALL_WILDERNESS_GUIDE" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_192 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Call Wilderness Guide.
+   </RulesElement>
+  <RulesElement name="Scroll of Bloom" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BLOOM" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_191 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Bloom.
+   </RulesElement>
+  <RulesElement name="Scroll of Aria of Revelation" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ARIA_OF_REVELATION" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_190 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Aria of Revelation.
+   </RulesElement>
+  <RulesElement name="Scroll of Affect Normal Fire" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_AFFECT_NORMAL_FIRE" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_188 </specific>
+    <specific name="Market Price"> 125 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Affect Normal Fire.
+   </RulesElement>
+  <RulesElement name="Scroll of Raise Beast Companion" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_RAISE_BEAST_COMPANION" source="Martial Power">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_187 </specific>
+    <specific name="Market Price"> None </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Raise Beast Companion.
+   </RulesElement>
+  <RulesElement name="Scroll of Undead Ward" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_UNDEAD_WARD" source="Open Grave: Secrets of the Undead">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_186 </specific>
+    <specific name="Market Price"> 130 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Undead Ward.
+   </RulesElement>
+  <RulesElement name="Scroll of Undead Servitor" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_UNDEAD_SERVITOR" source="Open Grave: Secrets of the Undead">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_185 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Undead Servitor.
+   </RulesElement>
+  <RulesElement name="Scroll of Skull Watch" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SKULL_WATCH" source="Open Grave: Secrets of the Undead">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_184 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Skull Watch.
+   </RulesElement>
+  <RulesElement name="Scroll of Last Sight Vision" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LAST_SIGHT_VISION" source="Open Grave: Secrets of the Undead">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_183 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Last Sight Vision.
+   </RulesElement>
+  <RulesElement name="Scroll of Corpse Light" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CORPSE_LIGHT" source="Open Grave: Secrets of the Undead">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_182 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Corpse Light.
+   </RulesElement>
+  <RulesElement name="Scroll of Gravesight" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GRAVESIGHT" source="Open Grave: Secrets of the Undead">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_181 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Gravesight.
+   </RulesElement>
+  <RulesElement name="Scroll of Corpse Gate" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CORPSE_GATE" source="Open Grave: Secrets of the Undead">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_180 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Corpse Gate.
+   </RulesElement>
+  <RulesElement name="Scroll of Seal Portal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SEAL_PORTAL" source="Dungeon Magazine 160">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_179 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Seal Portal.
+   </RulesElement>
+  <RulesElement name="Scroll of Shadow Passage" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SHADOW_PASSAGE" source="Manual of the Planes,Dungeon Magazine 163">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_178 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Shadow Passage.
+   </RulesElement>
+  <RulesElement name="Scroll of Scramble Portal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SCRAMBLE_PORTAL" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_177 </specific>
+    <specific name="Market Price"> 4,000 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Scramble Portal.
+   </RulesElement>
+  <RulesElement name="Scroll of Rope Trick" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ROPE_TRICK" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_176 </specific>
+    <specific name="Market Price"> 2,500 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Rope Trick.
+   </RulesElement>
+  <RulesElement name="Scroll of Plane Shift" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PLANE_SHIFT" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_175 </specific>
+    <specific name="Market Price"> 17,000 gp </specific>
+    <specific name="Level"> 18 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Plane Shift.
+   </RulesElement>
+  <RulesElement name="Scroll of Far Sending" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FAR_SENDING" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_174 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Far Sending.
+   </RulesElement>
+  <RulesElement name="Scroll of Fey Passage" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FEY_PASSAGE" source="Manual of the Planes,Dungeon Magazine Annual,Dungeon Magazine 162">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_173 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Fey Passage.
+   </RulesElement>
+  <RulesElement name="Scroll of Elemental Transference" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ELEMENTAL_TRANSFERENCE" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_172 </specific>
+    <specific name="Market Price"> 2,600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Elemental Transference.
+   </RulesElement>
+  <RulesElement name="Scroll of Demicache" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DEMICACHE" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_171 </specific>
+    <specific name="Market Price"> 2,600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Demicache.
+   </RulesElement>
+  <RulesElement name="Scroll of Create Teleportation Circle" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CREATE_TELEPORTATION_CIRCLE" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_170 </specific>
+    <specific name="Market Price"> 10,000 gp </specific>
+    <specific name="Level"> 15 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Create Teleportation Circle.
+   </RulesElement>
+  <RulesElement name="Scroll of Astral Sojourn" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ASTRAL_SOJOURN" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_169 </specific>
+    <specific name="Market Price"> 7,000 gp </specific>
+    <specific name="Level"> 15 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Astral Sojourn.
+   </RulesElement>
+  <RulesElement name="Scroll of Astral Guide" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ASTRAL_GUIDE" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_168 </specific>
+    <specific name="Market Price"> 2,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Astral Guide.
+   </RulesElement>
+  <RulesElement name="Scroll of Cauldron's Rebirth" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CAULDRON'S_REBIRTH" source="Draconomicon: Chromatic Dragons">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_166 </specific>
+    <specific name="Market Price"> 1000 gp </specific>
+    <specific name="Level"> 15 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Cauldron's Rebirth.
+   </RulesElement>
+  <RulesElement name="Scroll of Ritual of Retrieval" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_RITUAL_OF_RETRIEVAL" source="P1 King of the Trollhaunt Warrens">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_165 </specific>
+    <specific name="Market Price"> Unique </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Ritual of Retrieval.
+   </RulesElement>
+  <RulesElement name="Scroll of Ward the True Name" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WARD_THE_TRUE_NAME" source="Draconomicon: Chromatic Dragons">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_164 </specific>
+    <specific name="Market Price"> 125,000 gp </specific>
+    <specific name="Level"> 26 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Ward the True Name.
+   </RulesElement>
+  <RulesElement name="Scroll of Sentinel Eye" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SENTINEL_EYE" source="Draconomicon: Chromatic Dragons">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_163 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Sentinel Eye.
+   </RulesElement>
+  <RulesElement name="Scroll of Easy Passage" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EASY_PASSAGE" source="Draconomicon: Chromatic Dragons">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_162 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Easy Passage.
+   </RulesElement>
+  <RulesElement name="Scroll of Disorienting Portal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DISORIENTING_PORTAL" source="Draconomicon: Chromatic Dragons">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_161 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Disorienting Portal.
+   </RulesElement>
+  <RulesElement name="Scroll of Chamber of Vulnerability" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CHAMBER_OF_VULNERABILITY" source="Draconomicon: Chromatic Dragons">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_160 </specific>
+    <specific name="Market Price"> 25,000 gp </specific>
+    <specific name="Level"> 20 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Chamber of Vulnerability.
+   </RulesElement>
+  <RulesElement name="Scroll of Aura Mask" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_AURA_MASK" source="Draconomicon: Chromatic Dragons">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_159 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Aura Mask.
+   </RulesElement>
+  <RulesElement name="Scroll of Universal Solvent" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_UNIVERSAL_SOLVENT" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_158 </specific>
+    <specific name="Market Price"> 600 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Universal Solvent.
+   </RulesElement>
+  <RulesElement name="Scroll of Tracking Dust" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRACKING_DUST" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_157 </specific>
+    <specific name="Market Price"> 160 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Tracking Dust.
+   </RulesElement>
+  <RulesElement name="Scroll of Thunderstone" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_THUNDERSTONE" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_156 </specific>
+    <specific name="Market Price"> 200 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Thunderstone.
+   </RulesElement>
+  <RulesElement name="Scroll of Tanglefoot Bag" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TANGLEFOOT_BAG" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_155 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Tanglefoot Bag.
+   </RulesElement>
+  <RulesElement name="Scroll of Sovereign Glue" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SOVEREIGN_GLUE" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_154 </specific>
+    <specific name="Market Price"> 375 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Sovereign Glue.
+   </RulesElement>
+  <RulesElement name="Scroll of Smokestick" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SMOKESTICK" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_153 </specific>
+    <specific name="Market Price"> 450 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Smokestick.
+   </RulesElement>
+  <RulesElement name="Scroll of Slow-Step Oil" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SLOW-STEP_OIL" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_152 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Slow-Step Oil.
+   </RulesElement>
+  <RulesElement name="Scroll of Salve of Slipperiness" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SALVE_OF_SLIPPERINESS" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_151 </specific>
+    <specific name="Market Price"> 375 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Salve of Slipperiness.
+   </RulesElement>
+  <RulesElement name="Scroll of Lockburst Chalk" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LOCKBURST_CHALK" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_150 </specific>
+    <specific name="Market Price"> 160 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Lockburst Chalk.
+   </RulesElement>
+  <RulesElement name="Scroll of Jolt Flask" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_JOLT_FLASK" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_149 </specific>
+    <specific name="Market Price"> 800 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Jolt Flask.
+   </RulesElement>
+  <RulesElement name="Scroll of Herbal Poultice" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HERBAL_POULTICE" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_148 </specific>
+    <specific name="Market Price"> 90 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Herbal Poultice.
+   </RulesElement>
+  <RulesElement name="Scroll of Goodnight Tincture" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GOODNIGHT_TINCTURE" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_147 </specific>
+    <specific name="Market Price"> 750 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Goodnight Tincture.
+   </RulesElement>
+  <RulesElement name="Scroll of Ghoststrike Oil" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GHOSTSTRIKE_OIL" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_146 </specific>
+    <specific name="Market Price"> 500 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Ghoststrike Oil.
+   </RulesElement>
+  <RulesElement name="Scroll of Dragonfire Tar" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DRAGONFIRE_TAR" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_145 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Dragonfire Tar.
+   </RulesElement>
+  <RulesElement name="Scroll of Clearwater Solution" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CLEARWATER_SOLUTION" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_144 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Clearwater Solution.
+   </RulesElement>
+  <RulesElement name="Scroll of Clearsense Powder" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CLEARSENSE_POWDER" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_143 </specific>
+    <specific name="Market Price"> 80 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Clearsense Powder.
+   </RulesElement>
+  <RulesElement name="Scroll of Bloodstinger Poison" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BLOODSTINGER_POISON" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_142 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Bloodstinger Poison.
+   </RulesElement>
+  <RulesElement name="Scroll of Blinding Bomb" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BLINDING_BOMB" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_141 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Blinding Bomb.
+   </RulesElement>
+  <RulesElement name="Scroll of Blastpatch" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BLASTPATCH" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_140 </specific>
+    <specific name="Market Price"> 120 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Blastpatch.
+   </RulesElement>
+  <RulesElement name="Scroll of Beastbane" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BEASTBANE" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_139 </specific>
+    <specific name="Market Price"> 160 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Beastbane.
+   </RulesElement>
+  <RulesElement name="Scroll of Antivenom" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ANTIVENOM" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_138 </specific>
+    <specific name="Market Price"> 70 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Antivenom.
+   </RulesElement>
+  <RulesElement name="Scroll of Alchemist's Frost" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ALCHEMIST'S_FROST" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_137 </specific>
+    <specific name="Market Price"> 70 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Alchemist's Frost.
+   </RulesElement>
+  <RulesElement name="Scroll of Alchemist's Fire" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ALCHEMIST'S_FIRE" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_136 </specific>
+    <specific name="Market Price"> 70 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Alchemist's Fire.
+   </RulesElement>
+  <RulesElement name="Scroll of Alchemist's Acid" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ALCHEMIST'S_ACID" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_135 </specific>
+    <specific name="Market Price"> 70 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Alchemist's Acid.
+   </RulesElement>
+  <RulesElement name="Scroll of Alchemical Silver" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ALCHEMICAL_SILVER" source="Adventurer's Vault">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_134 </specific>
+    <specific name="Market Price"> 200 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Alchemical Formula </specific>
+A scroll containing the alchemical formula for Alchemical Silver.
+   </RulesElement>
+  <RulesElement name="Scroll of Wizard's Escape" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WIZARD'S_ESCAPE" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_132 </specific>
+    <specific name="Market Price"> 520 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Wizard's Escape.
+   </RulesElement>
+  <RulesElement name="Scroll of Wizard's Curtain" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WIZARD'S_CURTAIN" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_131 </specific>
+    <specific name="Market Price"> 75 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Wizard's Curtain.
+   </RulesElement>
+  <RulesElement name="Scroll of Voicecatcher Veil" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_VOICECATCHER_VEIL" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_130 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Voicecatcher Veil.
+   </RulesElement>
+  <RulesElement name="Scroll of Visage of Life" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_VISAGE_OF_LIFE" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_129 </specific>
+    <specific name="Market Price"> 2,600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Visage of Life.
+   </RulesElement>
+  <RulesElement name="Scroll of True Sending" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRUE_SENDING" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_128 </specific>
+    <specific name="Market Price"> 25,000 gp </specific>
+    <specific name="Level"> 20 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual True Sending.
+   </RulesElement>
+  <RulesElement name="Scroll of Tenser's Lift" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TENSER'S_LIFT" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_127 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Tenser's Lift.
+   </RulesElement>
+  <RulesElement name="Scroll of Tenser's Binding" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TENSER'S_BINDING" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_126 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Tenser's Binding.
+   </RulesElement>
+  <RulesElement name="Scroll of Teleport Catcher" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TELEPORT_CATCHER" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_125 </specific>
+    <specific name="Market Price"> 20,000 gp </specific>
+    <specific name="Level"> 18 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Teleport Catcher.
+   </RulesElement>
+  <RulesElement name="Scroll of Stasis Shell" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_STASIS_SHELL" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_124 </specific>
+    <specific name="Market Price"> 9,000 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Stasis Shell.
+   </RulesElement>
+  <RulesElement name="Scroll of Signal of Pursuit" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SIGNAL_OF_PURSUIT" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_123 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Signal of Pursuit.
+   </RulesElement>
+  <RulesElement name="Scroll of Scribe" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SCRIBE" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_122 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Scribe.
+   </RulesElement>
+  <RulesElement name="Scroll of Safeguard" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SAFEGUARD" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_121 </specific>
+    <specific name="Market Price"> 13,500 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Safeguard.
+   </RulesElement>
+  <RulesElement name="Scroll of Planar Sending" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PLANAR_SENDING" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_120 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Planar Sending.
+   </RulesElement>
+  <RulesElement name="Scroll of Preservation" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PRESERVATION" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_119 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Preservation.
+   </RulesElement>
+  <RulesElement name="Scroll of Preserve Flame" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PRESERVE_FLAME" source="Arcane Power,Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_118 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Preserve Flame.
+   </RulesElement>
+  <RulesElement name="Scroll of Overland Flight" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_OVERLAND_FLIGHT" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_117 </specific>
+    <specific name="Market Price"> 25,000 gp </specific>
+    <specific name="Level"> 20 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Overland Flight.
+   </RulesElement>
+  <RulesElement name="Scroll of Mordenkainen's Joining" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MORDENKAINEN'S_JOINING" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_116 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Mordenkainen's Joining.
+   </RulesElement>
+  <RulesElement name="Scroll of Mordenkainen's Ascent" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MORDENKAINEN'S_ASCENT" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_115 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Mordenkainen's Ascent.
+   </RulesElement>
+  <RulesElement name="Scroll of Memory Seal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MEMORY_SEAL" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_114 </specific>
+    <specific name="Market Price"> 2,5000 gp </specific>
+    <specific name="Level"> 18 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Memory Seal.
+   </RulesElement>
+  <RulesElement name="Scroll of Fastidiousness" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FASTIDIOUSNESS" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_113 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Fastidiousness.
+   </RulesElement>
+  <RulesElement name="Scroll of Farsight" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FARSIGHT" source="Arcane Power,Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_112 </specific>
+    <specific name="Market Price"> 9,000 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Farsight.
+   </RulesElement>
+  <RulesElement name="Scroll of Explorer's Fire" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EXPLORER'S_FIRE" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_111 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Explorer's Fire.
+   </RulesElement>
+  <RulesElement name="Scroll of Excavation" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EXCAVATION" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_110 </specific>
+    <specific name="Market Price"> 300 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Excavation.
+   </RulesElement>
+  <RulesElement name="Scroll of Earthen Ramparts" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EARTHEN_RAMPARTS" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_109 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Earthen Ramparts.
+   </RulesElement>
+  <RulesElement name="Scroll of Delver's Fire" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DELVER'S_FIRE" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_108 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Delver's Fire.
+   </RulesElement>
+  <RulesElement name="Scroll of Delay Affliction" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DELAY_AFFLICTION" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_107 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Delay Affliction.
+   </RulesElement>
+  <RulesElement name="Scroll of Deceive Sensor" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DECEIVE_SENSOR" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_106 </specific>
+    <specific name="Market Price"> 325,000 gp </specific>
+    <specific name="Level"> 26 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Deceive Sensor.
+   </RulesElement>
+  <RulesElement name="Scroll of Conceal Object" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CONCEAL_OBJECT" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_105 </specific>
+    <specific name="Market Price"> 2,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Conceal Object.
+   </RulesElement>
+  <RulesElement name="Scroll of Chameleon's Cloak" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CHAMELEON'S_CLOAK" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_104 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Chameleon's Cloak.
+   </RulesElement>
+  <RulesElement name="Scroll of Bolster Object" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BOLSTER_OBJECT" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_103 </specific>
+    <specific name="Market Price"> 300 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Bolster Object.
+   </RulesElement>
+  <RulesElement name="Scroll of Battlefield Elocution" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BATTLEFIELD_ELOCUTION" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_102 </specific>
+    <specific name="Market Price"> 125 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Battlefield Elocution.
+   </RulesElement>
+  <RulesElement name="Scroll of Banish Vermin" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BANISH_VERMIN" source="Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_101 </specific>
+    <specific name="Market Price"> 30 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Banish Vermin.
+   </RulesElement>
+  <RulesElement name="Scroll of Arcane Barrier" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ARCANE_BARRIER" source="Dragon Magazine 366,Dragon Magazine 366">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_100 </specific>
+    <specific name="Market Price"> 3,200 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Arcane Barrier.
+   </RulesElement>
+  <RulesElement name="Scroll of Waterborn" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WATERBORN" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_98 </specific>
+    <specific name="Market Price"> 2,000 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Waterborn.
+   </RulesElement>
+  <RulesElement name="Scroll of Walk Crossroads" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WALK_CROSSROADS" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_97 </specific>
+    <specific name="Market Price"> 4,250 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Walk Crossroads.
+   </RulesElement>
+  <RulesElement name="Scroll of Trailblaze" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRAILBLAZE" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_96 </specific>
+    <specific name="Market Price"> 500 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Trailblaze.
+   </RulesElement>
+  <RulesElement name="Scroll of Tiny Lanterns" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TINY_LANTERNS" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_95 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Tiny Lanterns.
+   </RulesElement>
+  <RulesElement name="Scroll of Time Ravager" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TIME_RAVAGER" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_94 </specific>
+    <specific name="Market Price"> 3,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Time Ravager.
+   </RulesElement>
+  <RulesElement name="Scroll of Status" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_STATUS" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_93 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Status.
+   </RulesElement>
+  <RulesElement name="Scroll of Soulguard" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SOULGUARD" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_92 </specific>
+    <specific name="Market Price"> 20,000 gp </specific>
+    <specific name="Level"> 20 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Soulguard.
+   </RulesElement>
+  <RulesElement name="Scroll of Simbul's Conversion" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SIMBUL'S_CONVERSION" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_91 </specific>
+    <specific name="Market Price"> 125 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Simbul's Conversion.
+   </RulesElement>
+  <RulesElement name="Scroll of Shift Mote" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SHIFT_MOTE" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_90 </specific>
+    <specific name="Market Price"> 300,000 gp </specific>
+    <specific name="Level"> 26 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Shift Mote.
+   </RulesElement>
+  <RulesElement name="Scroll of Share Husk" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SHARE_HUSK" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_89 </specific>
+    <specific name="Market Price"> 400 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Share Husk.
+   </RulesElement>
+  <RulesElement name="Scroll of Shadow Bridge" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SHADOW_BRIDGE" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_88 </specific>
+    <specific name="Market Price"> 600 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Shadow Bridge.
+   </RulesElement>
+  <RulesElement name="Scroll of Seek Rumor" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SEEK_RUMOR" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_87 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Seek Rumor.
+   </RulesElement>
+  <RulesElement name="Scroll of Raise Land" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_RAISE_LAND" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_86 </specific>
+    <specific name="Market Price"> 600,000 gp </specific>
+    <specific name="Level"> 30 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Raise Land.
+   </RulesElement>
+  <RulesElement name="Scroll of Purify Spellscarred" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PURIFY_SPELLSCARRED" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_85 </specific>
+    <specific name="Market Price"> 20,000gp </specific>
+    <specific name="Level"> 18 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Purify Spellscarred.
+   </RulesElement>
+  <RulesElement name="Scroll of Purge Spellplague" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PURGE_SPELLPLAGUE" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_84 </specific>
+    <specific name="Market Price"> 150,000 gp </specific>
+    <specific name="Level"> 24 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Purge Spellplague.
+   </RulesElement>
+  <RulesElement name="Scroll of Feat of Strength" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FEAT_OF_STRENGTH" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_83 </specific>
+    <specific name="Market Price"> 75 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Feat of Strength.
+   </RulesElement>
+  <RulesElement name="Scroll of Duplicate" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DUPLICATE" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_82 </specific>
+    <specific name="Market Price"> 150 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Duplicate.
+   </RulesElement>
+  <RulesElement name="Scroll of Divine Sight" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DIVINE_SIGHT" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_81 </specific>
+    <specific name="Market Price"> 65,000 gp </specific>
+    <specific name="Level"> 22 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Divine Sight.
+   </RulesElement>
+  <RulesElement name="Scroll of Deathly Shroud" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DEATHLY_SHROUD" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_80 </specific>
+    <specific name="Market Price"> 600 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Deathly Shroud.
+   </RulesElement>
+  <RulesElement name="Scroll of Dark Light" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DARK_LIGHT" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_79 </specific>
+    <specific name="Market Price"> 150 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Dark Light.
+   </RulesElement>
+  <RulesElement name="Scroll of Clear the Path" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CLEAR_THE_PATH" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_78 </specific>
+    <specific name="Market Price"> 150 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Clear the Path.
+   </RulesElement>
+  <RulesElement name="Scroll of Arcane Mark" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ARCANE_MARK" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_77 </specific>
+    <specific name="Market Price"> 20 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Arcane Mark.
+   </RulesElement>
+  <RulesElement name="Scroll of Analyze Portal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ANALYZE_PORTAL" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_76 </specific>
+    <specific name="Market Price"> 800 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Analyze Portal.
+   </RulesElement>
+  <RulesElement name="Scroll of Amanuensis" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_AMANUENSIS" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_75 </specific>
+    <specific name="Market Price"> 20 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Amanuensis.
+   </RulesElement>
+  <RulesElement name="Scroll of Ritual of Twin Burnings" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_RITUAL_OF_TWIN_BURNINGS" source="Forgotten Realms Campaign Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_74 </specific>
+    <specific name="Market Price"> - </specific>
+    <specific name="Level"> 26 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Ritual of Twin Burnings.
+   </RulesElement>
+  <RulesElement name="Scroll of Pact of the Iron Ring" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PACT_OF_THE_IRON_RING" source="Forgotten Realms Campaign Guide">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_73 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Pact of the Iron Ring.
+   </RulesElement>
+  <RulesElement name="Scroll of Dark Gift of the Undying" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DARK_GIFT_OF_THE_UNDYING" source="Monster Manual">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_72 </specific>
+    <specific name="Market Price"> 75,000 gp </specific>
+    <specific name="Level"> 11 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Dark Gift of the Undying.
+   </RulesElement>
+  <RulesElement name="Scroll of Lich Transformation" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LICH_TRANSFORMATION" source="Monster Manual">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_71 </specific>
+    <specific name="Market Price"> 250,000 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Lich Transformation.
+   </RulesElement>
+  <RulesElement name="Scroll of Hallucinatory Item" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HALLUCINATORY_ITEM" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_65 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Hallucinatory Item.
+   </RulesElement>
+  <RulesElement name="Scroll of Hallucinatory Creature" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HALLUCINATORY_CREATURE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_64 </specific>
+    <specific name="Market Price"> 2,600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Hallucinatory Creature.
+   </RulesElement>
+  <RulesElement name="Scroll of Eye of Warning" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EYE_OF_WARNING" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_63 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Eye of Warning.
+   </RulesElement>
+  <RulesElement name="Scroll of Animal Friendship" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ANIMAL_FRIENDSHIP" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_62 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Animal Friendship.
+   </RulesElement>
+  <RulesElement name="Scroll of Water Walk" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WATER_WALK" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_61 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Water Walk.
+   </RulesElement>
+  <RulesElement name="Scroll of Tenser's Floating Disk" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TENSER'S_FLOATING_DISK" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_60 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Tenser's Floating Disk.
+   </RulesElement>
+  <RulesElement name="Scroll of Speak with Dead" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SPEAK_WITH_DEAD" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_59 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Speak with Dead.
+   </RulesElement>
+  <RulesElement name="Scroll of Silence" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SILENCE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_58 </specific>
+    <specific name="Market Price"> 75 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Silence.
+   </RulesElement>
+  <RulesElement name="Scroll of Shadow Walk" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SHADOW_WALK" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_56 </specific>
+    <specific name="Market Price"> 2,600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Shadow Walk.
+   </RulesElement>
+  <RulesElement name="Scroll of Sending" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SENDING" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_55 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Sending.
+   </RulesElement>
+  <RulesElement name="Scroll of Secret Page" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_SECRET_PAGE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_54 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Secret Page.
+   </RulesElement>
+  <RulesElement name="Scroll of Passwall" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PASSWALL" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_53 </specific>
+    <specific name="Market Price"> 2,600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Passwall.
+   </RulesElement>
+  <RulesElement name="Scroll of Make Whole" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MAKE_WHOLE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_51 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Make Whole.
+   </RulesElement>
+  <RulesElement name="Scroll of Magic Mouth" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MAGIC_MOUTH" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_50 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Magic Mouth.
+   </RulesElement>
+  <RulesElement name="Scroll of Magic Circle" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_MAGIC_CIRCLE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_49 </specific>
+    <specific name="Market Price"> 250 gp </specific>
+    <specific name="Level"> 5 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Magic Circle.
+   </RulesElement>
+  <RulesElement name="Scroll of Leomund's Secret Chest" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LEOMUND'S_SECRET_CHEST" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_48 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Leomund's Secret Chest.
+   </RulesElement>
+  <RulesElement name="Scroll of Gentle Repose" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_GENTLE_REPOSE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_47 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Gentle Repose.
+   </RulesElement>
+  <RulesElement name="Scroll of Drawmij's Instant Summons" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DRAWMIJ'S_INSTANT_SUMMONS" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_46 </specific>
+    <specific name="Market Price"> 2,600 gp </specific>
+    <specific name="Level"> 12 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Drawmij's Instant Summons.
+   </RulesElement>
+  <RulesElement name="Scroll of Discern Lies" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DISCERN_LIES" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_44 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Discern Lies.
+   </RulesElement>
+  <RulesElement name="Scroll of Detect Object" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DETECT_OBJECT" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_43 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Detect Object.
+   </RulesElement>
+  <RulesElement name="Scroll of Detect Secret Doors" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DETECT_SECRET_DOORS" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_42 </specific>
+    <specific name="Market Price"> 125 gp </specific>
+    <specific name="Level"> 3 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Detect Secret Doors.
+   </RulesElement>
+  <RulesElement name="Scroll of Commune With Nature" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_COMMUNE_WITH_NATURE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_41 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Commune With Nature.
+   </RulesElement>
+  <RulesElement name="Scroll of Animal Messenger" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ANIMAL_MESSENGER" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_40 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Animal Messenger.
+   </RulesElement>
+  <RulesElement name="Scroll of Comprehend Language" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_COMPREHEND_LANGUAGE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_39 </specific>
+    <specific name="Market Price"> 50 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Comprehend Language.
+   </RulesElement>
+  <RulesElement name="Scroll of Water Breathing" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WATER_BREATHING" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_37 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Water Breathing.
+   </RulesElement>
+  <RulesElement name="Scroll of Voice of Fate" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_VOICE_OF_FATE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_36 </specific>
+    <specific name="Market Price"> 225,000 gp </specific>
+    <specific name="Level"> 26 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Voice of Fate.
+   </RulesElement>
+  <RulesElement name="Scroll of View Object" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_VIEW_OBJECT" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_35 </specific>
+    <specific name="Market Price"> 17,000 gp </specific>
+    <specific name="Level"> 18 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual View Object.
+   </RulesElement>
+  <RulesElement name="Scroll of View Location" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_VIEW_LOCATION" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_34 </specific>
+    <specific name="Market Price"> 4,200 gp </specific>
+    <specific name="Level"> 14 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual View Location.
+   </RulesElement>
+  <RulesElement name="Scroll of Travelers' Feast" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRAVELERS'_FEAST" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_32 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Travelers' Feast.
+   </RulesElement>
+  <RulesElement name="Scroll of Remove Affliction" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_REMOVE_AFFLICTION" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_28 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Remove Affliction.
+   </RulesElement>
+  <RulesElement name="Scroll of Raise Dead" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_RAISE_DEAD" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_27 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Raise Dead.
+   </RulesElement>
+  <RulesElement name="Scroll of Phantom Steed" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PHANTOM_STEED" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_26 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Phantom Steed.
+   </RulesElement>
+  <RulesElement name="Scroll of Observe Creature" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_OBSERVE_CREATURE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_24 </specific>
+    <specific name="Market Price"> 105,000 gp </specific>
+    <specific name="Level"> 24 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Observe Creature.
+   </RulesElement>
+  <RulesElement name="Scroll of Arcane Lock" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ARCANE_LOCK" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_23 </specific>
+    <specific name="Market Price"> 150 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Arcane Lock.
+   </RulesElement>
+  <RulesElement name="Scroll of Knock" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_KNOCK" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_22 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Knock.
+   </RulesElement>
+  <RulesElement name="Scroll of Loremaster's Bargain" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LOREMASTER'S_BARGAIN" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_21 </specific>
+    <specific name="Market Price"> 65,000 gp </specific>
+    <specific name="Level"> 22 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Loremaster's Bargain.
+   </RulesElement>
+  <RulesElement name="Scroll of Hand of Fate" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_HAND_OF_FATE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_16 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Hand of Fate.
+   </RulesElement>
+  <RulesElement name="Scroll of True Portal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_TRUE_PORTAL" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_15 </specific>
+    <specific name="Market Price"> 425,000 gp </specific>
+    <specific name="Level"> 28 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual True Portal.
+   </RulesElement>
+  <RulesElement name="Scroll of Planar Portal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_PLANAR_PORTAL" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_14 </specific>
+    <specific name="Market Price"> 17,000 gp </specific>
+    <specific name="Level"> 18 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Planar Portal.
+   </RulesElement>
+  <RulesElement name="Scroll of Forbiddance" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_FORBIDDANCE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_12 </specific>
+    <specific name="Market Price"> 25,000 gp </specific>
+    <specific name="Level"> 20 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Forbiddance.
+   </RulesElement>
+  <RulesElement name="Scroll of Eye of Alarm" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_EYE_OF_ALARM" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_11 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Eye of Alarm.
+   </RulesElement>
+  <RulesElement name="Scroll of Endure Elements" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ENDURE_ELEMENTS" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_10 </specific>
+    <specific name="Market Price"> 100 gp </specific>
+    <specific name="Level"> 2 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Endure Elements.
+   </RulesElement>
+  <RulesElement name="Scroll of Enchant Magic Item" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_ENCHANT_MAGIC_ITEM" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_9 </specific>
+    <specific name="Market Price"> 175 gp </specific>
+    <specific name="Level"> 4 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Enchant Magic Item.
+   </RulesElement>
+  <RulesElement name="Scroll of Disenchant Magic Item" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_DISENCHANT_MAGIC_ITEM" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_7 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Disenchant Magic Item.
+   </RulesElement>
+  <RulesElement name="Scroll of Cure Disease" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CURE_DISEASE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_6 </specific>
+    <specific name="Market Price"> 360 gp </specific>
+    <specific name="Level"> 6 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Cure Disease.
+   </RulesElement>
+  <RulesElement name="Scroll of Consult Oracle" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CONSULT_ORACLE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_5 </specific>
+    <specific name="Market Price"> 9,000 gp </specific>
+    <specific name="Level"> 16 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Consult Oracle.
+   </RulesElement>
+  <RulesElement name="Scroll of Consult Mystic Sages" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_CONSULT_MYSTIC_SAGES" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_4 </specific>
+    <specific name="Market Price"> 1,000 gp </specific>
+    <specific name="Level"> 10 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Consult Mystic Sages.
+   </RulesElement>
+  <RulesElement name="Scroll of Wizard's Sight" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_WIZARD'S_SIGHT" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_3 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Wizard's Sight.
+   </RulesElement>
+  <RulesElement name="Scroll of Linked Portal" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_LINKED_PORTAL" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_2 </specific>
+    <specific name="Market Price"> 680 gp </specific>
+    <specific name="Level"> 8 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Linked Portal.
+   </RulesElement>
+  <RulesElement name="Scroll of Brew Potion" type="Ritual Scroll" internal-id="ID_INTERNAL_RITUAL_SCROLL_SCROLL_OF_BREW_POTION" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RITUAL_1 </specific>
+    <specific name="Market Price"> 75 gp </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="type"> Ritual </specific>
+A scroll containing a single use of the ritual Brew Potion.
+   </RulesElement>
+
+</D20Rules>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Power Source.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog /> <!-- Original Data -->
+  <RulesElement name="Shadow" type="Power Source" internal-id="ID_FMP_POWER_SOURCE_6" source="Dragon Magazine 379" revision-date="9/2/2009 9:50:28 AM" />
+  <RulesElement name="Psionic" type="Power Source" internal-id="ID_FMP_POWER_SOURCE_5" source="Player's Handbook 3" revision-date="4/10/2008 9:28:06 AM" />
+  <RulesElement name="Primal" type="Power Source" internal-id="ID_FMP_POWER_SOURCE_4" source="Player's Handbook 2" revision-date="4/10/2008 9:27:59 AM" />
+  <RulesElement name="Divine" type="Power Source" internal-id="ID_FMP_POWER_SOURCE_3" source="Player's Handbook" revision-date="3/5/2008 9:39:30 AM">
+Divine magic comes from the gods. The gods grant power to their devotees, which clerics and paladins, for example, access through prayers and litanies. Divine magic excels at healing, protection, and smiting the enemies of the gods. Divine powers are called prayers.
+   </RulesElement>
+  <RulesElement name="Arcane" type="Power Source" internal-id="ID_FMP_POWER_SOURCE_2" source="Player's Handbook" revision-date="3/5/2008 9:38:57 AM">
+Drawing on magical energy that permeates the cosmos, the arcane power source can be used for a wide variety of effects, from fireballs to flight to invisibility. Warlocks and wizards, for example, use arcane magic. Each class is the representative of a different tradition of arcane study,and other traditions exist. Arcane powers are called spells.
+   </RulesElement>
+  <RulesElement name="Martial" type="Power Source" internal-id="ID_FMP_POWER_SOURCE_1" source="Player's Handbook" revision-date="3/5/2008 9:39:31 AM">
+Martial powers are not magic in the traditional sense, although some martial powers stand well beyond the capabilities of ordinary mortals. Martial characters use their own strength and willpower to vanquish their enemies. Training and dedication replace arcane formulas and prayers to grant fighters, rangers, rogues, and warlords, among others, their power. Martial powers are called exploits.
+   </RulesElement>
+</D20Rules>

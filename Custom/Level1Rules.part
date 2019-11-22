@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Level1Rules.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Expansion5" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION5" source="Core" />
+  <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" source="Core" />
+  <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" source="Core" />
+  <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" source="Core">
+    <rules>
+      <select type="Theme" number="1" optional="true" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Expansion1" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION1" source="Core">
+    <rules>
+      <select type="Background" number="1" optional="true" requires="!Companion Class" />
+      <grant name="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" type="Internal" requires="!Companion Class" />
+      <select type="Background" number="5" optional="true" requires="!Companion Class" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="DetailsRules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_DETAILSRULES" source="Core">
+    <rules>
+      <select type="Gender" number="1" optional="true" />
+      <select type="Alignment" number="1" optional="true" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="SkillRules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_SKILLRULES" source="Core">
+    <rules>
+      <grant name="ID_FMP_SKILL_1" type="Skill" />
+      <statadd name="Acrobatics" value="+HALF-LEVEL" />
+      <statadd name="Acrobatics" value="+ABILITYMOD(Dexterity)" type="Ability" />
+      <statadd name="Acrobatics" value="+Acrobatics Trained" />
+      <statadd name="Acrobatics" value="+Acrobatics Misc" />
+      <statadd name="Acrobatics" value="+Armor Penalty" type="Armor Penalty" />
+      <grant name="ID_FMP_SKILL_2" type="Skill" />
+      <statadd name="Arcana" value="+HALF-LEVEL" />
+      <statadd name="Arcana" value="+ABILITYMOD(Intelligence)" type="Ability" />
+      <statadd name="Arcana" value="+Arcana Trained" />
+      <statadd name="Arcana" value="+Arcana Misc" />
+      <grant name="ID_FMP_SKILL_3" type="Skill" />
+      <statadd name="Bluff" value="+HALF-LEVEL" />
+      <statadd name="Bluff" value="+ABILITYMOD(Charisma)" type="Ability" />
+      <statadd name="Bluff" value="+Bluff Trained" />
+      <statadd name="Bluff" value="+Bluff Misc" />
+      <grant name="ID_FMP_SKILL_6" type="Skill" />
+      <statadd name="Diplomacy" value="+HALF-LEVEL" />
+      <statadd name="Diplomacy" value="+ABILITYMOD(Charisma)" type="Ability" />
+      <statadd name="Diplomacy" value="+Diplomacy Trained" />
+      <statadd name="Diplomacy" value="+Diplomacy Misc" />
+      <grant name="ID_FMP_SKILL_7" type="Skill" />
+      <statadd name="Dungeoneering" value="+HALF-LEVEL" />
+      <statadd name="Dungeoneering" value="+ABILITYMOD(Wisdom)" type="Ability" />
+      <statadd name="Dungeoneering" value="+Dungeoneering Trained" />
+      <statadd name="Dungeoneering" value="+Dungeoneering Misc" />
+      <grant name="ID_FMP_SKILL_8" type="Skill" />
+      <statadd name="Endurance" value="+HALF-LEVEL" />
+      <statadd name="Endurance" value="+ABILITYMOD(Constitution)" type="Ability" />
+      <statadd name="Endurance" value="+Endurance Trained" />
+      <statadd name="Endurance" value="+Endurance Misc" />
+      <statadd name="Endurance" value="+Armor Penalty" type="Armor Penalty" />
+      <grant name="ID_FMP_SKILL_9" type="Skill" />
+      <statadd name="Heal" value="+HALF-LEVEL" />
+      <statadd name="Heal" value="+ABILITYMOD(Wisdom)" type="Ability" />
+      <statadd name="Heal" value="+Heal Trained" />
+      <statadd name="Heal" value="+Heal Misc" />
+      <grant name="ID_FMP_SKILL_11" type="Skill" />
+      <statadd name="History" value="+HALF-LEVEL" />
+      <statadd name="History" value="+ABILITYMOD(Intelligence)" type="Ability" />
+      <statadd name="History" value="+History Trained" />
+      <statadd name="History" value="+History Misc" />
+      <grant name="ID_FMP_SKILL_13" type="Skill" />
+      <statadd name="Insight" value="+HALF-LEVEL" />
+      <statadd name="Insight" value="+ABILITYMOD(Wisdom)" type="Ability" />
+      <statadd name="Insight" value="+Insight Trained" />
+      <statadd name="Insight" value="+Insight Misc" />
+      <grant name="ID_FMP_SKILL_14" type="Skill" />
+      <statadd name="Intimidate" value="+HALF-LEVEL" />
+      <statadd name="Intimidate" value="+ABILITYMOD(Charisma)" type="Ability" />
+      <statadd name="Intimidate" value="+Intimidate Trained" />
+      <statadd name="Intimidate" value="+Intimidate Misc" />
+      <grant name="ID_FMP_SKILL_16" type="Skill" />
+      <statadd name="Nature" value="+HALF-LEVEL" />
+      <statadd name="Nature" value="+ABILITYMOD(Wisdom)" type="Ability" />
+      <statadd name="Nature" value="+Nature Trained" />
+      <statadd name="Nature" value="+Nature Misc" />
+      <grant name="ID_FMP_SKILL_17" type="Skill" />
+      <statadd name="Perception" value="+HALF-LEVEL" />
+      <statadd name="Perception" value="+ABILITYMOD(Wisdom)" type="Ability" />
+      <statadd name="Perception" value="+Perception Trained" />
+      <statadd name="Perception" value="+Perception Misc" />
+      <grant name="ID_FMP_SKILL_18" type="Skill" />
+      <statadd name="Religion" value="+HALF-LEVEL" />
+      <statadd name="Religion" value="+ABILITYMOD(Intelligence)" type="Ability" />
+      <statadd name="Religion" value="+Religion Trained" />
+      <statadd name="Religion" value="+Religion Misc" />
+      <grant name="ID_FMP_SKILL_20" type="Skill" />
+      <statadd name="Stealth" value="+HALF-LEVEL" />
+      <statadd name="Stealth" value="+ABILITYMOD(Dexterity)" type="Ability" />
+      <statadd name="Stealth" value="+Stealth Trained" />
+      <statadd name="Stealth" value="+Stealth Misc" />
+      <statadd name="Stealth" value="+Armor Penalty" type="Armor Penalty" />
+      <grant name="ID_FMP_SKILL_21" type="Skill" />
+      <statadd name="Streetwise" value="+HALF-LEVEL" />
+      <statadd name="Streetwise" value="+ABILITYMOD(Charisma)" type="Ability" />
+      <statadd name="Streetwise" value="+Streetwise Trained" />
+      <statadd name="Streetwise" value="+Streetwise Misc" />
+      <grant name="ID_FMP_SKILL_23" type="Skill" />
+      <statadd name="Thievery" value="+HALF-LEVEL" />
+      <statadd name="Thievery" value="+ABILITYMOD(Dexterity)" type="Ability" />
+      <statadd name="Thievery" value="+Thievery Trained" />
+      <statadd name="Thievery" value="+Thievery Misc" />
+      <statadd name="Thievery" value="+Armor Penalty" type="Armor Penalty" />
+      <grant name="ID_FMP_SKILL_27" type="Skill" />
+      <statadd name="Athletics" value="+HALF-LEVEL" />
+      <statadd name="Athletics" value="+ABILITYMOD(Strength)" type="Ability" />
+      <statadd name="Athletics" value="+Athletics Trained" />
+      <statadd name="Athletics" value="+Athletics Misc" />
+      <statadd name="Athletics" value="+Armor Penalty" type="Armor Penalty" />
+      <statadd name="Passive Perception" value="Perception" />
+      <statadd name="Passive Perception" value="+10" />
+      <statadd name="Passive Insight" value="Insight" />
+      <statadd name="Passive Insight" value="+10" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Level1Rules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_LEVEL1RULES" source="Core">
+    <rules>
+      <grant name="ID_INTERNAL_LEVEL1RULES_SKILLRULES" type="Level1Rules" />
+      <grant name="ID_INTERNAL_TIER_HEROIC" type="Tier" />
+      <grant name="ID_INTERNAL_POWER_MELEE_BASIC_ATTACK" type="Power" />
+      <grant name="ID_INTERNAL_POWER_RANGED_BASIC_ATTACK" type="Power" />
+      <grant name="ID_INTERNAL_POWER_BULL_RUSH_ATTACK" type="Power" />
+      <grant name="ID_INTERNAL_POWER_GRAB_ATTACK" type="Power" />
+      <grant name="ID_INTERNAL_POWER_OPPORTUNITY_ATTACK" type="Power" />
+      <grant name="ID_KDM_POWER_SECOND_WIND" type="Power" />
+      <textstring name="PowersAsClass" value="ID_FMP_CLASS_0" />
+    </rules>
+  </RulesElement>
+
+</D20Rules>

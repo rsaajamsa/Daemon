@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>CountsAsRace.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Thri-Kreen" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_THRI-KREEN" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_RACE_51 </specific>
+You count as a thri-Kreen for meeting prerequisites.
+</RulesElement>
+  <RulesElement name="Mul" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_MUL" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_RACE_50 </specific>
+You count as a mul for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Shade" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_SHADE" source="Heroes of Shadow">
+    <specific name="_SupportsID"> ID_FMP_RACE_52 </specific>
+You count as a shade for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Vryloka" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_VRYLOKA" source="Heroes of Shadow">
+    <specific name="_SupportsID"> ID_FMP_RACE_53 </specific>
+You count as a vryloka for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Hengeyokai" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_HENGEYOKAI" source="Dragon Magazine 404">
+    <specific name="_SupportsID"> ID_FMP_RACE_65 </specific>
+You count as a hengeyokai for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Pixie" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_PIXIE" source="Heroes of the Feywild">
+    <specific name="_SupportsID"> ID_FMP_RACE_61 </specific>
+You count as a pixie for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Satyr" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_SATYR" source="Heroes of the Feywild">
+    <specific name="_SupportsID"> ID_FMP_RACE_62 </specific>
+You count as an Satyr for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Hamadryad" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_HAMADRYAD" source="Heroes of the Feywild">
+    <specific name="_SupportsID"> ID_FMP_RACE_60 </specific>
+You count as an Hamadryad for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Svirfneblin" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_SVIRFNEBLIN" source="Dungeon Survival Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_66 </specific>
+You count as a svirfneblin for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Shardmind" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_SHARDMIND" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_RACE_49 </specific>
+You count as a shardmind for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Revenant" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_REVENANT" source="Dragon Magazine 376">
+    <specific name="_SupportsID"> ID_FMP_RACE_47 </specific>
+You count as a revenant for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Kalashtar" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_KALASHTAR" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RACE_46 </specific>
+You count as a kalashtar for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Wilden" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_WILDEN" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_RACE_44 </specific>
+You count as a wilden for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Kenku" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_KENKU" source="Monster Manual 2,Dragon Magazine 411">
+    <specific name="_SupportsID"> ID_FMP_RACE_43 </specific>
+You count as a kenku for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Duergar" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_DUERGAR" source="Monster Manual 2">
+    <specific name="_SupportsID"> ID_FMP_RACE_42 </specific>
+You count as a duergar for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Bullywug" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_BULLYWUG" source="Monster Manual 2">
+    <specific name="_SupportsID"> ID_FMP_RACE_41 </specific>
+You count as a bullywug for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Bladeling" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_BLADELING" source="Manual of the Planes">
+    <specific name="_SupportsID"> ID_FMP_RACE_38 </specific>
+You count as a bladeling for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Goliath" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_GOLIATH" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RACE_37 </specific>
+You count as a goliath for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Half-Orc" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_HALF-ORC" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RACE_36 </specific>
+You count as a half-Orc for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Deva" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_DEVA" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RACE_35 </specific>
+You count as a deva for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Genasi" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_GENASI" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RACE_33 </specific>
+You count as a genasi for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Razorclaw Shifter" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_RAZORCLAW_SHIFTER" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RACE_30 </specific>
+You count as a razorclaw Shifter for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Warforged" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_WARFORGED" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RACE_28 </specific>
+You count as a warforged for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Longtooth Shifter" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_LONGTOOTH_SHIFTER" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RACE_27 </specific>
+You count as a longtooth Shifter for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Shadar-kai" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_SHADAR-KAI" source="Dragon Magazine 372">
+    <specific name="_SupportsID"> ID_FMP_RACE_26 </specific>
+You count as a shadar-kai for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Orc" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_ORC" source="Monster Manual">
+    <specific name="_SupportsID"> ID_FMP_RACE_25 </specific>
+You count as an orc for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Minotaur" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_MINOTAUR" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_RACE_24 </specific>
+You count as a minotaur for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Kobold" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_KOBOLD" source="Dungeon Survival Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_23 </specific>
+You count as a kobold for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Hobgoblin" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_HOBGOBLIN" source="Monster Manual">
+    <specific name="_SupportsID"> ID_FMP_RACE_22 </specific>
+You count as a hobgoblin for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Goblin" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_GOBLIN" source="Dungeon Survival Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_21 </specific>
+You count as a goblin for meeting prerequisites.
+	</RulesElement>
+  <RulesElement name="Gnome" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_GNOME" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_RACE_20 </specific>
+You count as a gnome for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Gnoll" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_GNOLL" source="Dragon Magazine 367">
+    <specific name="_SupportsID"> ID_FMP_RACE_19 </specific>
+You count as a gnoll for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Githzerai" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_GITHZERAI" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_RACE_18 </specific>
+You count as a githzerai for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Githyanki" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_GITHYANKI" source="Monster Manual">
+    <specific name="_SupportsID"> ID_FMP_RACE_17 </specific>
+You count as a githyanki for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Drow" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_DROW" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RACE_16 </specific>
+You count as a drow for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Changeling" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_CHANGELING" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_RACE_14 </specific>
+You count as a changeling for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Bugbear" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_BUGBEAR" source="Monster Manual">
+    <specific name="_SupportsID"> ID_FMP_RACE_10 </specific>
+You count as a bugbear for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Tiefling" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_TIEFLING" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_8 </specific>
+You count as a tiefling for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Human" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_HUMAN" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_7 </specific>
+You count as a human for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Half-Elf" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_HALF-ELF" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_6 </specific>
+You count as a half-Elf for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Halfling" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_HALFLING" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_5 </specific>
+You count as a halfling for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Elf" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_ELF" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_4 </specific>
+You count as an elf for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Eladrin" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_ELADRIN" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_3 </specific>
+You count as an eladrin for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Dwarf" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_DWARF" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_2 </specific>
+You count as a dwarf for meeting prerequisites.
+   </RulesElement>
+  <RulesElement name="Dragonborn" type="CountsAsRace" internal-id="ID_INTERNAL_COUNTSASRACE_DRAGONBORN" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_RACE_1 </specific>
+You count as a dragonborn for meeting prerequisites.
+   </RulesElement>
+
+ 
+</D20Rules>

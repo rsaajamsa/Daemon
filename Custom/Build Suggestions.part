@@ -1,0 +1,2135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Build Suggestions.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Sorcerer-King Pact" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SORCERER-KING_WARLOCK" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_BUILD_303 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2895" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_44" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_293" type="Feat" />
+      <suggest name="ID_FMP_FEAT_622" type="Feat" />
+      <suggest name="ID_FMP_FEAT_950" type="Feat" />
+      <suggest name="ID_FMP_POWER_12887" type="Power" />
+      <suggest name="ID_FMP_POWER_12888" type="Power" />
+      <suggest name="ID_FMP_POWER_12889" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Wild Battlemind" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_WILD_BATTLEMIND" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_BUILD_112 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2662" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_178" type="Feat" />
+      <suggest name="ID_FMP_POWER_12418" type="Power" />
+      <suggest name="ID_FMP_POWER_12419" type="Power" />
+      <suggest name="ID_FMP_POWER_12420" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Arena Fighter" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_ARENA_FIGHTER" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_BUILD_301 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2893" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_792" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_449" type="Feat" />
+      <suggest name="ID_FMP_FEAT_405" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_12844" type="Power" />
+      <suggest name="ID_FMP_POWER_12845" type="Power" />
+      <suggest name="ID_FMP_POWER_12846" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Animist Shaman" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_ANIMIST_SHAMAN" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_BUILD_302 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2894" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_3236" type="Feat" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1002" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1027" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1020" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_POWER_4783" type="Power" />
+      <suggest name="ID_FMP_POWER_12866" type="Power" />
+      <suggest name="ID_FMP_POWER_12867" type="Power" />
+      <suggest name="ID_FMP_POWER_12868" type="Power" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Sorcerer-King Pact" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SORCERER-KING_PACT" source="Dark Sun Campaign Setting">
+    <specific name="_SupportsID"> ID_FMP_BUILD_116 </specific>
+  </RulesElement>
+  <RulesElement name="Shaper Psion" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SHAPER_PSION" source="Psionic Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_120 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_3097" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_13303" type="Power" />
+      <suggest name="ID_FMP_POWER_13311" type="Power" />
+      <suggest name="ID_FMP_POWER_13462" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_7" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Iron Soul Monk" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_IRON_SOUL_MONK" source="Psionic Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_119 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2952" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_3360" type="Feat" />
+      <suggest name="ID_FMP_POWER_13124" type="Power" />
+      <suggest name="ID_FMP_POWER_13126" type="Power" />
+      <suggest name="ID_FMP_POWER_13134" type="Power" />
+      <suggest name="ID_FMP_POWER_13140" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Harrier Battlemind" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_HARRIER_BATTLEMIND" source="Psionic Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_118 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2936" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_3290" type="Feat" />
+      <suggest name="ID_FMP_POWER_13026" type="Power" />
+      <suggest name="ID_FMP_POWER_13028" type="Power" />
+      <suggest name="ID_FMP_POWER_13029" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Impetuous Ardent" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_IMPETUOUS_ARDENT" source="Psionic Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_117 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2916" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_3283" type="Feat" />
+      <suggest name="ID_FMP_POWER_12932" type="Power" />
+      <suggest name="ID_FMP_POWER_12934" type="Power" />
+      <suggest name="ID_FMP_POWER_12936" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Protecting Seeker" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_PROTECTING_SEEKER" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_111 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2404" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2619" type="Feat" />
+      <suggest name="ID_FMP_POWER_11464" type="Power" />
+      <suggest name="ID_FMP_POWER_11467" type="Power" />
+      <suggest name="ID_FMP_POWER_11469" type="Power" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Wrathful Runepriest" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_WRATHFUL_RUNEPRIEST" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_110 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2390" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_11355" type="Power" />
+      <suggest name="ID_FMP_POWER_11368" type="Power" />
+      <suggest name="ID_FMP_POWER_11369" type="Power" />
+      <suggest name="ID_FMP_POWER_11373" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Defiant Runepriest" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_DEFIANT_RUNEPRIEST" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_109 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2389" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_11354" type="Power" />
+      <suggest name="ID_FMP_POWER_11356" type="Power" />
+      <suggest name="ID_FMP_POWER_11370" type="Power" />
+      <suggest name="ID_FMP_POWER_11375" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Telekinetic Psion" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TELEKINETIC_PSION" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_108 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2367" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_11269" type="Power" />
+      <suggest name="ID_FMP_POWER_11270" type="Power" />
+      <suggest name="ID_FMP_POWER_11272" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_7" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Stone Fist Monk" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_STONE_FIST_MONK" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_107 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2360" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2589" type="Feat" />
+      <suggest name="ID_FMP_POWER_7450" type="Power" />
+      <suggest name="ID_FMP_POWER_7535" type="Power" />
+      <suggest name="ID_FMP_POWER_11208" type="Power" />
+      <suggest name="ID_FMP_POWER_11213" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Resilient Battlemind" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_RESILIENT_BATTLEMIND" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_106 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2353" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_11156" type="Power" />
+      <suggest name="ID_FMP_POWER_11157" type="Power" />
+      <suggest name="ID_FMP_POWER_11158" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Skirmishing Warlord" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SKIRMISHING_WARLORD" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_105 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_316" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2393" type="Feat" />
+      <suggest name="ID_FMP_POWER_10890" type="Power" />
+      <suggest name="ID_FMP_POWER_10891" type="Power" />
+      <suggest name="ID_FMP_POWER_10894" type="Power" />
+      <suggest name="ID_FMP_POWER_10913" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Insightful Warlord" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_INSIGHTFUL_WARLORD" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_104 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2283" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2436" type="Feat" />
+      <suggest name="ID_FMP_POWER_10888" type="Power" />
+      <suggest name="ID_FMP_POWER_10889" type="Power" />
+      <suggest name="ID_FMP_POWER_10893" type="Power" />
+      <suggest name="ID_FMP_POWER_10914" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Shadowy Rogue" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SHADOWY_ROGUE" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_103 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2237" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2469" type="Feat" />
+      <suggest name="ID_FMP_POWER_10733" type="Power" />
+      <suggest name="ID_FMP_POWER_10736" type="Power" />
+      <suggest name="ID_FMP_POWER_10741" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_7" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Marauder Ranger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_MARAUDER_RANGER" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_102 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2210" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2439" type="Feat" />
+      <suggest name="ID_FMP_POWER_10592" type="Power" />
+      <suggest name="ID_FMP_POWER_10593" type="Power" />
+      <suggest name="ID_FMP_POWER_10596" type="Power" />
+      <suggest name="ID_FMP_POWER_10602" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Hunter Ranger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_HUNTER_RANGER" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_101 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2208" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2469" type="Feat" />
+      <suggest name="ID_FMP_POWER_10591" type="Power" />
+      <suggest name="ID_FMP_POWER_10598" type="Power" />
+      <suggest name="ID_FMP_POWER_10603" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Brawling Fighter" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_BRAWLING_FIGHTER" source="Martial Power 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_100 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2182" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2432" type="Feat" />
+      <suggest name="ID_FMP_POWER_10470" type="Power" />
+      <suggest name="ID_FMP_POWER_10471" type="Power" />
+      <suggest name="ID_FMP_POWER_10473" type="Power" />
+      <suggest name="ID_FMP_POWER_10481" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Quick Battlemind" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_QUICK_BATTLEMIND" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_99 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_765" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2270" type="Feat" />
+      <suggest name="ID_FMP_POWER_2622" type="Power" />
+      <suggest name="ID_FMP_POWER_2623" type="Power" />
+      <suggest name="ID_FMP_POWER_2628" type="Power" />
+      <suggest name="ID_FMP_POWER_10441" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Euphoric Ardent" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_EUPHORIC_ARDENT" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_98 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2336" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2143" type="Feat" />
+      <suggest name="ID_FMP_POWER_11061" type="Power" />
+      <suggest name="ID_FMP_POWER_11062" type="Power" />
+      <suggest name="ID_FMP_POWER_11064" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_21" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Enlightened Ardent" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_ENLIGHTENED_ARDENT" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_97 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2137" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_2141" type="Feat" />
+      <suggest name="ID_FMP_POWER_10275" type="Power" />
+      <suggest name="ID_FMP_POWER_10276" type="Power" />
+      <suggest name="ID_FMP_POWER_10278" type="Power" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Warrior Forge Artificer" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_WARRIOR_FORGE_ARTIFICER" source="Dragon Magazine 381">
+    <specific name="_SupportsID"> ID_FMP_BUILD_96 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1382" type="Feat" />
+      <suggest name="ID_FMP_POWER_10188" type="Power" />
+      <suggest name="ID_FMP_POWER_10189" type="Power" />
+      <suggest name="ID_FMP_POWER_10191" type="Power" />
+      <suggest name="ID_FMP_SKILL_7" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Storm Warden" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_STORM_WARDEN" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_95 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2027" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Life Warden" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_LIFE_WARDEN" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_94 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2026" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="World Speaker Shaman" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_WORLD_SPEAKER_SHAMAN" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_93 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2004" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Eagle Shaman" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_EAGLE_SHAMAN" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_92 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_2003" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Swarm Druid" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SWARM_DRUID" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_90 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1980" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Whirling Barbarian" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_WHIRLING_BARBARIAN" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_89 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1956" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_5249" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Thunderborn Barbarian" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_THUNDERBORN_BARBARIAN" source="Primal Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_87 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1955" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_9556" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Vengeful Seeker" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_VENGEFUL_SEEKER" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_86 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1954" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_9502" type="Power" />
+      <suggest name="ID_FMP_POWER_9505" type="Power" />
+      <suggest name="ID_FMP_POWER_9508" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Night Stalker Assassin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_NIGHT_STALKER_ASSASSIN" source="Dragon Magazine 379">
+    <specific name="_SupportsID"> ID_FMP_BUILD_85 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1953" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Bleak Disciple Assassin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_BLEAK_DISCIPLE_ASSASSIN" source="Dragon Magazine 379">
+    <specific name="_SupportsID"> ID_FMP_BUILD_84 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1952" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Shielding Cleric" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SHIELDING_CLERIC" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_82 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Telepathic Psion" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TELEPATHIC_PSION" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_81 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1811" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1634" type="Feat" />
+      <suggest name="ID_FMP_POWER_8227" type="Power" />
+      <suggest name="ID_FMP_POWER_8228" type="Power" />
+      <suggest name="ID_FMP_POWER_8229" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Tinkerer Artificer" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TINKERER_ARTIFICER" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_BUILD_80 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1400" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_4199" type="Power" />
+      <suggest name="ID_FMP_POWER_4200" type="Power" />
+      <suggest name="ID_FMP_POWER_5207" type="Power" />
+      <suggest name="ID_FMP_POWER_7641" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Virtuous Paladin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_VIRTUOUS_PALADIN" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_79 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Ardent Paladin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_ARDENT_PALADIN" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_78 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Malediction Invoker" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_MALEDICTION_INVOKER" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_77 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1717" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Commanding Avenger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_COMMANDING_AVENGER" source="Divine Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_75 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1657" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Centered Breath Monk" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_CENTERED_BREATH_MONK" source="Player's Handbook 3">
+    <specific name="_SupportsID"> ID_FMP_BUILD_74 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1544" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1985" type="Feat" />
+      <suggest name="ID_FMP_POWER_7449" type="Power" />
+      <suggest name="ID_FMP_POWER_7452" type="Power" />
+      <suggest name="ID_FMP_POWER_7453" type="Power" />
+      <suggest name="ID_FMP_POWER_7455" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Summoner Wizard" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SUMMONER_WIZARD" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_71 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1510" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_113" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_4019" type="Power" />
+      <suggest name="ID_FMP_POWER_4309" type="Power" />
+      <suggest name="ID_FMP_POWER_4016" type="Power" />
+      <suggest name="ID_FMP_POWER_1166" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_7" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Illusionist Wizard" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_ILLUSIONIST_WIZARD" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_70 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1509" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_3214" type="Power" />
+      <suggest name="ID_FMP_POWER_3215" type="Power" />
+      <suggest name="ID_FMP_POWER_4305" type="Power" />
+      <suggest name="ID_FMP_POWER_5802" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_7" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Ensnaring Swordmage" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_ENSNARING_SWORDMAGE" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_68 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1508" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_3129" type="Power" />
+      <suggest name="ID_FMP_POWER_3892" type="Power" />
+      <suggest name="ID_FMP_POWER_3947" type="Power" />
+      <suggest name="ID_FMP_POWER_3959" type="Power" />
+      <suggest name="ID_FMP_POWER_3996" type="Power" />
+      <suggest name="ID_FMP_POWER_5758" type="Power" />
+      <suggest name="ID_FMP_POWER_3952" type="Power" />
+      <suggest name="ID_FMP_POWER_3958" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Cosmic Sorcerer" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_COSMIC_SORCERER" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_67 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1368" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_3013" type="Power" />
+      <suggest name="ID_FMP_POWER_5842" type="Power" />
+      <suggest name="ID_FMP_POWER_5862" type="Power" />
+      <suggest name="ID_FMP_POWER_5863" type="Power" />
+      <suggest name="ID_FMP_POWER_5869" type="Power" />
+      <suggest name="ID_FMP_POWER_5877" type="Power" />
+      <suggest name="ID_FMP_POWER_5879" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Thaneborn Barbarian" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_THANEBORN_BARBARIAN" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_65 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1499" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_997" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1009" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_9" type="Feat" />
+      <suggest name="ID_FMP_FEAT_593" type="Feat" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Wild Warden" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_WILD_WARDEN" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_63 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1318" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_193" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_585" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_POWER_5102" type="Power" />
+      <suggest name="ID_FMP_POWER_5515" type="Power" />
+      <suggest name="ID_FMP_POWER_5149" type="Power" />
+      <suggest name="ID_FMP_POWER_5165" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Earth Warden" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_EARTH_WARDEN" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_62 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1317" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_193" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_583" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_585" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_584" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_5101" type="Power" />
+      <suggest name="ID_FMP_POWER_5124" type="Power" />
+      <suggest name="ID_FMP_POWER_5147" type="Power" />
+      <suggest name="ID_FMP_POWER_5157" type="Power" />
+      <suggest name="ID_FMP_POWER_5164" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Rageblood Barbarian" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_RAGEBLOOD_BARBARIAN" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_61 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1061" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_997" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1010" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_9" type="Feat" />
+      <suggest name="ID_FMP_FEAT_593" type="Feat" />
+      <suggest name="ID_FMP_POWER_4821" type="Power" />
+      <suggest name="ID_FMP_POWER_4829" type="Power" />
+      <suggest name="ID_FMP_POWER_4836" type="Power" />
+      <suggest name="ID_FMP_POWER_4848" type="Power" />
+      <suggest name="ID_FMP_POWER_5503" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Cutthroat Rogue" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_CUTTHROAT_ROGUE" source="Martial Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_58 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1031" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_185" type="Feat" />
+      <suggest name="ID_FMP_FEAT_302" type="Feat" />
+      <suggest name="ID_FMP_FEAT_818" type="Feat" />
+      <suggest name="ID_FMP_POWER_2248" type="Power" />
+      <suggest name="ID_FMP_POWER_2253" type="Power" />
+      <suggest name="ID_FMP_POWER_2515" type="Power" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+      <suggest name="ID_FMP_SKILL_21" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Aerialist Rogue" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_AERIALIST_ROGUE" source="Martial Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_57 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_780" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_36" type="Feat" />
+      <suggest name="ID_FMP_FEAT_185" type="Feat" />
+      <suggest name="ID_FMP_FEAT_818" type="Feat" />
+      <suggest name="ID_FMP_POWER_2254" type="Power" />
+      <suggest name="ID_FMP_POWER_2503" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Beastmaster Ranger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_BEASTMASTER_RANGER" source="Martial Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_56 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1030" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_761" type="Feat" />
+      <suggest name="ID_FMP_FEAT_273" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_633" type="Feat" />
+      <suggest name="ID_FMP_FEAT_301" type="Feat" />
+      <suggest name="ID_FMP_POWER_4368" type="Power" />
+      <suggest name="ID_FMP_POWER_4369" type="Power" />
+      <suggest name="ID_FMP_POWER_4373" type="Power" />
+      <suggest name="ID_FMP_POWER_4378" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Tempest Fighter" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TEMPEST_FIGHTER" source="Martial Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_55 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1029" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_238" type="Feat" />
+      <suggest name="ID_FMP_FEAT_173" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_240" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_POWER_2105" type="Power" />
+      <suggest name="ID_FMP_POWER_2107" type="Power" />
+      <suggest name="ID_FMP_POWER_2104" type="Power" />
+      <suggest name="ID_FMP_POWER_4316" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_21" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Battlerager Fighter" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_BATTLERAGER_FIGHTER" source="Martial Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_54 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1028" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_792" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_449" type="Feat" />
+      <suggest name="ID_FMP_FEAT_405" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_2099" type="Power" />
+      <suggest name="ID_FMP_POWER_2102" type="Power" />
+      <suggest name="ID_FMP_POWER_2124" type="Power" />
+      <suggest name="ID_FMP_POWER_2620" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Battlesmith Artificer" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_BATTLESMITH_ARTIFICER" source="Eberron Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_BUILD_53 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1400" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_POWER_4131" type="Power" />
+      <suggest name="ID_FMP_POWER_7636" type="Power" />
+      <suggest name="ID_FMP_POWER_7637" type="Power" />
+      <suggest name="ID_FMP_POWER_7639" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Panther Shaman" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_PANTHER_SHAMAN" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_52 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1252" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1002" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1027" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1030" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_POWER_3783" type="Power" />
+      <suggest name="ID_FMP_POWER_3796" type="Power" />
+      <suggest name="ID_FMP_POWER_3808" type="Power" />
+      <suggest name="ID_FMP_POWER_3820" type="Power" />
+      <suggest name="ID_FMP_POWER_5395" type="Power" />
+      <suggest name="ID_FMP_POWER_5406" type="Power" />
+      <suggest name="ID_FMP_POWER_5415" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Bear Shaman" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_BEAR_SHAMAN" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_51 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1251" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1002" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1027" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1020" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_POWER_3810" type="Power" />
+      <suggest name="ID_FMP_POWER_5392" type="Power" />
+      <suggest name="ID_FMP_POWER_5396" type="Power" />
+      <suggest name="ID_FMP_POWER_5400" type="Power" />
+      <suggest name="ID_FMP_POWER_5405" type="Power" />
+      <suggest name="ID_FMP_POWER_5414" type="Power" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Dragon Sorcerer" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_DRAGON_SORCERER" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_47 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_851" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_936" type="Feat" />
+      <suggest name="ID_FMP_FEAT_998" type="Feat" />
+      <suggest name="ID_FMP_FEAT_238" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_173" type="Feat" />
+      <suggest name="ID_FMP_FEAT_113" type="Feat" />
+      <suggest name="ID_FMP_FEAT_172" type="Feat" />
+      <suggest name="ID_FMP_FEAT_274" type="Feat" />
+      <suggest name="ID_FMP_POWER_3010" type="Power" />
+      <suggest name="ID_FMP_POWER_3168" type="Power" />
+      <suggest name="ID_FMP_POWER_3171" type="Power" />
+      <suggest name="ID_FMP_POWER_3177" type="Power" />
+      <suggest name="ID_FMP_POWER_3189" type="Power" />
+      <suggest name="ID_FMP_POWER_3211" type="Power" />
+      <suggest name="ID_FMP_POWER_3701" type="Power" />
+      <suggest name="ID_FMP_POWER_5878" type="Power" />
+      <suggest name="ID_FMP_POWER_5882" type="Power" />
+      <suggest name="ID_FMP_POWER_5266" type="Power" />
+      <suggest name="ID_FMP_POWER_5270" type="Power" />
+      <suggest name="ID_FMP_POWER_5277" type="Power" />
+      <suggest name="ID_FMP_POWER_3765" type="Power" />
+      <suggest name="ID_FMP_POWER_5287" type="Power" />
+      <suggest name="ID_FMP_POWER_5291" type="Power" />
+      <suggest name="ID_FMP_POWER_5297" type="Power" />
+      <suggest name="ID_FMP_POWER_5305" type="Power" />
+      <suggest name="ID_FMP_POWER_5309" type="Power" />
+      <suggest name="ID_FMP_POWER_6810" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Chaos Sorcerer" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_CHAOS_SORCERER" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_46 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_852" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_936" type="Feat" />
+      <suggest name="ID_FMP_FEAT_998" type="Feat" />
+      <suggest name="ID_FMP_FEAT_238" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_173" type="Feat" />
+      <suggest name="ID_FMP_FEAT_172" type="Feat" />
+      <suggest name="ID_FMP_FEAT_113" type="Feat" />
+      <suggest name="ID_FMP_POWER_3022" type="Power" />
+      <suggest name="ID_FMP_POWER_3162" type="Power" />
+      <suggest name="ID_FMP_POWER_3163" type="Power" />
+      <suggest name="ID_FMP_POWER_3170" type="Power" />
+      <suggest name="ID_FMP_POWER_3199" type="Power" />
+      <suggest name="ID_FMP_POWER_5871" type="Power" />
+      <suggest name="ID_FMP_POWER_5876" type="Power" />
+      <suggest name="ID_FMP_POWER_5260" type="Power" />
+      <suggest name="ID_FMP_POWER_5262" type="Power" />
+      <suggest name="ID_FMP_POWER_5511" type="Power" />
+      <suggest name="ID_FMP_POWER_5300" type="Power" />
+      <suggest name="ID_FMP_POWER_5513" type="Power" />
+      <suggest name="ID_FMP_POWER_6811" type="Power" />
+      <suggest name="ID_FMP_POWER_6537" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Pursuing Avenger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_PURSUING_AVENGER" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_45 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1497" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1078" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1016" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1013" type="Feat" />
+      <suggest name="ID_FMP_POWER_2904" type="Power" />
+      <suggest name="ID_FMP_POWER_2911" type="Power" />
+      <suggest name="ID_FMP_POWER_2943" type="Power" />
+      <suggest name="ID_FMP_POWER_3527" type="Power" />
+      <suggest name="ID_FMP_POWER_3539" type="Power" />
+      <suggest name="ID_FMP_POWER_5334" type="Power" />
+      <suggest name="ID_FMP_POWER_5345" type="Power" />
+      <suggest name="ID_FMP_POWER_5350" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Isolating Avenger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_ISOLATING_AVENGER" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_44 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1498" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1078" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1007" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1016" type="Feat" />
+      <suggest name="ID_FMP_POWER_2905" type="Power" />
+      <suggest name="ID_FMP_POWER_3518" type="Power" />
+      <suggest name="ID_FMP_POWER_3522" type="Power" />
+      <suggest name="ID_FMP_POWER_3528" type="Power" />
+      <suggest name="ID_FMP_POWER_3540" type="Power" />
+      <suggest name="ID_FMP_POWER_5344" type="Power" />
+      <suggest name="ID_FMP_POWER_5351" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+      <suggest name="ID_FMP_SKILL_21" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Storm Sorcerer" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_STORM_SORCERER" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_43 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1367" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_POWER_3005" type="Power" />
+      <suggest name="ID_FMP_POWER_3009" type="Power" />
+      <suggest name="ID_FMP_POWER_3034" type="Power" />
+      <suggest name="ID_FMP_POWER_5261" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Wrathful Invoker" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_WRATHFUL_INVOKER" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_42 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1266" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_159" type="Feat" />
+      <suggest name="ID_FMP_FEAT_483" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1079" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1022" type="Feat" />
+      <suggest name="ID_FMP_FEAT_285" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_2853" type="Power" />
+      <suggest name="ID_FMP_POWER_2868" type="Power" />
+      <suggest name="ID_FMP_POWER_3302" type="Power" />
+      <suggest name="ID_FMP_POWER_3305" type="Power" />
+      <suggest name="ID_FMP_POWER_3306" type="Power" />
+      <suggest name="ID_FMP_POWER_3397" type="Power" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Preserving Invoker" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_PRESERVING_INVOKER" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_41 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1265" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1012" type="Feat" />
+      <suggest name="ID_FMP_FEAT_483" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1022" type="Feat" />
+      <suggest name="ID_FMP_FEAT_509" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1002" type="Feat" />
+      <suggest name="ID_FMP_FEAT_159" type="Feat" />
+      <suggest name="ID_FMP_POWER_2869" type="Power" />
+      <suggest name="ID_FMP_POWER_2871" type="Power" />
+      <suggest name="ID_FMP_POWER_3296" type="Power" />
+      <suggest name="ID_FMP_POWER_3299" type="Power" />
+      <suggest name="ID_FMP_POWER_3301" type="Power" />
+      <suggest name="ID_FMP_POWER_5188" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Prescient Bard" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_PRESCIENT_BARD" source="Arcane Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_40 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1347" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_159" type="Feat" />
+      <suggest name="ID_FMP_POWER_2955" type="Power" />
+      <suggest name="ID_FMP_POWER_2961" type="Power" />
+      <suggest name="ID_FMP_POWER_5682" type="Power" />
+      <suggest name="ID_FMP_POWER_5700" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Guardian Druid" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_GUARDIAN_DRUID" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_39 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1121" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1018" type="Feat" />
+      <suggest name="ID_FMP_FEAT_555" type="Feat" />
+      <suggest name="ID_FMP_FEAT_552" type="Feat" />
+      <suggest name="ID_FMP_FEAT_633" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_POWER_2669" type="Power" />
+      <suggest name="ID_FMP_POWER_5041" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Predator Druid" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_PREDATOR_DRUID" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_38 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1122" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1018" type="Feat" />
+      <suggest name="ID_FMP_FEAT_555" type="Feat" />
+      <suggest name="ID_FMP_FEAT_552" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_POWER_2671" type="Power" />
+      <suggest name="ID_FMP_POWER_5048" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Bravura Warlord" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_BRAVURA_WARLORD" source="Martial Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_32 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1032" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_788" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_2530" type="Power" />
+      <suggest name="ID_FMP_POWER_2531" type="Power" />
+      <suggest name="ID_FMP_POWER_2536" type="Power" />
+      <suggest name="ID_FMP_POWER_2538" type="Power" />
+      <suggest name="ID_FMP_POWER_2540" type="Power" />
+      <suggest name="ID_FMP_POWER_2574" type="Power" />
+      <suggest name="ID_FMP_POWER_2582" type="Power" />
+      <suggest name="ID_FMP_POWER_2593" type="Power" />
+      <suggest name="ID_FMP_POWER_4541" type="Power" />
+      <suggest name="ID_FMP_POWER_4543" type="Power" />
+      <suggest name="ID_FMP_POWER_4547" type="Power" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Resourceful Warlord" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_RESOURCEFUL_WARLORD" source="Martial Power">
+    <specific name="_SupportsID"> ID_FMP_BUILD_30 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1033" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_790" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_POWER_2328" type="Power" />
+      <suggest name="ID_FMP_POWER_2329" type="Power" />
+      <suggest name="ID_FMP_POWER_2332" type="Power" />
+      <suggest name="ID_FMP_POWER_2333" type="Power" />
+      <suggest name="ID_FMP_POWER_2334" type="Power" />
+      <suggest name="ID_FMP_POWER_2335" type="Power" />
+      <suggest name="ID_FMP_POWER_2336" type="Power" />
+      <suggest name="ID_FMP_POWER_2337" type="Power" />
+      <suggest name="ID_FMP_POWER_2437" type="Power" />
+      <suggest name="ID_FMP_POWER_2438" type="Power" />
+      <suggest name="ID_FMP_POWER_2439" type="Power" />
+      <suggest name="ID_FMP_POWER_2442" type="Power" />
+      <suggest name="ID_FMP_POWER_2443" type="Power" />
+      <suggest name="ID_FMP_POWER_2444" type="Power" />
+      <suggest name="ID_FMP_POWER_2471" type="Power" />
+      <suggest name="ID_FMP_POWER_2552" type="Power" />
+      <suggest name="ID_FMP_POWER_2553" type="Power" />
+      <suggest name="ID_FMP_POWER_2565" type="Power" />
+      <suggest name="ID_FMP_POWER_2566" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Cunning Bard" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_CUNNING_BARD" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_28 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1123" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_471" type="Feat" />
+      <suggest name="ID_FMP_FEAT_159" type="Feat" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_441" type="Feat" />
+      <suggest name="ID_FMP_FEAT_470" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_POWER_2347" type="Power" />
+      <suggest name="ID_FMP_POWER_2392" type="Power" />
+      <suggest name="ID_FMP_POWER_2395" type="Power" />
+      <suggest name="ID_FMP_POWER_2414" type="Power" />
+      <suggest name="ID_FMP_POWER_3084" type="Power" />
+      <suggest name="ID_FMP_POWER_5016" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_21" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Valorous Bard" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_VALOROUS_BARD" source="Player's Handbook 2">
+    <specific name="_SupportsID"> ID_FMP_BUILD_27 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1124" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_471" type="Feat" />
+      <suggest name="ID_FMP_FEAT_159" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_441" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1016" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_2348" type="Power" />
+      <suggest name="ID_FMP_POWER_2349" type="Power" />
+      <suggest name="ID_FMP_POWER_2352" type="Power" />
+      <suggest name="ID_FMP_POWER_2370" type="Power" />
+      <suggest name="ID_FMP_POWER_2374" type="Power" />
+      <suggest name="ID_FMP_POWER_2394" type="Power" />
+      <suggest name="ID_FMP_POWER_2410" type="Power" />
+      <suggest name="ID_FMP_POWER_2411" type="Power" />
+      <suggest name="ID_FMP_POWER_2415" type="Power" />
+      <suggest name="ID_FMP_POWER_2416" type="Power" />
+      <suggest name="ID_FMP_POWER_2782" type="Power" />
+      <suggest name="ID_FMP_POWER_2784" type="Power" />
+      <suggest name="ID_FMP_POWER_2785" type="Power" />
+      <suggest name="ID_FMP_POWER_3083" type="Power" />
+      <suggest name="ID_FMP_POWER_3104" type="Power" />
+      <suggest name="ID_FMP_POWER_3108" type="Power" />
+      <suggest name="ID_FMP_POWER_3114" type="Power" />
+      <suggest name="ID_FMP_POWER_3099" type="Power" />
+      <suggest name="ID_FMP_POWER_3116" type="Power" />
+      <suggest name="ID_FMP_POWER_3117" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Shielding Swordmage" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SHIELDING_SWORDMAGE" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_BUILD_21 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_886" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_POWER_1703" type="Power" />
+      <suggest name="ID_FMP_POWER_1721" type="Power" />
+      <suggest name="ID_FMP_POWER_1725" type="Power" />
+      <suggest name="ID_FMP_POWER_1737" type="Power" />
+      <suggest name="ID_FMP_POWER_1740" type="Power" />
+      <suggest name="ID_FMP_POWER_1779" type="Power" />
+      <suggest name="ID_FMP_POWER_1787" type="Power" />
+      <suggest name="ID_FMP_POWER_2078" type="Power" />
+      <suggest name="ID_FMP_POWER_3323" type="Power" />
+      <suggest name="ID_FMP_POWER_3364" type="Power" />
+      <suggest name="ID_FMP_POWER_3372" type="Power" />
+      <suggest name="ID_FMP_POWER_3386" type="Power" />
+      <suggest name="ID_FMP_POWER_3392" type="Power" />
+      <suggest name="ID_FMP_POWER_3945" type="Power" />
+      <suggest name="ID_FMP_POWER_4800" type="Power" />
+      <suggest name="ID_FMP_POWER_5737" type="Power" />
+      <suggest name="ID_FMP_POWER_5755" type="Power" />
+      <suggest name="ID_FMP_POWER_5765" type="Power" />
+      <suggest name="ID_FMP_POWER_6835" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Assault Swordmage" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_ASSAULT_SWORDMAGE" source="Forgotten Realms Player's Guide">
+    <specific name="_SupportsID"> ID_FMP_BUILD_20 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_885" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_POWER_1710" type="Power" />
+      <suggest name="ID_FMP_POWER_1711" type="Power" />
+      <suggest name="ID_FMP_POWER_1724" type="Power" />
+      <suggest name="ID_FMP_POWER_1729" type="Power" />
+      <suggest name="ID_FMP_POWER_1728" type="Power" />
+      <suggest name="ID_FMP_POWER_1736" type="Power" />
+      <suggest name="ID_FMP_POWER_1773" type="Power" />
+      <suggest name="ID_FMP_POWER_1777" type="Power" />
+      <suggest name="ID_FMP_POWER_1778" type="Power" />
+      <suggest name="ID_FMP_POWER_1780" type="Power" />
+      <suggest name="ID_FMP_POWER_3130" type="Power" />
+      <suggest name="ID_FMP_POWER_3134" type="Power" />
+      <suggest name="ID_FMP_POWER_3322" type="Power" />
+      <suggest name="ID_FMP_POWER_3363" type="Power" />
+      <suggest name="ID_FMP_POWER_3391" type="Power" />
+      <suggest name="ID_FMP_POWER_3910" type="Power" />
+      <suggest name="ID_FMP_POWER_3970" type="Power" />
+      <suggest name="ID_FMP_POWER_4015" type="Power" />
+      <suggest name="ID_FMP_POWER_5743" type="Power" />
+      <suggest name="ID_FMP_POWER_583" type="Power" />
+      <suggest name="ID_FMP_POWER_3965" type="Power" />
+      <suggest name="ID_FMP_POWER_3979" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Two-Blade Ranger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TWO-BLADE_RANGER" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_19 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_779" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_273" type="Feat" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_280" type="Feat" />
+      <suggest name="ID_FMP_FEAT_217" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_87" type="Power" />
+      <suggest name="ID_FMP_POWER_851" type="Power" />
+      <suggest name="ID_FMP_POWER_86" type="Power" />
+      <suggest name="ID_FMP_POWER_714" type="Power" />
+      <suggest name="ID_FMP_POWER_749" type="Power" />
+      <suggest name="ID_FMP_POWER_924" type="Power" />
+      <suggest name="ID_FMP_POWER_926" type="Power" />
+      <suggest name="ID_FMP_POWER_718" type="Power" />
+      <suggest name="ID_FMP_POWER_1510" type="Power" />
+      <suggest name="ID_FMP_POWER_1416" type="Power" />
+      <suggest name="ID_FMP_POWER_1418" type="Power" />
+      <suggest name="ID_FMP_POWER_1505" type="Power" />
+      <suggest name="ID_FMP_POWER_848" type="Power" />
+      <suggest name="ID_FMP_POWER_2209" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_7" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Archer Ranger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_ARCHER_RANGER" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_18 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_778" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_151" type="Feat" />
+      <suggest name="ID_FMP_FEAT_892" type="Feat" />
+      <suggest name="ID_FMP_FEAT_327" type="Feat" />
+      <suggest name="ID_FMP_FEAT_901" type="Feat" />
+      <suggest name="ID_FMP_FEAT_347" type="Feat" />
+      <suggest name="ID_FMP_FEAT_904" type="Feat" />
+      <suggest name="ID_FMP_FEAT_176" type="Feat" />
+      <suggest name="ID_FMP_FEAT_907" type="Feat" />
+      <suggest name="ID_FMP_FEAT_8" type="Feat" />
+      <suggest name="ID_FMP_FEAT_32" type="Feat" />
+      <suggest name="ID_FMP_FEAT_833" type="Feat" />
+      <suggest name="ID_FMP_FEAT_189" type="Feat" />
+      <suggest name="ID_FMP_FEAT_859" type="Feat" />
+      <suggest name="ID_FMP_FEAT_15" type="Feat" />
+      <suggest name="ID_FMP_FEAT_860" type="Feat" />
+      <suggest name="ID_FMP_FEAT_321" type="Feat" />
+      <suggest name="ID_FMP_FEAT_16" type="Feat" />
+      <suggest name="ID_FMP_FEAT_128" type="Feat" />
+      <suggest name="ID_FMP_FEAT_954" type="Feat" />
+      <suggest name="ID_FMP_FEAT_761" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_273" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_217" type="Feat" />
+      <suggest name="ID_FMP_FEAT_633" type="Feat" />
+      <suggest name="ID_FMP_FEAT_626" type="Feat" />
+      <suggest name="ID_FMP_FEAT_31" type="Feat" />
+      <suggest name="ID_FMP_FEAT_333" type="Feat" />
+      <suggest name="ID_FMP_FEAT_807" type="Feat" />
+      <suggest name="ID_FMP_FEAT_19" type="Feat" />
+      <suggest name="ID_FMP_FEAT_109" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_764" type="Feat" />
+      <suggest name="ID_FMP_FEAT_57" type="Feat" />
+      <suggest name="ID_FMP_POWER_917" type="Power" />
+      <suggest name="ID_FMP_POWER_919" type="Power" />
+      <suggest name="ID_FMP_POWER_855" type="Power" />
+      <suggest name="ID_FMP_POWER_921" type="Power" />
+      <suggest name="ID_FMP_POWER_384" type="Power" />
+      <suggest name="ID_FMP_POWER_160" type="Power" />
+      <suggest name="ID_FMP_POWER_922" type="Power" />
+      <suggest name="ID_FMP_POWER_925" type="Power" />
+      <suggest name="ID_FMP_POWER_748" type="Power" />
+      <suggest name="ID_FMP_POWER_217" type="Power" />
+      <suggest name="ID_FMP_POWER_1419" type="Power" />
+      <suggest name="ID_FMP_POWER_1386" type="Power" />
+      <suggest name="ID_FMP_POWER_920" type="Power" />
+      <suggest name="ID_FMP_POWER_2207" type="Power" />
+      <suggest name="ID_FMP_POWER_2210" type="Power" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Brawny Rogue" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_BRAWNY_ROGUE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_17 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_781" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_185" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_251" type="Feat" />
+      <suggest name="ID_FMP_POWER_704" type="Power" />
+      <suggest name="ID_FMP_POWER_653" type="Power" />
+      <suggest name="ID_FMP_POWER_209" type="Power" />
+      <suggest name="ID_FMP_POWER_339" type="Power" />
+      <suggest name="ID_FMP_POWER_1032" type="Power" />
+      <suggest name="ID_FMP_POWER_1039" type="Power" />
+      <suggest name="ID_FMP_POWER_365" type="Power" />
+      <suggest name="ID_FMP_POWER_1042" type="Power" />
+      <suggest name="ID_FMP_POWER_1385" type="Power" />
+      <suggest name="ID_FMP_POWER_981" type="Power" />
+      <suggest name="ID_FMP_POWER_1395" type="Power" />
+      <suggest name="ID_FMP_POWER_1422" type="Power" />
+      <suggest name="ID_FMP_POWER_1426" type="Power" />
+      <suggest name="ID_FMP_POWER_1515" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_7" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+      <suggest name="ID_FMP_SKILL_21" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Trickster Rogue" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TRICKSTER_ROGUE" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_16 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_780" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_185" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_251" type="Feat" />
+      <suggest name="ID_FMP_POWER_970" type="Power" />
+      <suggest name="ID_FMP_POWER_971" type="Power" />
+      <suggest name="ID_FMP_POWER_550" type="Power" />
+      <suggest name="ID_FMP_POWER_977" type="Power" />
+      <suggest name="ID_FMP_POWER_982" type="Power" />
+      <suggest name="ID_FMP_POWER_543" type="Power" />
+      <suggest name="ID_FMP_POWER_1010" type="Power" />
+      <suggest name="ID_FMP_POWER_1040" type="Power" />
+      <suggest name="ID_FMP_POWER_1043" type="Power" />
+      <suggest name="ID_FMP_POWER_142" type="Power" />
+      <suggest name="ID_FMP_POWER_1387" type="Power" />
+      <suggest name="ID_FMP_POWER_1397" type="Power" />
+      <suggest name="ID_FMP_POWER_1480" type="Power" />
+      <suggest name="ID_FMP_POWER_1483" type="Power" />
+      <suggest name="ID_FMP_POWER_1495" type="Power" />
+      <suggest name="ID_FMP_POWER_2284" type="Power" />
+      <suggest name="ID_FMP_SKILL_1" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_17" type="Skill" />
+      <suggest name="ID_FMP_SKILL_20" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Scourge Warlock" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_SCOURGE_WARLOCK" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_15 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_773" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_44" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_291" type="Feat" />
+      <suggest name="ID_FMP_FEAT_622" type="Feat" />
+      <suggest name="ID_FMP_POWER_1376" type="Power" />
+      <suggest name="ID_FMP_POWER_1341" type="Power" />
+      <suggest name="ID_FMP_POWER_501" type="Power" />
+      <suggest name="ID_FMP_POWER_750" type="Power" />
+      <suggest name="ID_FMP_POWER_1368" type="Power" />
+      <suggest name="ID_FMP_POWER_662" type="Power" />
+      <suggest name="ID_FMP_POWER_1323" type="Power" />
+      <suggest name="ID_FMP_POWER_62" type="Power" />
+      <suggest name="ID_FMP_POWER_1343" type="Power" />
+      <suggest name="ID_FMP_POWER_1314" type="Power" />
+      <suggest name="ID_FMP_POWER_1401" type="Power" />
+      <suggest name="ID_FMP_POWER_1402" type="Power" />
+      <suggest name="ID_FMP_POWER_1462" type="Power" />
+      <suggest name="ID_FMP_POWER_1473" type="Power" />
+      <suggest name="ID_FMP_POWER_1333" type="Power" />
+      <suggest name="ID_FMP_POWER_1458" type="Power" />
+      <suggest name="ID_FMP_POWER_4094" type="Power" />
+      <suggest name="ID_FMP_POWER_4283" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_21" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Deceptive Warlock" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_DECEPTIVE_WARLOCK" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_14 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_772" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_44" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_293" type="Feat" />
+      <suggest name="ID_FMP_FEAT_622" type="Feat" />
+      <suggest name="ID_FMP_FEAT_950" type="Feat" />
+      <suggest name="ID_FMP_POWER_1333" type="Power" />
+      <suggest name="ID_FMP_POWER_661" type="Power" />
+      <suggest name="ID_FMP_POWER_1351" type="Power" />
+      <suggest name="ID_FMP_POWER_729" type="Power" />
+      <suggest name="ID_FMP_POWER_1299" type="Power" />
+      <suggest name="ID_FMP_POWER_1328" type="Power" />
+      <suggest name="ID_FMP_POWER_1326" type="Power" />
+      <suggest name="ID_FMP_POWER_1320" type="Power" />
+      <suggest name="ID_FMP_POWER_1400" type="Power" />
+      <suggest name="ID_FMP_POWER_1408" type="Power" />
+      <suggest name="ID_FMP_POWER_1456" type="Power" />
+      <suggest name="ID_FMP_POWER_1461" type="Power" />
+      <suggest name="ID_FMP_POWER_1472" type="Power" />
+      <suggest name="ID_FMP_POWER_1474" type="Power" />
+      <suggest name="ID_FMP_POWER_1886" type="Power" />
+      <suggest name="ID_FMP_POWER_1871" type="Power" />
+      <suggest name="ID_FMP_POWER_1872" type="Power" />
+      <suggest name="ID_FMP_POWER_1883" type="Power" />
+      <suggest name="ID_FMP_POWER_1921" type="Power" />
+      <suggest name="ID_FMP_POWER_1873" type="Power" />
+      <suggest name="ID_FMP_POWER_1924" type="Power" />
+      <suggest name="ID_FMP_POWER_2264" type="Power" />
+      <suggest name="ID_FMP_POWER_1459" type="Power" />
+      <suggest name="ID_FMP_POWER_1471" type="Power" />
+      <suggest name="ID_FMP_POWER_3405" type="Power" />
+      <suggest name="ID_FMP_POWER_3406" type="Power" />
+      <suggest name="ID_FMP_POWER_4093" type="Power" />
+      <suggest name="ID_FMP_POWER_4280" type="Power" />
+      <suggest name="ID_FMP_POWER_4284" type="Power" />
+      <suggest name="ID_FMP_POWER_4285" type="Power" />
+      <suggest name="ID_FMP_POWER_4286" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_3" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_23" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Tactical Warlord" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TACTICAL_WARLORD" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_13 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_783" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_308" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_294" type="Feat" />
+      <suggest name="ID_FMP_POWER_620" type="Power" />
+      <suggest name="ID_FMP_POWER_1063" type="Power" />
+      <suggest name="ID_FMP_POWER_1066" type="Power" />
+      <suggest name="ID_FMP_POWER_158" type="Power" />
+      <suggest name="ID_FMP_POWER_1075" type="Power" />
+      <suggest name="ID_FMP_POWER_450" type="Power" />
+      <suggest name="ID_FMP_POWER_239" type="Power" />
+      <suggest name="ID_FMP_POWER_137" type="Power" />
+      <suggest name="ID_FMP_POWER_1137" type="Power" />
+      <suggest name="ID_FMP_POWER_1139" type="Power" />
+      <suggest name="ID_FMP_POWER_1141" type="Power" />
+      <suggest name="ID_FMP_POWER_1146" type="Power" />
+      <suggest name="ID_FMP_POWER_1413" type="Power" />
+      <suggest name="ID_FMP_POWER_1414" type="Power" />
+      <suggest name="ID_FMP_POWER_1574" type="Power" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Inspiring Warlord" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_INSPIRING_WARLORD" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_12 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_32" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_218" type="Feat" />
+      <suggest name="ID_FMP_FEAT_308" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_814" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_POWER_315" type="Power" />
+      <suggest name="ID_FMP_POWER_1061" type="Power" />
+      <suggest name="ID_FMP_POWER_1064" type="Power" />
+      <suggest name="ID_FMP_POWER_1065" type="Power" />
+      <suggest name="ID_FMP_POWER_1074" type="Power" />
+      <suggest name="ID_FMP_POWER_1076" type="Power" />
+      <suggest name="ID_FMP_POWER_154" type="Power" />
+      <suggest name="ID_FMP_POWER_1112" type="Power" />
+      <suggest name="ID_FMP_POWER_1114" type="Power" />
+      <suggest name="ID_FMP_POWER_1115" type="Power" />
+      <suggest name="ID_FMP_POWER_1136" type="Power" />
+      <suggest name="ID_FMP_POWER_1140" type="Power" />
+      <suggest name="ID_FMP_POWER_1310" type="Power" />
+      <suggest name="ID_FMP_POWER_1556" type="Power" />
+      <suggest name="ID_FMP_POWER_1575" type="Power" />
+      <suggest name="ID_FMP_POWER_2590" type="Power" />
+      <suggest name="ID_FMP_POWER_3244" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Avenging Paladin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_AVENGING_PALADIN" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_11 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_POWER_358" type="Power" />
+      <suggest name="ID_FMP_POWER_835" type="Power" />
+      <suggest name="ID_FMP_POWER_1243" type="Power" />
+      <suggest name="ID_FMP_POWER_356" type="Power" />
+      <suggest name="ID_FMP_POWER_1255" type="Power" />
+      <suggest name="ID_FMP_POWER_778" type="Power" />
+      <suggest name="ID_FMP_POWER_1267" type="Power" />
+      <suggest name="ID_FMP_POWER_1288" type="Power" />
+      <suggest name="ID_FMP_POWER_1284" type="Power" />
+      <suggest name="ID_FMP_POWER_1567" type="Power" />
+      <suggest name="ID_FMP_POWER_2258" type="Power" />
+      <suggest name="ID_FMP_POWER_2259" type="Power" />
+      <suggest name="ID_FMP_POWER_2260" type="Power" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Protecting Paladin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_PROTECTING_PALADIN" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_10 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_290" type="Feat" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_POWER_755" type="Power" />
+      <suggest name="ID_FMP_POWER_833" type="Power" />
+      <suggest name="ID_FMP_POWER_836" type="Power" />
+      <suggest name="ID_FMP_POWER_754" type="Power" />
+      <suggest name="ID_FMP_POWER_1244" type="Power" />
+      <suggest name="ID_FMP_POWER_1252" type="Power" />
+      <suggest name="ID_FMP_POWER_1273" type="Power" />
+      <suggest name="ID_FMP_POWER_1274" type="Power" />
+      <suggest name="ID_FMP_POWER_1264" type="Power" />
+      <suggest name="ID_FMP_POWER_31" type="Power" />
+      <suggest name="ID_FMP_POWER_1292" type="Power" />
+      <suggest name="ID_FMP_POWER_1279" type="Power" />
+      <suggest name="ID_FMP_POWER_1300" type="Power" />
+      <suggest name="ID_FMP_POWER_1445" type="Power" />
+      <suggest name="ID_FMP_POWER_1568" type="Power" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="War Wizard" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_WAR_WIZARD" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_9 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_771" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_113" type="Feat" />
+      <suggest name="ID_FMP_FEAT_159" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_1166" type="Power" />
+      <suggest name="ID_FMP_POWER_463" type="Power" />
+      <suggest name="ID_FMP_POWER_159" type="Power" />
+      <suggest name="ID_FMP_POWER_464" type="Power" />
+      <suggest name="ID_FMP_POWER_189" type="Power" />
+      <suggest name="ID_FMP_POWER_251" type="Power" />
+      <suggest name="ID_FMP_POWER_419" type="Power" />
+      <suggest name="ID_FMP_POWER_480" type="Power" />
+      <suggest name="ID_FMP_POWER_1235" type="Power" />
+      <suggest name="ID_FMP_POWER_1208" type="Power" />
+      <suggest name="ID_FMP_POWER_1530" type="Power" />
+      <suggest name="ID_FMP_POWER_1543" type="Power" />
+      <suggest name="ID_FMP_POWER_1553" type="Power" />
+      <suggest name="ID_FMP_POWER_2272" type="Power" />
+      <suggest name="ID_FMP_POWER_2273" type="Power" />
+      <suggest name="ID_FMP_POWER_2274" type="Power" />
+      <suggest name="ID_FMP_POWER_2835" type="Power" />
+      <suggest name="ID_FMP_POWER_3219" type="Power" />
+      <suggest name="ID_FMP_POWER_3220" type="Power" />
+      <suggest name="ID_FMP_POWER_4022" type="Power" />
+      <suggest name="ID_FMP_POWER_192" type="Power" />
+      <suggest name="ID_FMP_POWER_4078" type="Power" />
+      <suggest name="ID_FMP_POWER_4237" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_7" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Control Wizard" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_CONTROL_WIZARD" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_8 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_769" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_4" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_113" type="Feat" />
+      <suggest name="ID_FMP_FEAT_159" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_POWER_1169" type="Power" />
+      <suggest name="ID_FMP_POWER_435" type="Power" />
+      <suggest name="ID_FMP_POWER_454" type="Power" />
+      <suggest name="ID_FMP_POWER_1195" type="Power" />
+      <suggest name="ID_FMP_POWER_67" type="Power" />
+      <suggest name="ID_FMP_POWER_451" type="Power" />
+      <suggest name="ID_FMP_POWER_259" type="Power" />
+      <suggest name="ID_FMP_POWER_191" type="Power" />
+      <suggest name="ID_FMP_POWER_722" type="Power" />
+      <suggest name="ID_FMP_POWER_1223" type="Power" />
+      <suggest name="ID_FMP_POWER_513" type="Power" />
+      <suggest name="ID_FMP_POWER_1209" type="Power" />
+      <suggest name="ID_FMP_POWER_32" type="Power" />
+      <suggest name="ID_FMP_POWER_1231" type="Power" />
+      <suggest name="ID_FMP_POWER_1164" type="Power" />
+      <suggest name="ID_FMP_POWER_1424" type="Power" />
+      <suggest name="ID_FMP_POWER_1430" type="Power" />
+      <suggest name="ID_FMP_POWER_1229" type="Power" />
+      <suggest name="ID_FMP_POWER_1548" type="Power" />
+      <suggest name="ID_FMP_POWER_3222" type="Power" />
+      <suggest name="ID_FMP_POWER_3221" type="Power" />
+      <suggest name="ID_FMP_POWER_3217" type="Power" />
+      <suggest name="ID_FMP_POWER_3218" type="Power" />
+      <suggest name="ID_FMP_POWER_4020" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_16" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Devoted Cleric" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_DEVOTED_CLERIC" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_7 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_3" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_304" type="Feat" />
+      <suggest name="ID_FMP_FEAT_734" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_159" type="Feat" />
+      <suggest name="ID_FMP_FEAT_620" type="Feat" />
+      <suggest name="ID_FMP_POWER_841" type="Power" />
+      <suggest name="ID_FMP_POWER_889" type="Power" />
+      <suggest name="ID_FMP_POWER_891" type="Power" />
+      <suggest name="ID_FMP_POWER_894" type="Power" />
+      <suggest name="ID_FMP_POWER_490" type="Power" />
+      <suggest name="ID_FMP_POWER_537" type="Power" />
+      <suggest name="ID_FMP_POWER_899" type="Power" />
+      <suggest name="ID_FMP_POWER_60" type="Power" />
+      <suggest name="ID_FMP_POWER_913" type="Power" />
+      <suggest name="ID_FMP_POWER_180" type="Power" />
+      <suggest name="ID_FMP_POWER_928" type="Power" />
+      <suggest name="ID_FMP_POWER_475" type="Power" />
+      <suggest name="ID_FMP_POWER_482" type="Power" />
+      <suggest name="ID_FMP_POWER_947" type="Power" />
+      <suggest name="ID_FMP_POWER_652" type="Power" />
+      <suggest name="ID_FMP_POWER_152" type="Power" />
+      <suggest name="ID_FMP_POWER_665" type="Power" />
+      <suggest name="ID_FMP_POWER_3624" type="Power" />
+      <suggest name="ID_FMP_POWER_3668" type="Power" />
+      <suggest name="ID_FMP_SKILL_2" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_11" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Battle Cleric" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_BATTLE_CLERIC" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_6 </specific>
+    <rules>
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_6" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_272" type="Feat" />
+      <suggest name="ID_FMP_FEAT_159" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_POWER_839" type="Power" />
+      <suggest name="ID_FMP_POWER_892" type="Power" />
+      <suggest name="ID_FMP_POWER_895" type="Power" />
+      <suggest name="ID_FMP_POWER_896" type="Power" />
+      <suggest name="ID_FMP_POWER_897" type="Power" />
+      <suggest name="ID_FMP_POWER_898" type="Power" />
+      <suggest name="ID_FMP_POWER_915" type="Power" />
+      <suggest name="ID_FMP_POWER_929" type="Power" />
+      <suggest name="ID_FMP_POWER_945" type="Power" />
+      <suggest name="ID_FMP_POWER_91" type="Power" />
+      <suggest name="ID_FMP_POWER_1404" type="Power" />
+      <suggest name="ID_FMP_POWER_1406" type="Power" />
+      <suggest name="ID_FMP_POWER_1410" type="Power" />
+      <suggest name="ID_FMP_POWER_1411" type="Power" />
+      <suggest name="ID_FMP_POWER_1580" type="Power" />
+      <suggest name="ID_FMP_SKILL_6" type="Skill" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_13" type="Skill" />
+      <suggest name="ID_FMP_SKILL_18" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Guardian Fighter" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_GUARDIAN_FIGHTER" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_4 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1062" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_47" type="Feat" />
+      <suggest name="ID_FMP_FEAT_114" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_POWER_1000" type="Power" />
+      <suggest name="ID_FMP_POWER_291" type="Power" />
+      <suggest name="ID_FMP_POWER_1019" type="Power" />
+      <suggest name="ID_FMP_POWER_1119" type="Power" />
+      <suggest name="ID_FMP_POWER_1427" type="Power" />
+      <suggest name="ID_FMP_POWER_1431" type="Power" />
+      <suggest name="ID_FMP_POWER_1433" type="Power" />
+      <suggest name="ID_FMP_POWER_1437" type="Power" />
+      <suggest name="ID_FMP_POWER_1438" type="Power" />
+      <suggest name="ID_FMP_POWER_1439" type="Power" />
+      <suggest name="ID_FMP_POWER_1442" type="Power" />
+      <suggest name="ID_FMP_POWER_1758" type="Power" />
+      <suggest name="ID_FMP_POWER_2005" type="Power" />
+      <suggest name="ID_FMP_SKILL_9" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+      <suggest name="ID_FMP_SKILL_21" type="Skill" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Great Weapon Fighter" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_GREAT_WEAPON_FIGHTER" source="Player's Handbook">
+    <specific name="_SupportsID"> ID_FMP_BUILD_1 </specific>
+    <rules>
+      <suggest name="ID_FMP_CLASS_FEATURE_1063" type="Class Feature" />
+      <suggest name="ID_FMP_ABILITY_SCORE_1" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_2" type="Ability Score" />
+      <suggest name="ID_FMP_ABILITY_SCORE_5" type="Ability Score" />
+      <suggest name="ID_FMP_FEAT_1032" type="Feat" />
+      <suggest name="ID_FMP_FEAT_215" type="Feat" />
+      <suggest name="ID_FMP_FEAT_233" type="Feat" />
+      <suggest name="ID_FMP_FEAT_171" type="Feat" />
+      <suggest name="ID_FMP_FEAT_114" type="Feat" />
+      <suggest name="ID_FMP_POWER_992" type="Power" />
+      <suggest name="ID_FMP_POWER_997" type="Power" />
+      <suggest name="ID_FMP_POWER_200" type="Power" />
+      <suggest name="ID_FMP_POWER_1004" type="Power" />
+      <suggest name="ID_FMP_POWER_608" type="Power" />
+      <suggest name="ID_FMP_POWER_1092" type="Power" />
+      <suggest name="ID_FMP_POWER_1434" type="Power" />
+      <suggest name="ID_FMP_POWER_1436" type="Power" />
+      <suggest name="ID_FMP_POWER_1440" type="Power" />
+      <suggest name="ID_FMP_POWER_1441" type="Power" />
+      <suggest name="ID_FMP_POWER_1443" type="Power" />
+      <suggest name="ID_FMP_POWER_1444" type="Power" />
+      <suggest name="ID_FMP_POWER_1522" type="Power" />
+      <suggest name="ID_FMP_POWER_1524" type="Power" />
+      <suggest name="ID_FMP_SKILL_27" type="Skill" />
+      <suggest name="ID_FMP_SKILL_8" type="Skill" />
+      <suggest name="ID_FMP_SKILL_14" type="Skill" />
+    </rules>
+  </RulesElement>
+  
+  
+</D20Rules>

@@ -1,0 +1,2126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Background Choice.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Learn Thri-kreen" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_THRI_KREEN" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Thri-kreen background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_43" type="Language" />
+    </rules>
+You can speak, read, and write Thri-kreen fluently.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Svirfneblin)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(SVIRFNEBLIN)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~SVIRFNEBLIN </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DUNGEONEERING" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_PERCEPTION" type="Background Association" />
+    </rules>
+You were raised like a Svirfneblin.
+	</RulesElement>
+  <RulesElement name="Among Another Race (Mul)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(MUL)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~MUL </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STREETWISE" type="Background Association" />
+    </rules>    
+You were raised like a Mul.
+</RulesElement>
+  <RulesElement name="Among Another Race (Thri-Kreen)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(THRI-KREEN)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~THRI_KREEN </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ATHLETICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+    </rules>  
+You were raised like a Thri-Kreen.
+</RulesElement>
+  <RulesElement name="Among Another Race (Shade)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(SHADE)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~SHADE </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ARCANA" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>  
+You were raised like a Shade.
+</RulesElement>
+  <RulesElement name="Among Another Race (Vryloka)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(VRYLOKA)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~VRYLOKA </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_PERCEPTION" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>  
+You were raised like a Vryloka.
+</RulesElement>
+  <RulesElement name="Among Another Race (Hamadryad)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(HAMADRYAD)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~HAMADRYAD </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DIPLOMACY" type="Background Association" />
+    </rules>    
+You were raised like a Hamadryad.
+</RulesElement>
+  <RulesElement name="Among Another Race (Pixie)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(PIXIE)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~PIXIE </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>    
+You were raised like a Pixie.
+</RulesElement>
+  <RulesElement name="Among Another Race (Satyr)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(SATYR)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~SATYR </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_THIEVERY" type="Background Association" />
+    </rules>    
+You were raised like a Satyr.
+</RulesElement>
+  <RulesElement name="Airspur Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AIRSPUR_BENEFIT" source="Dungeon Magazine 172">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_595 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_595 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="bonus to Acrobatics and Diplomacy" value="+2" />
+    </rules>
++2 bonus to Acrobatics and Diplomacy.
+   </RulesElement>
+  <RulesElement name="Urban Shaman Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_URBAN_SHAMAN_BENEFIT" source="Dragon Magazine 387">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_570 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_570 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+While in an urban environment, you can substitute Streetwise for Nature when using a ritual that requires a Nature check.
+   </RulesElement>
+  <RulesElement name="Ikemmu Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_IKEMMU_BENEFIT" source="Dungeon Magazine 175">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_523 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_523 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Arcana Misc" value="+2" />
+      <statadd name="Dungeoneering Misc" value="+2" />
+    </rules>
+You gain a +2 bonus to Arcana and Dungeoneering checks in addition to a +2 bonus to skill checks when using any travel ritual.
+   </RulesElement>
+  <RulesElement name="Sarifal Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_SARIFAL_BENEFIT" source="Dragon Magazine 376">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_282 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_282 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+You gain Terrain Walk in one of the following environments, allowing you to bypass difficult terrain: Earth, Forest, Ice, or Swamp. See the Monster Manual, page 283.
+   </RulesElement>
+  <RulesElement name="Windrise Ports Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_BENEFIT" source="Dragon Magazine 376">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_276 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Background Choice" number="1" Category="Windrise Ports" />
+      <select type="Language" number="1" />
+    </rules>
+You add one additional skill to your list of class skills when you select this background. You also gain one additional language of your choice.
+   </RulesElement>
+  <RulesElement name="Tarmalune Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_TARMALUNE_BENEFIT" source="Dragon Magazine 376">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_272 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_272 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <textstring name="Action Point" value="Tarmalune Benefit:When you spend an action point to take an extra action, you gain a +1 bonus to speed until the end of your turn. You also gain a +2 bonus to all Diplomacy checks." />
+      <statadd name="Diplomacy Misc" value="+2" />
+    </rules>
+When you spend an action point to take an extra action, you gain a +1 bonus to speed until the end of your turn. You also gain a +2 bonus to all Diplomacy checks.
+   </RulesElement>
+  <RulesElement name="Touched by Darkness Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_TOUCHED_BY_DARKNESS_BENEFIT" source="Dragon Magazine 371">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_169 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_169 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Saving Throws" value="+1" condition="against ongoing effects and conditions with the necrotic keyword" />
+    </rules>
+You gain a +1 bonus to saving throws against ongoing effects and conditions with the necrotic keyword.
+   </RulesElement>
+  <RulesElement name="Restless Dead Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_RESTLESS_DEAD_BENEFIT" source="Dragon Magazine 371">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_168 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_168 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="damage rolls" value="+1" condition="against creatures with the undead keyword" />
+    </rules>
+You gain a +1 bonus to damage rolls against creatures with the undead keyword.
+   </RulesElement>
+  <RulesElement name="Necromancer's Chattel Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NECROMANCER'S_CHATTEL_BENEFIT" source="Dragon Magazine 371">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_167 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_167 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Saving Throws" value="+2" type="Racial" condition="to end conditions and ongoing effects with the fear keyword" />
+    </rules>
+You gain a +2 racial bonus to saving throws to end conditions and ongoing effects with the fear keyword.
+   </RulesElement>
+  <RulesElement name="Lost Kin Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LOST_KIN_BENEFIT" source="Dragon Magazine 371">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_166 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_166 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Nature Misc" value="+3" condition="to recall useful information about geography" />
+    </rules>
+You gain a +3 bonus to Nature checks made to recall useful information about geography.
+   </RulesElement>
+  <RulesElement name="Curious Archeologist Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CURIOUS_ARCHEOLOGIST_BENEFIT" source="Dragon Magazine 371">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_165 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_165 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+When engaging in a skill challenge to disable a trap, your first successful Thievery check grants you an extra success.
+   </RulesElement>
+  <RulesElement name="Adventurer's Scion Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ADVENTURER'S_SCION_BENEFIT" source="Dragon Magazine 371">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_164 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_164 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+Whenever you make a monster knowledge check, you can reroll the check, but you must use the second result even if it's worse than the first.
+   </RulesElement>
+  <RulesElement name="Accursed Lineage Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ACCURSED_LINEAGE_BENEFIT" source="Dragon Magazine 371">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_163 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_163 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Diplomacy Misc" value="+2" condition="when interacting with undead creatures" />
+      <statadd name="Intimidate Misc" value="+2" condition="when interacting with undead creatures" />
+    </rules>
+You gain a +2 bonus to Diplomacy and Intimidate checks when interacting with undead creatures.
+   </RulesElement>
+  <RulesElement name="Imbuer Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_IMBUER_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_77 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_77 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+You can construct your own implements and wondrous items, given proper tools and raw materials. Making an implement takes two days, and making a wondrous item takes four days. Doing so confers no economic advantage, however. The item ultimately costs the same as it would if you'd purchased it directly. And you can cast Creation rituals as if you had the Ritual Caster feat.
+   </RulesElement>
+  <RulesElement name="Missing Master Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_MISSING_MASTER_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_76 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_76 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Perception" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Insight" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Perception Misc" value="+1" />
+      <statadd name="Insight Misc" value="+1" />
+    </rules>
+You add Perception and Insight to your class skill list, and you gain a +1 bonus to Perception and Insight checks.
+   </RulesElement>
+  <RulesElement name="Arcane Student Who Saw Too Much Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ARCANE_STUDENT_WHO_SAW_TOO_MUCH_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_75 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_75 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Saving Throws" value="+1" condition="to end effects that daze, stun, immobilize, or restrain you" />
+    </rules>
+You receive a +1 bonus to saving throws to end effects that daze, stun, immobilize, or restrain you.
+   </RulesElement>
+  <RulesElement name="Officer Who Came Out of Retirement Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_OFFICER_WHO_CAME_OUT_OF_RETIREMENT_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_74 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_74 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Initiative Misc" value="+1" />
+      <statadd name="History Misc" value="+1" />
+      <modify name="History" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+You gain a +1 bonus to initiative checks, you add History to your class skill list, and you gain a +1 bonus to History checks.
+   </RulesElement>
+  <RulesElement name="Noble Bred for War Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NOBLE_BRED_FOR_WAR_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_73 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_73 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Proficiency" number="1" Category="Simple|Military" />
+      <statadd name="Diplomacy Misc" value="+1" />
+    </rules>
+You gain proficiency in a simple or military weapon of your choice, and you gain a +1 bonus to Diplomacy checks.
+   </RulesElement>
+  <RulesElement name="Vet Who Can't Let Go Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_VET_WHO_CAN'T_LET_GO_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_72 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_72 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="History" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Intimidate" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="History Misc" value="+1" />
+      <statadd name="Intimidate Misc" value="+1" />
+    </rules>
+You add History and Intimidate to your class skill list, and you gain a +1 bonus to History and Intimidate checks.
+   </RulesElement>
+  <RulesElement name="Born Under a Bad Sign Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_BORN_UNDER_A_BAD_SIGN_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_71 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_71 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Hit Points" value="+Strength" type="Level 1" />
+      <statadd name="Hit Points" value="+Dexterity" type="Level 1" />
+      <statadd name="Hit Points" value="+Intelligence" type="Level 1" />
+      <statadd name="Hit Points" value="+Wisdom" type="Level 1" />
+      <statadd name="Hit Points" value="+Charisma" type="Level 1" />
+    </rules>
+You substitute your highest ability score for Constitution to determine your initial hit points.
+   </RulesElement>
+  <RulesElement name="Apprentice of Sinister Cabal Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_APPRENTICE_OF_SINISTER_CABAL_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_70 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_70 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Arcana" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Dungeoneering" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Arcana Misc" value="+1" />
+      <statadd name="Dungeoneering Misc" value="+1" />
+    </rules>
+You add Arcana and Dungeoneering to your class skill list, and you gain a +1 bonus to Arcana and Dungeoneering checks.
+   </RulesElement>
+  <RulesElement name="On the Run from the Devil Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ON_THE_RUN_FROM_THE_DEVIL_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_69 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_69 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Bluff" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Perception" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Bluff Misc" value="+1" />
+      <statadd name="Perception Misc" value="+1" />
+    </rules>
+You add Bluff and Perception to your class skill list, and you gain a +1 bonus to Bluff and Perception checks.
+   </RulesElement>
+  <RulesElement name="Political Rebel Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_POLITICAL_REBEL_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_68 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_68 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Diplomacy" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Streetwise" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Diplomacy Misc" value="+1" />
+      <statadd name="Streetwise Misc" value="+1" />
+    </rules>
+You add Diplomacy and Streetwise to your class skill list, and you gain a +1 bonus to Diplomacy and Streetwise checks.
+   </RulesElement>
+  <RulesElement name="Cat Burglar Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CAT_BURGLAR_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_67 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_67 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Athletics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Thievery" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Athletics Misc" value="+1" />
+      <statadd name="Thievery Misc" value="+1" />
+    </rules>
+You add Athletics and Thievery to your class skill list, and you gain a +1 bonus to Athletics and Thievery checks.
+   </RulesElement>
+  <RulesElement name="Assassin Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ASSASSIN_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_66 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_66 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Arcana" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Stealth" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Arcana Misc" value="+1" />
+      <statadd name="Stealth Misc" value="+1" />
+    </rules>
+You add Arcana and Stealth to your class skill list, and you gain a +1 bonus to Arcana and Stealth checks.
+   </RulesElement>
+  <RulesElement name="Fugitive from a Vengeful Rival Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_FUGITIVE_FROM_A_VENGEFUL_RIVAL_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_65 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_65 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Bluff" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Stealth" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Bluff Misc" value="+1" />
+      <statadd name="Stealth Misc" value="+1" />
+    </rules>
+You add Bluff and Stealth to your class skill list, and you gain a +1 bonus to Bluff and Stealth checks.
+   </RulesElement>
+  <RulesElement name="Monster Hunter Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_MONSTER_HUNTER_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_64 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_64 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Arcana Misc" value="+2" condition="to monster knowledge checks" />
+      <statadd name="Dungeoneering Misc" value="+2" condition="to monster knowledge checks" />
+      <statadd name="Nature Misc" value="+2" condition="to monster knowledge checks" />
+      <statadd name="Religion Misc" value="+2" condition="to monster knowledge checks" />
+    </rules>
+You gain a +2 bonus whenever you use a knowledge skill to make a monster knowledge check .
+   </RulesElement>
+  <RulesElement name="Last of the Breed Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LAST_OF_THE_BREED_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_63 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_63 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Endurance" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Perception" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Endurance Misc" value="+1" />
+      <statadd name="Perception Misc" value="+1" />
+    </rules>
+You add Endurance and Perception to your class skill list, and you gain a +1 bonus to Endurance and Perception checks.
+   </RulesElement>
+  <RulesElement name="Trained from Birth for a Specific Prophecy Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_TRAINED_FROM_BIRTH_FOR_A_SPECIFIC_PROPHECY_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_62 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_62 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+Once per day, you can reroll an initiative check if you don't like the result. You keep the second result whether it's better, the same, or worse.
+   </RulesElement>
+  <RulesElement name="Crusading Zealot Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CRUSADING_ZEALOT_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_61 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_61 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Saving Throws" value="+1" condition="until you fail a saving throw, and then the bonus is gone until you rest" />
+    </rules>
+You gain a +1 bonus to saving throws until you fail a saving throw, and then the bonus is gone until you rest.
+   </RulesElement>
+  <RulesElement name="Prison Conversion Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_PRISON_CONVERSION_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_60 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_60 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Streetwise" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Streetwise Misc" value="+3" />
+    </rules>
+You add Streetwise to your class skill list, and you gain a +3 bonus to Streetwise checks.
+   </RulesElement>
+  <RulesElement name="Former Barbarian Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_FORMER_BARBARIAN_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_59 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_59 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Nature" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Nature Misc" value="+1" />
+    </rules>
+You add Nature to your class skill list, and you gain a +1 bonus to Nature checks.
+   </RulesElement>
+  <RulesElement name="Haunted Veteran Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_HAUNTED_VETERAN_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_58 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_58 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+Once per encounter, reroll a failed saving throw against a fear effect.
+   </RulesElement>
+  <RulesElement name="Former Gladiator Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_FORMER_GLADIATOR_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_57 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_57 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Death Saves Count" value="+1" />
+    </rules>
+It takes four failed death saves to kill you.
+   </RulesElement>
+  <RulesElement name="Recent Convert Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_RECENT_CONVERT_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_56 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_56 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+Once per encounter, reroll a failed saving throw against a charm effect.
+   </RulesElement>
+  <RulesElement name="Traveling Missionary Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_TRAVELING_MISSIONARY_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_55 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_55 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Language" number="1" />
+      <modify name="Religion" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Religion Misc" value="+2" />
+    </rules>
+Learn an extra language of your choice, add Religion to your class skill list, and gain a +2 bonus to Religion checks.
+   </RulesElement>
+  <RulesElement name="Auspicious Birth Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AUSPICIOUS_BIRTH_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_54 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_54 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Hit Points" value="+Strength" type="Level 1" />
+      <statadd name="Hit Points" value="+Dexterity" type="Level 1" />
+      <statadd name="Hit Points" value="+Intelligence" type="Level 1" />
+      <statadd name="Hit Points" value="+Wisdom" type="Level 1" />
+      <statadd name="Hit Points" value="+Charisma" type="Level 1" />
+    </rules>
+You substitute your highest ability score for Constitution to determine your initial hit points.
+   </RulesElement>
+  <RulesElement name="Young Cutthroat Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_YOUNG_CUTTHROAT_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_53 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_53 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Intimidate" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Thievery" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Intimidate Misc" value="+1" />
+      <statadd name="Thievery Misc" value="+1" />
+    </rules>
+You add Intimidate and Thievery to your class skill list, and you gain a +1 bonus to Intimidate and Thievery checks.
+   </RulesElement>
+  <RulesElement name="Cult Escapee Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CULT_ESCAPEE_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_52 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_52 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Arcana" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Bluff" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Arcana Misc" value="+1" />
+      <statadd name="Bluff Misc" value="+1" />
+    </rules>
+You add Arcana and Bluff to your class skill list, and you gain a +1 bonus to Arcana and Bluff checks.
+   </RulesElement>
+  <RulesElement name="Scion of an Ancient Bloodline Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_SCION_OF_AN_ANCIENT_BLOODLINE_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_51 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_51 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="History" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="History Misc" value="+3" />
+    </rules>
+You add History to your class skill list, and you gain a +3 bonus to History checks.
+   </RulesElement>
+  <RulesElement name="Noble Scion Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NOBLE_SCION_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_50 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_50 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Background Choice" number="1" Category="Noble Scion" />
+    </rules>
+You add a knowledge skill of your choice to your class skill list, and you gain a +2 bonus to checks with that skill.
+   </RulesElement>
+  <RulesElement name="Gritty Sergeant Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_GRITTY_SERGEANT_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_49 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_49 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Proficiency" number="1" Category="Simple|Military" />
+      <statadd name="Initiative Misc" value="+1" />
+    </rules>
+You gain proficiency in a simple or military weapon of your choice, and you gain a +1 bonus to initiative checks.
+   </RulesElement>
+  <RulesElement name="Cloistered Priest Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CLOISTERED_PRIEST_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_48 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_48 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Religion" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Religion Misc" value="+3" />
+    </rules>
+You add Religion to your class skill list, and you gain a +3 bonus to Religion checks.
+   </RulesElement>
+  <RulesElement name="River Smuggler Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_RIVER_SMUGGLER_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_47 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_47 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Athletics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Streetwise" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Athletics Misc" value="+1" />
+      <statadd name="Streetwise Misc" value="+1" />
+    </rules>
+You add Athletics and Streetwise to your class skill list, and you gain a +1 bonus to Athletics and Streetwise checks.
+   </RulesElement>
+  <RulesElement name="Street Urchin Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_STREET_URCHIN_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_46 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_46 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Intimidate" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Streetwise" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Intimidate Misc" value="+1" />
+      <statadd name="Streetwise Misc" value="+1" />
+    </rules>
+You add Intimidate and Streetwise to your class skill list, and you gain a +1 bonus to Intimidate and Streetwise checks.
+   </RulesElement>
+  <RulesElement name="Con Artist Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CON_ARTIST_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_45 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_45 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Bluff" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Thievery" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Bluff Misc" value="+1" />
+      <statadd name="Thievery Misc" value="+1" />
+    </rules>
+You add Bluff and Thievery to your class skill list, and you gain a +1 bonus to Bluff and Thievery checks.
+   </RulesElement>
+  <RulesElement name="Wandering Mercenary Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WANDERING_MERCENARY_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_44 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_44 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Death Saves Count" value="+1" />
+    </rules>
+It takes four failed death saves to kill you.
+   </RulesElement>
+  <RulesElement name="Detective Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_DETECTIVE_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_43 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_43 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Perception" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Insight" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Perception Misc" value="+1" />
+      <statadd name="Insight Misc" value="+1" />
+    </rules>
+You add Perception and Insight to your class skill list, and you gain a +1 bonus to Perception and Insight checks.
+   </RulesElement>
+  <RulesElement name="Merchant Prince Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_MERCHANT_PRINCE_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_42 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_42 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Language" number="1" />
+      <modify name="Insight" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Insight Misc" value="+2" />
+    </rules>
+Learn an extra language of your choice, add Insight to your class skill list, and you gain a +2 bonus to Insight  checks.
+   </RulesElement>
+  <RulesElement name="Explorer/Guide Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_EXPLORER/GUIDE_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_41 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_41 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Language" number="1" />
+      <modify name="Nature" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Nature Misc" value="+2" />
+    </rules>
+Learn an extra language of your choice, add Nature to your class skill list, and you gain a +2 bonus to Nature checks.
+   </RulesElement>
+  <RulesElement name="Forest Warden Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_FOREST_WARDEN_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_40 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_40 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Nature" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Perception" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Nature Misc" value="+1" />
+      <statadd name="Perception Misc" value="+1" />
+    </rules>
+You add Nature and Perception to your class skill list, and you gain a +1 bonus to Nature and Perception checks.
+   </RulesElement>
+  <RulesElement name="Silent Hunter Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_SILENT_HUNTER_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_39 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_39 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Stealth" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Perception" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Stealth Misc" value="+1" />
+      <statadd name="Perception Misc" value="+1" />
+    </rules>
+You add Stealth and Perception to your class skill list, and you gain a +1 bonus to Stealth and Perception checks.
+   </RulesElement>
+  <RulesElement name="Eldritch Harlequin Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ELDRITCH_HARLEQUIN_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_38 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_38 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Bluff" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Thievery" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Bluff Misc" value="+1" />
+      <statadd name="Thievery Misc" value="+1" />
+    </rules>
+You add Bluff and Thievery to your class skill list, and you gain a +1 bonus to Bluff and Thievery checks.
+   </RulesElement>
+  <RulesElement name="Magic Scholar Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_MAGIC_SCHOLAR_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_37 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_37 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Arcana" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="History" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Arcana Misc" value="+1" />
+      <statadd name="History Misc" value="+1" />
+    </rules>
+You add Arcana and History to your class skill list, and you gain a +1 bonus to Arcana and History checks.
+   </RulesElement>
+  <RulesElement name="Seducer Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_SEDUCER_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_36 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_36 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Bluff" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Insight" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Bluff Misc" value="+1" />
+      <statadd name="Insight Misc" value="+1" />
+    </rules>
+You add Bluff and Insight to your class skill list, and you gain a +1 bonus to Bluff and Insight checks.
+   </RulesElement>
+  <RulesElement name="Brother in Battle Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_BROTHER_IN_BATTLE_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_35 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_35 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Endurance" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Endurance Misc" value="+3" />
+    </rules>
+You add Endurance to your class skill list, and you gain a +3 bonus to Endurance checks.
+   </RulesElement>
+  <RulesElement name="Warsmith Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WARSMITH_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_34 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_34 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+You can construct your own weapons and armor, given proper tools and raw materials. Making a weapon takes two days, and making armor takes four days. Doing so confers no economic advantage, however. The item ultimately costs the same as it would if you'd purchased it directly. And you can cast Creation rituals as if you had the Ritual Caster feat.
+   </RulesElement>
+  <RulesElement name="Seeker for the Lost Clan Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_SEEKER_FOR_THE_LOST_CLAN_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_33 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_33 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="History" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Dungeoneering" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="History Misc" value="+1" />
+      <statadd name="Dungeoneering Misc" value="+1" />
+    </rules>
+You add History and Dungeoneering to your class skill list, and you gain a +1 bonus to History and Dungeoneering checks.
+   </RulesElement>
+  <RulesElement name="Redemption Seeker Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_REDEMPTION_SEEKER_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_31 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_31 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Diplomacy" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Insight" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Diplomacy Misc" value="+1" />
+      <statadd name="Insight Misc" value="+1" />
+    </rules>
+You add Diplomacy and Insight to your class skill list, and you gain a +1 bonus to Diplomacy and Insight checks.
+   </RulesElement>
+  <RulesElement name="Scorned Noble Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_SCORNED_NOBLE_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_30 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_30 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Saving Throws" value="+2" condition="whenever no allies are within 5 squares of you" />
+    </rules>
+You are used to going it alone. You gain a +2 bonus to saving throws whenever no allies are within 5 squares of you.
+   </RulesElement>
+  <RulesElement name="Wandering Duelist Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WANDERING_DUELIST_BENEFIT" source="Dragon Magazine 366">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_29 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_29 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Intimidate" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Intimidate Misc" value="+3" />
+    </rules>
+You add Intimidate to your class skill list and give yourself a +3 bonus to Intimidate checks.
+   </RulesElement>
+  <RulesElement name="Cormyr (General) Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CORMYR_(GENERAL)_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_28 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_28 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Insight" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Insight Misc" value="+2" />
+      <statadd name="Saving Throws" value="+2" condition="against fear effects" />
+    </rules>
+You add Insight to your class skill list, you gain a +2 bonus to Insight checks, and you gain a +2 bonus to saving throws against fear effects.
+   </RulesElement>
+  <RulesElement name="Vilhon Wilds Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_VILHON_WILDS_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_27 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_27 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Initiative Misc" value="+1" />
+    </rules>
+You can reroll any Dungeoneering check, but you must keep the second result, even if it is worse.
+	You also gain a +1 bonus to initiative checks.
+   </RulesElement>
+  <RulesElement name="Tymanther Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_TYMANTHER_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_26 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_26 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Athletics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Athletics Misc" value="+2" />
+    </rules>
+You add Athletics to your class skill list, and you gain a +2 bonus to Athletics checks.
+   </RulesElement>
+  <RulesElement name="Thay Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_THAY_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_25 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_25 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Hit Points" value="+Intelligence" type="Level 1" />
+    </rules>
+Add the higher of your Intelligence score or your Constitution score to your starting hit points (instead of automatically adding your Constitution score). Your number of healing surges is still based on your Constitution score.
+   </RulesElement>
+  <RulesElement name="Netheril Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NETHERIL_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_24 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_24 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Arcana" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="History" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Arcana Misc" value="+1" />
+      <statadd name="History Misc" value="+1" />
+    </rules>
+You add Arcana and History to your class skill list, and you gain a +1 bonus to Arcana checks and History checks.
+   </RulesElement>
+  <RulesElement name="Nelanther Isles Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NELANTHER_ISLES_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_23 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_23 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Acrobatics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Athletics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Acrobatics Misc" value="+1" />
+      <statadd name="Athletics Misc" value="+1" />
+    </rules>
+You add Acrobatics and Athletics to your class skill list, and you gain a +1 bonus to Acrobatics checks and Athletics checks.
+   </RulesElement>
+  <RulesElement name="Narfell Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NARFELL_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_22 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_22 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Endurance" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Endurance Misc" value="+3" />
+    </rules>
+You add Endurance to your class skill list, and you gain a +3 bonus to Endurance checks.
+   </RulesElement>
+  <RulesElement name="Myth Drannor Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_MYTH_DRANNOR_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_21 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_21 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+Once per encounter, you can reroll a failed saving throw against a charm effect.
+   </RulesElement>
+  <RulesElement name="Moonshae Isles Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_MOONSHAE_ISLES_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_20 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_20 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_4" type="Language" />
+      <statadd name="Saving Throws" value="+2" condition="against charm and fear effects" />
+    </rules>
+You know Elven as an additional language, and you gain a +2 bonus to saving throws against charm and fear effects.
+   </RulesElement>
+  <RulesElement name="Luskan Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LUSKAN_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_19 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_19 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Stealth" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Thievery" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Stealth Misc" value="+1" />
+      <statadd name="Thievery Misc" value="+1" />
+    </rules>
+You add Stealth and Thievery to your class skill list, and you gain a +1 bonus to Stealth checks and Thievery checks.
+   </RulesElement>
+  <RulesElement name="Luruar Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LURUAR_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_18 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_18 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Language" number="1" />
+    </rules>
+You can reroll any History check, but you must keep the second result, even if it is worse.
+	You also gain one additional language of your choice.
+   </RulesElement>
+  <RulesElement name="Impiltur Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_IMPILTUR_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_17 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_17 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Hit Points" value="+Wisdom" type="Level 1" />
+    </rules>
+Add the higher of your Wisdom score or your Constitution score to your starting hit points (instead of automatically adding your Constitution score). Your number of healing surges is still based on your Constitution score.
+   </RulesElement>
+  <RulesElement name="High Imaskar Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_HIGH_IMASKAR_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_16 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_16 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_18" type="Language" />
+    </rules>
+You can reroll any Arcana check, but you must keep the second result, even if it is worse.
+	You also know Deep Speech as an additional language.
+   </RulesElement>
+  <RulesElement name="Great Dale Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_GREAT_DALE_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_15 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_15 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Arcana" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Nature" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Arcana Misc" value="+1" />
+      <statadd name="Nature Misc" value="+1" />
+    </rules>
+You add Arcana and Nature to your class skill list, and you gain a +1 bonus to Arcana checks and Nature checks.
+   </RulesElement>
+  <RulesElement name="Gray Vale Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_GRAY_VALE_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_14 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_14 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Language" number="1" />
+      <modify name="Nature" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Nature Misc" value="+2" />
+    </rules>
+You gain one additional language of your choice, you add Nature to your class skill list, and you gain a +2 bonus to Nature checks.
+   </RulesElement>
+  <RulesElement name="Elfharrow Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ELFHARROW_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_13 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_13 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Athletics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <modify name="Nature" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Athletics Misc" value="+1" />
+      <statadd name="Nature Misc" value="+1" />
+    </rules>
+You add Athletics and Nature to your class skill list, and you gain a +1 bonus to Athletics checks and Nature checks.
+   </RulesElement>
+  <RulesElement name="East Rift Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_EAST_RIFT_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_12 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_12 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_18" type="Language" />
+      <modify name="Dungeoneering" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Dungeoneering Misc" value="+2" />
+    </rules>
+You gain Deep Speech as an additional language, you add Dungeoneering to your class skill list, and you gain a +2 bonus to Dungeoneering checks.
+   </RulesElement>
+  <RulesElement name="Durpar Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_DURPAR_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_11 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_11 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Perception Misc" value="+2" />
+    </rules>
+You gain a +2 bonus to all Perception checks.
+   </RulesElement>
+  <RulesElement name="Dragon Coast Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_DRAGON_COAST_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_10 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_10 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Language" number="1" />
+    </rules>
+You can reroll any Insight check, but you must keep the second result, even if it is worse.
+	You also gain one additional language of your choice.
+   </RulesElement>
+  <RulesElement name="Dalelands Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_DALELANDS_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_9 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_9 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="Initiative Misc" value="+1" />
+    </rules>
+You can reroll any Nature check, but you must keep the second result, even if it is worse.
+	You also gain a +1 bonus on initiative checks
+   </RulesElement>
+  <RulesElement name="Cormyr (Wheloon) Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CORMYR_(WHELOON)_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_8 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_8 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Thievery" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Thievery Misc" value="+2" />
+      <statadd name="Saving Throws" value="+2" condition="against charm effects" />
+    </rules>
+If you hail from the prison city of Wheloon, you add Thievery to your class skill list, gain a +2 bonus to Thievery checks, and gain a +2 bonus to saving throws against charm effects.
+   </RulesElement>
+  <RulesElement name="Chessenta Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CHESSENTA_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_7 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_7 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <textstring name="Action Point" value="Chessenta Benefit:When you spend an action point to take an extra action, you gain a +1 bonus to all rolls made during the extra action granted." />
+    </rules>
+When you spend an action point to take an extra action, you gain a +1 bonus to all rolls made during the extra action granted.
+   </RulesElement>
+  <RulesElement name="Calimshan Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_CALIMSHAN_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_6 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_6 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="resist:fire" value="+4" type="resist" />
+      <statadd name="resist:fire" value="+7" type="resist" requires="Paragon Tier" />
+      <statadd name="resist:fire" value="+10" type="resist" requires="Epic Tier" />
+      <statadd name="Endurance Misc" value="+5" condition="due to thirst" />
+    </rules>
+You gain resist 4 fire and a +5 bonus to Endurance checks made due to thirst.
+	At 11th level, your resistance improves to 7. At 21st level, it improves to 10.
+   </RulesElement>
+  <RulesElement name="Baldur's Gate Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_BALDUR'S_GATE_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_5 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_5 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Language" number="1" />
+      <modify name="Streetwise" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Streetwise Misc" value="+2" />
+    </rules>
+You know one additional language of your choice, you add the Streetwise skill to your class skill list, and you gain a +2 bonus to Streetwise checks.
+   </RulesElement>
+  <RulesElement name="Amn Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMN_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_4 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_4 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <modify name="Streetwise" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Streetwise Misc" value="+1" />
+      <modify name="Thievery" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Thievery Misc" value="+1" />
+    </rules>
+You add Streetwise and Thievery to your class skill list, and you gain a +1 bonus to Streetwise checks and Thievery checks.
+   </RulesElement>
+  <RulesElement name="Akanûl Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AKANûL_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_3 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_3 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <statadd name="resist:cold" value="+2" />
+      <statadd name="resist:fire" value="+2" />
+      <statadd name="resist:thunder" value="+2" />
+      <statadd name="resist:cold" value="+1" requires="Paragon Tier" />
+      <statadd name="resist:fire" value="+1" requires="Paragon Tier" />
+      <statadd name="resist:thunder" value="+1" requires="Paragon Tier" />
+      <statadd name="resist:cold" value="+2" requires="Epic Tier" />
+      <statadd name="resist:fire" value="+2" requires="Epic Tier" />
+      <statadd name="resist:thunder" value="+2" requires="Epic Tier" />
+    </rules>
+You gain resist 2 cold, resist 2 fire, and resist 2 thunder (or your existing resistance to these damage types increases by 2).
+	At 11th level, these values improve to resist 3 (or increase by 3), and at 21st level, they improve to resist 5 (or increase by 5).
+   </RulesElement>
+  <RulesElement name="Aglarond Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AGLAROND_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_2 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_2 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_4" type="Language" />
+      <modify name="Perception" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Perception Misc" value="+1" />
+    </rules>
+You add Elven to your list of languages known, you add Perception to your class skill list, and you gain a +1 bonus to Perception checks.
+   </RulesElement>
+  <RulesElement name="Waterdeep Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WATERDEEP_BENEFIT" source="Forgotten Realms Player's Guide">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> ID_FMP_BACKGROUND_1 </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_1 </specific>
+    <specific name="_IsBenefit"> 1 </specific>
+    <rules>
+      <select type="Language" number="1" />
+      <modify name="Diplomacy" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Diplomacy Misc" value="+2" />
+    </rules>
+You know one additional language of your choice, you add Diplomacy to your class skill list, and you gain a +2 bonus to Diplomacy checks.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Shardmind)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(SHARDMIND)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~SHARDMIND </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ACROBATICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ARCANA" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_BLUFF" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DIPLOMACY" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DUNGEONEERING" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_HEAL" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_HISTORY" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INSIGHT" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_PERCEPTION" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_RELIGION" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STREETWISE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_THIEVERY" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ATHLETICS" type="Background Association" />
+    </rules>
+You were raised like a Shardmind.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Revenant)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(REVENANT)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~REVENANT </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+    </rules>
+You were raised like a Revenant.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Kalashtar)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(KALASHTAR)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~KALASHTAR </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ACROBATICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ARCANA" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_BLUFF" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DIPLOMACY" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DUNGEONEERING" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_HEAL" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_HISTORY" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INSIGHT" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_PERCEPTION" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_RELIGION" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STREETWISE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_THIEVERY" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ATHLETICS" type="Background Association" />
+    </rules>
+You were raised like a Kalashtar.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Wilden)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(WILDEN)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~WILDEN </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>
+You were raised like a Wilden.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Kenku)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(KENKU)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~KENKU </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_BLUFF" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>
+You were raised like a Kenku.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Duergar)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(DUERGAR)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~DUERGAR </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DUNGEONEERING" type="Background Association" />
+    </rules>
+You were raised like a Duergar.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Bullywug)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(BULLYWUG)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~BULLYWUG </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ATHLETICS" type="Background Association" />
+    </rules>
+You were raised like a Bullywug.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Bladeling)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(BLADELING)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~BLADELING </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+    </rules>
+You were raised like a Bladeling.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Goliath)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(GOLIATH)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~GOLIATH </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ATHLETICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+    </rules>
+You were raised like a Goliath.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Half-Orc)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(HALF-ORC)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~HALF_ORC </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+    </rules>
+You were raised like a Half-Orc.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Deva)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(DEVA)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~DEVA </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_HISTORY" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_RELIGION" type="Background Association" />
+    </rules>
+You were raised like a Deva.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Genasi)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(GENASI)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~GENASI </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+    </rules>
+You were raised like a Genasi.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Razorclaw Shifter)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(RAZORCLAW_SHIFTER)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~RAZORCLAW_SHIFTER </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ACROBATICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>
+You were raised like a Razorclaw Shifter.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Warforged)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(WARFORGED)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~WARFORGED </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+    </rules>
+You were raised like a Warforged.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Longtooth Shifter)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(LONGTOOTH_SHIFTER)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~LONGTOOTH_SHIFTER </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ATHLETICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" type="Background Association" />
+    </rules>
+You were raised like a Longtooth Shifter.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Shadar-kai)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(SHADAR-KAI)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~SHADAR_KAI </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ACROBATICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>
+You were raised like a Shadar-kai.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Orc)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(ORC)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~ORC </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+You were raised like a Orc.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Minotaur)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(MINOTAUR)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~MINOTAUR </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_PERCEPTION" type="Background Association" />
+    </rules>
+You were raised like a Minotaur.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Kobold)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(KOBOLD)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~KOBOLD </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DUNGEONEERING" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_THIEVERY" type="Background Association" />
+    </rules>
+You were raised like a Kobold.
+	</RulesElement>
+  <RulesElement name="Among Another Race (Hobgoblin)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(HOBGOBLIN)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~HOBGOBLIN </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ATHLETICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_HISTORY" type="Background Association" />
+    </rules>
+You were raised like a Hobgoblin.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Goblin)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(GOBLIN)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~GOBLIN </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_BLUFF" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>
+You were raised like a Goblin.
+	</RulesElement>
+  <RulesElement name="Among Another Race (Gnome)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(GNOME)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~GNOME </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ARCANA" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>
+You were raised like a Gnome.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Gnoll)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(GNOLL)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~GNOLL </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_PERCEPTION" type="Background Association" />
+    </rules>
+You were raised like a Gnoll.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Githzerai)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(GITHZERAI)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~GITHZERAI </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ACROBATICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ATHLETICS" type="Background Association" />
+    </rules>
+You were raised like a Githzerai.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Githyanki)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(GITHYANKI)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~GITHYANKI </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_HISTORY" type="Background Association" />
+    </rules>
+You were raised like a Githyanki.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Drow)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(DROW)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~DROW </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>
+You were raised like a Drow.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Changeling)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(CHANGELING)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~CHANGELING </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_BLUFF" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INSIGHT" type="Background Association" />
+    </rules>
+You were raised like a Changeling.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Bugbear)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(BUGBEAR)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~BUGBEAR </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>
+You were raised like a Bugbear.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Tiefling)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(TIEFLING)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~TIEFLING </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_BLUFF" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" type="Background Association" />
+    </rules>
+You were raised like a Tiefling.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Human)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(HUMAN)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~HUMAN </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+You were raised like a Human.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Half-Elf)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(HALF-ELF)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~HALF_ELF </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DIPLOMACY" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INSIGHT" type="Background Association" />
+    </rules>
+You were raised like a Half-Elf.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Halfling)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(HALFLING)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~HALFLING </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ACROBATICS" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_THIEVERY" type="Background Association" />
+    </rules>
+You were raised like a Halfling.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Elf)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(ELF)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~ELF </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_PERCEPTION" type="Background Association" />
+    </rules>
+You were raised like a Elf.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Eladrin)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(ELADRIN)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~ELADRIN </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ARCANA" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_HISTORY" type="Background Association" />
+    </rules>
+You were raised like a Eladrin.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Dwarf)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(DWARF)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~DWARF </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_DUNGEONEERING" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" type="Background Association" />
+    </rules>
+You were raised like a Dwarf.
+   </RulesElement>
+  <RulesElement name="Among Another Race (Dragonborn)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_AMONG_ANOTHER_RACE_(DRAGONBORN)" source="Player's Handbook 2">
+    <Category> ID_FMP_BACKGROUND_88 </Category>
+    <Prereqs> ~DRAGONBORN </Prereqs>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_88 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_HISTORY" type="Background Association" />
+      <grant name="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" type="Background Association" />
+    </rules>
+You were raised like a Dragonborn.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Athletics)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(ATHLETICS)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Athletics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Athletics to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Thievery)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(THIEVERY)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Thievery" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Thievery to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Streetwise)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(STREETWISE)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Streetwise" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Streetwise to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Stealth)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(STEALTH)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Stealth" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Stealth to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Religion)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(RELIGION)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Religion" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Religion to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Perception)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(PERCEPTION)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Perception" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Perception to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Nature)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(NATURE)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Nature" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Nature to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Intimidate)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(INTIMIDATE)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Intimidate" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Intimidate to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Insight)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(INSIGHT)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Insight" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Insight to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (History)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(HISTORY)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="History" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add History to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Heal)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(HEAL)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Heal" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Heal to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Endurance)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(ENDURANCE)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Endurance" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Endurance to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Dungeoneering)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(DUNGEONEERING)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Dungeoneering" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Dungeoneering to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Diplomacy)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(DIPLOMACY)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Diplomacy" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Diplomacy to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Bluff)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(BLUFF)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Bluff" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Bluff to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Arcana)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(ARCANA)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Arcana" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Arcana to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Windrise Ports (Acrobatics)" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_WINDRISE_PORTS_(ACROBATICS)" source="Dragon Magazine 376">
+    <Category> ID_FMP_BACKGROUND_276 </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_276 </specific>
+    <rules>
+      <modify name="Acrobatics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Acrobatics to your list of class skills.
+   </RulesElement>
+  <RulesElement name="Learn All" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_ALL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> All background association </Prereqs>
+    <rules>
+      <grant name="ID_INTERNAL_LANGUAGE_ALL" type="Language" />
+    </rules>
+You can speak, read, and write All fluently.
+   </RulesElement>
+  <RulesElement name="Learn Secret Language" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_SECRET_LANGUAGE" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Secret Language background association </Prereqs>
+    <rules>
+      <grant name="ID_INTERNAL_LANGUAGE_SECRET_LANGUAGE" type="Language" />
+    </rules>
+You can speak, read, and write Secret Language fluently.
+   </RulesElement>
+  <RulesElement name="Learn The language of the mind" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_THE_LANGUAGE_OF_THE_MIND" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> The language of the mind background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_45" type="Language" />
+    </rules>
+You can speak, read, and write The language of the mind fluently.
+   </RulesElement>
+  <RulesElement name="Learn Riedran" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_RIEDRAN" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Riedran background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_40" type="Language" />
+    </rules>
+You can speak, read, and write Riedran fluently.
+   </RulesElement>
+  <RulesElement name="Learn Quori" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_QUORI" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Quori background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_38" type="Language" />
+    </rules>
+You can speak, read, and write Quori fluently.
+   </RulesElement>
+  <RulesElement name="Learn Argon" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_ARGON" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Argon background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_37" type="Language" />
+    </rules>
+You can speak, read, and write Argon fluently.
+   </RulesElement>
+  <RulesElement name="Learn Chondathan" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_CHONDATHAN" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Chondathan background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_34" type="Language" />
+    </rules>
+You can speak, read, and write Chondathan fluently.
+   </RulesElement>
+  <RulesElement name="Learn Untheric" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_UNTHERIC" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Untheric background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_33" type="Language" />
+    </rules>
+You can speak, read, and write Untheric fluently.
+   </RulesElement>
+  <RulesElement name="Learn Tulgan" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_TULGAN" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Tulgan background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_32" type="Language" />
+    </rules>
+You can speak, read, and write Tulgan fluently.
+   </RulesElement>
+  <RulesElement name="Learn Thayan" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_THAYAN" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Thayan background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_31" type="Language" />
+    </rules>
+You can speak, read, and write Thayan fluently.
+   </RulesElement>
+  <RulesElement name="Learn Shou" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_SHOU" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Shou background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_30" type="Language" />
+    </rules>
+You can speak, read, and write Shou fluently.
+   </RulesElement>
+  <RulesElement name="Learn Netherese" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_NETHERESE" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Netherese background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_29" type="Language" />
+    </rules>
+You can speak, read, and write Netherese fluently.
+   </RulesElement>
+  <RulesElement name="Learn Damaran" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_DAMARAN" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Damaran background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_28" type="Language" />
+    </rules>
+You can speak, read, and write Damaran fluently.
+   </RulesElement>
+  <RulesElement name="Learn Goblin" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_GOBLIN" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Goblin background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_20" type="Language" />
+    </rules>
+You can speak, read, and write Goblin fluently.
+   </RulesElement>
+  <RulesElement name="Learn Giant" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_GIANT" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Giant background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_19" type="Language" />
+    </rules>
+You can speak, read, and write Giant fluently.
+   </RulesElement>
+  <RulesElement name="Learn Deep Speech" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_DEEP_SPEECH" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Deep Speech background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_18" type="Language" />
+    </rules>
+You can speak, read, and write Deep Speech fluently.
+   </RulesElement>
+  <RulesElement name="Learn Supernal" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_SUPERNAL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Supernal background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_8" type="Language" />
+    </rules>
+You can speak, read, and write Supernal fluently.
+   </RulesElement>
+  <RulesElement name="Learn Abyssal" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_ABYSSAL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Abyssal background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_7" type="Language" />
+    </rules>
+You can speak, read, and write Abyssal fluently.
+   </RulesElement>
+  <RulesElement name="Learn Primordial" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_PRIMORDIAL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Primordial background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_6" type="Language" />
+    </rules>
+You can speak, read, and write Primordial fluently.
+   </RulesElement>
+  <RulesElement name="Learn Elven" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_ELVEN" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Elven background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_4" type="Language" />
+    </rules>
+You can speak, read, and write Elven fluently.
+   </RulesElement>
+  <RulesElement name="Learn Dwarven" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_DWARVEN" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Dwarven background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_3" type="Language" />
+    </rules>
+You can speak, read, and write Dwarven fluently.
+   </RulesElement>
+  <RulesElement name="Learn Draconic" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_DRACONIC" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Draconic background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_2" type="Language" />
+    </rules>
+You can speak, read, and write Draconic fluently.
+   </RulesElement>
+  <RulesElement name="Learn Common" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_LEARN_COMMON" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Common background association </Prereqs>
+    <rules>
+      <grant name="ID_FMP_LANGUAGE_1" type="Language" />
+    </rules>
+You can speak, read, and write Common fluently.
+   </RulesElement>
+  <RulesElement name="Athletics class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ATHLETICS_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Athletics background association </Prereqs>
+    <rules>
+      <modify name="Athletics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Athletics to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Athletics" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_ATHLETICS" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Athletics background association </Prereqs>
+    <rules>
+      <statadd name="Athletics Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Athletics checks.
+   </RulesElement>
+  <RulesElement name="Thievery class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_THIEVERY_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Thievery background association </Prereqs>
+    <rules>
+      <modify name="Thievery" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Thievery to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Thievery" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_THIEVERY" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Thievery background association </Prereqs>
+    <rules>
+      <statadd name="Thievery Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Thievery checks.
+   </RulesElement>
+  <RulesElement name="Streetwise class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_STREETWISE_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Streetwise background association </Prereqs>
+    <rules>
+      <modify name="Streetwise" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Streetwise to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Streetwise" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_STREETWISE" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Streetwise background association </Prereqs>
+    <rules>
+      <statadd name="Streetwise Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Streetwise checks.
+   </RulesElement>
+  <RulesElement name="Stealth class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_STEALTH_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Stealth background association </Prereqs>
+    <rules>
+      <modify name="Stealth" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Stealth to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Stealth" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_STEALTH" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Stealth background association </Prereqs>
+    <rules>
+      <statadd name="Stealth Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Stealth checks.
+   </RulesElement>
+  <RulesElement name="Religion class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_RELIGION_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Religion background association </Prereqs>
+    <rules>
+      <modify name="Religion" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Religion to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Religion" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_RELIGION" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Religion background association </Prereqs>
+    <rules>
+      <statadd name="Religion Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Religion checks.
+   </RulesElement>
+  <RulesElement name="Perception class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_PERCEPTION_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Perception background association </Prereqs>
+    <rules>
+      <modify name="Perception" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Perception to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Perception" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_PERCEPTION" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Perception background association </Prereqs>
+    <rules>
+      <statadd name="Perception Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Perception checks.
+   </RulesElement>
+  <RulesElement name="Nature class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NATURE_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Nature background association </Prereqs>
+    <rules>
+      <modify name="Nature" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Nature to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Nature" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_NATURE" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Nature background association </Prereqs>
+    <rules>
+      <statadd name="Nature Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Nature checks.
+   </RulesElement>
+  <RulesElement name="Intimidate class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_INTIMIDATE_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Intimidate background association </Prereqs>
+    <rules>
+      <modify name="Intimidate" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Intimidate to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Intimidate" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_INTIMIDATE" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Intimidate background association </Prereqs>
+    <rules>
+      <statadd name="Intimidate Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Intimidate checks.
+   </RulesElement>
+  <RulesElement name="Insight class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_INSIGHT_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Insight background association </Prereqs>
+    <rules>
+      <modify name="Insight" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Insight to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Insight" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_INSIGHT" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Insight background association </Prereqs>
+    <rules>
+      <statadd name="Insight Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Insight checks.
+   </RulesElement>
+  <RulesElement name="History class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_HISTORY_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> History background association </Prereqs>
+    <rules>
+      <modify name="History" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add History to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to History" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_HISTORY" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> History background association </Prereqs>
+    <rules>
+      <statadd name="History Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to History checks.
+   </RulesElement>
+  <RulesElement name="Heal class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_HEAL_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Heal background association </Prereqs>
+    <rules>
+      <modify name="Heal" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Heal to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Heal" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_HEAL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Heal background association </Prereqs>
+    <rules>
+      <statadd name="Heal Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Heal checks.
+   </RulesElement>
+  <RulesElement name="Endurance class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ENDURANCE_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Endurance background association </Prereqs>
+    <rules>
+      <modify name="Endurance" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Endurance to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Endurance" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_ENDURANCE" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Endurance background association </Prereqs>
+    <rules>
+      <statadd name="Endurance Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Endurance checks.
+   </RulesElement>
+  <RulesElement name="Dungeoneering class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_DUNGEONEERING_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Dungeoneering background association </Prereqs>
+    <rules>
+      <modify name="Dungeoneering" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Dungeoneering to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Dungeoneering" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_DUNGEONEERING" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Dungeoneering background association </Prereqs>
+    <rules>
+      <statadd name="Dungeoneering Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Dungeoneering checks.
+   </RulesElement>
+  <RulesElement name="Diplomacy class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_DIPLOMACY_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Diplomacy background association </Prereqs>
+    <rules>
+      <modify name="Diplomacy" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Diplomacy to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Diplomacy" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_DIPLOMACY" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Diplomacy background association </Prereqs>
+    <rules>
+      <statadd name="Diplomacy Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Diplomacy checks.
+   </RulesElement>
+  <RulesElement name="Bluff class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_BLUFF_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Bluff background association </Prereqs>
+    <rules>
+      <modify name="Bluff" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Bluff to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Bluff" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_BLUFF" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Bluff background association </Prereqs>
+    <rules>
+      <statadd name="Bluff Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Bluff checks.
+   </RulesElement>
+  <RulesElement name="Arcana class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ARCANA_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Arcana background association </Prereqs>
+    <rules>
+      <modify name="Arcana" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Arcana to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Arcana" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_ARCANA" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Arcana background association </Prereqs>
+    <rules>
+      <statadd name="Arcana Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Arcana checks.
+   </RulesElement>
+  <RulesElement name="Acrobatics class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ACROBATICS_CLASS_SKILL" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Acrobatics background association </Prereqs>
+    <rules>
+      <modify name="Acrobatics" type="Skill Training" Field="UniversalClassSkill" value="true" />
+    </rules>
+Add Acrobatics to your list of class skills.
+   </RulesElement>
+  <RulesElement name="+2 to Acrobatics" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_ACROBATICS" source="Core">
+    <Category> ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT </Category>
+    <Prereqs> Acrobatics background association </Prereqs>
+    <rules>
+      <statadd name="Acrobatics Misc" value="+2" />
+    </rules>
+Gain a +2 bonus to Acrobatics checks.
+   </RulesElement>
+  <RulesElement name="Nature" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NATURE" source="Dragon Magazine 366">
+    <Category> Noble Scion </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_50 </specific>
+    <rules>
+      <modify name="Nature" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Nature Misc" value="+2" />
+    </rules>
+Add nature to your class skill list and gain a +2 bonus to checks with that skill.
+   </RulesElement>
+  <RulesElement name="Religion" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_RELIGION" source="Dragon Magazine 366">
+    <Category> Noble Scion </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_50 </specific>
+    <rules>
+      <modify name="Religion" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Religion Misc" value="+2" />
+    </rules>
+Add religion to your class skill list and gain a +2 bonus to checks with that skill.
+   </RulesElement>
+  <RulesElement name="History" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_HISTORY" source="Dragon Magazine 366">
+    <Category> Noble Scion </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_50 </specific>
+    <rules>
+      <modify name="History" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="History Misc" value="+2" />
+    </rules>
+Add history to your class skill list and gain a +2 bonus to checks with that skill.
+   </RulesElement>
+  <RulesElement name="Dungeoneering" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_DUNGEONEERING" source="Dragon Magazine 366">
+    <Category> Noble Scion </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_50 </specific>
+    <rules>
+      <modify name="Dungeoneering" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Dungeoneering Misc" value="+2" />
+    </rules>
+Add dungeoneering to your class skill list and gain a +2 bonus to checks with that skill.
+   </RulesElement>
+  <RulesElement name="Arcana" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_ARCANA" source="Dragon Magazine 366">
+    <Category> Noble Scion </Category>
+    <specific name="_SupportsID"> ID_FMP_BACKGROUND_50 </specific>
+    <rules>
+      <modify name="Arcana" type="Skill Training" Field="UniversalClassSkill" value="true" />
+      <statadd name="Arcana Misc" value="+2" />
+    </rules>
+Add arcana to your class skill list and gain a +2 bonus to checks with that skill.
+   </RulesElement>
+
+  
+</D20Rules>

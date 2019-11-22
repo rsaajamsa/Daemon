@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Background Association.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Thri-kreen" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_THRI_KREEN" source="Core" />
+  <RulesElement name="All" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_ALL" source="Core" />
+  <RulesElement name="Secret Language" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_SECRET_LANGUAGE" source="Core" />
+  <RulesElement name="The language of the mind" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_THE_LANGUAGE_OF_THE_MIND" source="Core" />
+  <RulesElement name="Riedran" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_RIEDRAN" source="Core" />
+  <RulesElement name="Quori" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_QUORI" source="Core" />
+  <RulesElement name="Argon" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_ARGON" source="Core" />
+  <RulesElement name="Chondathan" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_CHONDATHAN" source="Core" />
+  <RulesElement name="Untheric" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_UNTHERIC" source="Core" />
+  <RulesElement name="Tulgan" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_TULGAN" source="Core" />
+  <RulesElement name="Thayan" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_THAYAN" source="Core" />
+  <RulesElement name="Shou" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_SHOU" source="Core" />
+  <RulesElement name="Netherese" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_NETHERESE" source="Core" />
+  <RulesElement name="Damaran" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_DAMARAN" source="Core" />
+  <RulesElement name="Goblin" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_GOBLIN" source="Core" />
+  <RulesElement name="Giant" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_GIANT" source="Core" />
+  <RulesElement name="Deep Speech" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_DEEP_SPEECH" source="Core" />
+  <RulesElement name="Supernal" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_SUPERNAL" source="Core" />
+  <RulesElement name="Abyssal" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_ABYSSAL" source="Core" />
+  <RulesElement name="Primordial" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_PRIMORDIAL" source="Core" />
+  <RulesElement name="Elven" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_ELVEN" source="Core" />
+  <RulesElement name="Dwarven" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_DWARVEN" source="Core" />
+  <RulesElement name="Draconic" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_DRACONIC" source="Core" />
+  <RulesElement name="Common" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_COMMON" source="Core" />
+  <RulesElement name="Athletics" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_ATHLETICS" source="Core" />
+  <RulesElement name="Thievery" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_THIEVERY" source="Core" />
+  <RulesElement name="Streetwise" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_STREETWISE" source="Core" />
+  <RulesElement name="Stealth" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_STEALTH" source="Core" />
+  <RulesElement name="Religion" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_RELIGION" source="Core" />
+  <RulesElement name="Perception" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_PERCEPTION" source="Core" />
+  <RulesElement name="Nature" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" source="Core" />
+  <RulesElement name="Intimidate" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" source="Core" />
+  <RulesElement name="Insight" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_INSIGHT" source="Core" />
+  <RulesElement name="History" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_HISTORY" source="Core" />
+  <RulesElement name="Heal" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_HEAL" source="Core" />
+  <RulesElement name="Endurance" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_ENDURANCE" source="Core" />
+  <RulesElement name="Dungeoneering" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_DUNGEONEERING" source="Core" />
+  <RulesElement name="Diplomacy" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_DIPLOMACY" source="Core" />
+  <RulesElement name="Bluff" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_BLUFF" source="Core" />
+  <RulesElement name="Arcana" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_ARCANA" source="Core" />
+  <RulesElement name="Acrobatics" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_ACROBATICS" source="Core" />
+
+  
+</D20Rules>

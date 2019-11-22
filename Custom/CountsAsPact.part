@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>CountsAsPact.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Elemental Pact" type="CountsAsPact" internal-id="ID_UNDR_COUNTSASPACT_ELEMENTAL_PACT" source="Heroes of the Elemental Chaos" />
+  <RulesElement name="Sorcerer-King Pact" type="CountsAsPact" internal-id="ID_INTERNAL_COUNTSASPACT_SORCERER-KING_PACT" source="Core" />
+  <RulesElement name="Vestige Pact" type="CountsAsPact" internal-id="ID_INTERNAL_COUNTSASPACT_VESTIGE_PACT" source="Core" />
+  <RulesElement name="Dark Pact" type="CountsAsPact" internal-id="ID_INTERNAL_COUNTSASPACT_DARK_PACT" source="Core" />
+  <RulesElement name="Infernal Pact" type="CountsAsPact" internal-id="ID_INTERNAL_COUNTSASPACT_INFERNAL_PACT" source="Core" />
+  <RulesElement name="Fey Pact" type="CountsAsPact" internal-id="ID_INTERNAL_COUNTSASPACT_FEY_PACT" source="Core" />
+  <RulesElement name="Star Pact" type="CountsAsPact" internal-id="ID_INTERNAL_COUNTSASPACT_STAR_PACT" source="Core" />
+
+ 
+</D20Rules>

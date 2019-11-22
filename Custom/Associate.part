@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.2</Version>
+    <Filename>Associate.part</Filename>
+    <PartAddress>V0.1/raw/gwpNczLJ</PartAddress>
+    <VersionAddress>V0.1/raw/FB0YyuEG</VersionAddress>
+  </UpdateInfo>
+  <Changelog />
+  <!-- Original Data -->
+  <RulesElement name="Quasit Companion" type="Associate" internal-id="ID_FMP_ASSOCIATE_58" source="The Book of Vile Darkness">
+QUASIT COMPANION		
+Tiny elemental humanoid (demon)
+
+HP your bloodied value				Initiative equal to yours
+AC 15, Fortitude 11, Reflex 13, Will 15 (add your level to each defense)		Perception equal to yours +2
+Speed land 8 		darkvision
+
+TRAITS
+Tempter's Influence Aura 1
+Enemies in the aura take a -2 penalty to saving throws.
+
+STANDARD
+Bite (poison)  At-Will
+Attack: Melee 0 (one creature); your level + 5 vs. AC
+Hit: 1d6 + your Intelligence modifier + your Charisma modifier damage plus 1d6 poison damage.
+
+STANDARD
+Invisibility (illusion)  At-Will
+Effect: The quasit becomes invisible until it makes an attack roll.
+
+MINOR
+Demonic Lore F Encounter
+Effect: You gain a +4 power bonus to the next Arcana, History, or Religion check you make before the end of your next turn.
+
+TRIGGERED
+Vengeful Temptation (charm)  Encounter
+Trigger: An enemy within 5 squares of the quasit attacks you.
+Attack: Ranged 5 (triggering enemy); 
+Hit:  The target is dazed (save ends). The effect also ends if the target makes an attack against one of its allies.
+
+Str 8 * Dex 21 * Wis 14
+Con 11 * Int 10 * Cha 16 
+Alignment: Chaotic Evil  Languages: Abyssal, Common
+</RulesElement>
+  <RulesElement name="Unicorn Destrier" type="Associate" internal-id="ID_TIV_ASSOCIATE_UNICORN_DESTRIER" source="Dragon Magazine 406">
+UNICORN DESTRIER COMPANION		
+Large fey magical beast (mount)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the destrier if an effect allows it to spend one		
+Defenses your defenses, not including any temporary bonuses or penalties		
+Speed 8
+
+TRAITS
+Piercing Charger (mount)
+If the destrier's rider makes a charge attack and hits, the target of the attack is pushed 1 square and knocked prone.
+
+STANDARD
+Kick  At-Will
+Attack: Melee 1 (one creature); your level + 7 vs. AC
+Hit: 2d6 + your Strength or Charisma modifier damage.
+
+MOVE
+Fey Step  Encounter
+Effect: The destrier and its rider teleport up to 5 squares. The destrier's rider must teleport to a square adjacent to the destrier.
+
+MINOR
+Horn Touch  Encounter
+Effect: One creature adjacent to the destrier can make a saving throw.
+</RulesElement>
+  <RulesElement name="Air Monolith" type="Associate" internal-id="ID_FMP_ASSOCIATE_75" source="Heroes of the Elemental Chaos">
+AIR MONOLITH		Summoned Creature
+Large elemental magical beast (air)
+
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the monolith if an effect allows it to spend one
+Defenses your defenses + 2, not including any temporary bonuses or penalties; Vulnerable 5 fire
+Speed land 0 , fly 8 (hover)
+
+TRAITS
+Phantom on the Wind
+The monolith becomes invisible whenever it starts your turn without an enemy adjacent to it. The invisibility lasts until the end of your next turn or until it hits or misses with an attack.
+
+STANDARD
+M Standard Action F At-Will
+Attack: Melee 2 (one creature); your level + 5 vs. Reflex
+Hit: 2d8 + your Intelligence modifier damage, and the monolith can slide the target 1 square.
+
+STANDARD
+M Standard Action F Encounter
+Attack: Melee 1 (one creature that can't see the monolith); your level + 5 vs. Reflex
+Hit: 4d8 + your Intelligence modifier damage, and the monolith grabs the target (escape DC 29) if it does not have a creature grabbed. Until the grab ends, the target takes ongoing 10 damage, and any ranged or melee attacks that hit the monolith deal only half damage to it and the other half to the grabbed target.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The monolith either walks, shifts, runs, stands up, squeezes, or crawls.
+</RulesElement>
+  <RulesElement name="Earth Monolith" type="Associate" internal-id="ID_FMP_ASSOCIATE_76" source="Heroes of the Elemental Chaos">
+EARTH MONOLITH		Summoned Creature
+Large elemental magical beast (earth)
+
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the monolith if an effect allows it to spend one
+Defenses your defenses + 2, not including any temporary bonuses or penalties
+Speed land 5 , burrow 5 
+
+TRAITS
+Brittle Skin
+Whenever the monolith takes thunder damage, it takes a -2 penalty to all defenses until the end of your next turn.
+
+STANDARD
+M Standard Action F At-Will
+Attack: Melee 2 (one creature); your level + 7 vs. AC
+Hit: 2d8 + your Intelligence modifier damage, and the target cannot shift until the end of your next turn.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The monolith either walks, shifts, runs, stands up, squeezes, or crawls.
+
+TRIGGERED
+M Immediate Reaction F At-Will
+Trigger: An enemy within 2 squares of the monolith attacks you.
+Attack: Melee 2 (triggering enemy); your level + 7 vs. AC
+Hit: 10 damage, and the target falls prone.
+</RulesElement>
+  <RulesElement name="Fire Monolith" type="Associate" internal-id="ID_FMP_ASSOCIATE_77" source="Heroes of the Elemental Chaos">
+FIRE MONOLITH		Summoned Creature
+Large elemental magical beast (fire)
+
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the monolith if an effect allows it to spend one
+Defenses your defenses + 2, not including any temporary bonuses or penalties
+Speed land 8 , fly 4 (clumsy)
+
+TRAITS
+Frozen in Place
+Whenever the monolith takes cold damage, it cannot shift until the end of your next turn.
+
+Heart of Flame (fire) 
+Whenever an enemy adjacent to the monolith misses you or it with an attack, that enemy takes 10 fire damage.
+
+STANDARD
+M Standard Action (fire)  F At-Will
+Attack: Melee 2 (one creature); your level + 5 vs. Reflex
+Hit:  Ongoing 15 fire damage (save ends).
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The monolith either walks, shifts, runs, stands up, squeezes, or crawls.
+</RulesElement>
+  <RulesElement name="Water Monolith" type="Associate" internal-id="ID_FMP_ASSOCIATE_78" source="Heroes of the Elemental Chaos">
+WATER MONOLITH		Summoned Creature
+Large elemental magical beast (water)
+
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the monolith if an effect allows it to spend one
+Defenses your defenses + 2, not including any temporary bonuses or penalties
+Speed land 6 , swim 6 
+
+TRAITS
+Aquatic
+The monolith can breathe underwater. In aquatic combat, it gains a +2 bonus to attack rolls against creatures that lack the aquatic keyword.
+
+Sensitive to Cold
+Whenever the monolith takes cold damage, it gains vulnerable 5 against the next attack that hits it before the end of your next turn.
+
+STANDARD
+Standard Action
+Attack: Standard 2 (one creature); your level + 5 vs. Fortitude
+Hit: 2d6 + your Intelligence modifier damage, and the monolith pushes the target up to 3 squares.
+
+STANDARD
+C Standard Action F Encounter
+Attack: Close Blast 3 (creatures in the blast); your level + 5 vs. Fortitude
+Hit: 4d6 + your Intelligence modifier damage, and the monolith pushes the target up to 2 squares and knocks it prone.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The monolith either walks, shifts, runs, stands up, squeezes, or crawls.
+</RulesElement>
+  <RulesElement name="Flame Zephyr" type="Associate" internal-id="ID_FMP_ASSOCIATE_62" source="Heroes of the Elemental Chaos">
+FLAME ZEPHYR		Summoned Creature
+Small elemental magical beast (air, fire)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the zephyr if an effect allows it to spend one 
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 , fly 6 
+
+TRAITS
+O Dust and Smoke Aura 1
+Allies in the aura have partial concealment. You gain a +2 power bonus to damage rolls against enemies in the aura. At 11th level, this bonus increases to +3. It increases to +4 at 21st level.
+
+STANDARD
+C Standard Action (fire)  F At-Will
+Attack: Close Burst 1 (creatures in the burst); your level + 5 vs. Reflex
+Hit: 1d6 + your highest ability modifier fire damage, and you can slide the target 1 square.
+	Level 21: 2d6 + your highest ability modifier fire damage.
+
+MINOR
+Minor Action F At-Will ((1/round)) 
+Effect: The zephyr crawls, runs, stands up, shifts, squeezes, or walks.
+
+Resist
+Resist: fire 10
+</RulesElement>
+  <RulesElement name="Arctine" type="Associate" internal-id="ID_FMP_ASSOCIATE_79" source="Heroes of the Elemental Chaos">
+ARCTINE		Elemental Companion
+Small elemental humanoid (cold)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 (ice walk)
+
+TRAITS
+Passive Benefit: Frost Armor
+You have ice walk while you shift, and you have resist 3 cold (6 at 11th level and 9 at 21st level).
+
+MINOR
+Active Benefit: Minor Action (zone)  F Encounter
+Effect: The arctine creates a zone of difficult terrain in a close burst 1. Creatures with ice walk are unaffected. The zone lasts until the end of the encounter or until the arctine leaves the zone, dies, or enters passive mode.
+</RulesElement>
+  <RulesElement name="Automaton" type="Associate" internal-id="ID_FMP_ASSOCIATE_80" source="Heroes of the Elemental Chaos">
+AUTOMATON		Elemental Companion
+Small elemental humanoid (construct)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 5 
+
+TRAITS
+Passive Benefit: Self-Repair
+You gain a +2 power bonus to saving throws against ongoing damage.
+
+Active Benefit: Fearsome Presence
+You and your allies can flank with the automaton.
+
+TRIGGERED
+Active Benefit: Immediate Interrupt F At-Will
+Trigger: The automaton takes damage from an attack while you are within 2 squares of it.
+Effect: The automaton takes no damage from the attack. You take the damage instead.
+</RulesElement>
+  <RulesElement name="Chaos Phage" type="Associate" internal-id="ID_FMP_ASSOCIATE_81" source="Heroes of the Elemental Chaos">
+CHAOS PHAGE		Elemental Companion
+Small elemental magical beast
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 		Darkvision
+
+TRAITS
+Passive Benefit: Mad Delusions (psychic) 
+You gain a +1 power bonus to Will. When the chaos phage enters active mode, you take psychic damage equal to 1 + one-half your level.
+
+TRIGGERED
+Active Benefit: Immediate Reaction F At-Will
+Trigger: An enemy adjacent to the chaos phage becomes bloodied.
+Effect: The chaos phage enters passive mode, and the triggering enemy grants combat advantage (save ends). Until this effect ends, the chaos phage cannot enter active mode.
+</RulesElement>
+  <RulesElement name="Crysmalite" type="Associate" internal-id="ID_FMP_ASSOCIATE_84" source="Heroes of the Elemental Chaos">
+CRYSMALITE		Elemental Companion
+Small elemental magical beast (spider)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties 
+Speed land 6 , climb 3 (spider climb)
+
+TRAITS
+Passive Benefit: Uncanny Senses and Grip
+You gain a +2 power bonus to Perception checks, and you gain a +2 bonus to Athletics checks to climb.
+
+FREE
+Active Benefit: Free Action F Encounter
+Trigger: You make a blast or burst attack, and the crysmalite is in the area of effect.
+Effect: Enemies adjacent to the crysmalite take a -2 penalty to attack rolls until the end of your next turn.
+</RulesElement>
+  <RulesElement name="Flame Serpent" type="Associate" internal-id="ID_FMP_ASSOCIATE_85" source="Heroes of the Elemental Chaos">
+FLAME SERPENT		Elemental Companion
+Small elemental magical beast (fire)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties 
+Speed land 6 
+
+TRAITS
+O Passive Benefit: Burning Inside Aura 2
+The aura is brightly lit. You can activate or deactivate this aura as a minor action.
+
+Passive Benefit: Fire Within
+You have resist 3 fire (6 at 11th level and 9 at 21st level).
+
+O Active Benefit: Flickering Flames Aura 1
+Any enemy in the aura grants combat advantage to you when you use a fire power against it.
+
+MOVE
+Active Benefit: Move Action F Encounter
+Effect: The flame serpent shifts up to its speed.
+</RulesElement>
+  <RulesElement name="Hordeling" type="Associate" internal-id="ID_FMP_ASSOCIATE_86" source="Heroes of the Elemental Chaos">
+HORDELING		Elemental Companion
+Small elemental humanoid (demon)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 4 		Darkvision
+
+TRAITS
+Passive Benefit: Vicious
+You gain a +2 power bonus to opportunity attack rolls.
+
+Passive Benefit: Rattle the Cage
+Whenever you end the encounter with the hordeling in passive mode, you take damage equal to your level.
+
+STANDARD
+Active Benefit: Standard Action (fear)  F Encounter
+Effect: The hordeling can push each creature adjacent to it 1 square.
+
+TRIGGERED
+Active Benefits: Immediate Interrupt F Encounter
+Trigger: You or the hordeling takes acid, cold, fire, lightning, or thunder damage.
+Effect: You and the hordeling each gain resist 5 to the triggering damage type, or types, until the end of your next turn (10 at 11th level and 15 at 21st level).
+</RulesElement>
+  <RulesElement name="Mud Wretch" type="Associate" internal-id="ID_FMP_ASSOCIATE_87" source="Heroes of the Elemental Chaos">
+MUD WRETCH		Elemental Companion
+Small elemental magical beast (earth, water)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 4 
+
+TRAITS
+Passive Benefit: Corrosive Secretions
+Any enemy that grabs you immediately takes 3 acid damage (6 at 11th level and 9 at 21st level).
+
+Passive Benefit: Unnatural Flexibility
+Squeezing doesn't cause you to move at half speed.
+
+O Active Benefit: Noxious Vapors Aura 1
+While you are bloodied, enemies in the aura take a -1 penalty to attack rolls.
+
+MOVE
+Active Benefits: Move Action F At-Will
+Effect: The mud wretch shifts up to 2 squares.
+</RulesElement>
+  <RulesElement name="Magmin" type="Associate" internal-id="ID_FMP_ASSOCIATE_88" source="Heroes of the Elemental Chaos">
+MAGMIN		Elemental Companion
+Medium elemental humanoid (earth, fire)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 4 
+
+TRAITS
+Passive Benefit: Fiery Intensity
+You gain a +2 power bonus to Intimidate checks.
+
+Passive Benefit: Flowing Lava
+When you take fire damage, you gain a +2 power bonus to speed until the end of your next turn. When you take cold damage, you are slowed until the end of your next turn.
+
+TRIGGERED
+Active Benefit: Immediate Reaction
+Trigger: An enemy adjacent to the magmin becomes bloodied.
+Effect: The triggering enemy is weakened until the end of your next turn.
+</RulesElement>
+  <RulesElement name="Nereid" type="Associate" internal-id="ID_FMP_ASSOCIATE_89" source="Heroes of the Elemental Chaos">
+NEREID		Elemental Companion
+Small elemental humanoid (aquatic, water)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 , swim 6 
+
+TRAITS
+Passive Benefit: Aquatic
+You can breathe underwater. In aquatic combat, you gain a +2 bonus to attack rolls against creatures that do not have the aquatic trait.
+
+Active Benefit: Aquatic
+The nereid can breathe underwater.
+
+FREE
+Active Benefit: Free Action (healing)  F Encounter
+Trigger: An ally adjacent to the nereid spends a healing surge.
+Effect: The triggering ally regains 3 additional hit points (6 at 11th level and 9 at 21st level).
+</RulesElement>
+  <RulesElement name="Pech" type="Associate" internal-id="ID_FMP_ASSOCIATE_90" source="Heroes of the Elemental Chaos">
+PECH		Elemental Companion
+Small elemental humanoid (earth)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 4 (earth walk)		tremorsense
+
+TRAITS
+Passive Benefit: Stone's Resilience
+You have earth walk while you shift, and you gain a +2 power bonus to Endurance checks.
+
+Active Benefit: Earth Glide
+The pech can pass through earth and rock as if it were phasing.
+</RulesElement>
+  <RulesElement name="Storm Talon" type="Associate" internal-id="ID_FMP_ASSOCIATE_91" source="Heroes of the Elemental Chaos">
+STORM TALON		Elemental Companion
+Small elemental magical beast
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 2 , fly 6 
+
+TRAITS
+Passive Benefit: Storm Dancer
+You gain a +2 power bonus to Acrobatics checks. Whenever you are pulled, pushed, or slid, you can take a free action to shift 1 square at the end of the forced movement.
+
+Active Benefit: Soaring Talon
+The storm talon has a range limit of 40 squares from you.
+
+O Active Benefit: Eye of the Storm Aura 1
+You and your allies gain a +2 power bonus to lightning or thunder attack rolls against enemies in the aura.
+</RulesElement>
+  <RulesElement name="Sylph" type="Associate" internal-id="ID_FMP_ASSOCIATE_92" source="Heroes of the Elemental Chaos">
+SYLPH		Elemental Companion
+Medium elemental humanoid (air)
+
+HP 1; a missed attack never damages the companion
+Defenses your defenses, not including any temporary bonuses or penalties 
+Speed land 6 , fly 6 (hover)
+
+TRAITS
+Passive Benefit: Ephemeral Wings
+You gain a +2 bonus to Athletics checks made to jump.
+
+Passive Benefit: Ethereal Personality
+You gain a +2 power bonus to Bluff checks.
+
+O Active Benefit: Buffeting Winds Aura 1
+Attackers take a -1 penalty to ranged attack rolls against creatures in the aura.
+
+MOVE
+Active Benefits: Move Action F Encounter
+Effect: One ally of yours adjacent to the sylph can fly up to 3 squares as a free action.
+</RulesElement>
+  <RulesElement name="Chariot of Sustarre" type="Associate" internal-id="ID_FMP_ASSOCIATE_65" source="Heroes of the Elemental Chaos">
+CHARIOT OF SUSTARRE		Summoned Creature
+Gargantuan elemental magical beast (fire)
+
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the chariot if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 8 , fly 8 (hover)
+
+TRAITS
+O Formed from Fire (fire)  Aura 1
+The aura is lightly obscured, and any enemy that ends its turn in the aura takes 10 fire damage.
+
+Cover
+The chariot grants partial cover to its occupants.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The chariot walks, shifts, runs, stands up, squeezes, or crawls.
+
+Instinctive Effect
+If you haven't given the chariot any commands by the end of your turn, the chariot moves half its speed if it can. If you are outside the chariot, it must end this movement closer to you than where it began the movement.
+</RulesElement>
+  <RulesElement name="Elemental Warrior (Air)" type="Associate" internal-id="ID_TIV_ASSOCIATE_ELEMENTAL_WARRIOR_AIR" source="Heroes of the Elemental Chaos">
+ELEMENTAL WARRIOR (AIR)		Summoned Creature
+large elemental humanoid (air)
+
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the chariot if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed Land 0, fly 10 (hover)
+
+STANDARD
+Standard Action F At-Will  
+Attack: Melee 2 (one creature); your level + 5 vs. Reflex
+Hit: 2d8 + your Wisdom modifier damage, and the target is marked by the elemental until the end of your next turn. The target is also immobilized and takes ongoing 10 damage (save ends both). This effect ends if the target is ever more than 2 squares away from the elemental.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The elemental either walks, shifts, runs, stands up, squeezes, or crawls.
+
+OPPORTUNITY
+Opportunity Action F At-Will
+Trigger: An enemy that is marked by the elemental moves without shifting or uses an attack power that does not include the elemental as a target.
+Effect: The elemental uses its standard action attack against the triggering enemy.
+</RulesElement>
+  <RulesElement name="Elemental Warrior (Earth)" type="Associate" internal-id="ID_TIV_ASSOCIATE_ELEMENTAL_WARRIOR_EARTH" source="Heroes of the Elemental Chaos">
+ELEMENTAL WARRIOR (EARTH)		Summoned Creature
+Large elemental humanoid (earth)
+
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the chariot if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed Land 5, burrow 5
+
+STANDARD
+Standard Action F At-Will  
+Attack: Melee 2 (one creature); your level + 5 vs. Reflex
+Hit: 2d8 +your Wisdom modifier damage, and one enemy adjacent to the target takes damage equal to 10 +your Wisdom modifier. The target cannot shift and is marked by the elemental until the end of your next turn.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The elemental either walks, shifts, runs, stands up, squeezes, or crawls.
+
+OPPORTUNITY
+Opportunity Action F At-Will
+Trigger: An enemy that is within 2 squares of the elemental and is marked by it moves without shifting or uses an attack power that does not include the elemental as a target.
+Effect: The elemental uses its standard action attack against the triggering enemy.
+</RulesElement>
+  <RulesElement name="Elemental Warrior (Fire)" type="Associate" internal-id="ID_TIV_ASSOCIATE_ELEMENTAL_WARRIOR_FIRE" source="Heroes of the Elemental Chaos">
+ELEMENTAL WARRIOR (FIRE)		Summoned Creature
+Large elemental humanoid (fire)
+
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the chariot if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed Land 8, fly 4 (clumsy)
+
+STANDARD
+Standard Action (fire) F At-Will  
+Attack: Melee 2 (one creature); your level + 5 vs. Reflex
+Hit: 2d8 +your Wisdom modifier fire damage, and the target is marked by the elemental until the end of your next turn. The target also takes ongoing 10 fire damage (save ends). The elemental can shift 1 square.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The elemental either walks, shifts, runs, stands up, squeezes, or crawls.
+
+OPPORTUNITY
+Opportunity Action F At-Will
+Trigger: An enemy that is within 2 squares of the elemental and is marked by it moves without shifting or uses an attack power that does not include the elemental as a target.
+Effect: The elemental uses its standard action attack against the triggering enemy.
+</RulesElement>
+  <RulesElement name="Elemental Warrior (Water)" type="Associate" internal-id="ID_TIV_ASSOCIATE_ELEMENTAL_WARRIOR_WATER" source="Heroes of the Elemental Chaos">
+ELEMENTAL WARRIOR (WATER)		Summoned Creature
+Large elemental humanoid (water)
+
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the chariot if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed Land 6, swim 6
+
+STANDARD
+Standard Action F At-Will  
+Attack: Melee 2 (one creature); your level + 5 vs. Reflex
+Hit: 3d8 +your Wisdom modifier damage, and the elemental pushes the target up to 2 squares and knocks it prone. The target is marked by the elemental until the end of your next turn.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The elemental either walks, shifts, runs, stands up, squeezes, or crawls.
+
+OPPORTUNITY
+Opportunity Action F At-Will
+Trigger: An enemy that is within 2 squares of the elemental and is marked by it moves without shifting or uses an attack power that does not include the elemental as a target.
+Effect: The elemental uses its standard action attack against the triggering enemy.
+</RulesElement>
+  <RulesElement name="Air Archon Grunt" type="Associate" internal-id="ID_FMP_ASSOCIATE_66" source="Heroes of the Elemental Chaos">
+AIR ARCHON GRUNT		Summoned Creature
+Medium elemental humanoid (air)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the archon if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 , fly 6 
+
+TRAITS
+O Gift of Wind Aura 2
+You gain a +2 power bonus to Acrobatics checks while you are in the aura.
+
+Fluttering Form
+Whenever the archon takes damage from a melee attack, the attacker can slide the archon 1 square.
+
+STANDARD
+M Standard Action F At-Will
+Attack: Melee 1 (one creature); your level + 7 vs. AC
+Hit:  2d8 + your Charisma modifier damage, and the target is immobilized until the end of your next turn.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The archon walks, shifts, runs, stands up, squeezes, or crawls.
+
+TRIGGERED
+Opportunity Action F At-Will
+Trigger: An enemy hits you with a melee attack while you are adjacent to the archon.
+Effect: The archon pushes the triggering enemy up to 3 squares.
+</RulesElement>
+  <RulesElement name="Earth Archon Grunt" type="Associate" internal-id="ID_FMP_ASSOCIATE_67" source="Heroes of the Elemental Chaos">
+EARTH ARCHON GRUNT		Summoned Creature
+Medium elemental humanoid (earth)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the archon if an effect allows it to spend one
+Defenses your defenses (+2 to AC and Fortitude), not including any temporary bonuses or penalties
+Speed land 6 (earth walk)
+
+TRAITS
+O Gift of Stone Aura 2
+You gain a +2 power bonus to Endurance checks while you are in the aura.
+
+Shattering Tremors
+Whenever the archon takes thunder damage, it is slowed until the end of its next turn.
+
+STANDARD
+M Standard Action F At-Will
+Attack: Melee 1 (one creature); your level + 7 vs. AC
+Hit: 2d10 + your Charisma modifier damage, and the archon pushes the target up to a number of squares equal to your Constitution modifier.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The archon walks, shifts, runs, stands up, squeezes, or crawls.
+
+TRIGGERED
+Opportunity Action F At-Will
+Trigger: An enemy hits you with a melee attack while you are adjacent to the archon.
+Effect: The triggering enemy falls prone.
+</RulesElement>
+  <RulesElement name="Fire Archon Grunt" type="Associate" internal-id="ID_FMP_ASSOCIATE_68" source="Heroes of the Elemental Chaos">
+FIRE ARCHON GRUNT		Summoned Creature
+Medium elemental humanoid (fire)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the archon if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties; Resist 10 fire
+Speed land 7 
+
+TRAITS
+O Gift of Fire Aura 2
+You gain a +2 power bonus to Intimidate checks while you are in the aura.
+
+Guttering Flames
+Whenever the archon takes cold damage, it cannot shift until the end of its next turn.
+
+STANDARD
+M Standard Action (fire)  F At-Will
+Attack: Melee 1 (one creature); your level + 7 vs. AC
+Hit: 2d8 + your Charisma modifier fire damage, and the target gains vulnerable 5 fire until the end of your next turn.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The archon walks, shifts up to 3 squares, runs, stands up, squeezes, or crawls.
+
+TRIGGERED
+Opportunity Action (fire)  F At-Will
+Trigger: An enemy hits you with a melee attack while it is within 7 squares of the archon.
+Effect: The archon shifts up to 7 squares to a square adjacent to the triggering enemy. The enemy then takes 5 fire damage.
+</RulesElement>
+  <RulesElement name="Water Archon Grunt" type="Associate" internal-id="ID_FMP_ASSOCIATE_69" source="Heroes of the Elemental Chaos">
+WATER ARCHON GRUNT		Summoned Creature
+Medium elemental humanoid (aquatic, water)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the archon if an effect allows it to spend one
+Defenses your defenses (+2 to AC and Reflex), not including any temporary bonuses or penalties
+Speed land 6 , swim 6 
+
+TRAITS
+O Gift of Water Aura 2
+You gain a +2 power bonus to Athletics checks while you are in the aura.
+
+Aquatic
+The archon can breathe underwater. In aquatic combat, it gains a +2 bonus to attack rolls against nonaquatic creatures.
+
+Frozen Waves
+Whenever the archon takes cold damage, it is slowed until the end of its next turn.
+
+STANDARD
+M Standard Action F At-Will
+Attack: Melee 1 (one creature); your level + 7 vs. AC
+Hit: 1d10 + your Charisma modifier damage, and ongoing 5 damage (save ends).
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The archon walks, shifts, runs, stands up, squeezes, or crawls.
+
+TRIGGERED
+Opportunity Action F At-Will
+Trigger: An enemy hits you with a melee attack while you are adjacent to the archon.
+Effect: The archon slides the triggering enemy up to 2 squares.
+</RulesElement>
+  <RulesElement name="Earth Titan Warrior" type="Associate" internal-id="ID_FMP_ASSOCIATE_70" source="Heroes of the Elemental Chaos">
+EARTH TITAN WARRIOR		Summoned Creature
+Huge elemental humanoid (earth, giant)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the titan if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties; Immune petrification
+Speed land 6 (earth walk)
+
+TRAITS
+O Stone Body Aura 2
+You gain a +4 power bonus to Endurance checks while you are in the aura.
+
+STANDARD
+M Standard Action F At-Will
+Attack: Melee 3 (one creature); your level + 7 vs. AC
+Hit: 4d10 + your Charisma modifier damage.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The titan walks, shifts, runs, stands up, squeezes, or crawls.
+
+MINOR
+Minor Action F Encounter
+Effect: Until the end of your next turn, each enemy that enters the titan's aura or starts its turn there falls prone.
+
+TRIGGERED
+M Opportunity Action F At-Will
+Trigger: An enemy adjacent to you and within 3 squares of the titan willingly moves without shifting.
+Attack: Melee 3 (triggering enemy); your level + 5 vs. Reflex
+Hit: 5 damage, and the target is dazed (save ends).
+</RulesElement>
+  <RulesElement name="Fire Titan Warrior" type="Associate" internal-id="ID_FMP_ASSOCIATE_71" source="Heroes of the Elemental Chaos">
+FIRE TITAN WARRIOR		Summoned Creature
+Huge elemental humanoid (fire, giant)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the titan if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 8 
+
+TRAITS
+O Agile Flames Aura 2
+You gain a +4 power bonus to Acrobatics checks while you are in the aura.
+
+STANDARD
+M Standard Action (fire)  F At-Will
+Attack: Melee 3 (one creature); your level + 7 vs. AC
+Hit: 4d10 + your Charisma modifier fire damage.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The titan walks, shifts, runs, stands up, squeezes, or crawls.
+
+MINOR
+Minor Action (fire)  F Encounter
+Effect: Until the end of your next turn, each enemy that ends its turn in the titan's aura takes 10 fire damage.
+
+TRIGGERED
+R Opportunity Action (fire)  F At-Will
+Trigger: An enemy ends its turn adjacent to you and within 5 squares of the titan.
+Attack: Ranged 5 (triggering enemy); your level + 5 vs. Reflex
+Hit: 10 damage, and ongoing 10 fire damage (save ends).
+</RulesElement>
+  <RulesElement name="Frost Titan Warrior" type="Associate" internal-id="ID_FMP_ASSOCIATE_72" source="Heroes of the Elemental Chaos">
+FROST TITAN WARRIOR		Summoned Creature
+Huge elemental humanoid (cold, giant)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the titan if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 8 (ice walk)
+
+TRAITS
+O Icy Strength Aura 2
+You gain a +4 power bonus to Athletics checks while you are in the aura.
+
+STANDARD
+M Standard Action (cold)  F At-Will
+Attack: Melee 3 (one creature); your level + 7 vs. AC
+Hit: 4d10 + your Charisma modifier cold damage.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The titan walks, shifts, runs, stands up, squeezes, or crawls.
+
+MINOR
+Minor Action (cold)  F Encounter
+Effect: Until the end of your next turn, the titan's aura is difficult terrain for enemies that lack ice walk, and each enemy that ends its turn in the aura takes 10 cold damage.
+
+TRIGGERED
+M Opportunity Action F At-Will
+Trigger: An enemy adjacent to you and within 3 squares of the titan willingly moves without shifting.
+Attack: Melee 3 (triggering enemy); your level + 5 vs. Fortitude
+Hit: 5 damage, the titan pushes the target up to 3 squares, and the target is immobilized (save ends).
+</RulesElement>
+  <RulesElement name="Storm Titan Warrior" type="Associate" internal-id="ID_FMP_ASSOCIATE_73" source="Heroes of the Elemental Chaos">
+STORM TITAN WARRIOR		Summoned Creature
+Huge elemental humanoid (aquatic, giant)
+
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the titan if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 8 , fly 4 , swim 8 
+
+TRAITS
+O Storm Sight Aura 2
+You gain a +4 power bonus to Perception checks while you are in the aura.
+
+Aquatic
+The titan can breathe underwater. In aquatic combat, it gains a +2 bonus to attack rolls against nonaquatic creatures.
+
+STANDARD
+M Standard Action (lightning, thunder)  F At-Will
+Attack: Melee 3 (one creature); your level + 7 vs. AC
+Hit: 4d10 + your Charisma modifier lightning and thunder damage.
+
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The titan walks, shifts, runs, stands up, squeezes, or crawls.
+
+MINOR
+Minor Action (lightning, thunder)  F Encounter
+Effect: Until the end of your next turn, each enemy that ends its turn in the titan's aura takes 10 lightning and thunder damage.
+
+TRIGGERED
+R Opportunity Action (lightning)  F At-Will
+Trigger: An enemy ends its turn adjacent to you and within 5 squares of the titan.
+Attack: Ranged 5 (triggering enemy); your level + 5 vs. Reflex
+Hit: 5 lightning damage, and the target is dazed (save ends).
+</RulesElement>
+  <RulesElement name="Living Zephyr" type="Associate" internal-id="ID_FMP_ASSOCIATE_64" source="Heroes of the Elemental Chaos">
+LIVING ZEPHYR		
+Medium elemental magical beast
+
+HP your bloodied value				Initiative equal to yours
+Defenses (add your level to each defense)
+AC 14, Fortitude 13, Reflex 14, Will 13		Perception equal to yours + 2
+Speed land 0 , fly 6 (hover; altitude limit 2)
+
+TRAITS
+O Debris Cloud Aura 2
+The aura is lightly obscured to enemies.
+
+STANDARD
+m Animal Attack F At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. AC
+Hit: 1d10 + your Wisdom modifier damage, and the zephyr can slide the target 1 square.
+Level 13: + your Wisdom modifier damage.
+Level 23: + your Wisdom modifier damage.
+
+Str: 12	Dex: 20	Wis: 14
+Con: 17	Int: 3	Cha: 7
+</RulesElement>
+  <RulesElement name="Giant Cobra" type="Associate" internal-id="ID_FMP_ASSOCIATE_40" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+GIANT COBRA		Summoned Creature
+Medium natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the cobra if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed 
+STANDARD
+Standard Action (poison)   At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 1d6 + your Wisdom modifier damage plus 2d6 poison damage, and the target takes a -2 penalty to attack rolls until the end of your next turn.
+MINOR
+Minor Action  At-Will (1/round) 
+Effect: The cobra either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the cobra any commands by the end of your turn, it attacks an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Desert Hawk" type="Associate" internal-id="ID_FMP_ASSOCIATE_42" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+DESERT HAWK		Summoned Creature
+Medium natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the hawk if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 , fly 8 
+STANDARD
+Standard Action  At-Will
+Effect: Before the attack, the hawk shifts up to 2 squares.
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 2d8 + your Wisdom modifier damage, and the hawk can slide the target 1 square.
+MINOR
+Minor Action  At-Will (1/round) 
+Effect: The hawk either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the hawk any commands by the end of your turn, it attacks an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Bulette" type="Associate" internal-id="ID_FMP_ASSOCIATE_43" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+BULETTE		Summoned Creature
+Large natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the bulette if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 , burrow 6 
+STANDARD
+Standard Action F At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 4d8 + your Wisdom modifier damage, and the target is slowed until the end of your next turn.
+STANDARD
+Standard Action F Encounter
+Attack: Close Burst 1 (creatures in the burst); your level + 5 vs. Reflex
+Hit: 4d8 + your Wisdom modifier damage, and the target falls prone.
+MINOR
+Minor Action F At-Will (1/round) 
+Effect: The bulette either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the bulette any commands by the end of your turn, it uses its melee attack power against an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Venomous Scorpion" type="Associate" internal-id="ID_FMP_ASSOCIATE_44" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+VENOMOUS SCORPION		Summoned Creature
+Large natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the scorpion if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 
+STANDARD
+Standard Action (poison)  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 2d8 + your Wisdom modifier poison damage, and the target is immobilized and takes ongoing 10 poison damage (save ends both).
+MINOR
+Minor Action At-Will (1/round) 
+Effect: The scorpion either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the scorpion any commands by the end of your turn, it attacks an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Blue Dragon Wyrmling" type="Associate" internal-id="ID_FMP_ASSOCIATE_45" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+BLUE DRAGON WYRMLING		Summoned Creature
+Large natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the wyrmling if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 8 , fly 8 
+STANDARD
+Standard Action  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 4d8 + your Wisdom modifier damage, and the wyrmling marks the target until the end of your next turn.
+STANDARD
+Standard Action (lightning)   Encounter
+Attack: Close Blast 5 (creatures in the blast); your level + 5 vs. Reflex
+Hit: 4d10 + your Wisdom modifier lightning damage, and the target is dazed until the end of your next turn.
+MINOR
+Minor Action (1/round) 
+Effect: The wyrmling either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the wyrmling any commands by the end of your turn, it uses its melee attack power against an adjacent enemy if it can, preferring an enemy marked by it. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+STANDARD
+Standard Action  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 4d8 + your Wisdom modifier damage, and the wyrmling marks the target until the end of your next turn.
+</RulesElement>
+  <RulesElement name="Desert Roc" type="Associate" internal-id="ID_FMP_ASSOCIATE_46" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+DESERT ROC		Summoned Creature
+Large natural  beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the roc if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 8 , fly 8 
+STANDARD
+Standard Action  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 4d8 + your Wisdom modifier damage, and the target is grabbed if the roc has fewer than two creatures grabbed. The grab lasts until the end of your next turn.
+Sustain Minor: The grab persists on any creature grabbed by the roc until the end of your next turn.
+MINOR
+Minor Action At-Will (1/round) 
+Effect: The roc either walks, shifts, runs, stands up, squeezes, or crawls. If the roc has a Large or smaller creature grabbed, it can pull the grabbed creature with it. The creature remains grabbed, and the roc does not provoke opportunity attacks from the grabbed creature for this movement.
+Instinctive Effect
+If you haven't given the roc any commands by the end of your turn, it sustains a grab if it is grabbing a creature. If it is not grabbing a creature, it attacks an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Grizzly Bear" type="Associate" internal-id="ID_FMP_ASSOCIATE_47" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+GRIZZLY BEAR		Summoned Creature
+Medium natural beast ()
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the bear if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 
+STANDARD
+Standard Action At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 2d8 + your Wisdom modifier damage, and the target is grabbed if the bear has no creatures grabbed. The grab lasts until the end of your next turn.
+Sustain Minor: The grab persists until the end of your next turn.
+MINOR
+Minor Action At-Will (1/round) 
+Effect: The bear either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the bear any commands by the end of your turn, it sustains a grab if it is grabbing a creature. If it is not grabbing a creature, it attacks an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Pack Wolf" type="Associate" internal-id="ID_FMP_ASSOCIATE_48" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+PACK WOLF		Summoned Creature
+Medium natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the wolf if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 
+STANDARD
+Standard Action  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 1d10 + your Wisdom modifier damage, and the target falls prone.
+MINOR
+Minor Action  At-Will (1/round) 
+Effect: The wolf either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the wolf any commands by the end of your turn, it attacks an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Dire Bear" type="Associate" internal-id="ID_FMP_ASSOCIATE_49" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+DIRE BEAR		Summoned Creature
+Large natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the bear if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 
+STANDARD
+Standard Action  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Fortitude
+Hit: 4d8 + your Wisdom modifier damage, and the bear pushes the target up to 3 squares.
+MINOR
+Minor Action  At-Will (1/round) 
+Effect: The bear either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the dire bear any commands by the end of your turn, it attacks an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Hunting Tiger" type="Associate" internal-id="ID_FMP_ASSOCIATE_50" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+HUNTING TIGER		Summoned Creature
+Large natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the tiger if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 
+STANDARD
+Standard Action  At-Will
+Effect: The tiger shifts up to 2 squares.
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 4d8 + your Wisdom modifier damage, and the target falls prone.
+MINOR
+Minor Action (1/round) 
+Effect: The tiger either walks, shifts, runs, stands up, squeezes, or crawls. If the tiger has either superior cover or total concealment when it ends this movement, it can make a Stealth check to hide with a +15 power bonus to the check.
+Instinctive Effect
+If you haven't given the tiger any commands by the end of your turn, it attacks an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Dire Lion" type="Associate" internal-id="ID_FMP_ASSOCIATE_51" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+DIRE LION		Summoned Creature
+Large natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the lion if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 
+STANDARD
+Standard Action  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Reflex
+Hit: 4d8 + your Wisdom modifier damage, and the target falls prone.
+STANDARD
+Standard Action (fear, thunder)  Encounter
+Attack: Close Burst 2 (enemies in the burst); your level + 5 vs. Will
+Hit: 5d8 + your Wisdom modifier thunder damage, and the target takes a -2 penalty to attack rolls until the end of your next turn.
+MINOR
+Minor Action  At-Will (1/round) 
+Effect: The lion either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the lion any commands by the end of your turn, it uses its melee attack power against an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Raptor Behemoth" type="Associate" internal-id="ID_FMP_ASSOCIATE_52" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15858 </specific>
+RAPTOR BEHEMOTH		Summoned Creature
+Large natural beast
+HP your bloodied value; Healing Surges none, but you can expend a healing surge for the behemoth if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed land 6 
+STANDARD
+Standard Action  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. Fortitude
+Hit: 4d8 + your Wisdom modifier damage.
+Effect: If the target ends its next turn within 2 squares of the behemoth, the behemoth shifts 1 square as a free action to a square adjacent to the target and deals 15 damage to it.
+MINOR
+Minor Action  At-Will (1/round) 
+Effect: The behemoth either walks, shifts, runs, stands up, squeezes, or crawls.
+Instinctive Effect
+If you haven't given the behemoth any commands by the end of your turn, it attacks an adjacent enemy if it can. Otherwise, it moves up to its speed to a square adjacent to an enemy.
+</RulesElement>
+  <RulesElement name="Trained Blink Dog" type="Associate" internal-id="ID_FMP_ASSOCIATE_53" source="Heroes of the Feywild">
+TRAINED BLINK DOG		Fey Beast Companion
+Medium fey beast
+HP your bloodied value				Initiative equal to yours
+Defenses (Add your level to each defense)
+AC 15, Fortitude 13, Reflex 13, Will 13		Perception equal to yours +2
+Speed  7 		low-light vision
+TRAITS
+Blinking Pack (teleportation)  Aura 1
+The blink dog or any ally in the aura can use a move action to teleport to another square in the aura.
+STANDARD
+Blinking Bite (teleportation)  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. AC
+Hit: 1d8 + one-half your level damage, and the blink dog teleports up to 2 squares.
+	Level 21: 2d8 + one-half your level damage.
+Str 14 * Dex 20 * Wis 14
+Con 17 * Int 2 * Cha 6
+</RulesElement>
+  <RulesElement name="Trained Displacer Beast" type="Associate" internal-id="ID_FMP_ASSOCIATE_54" source="Heroes of the Feywild">
+TRAINED DISPLACER BEAST		Fey Beast Companion
+Medium fey beast
+HP your bloodied value				Initiative equal to yours
+Defenses (Add your level to each defense)
+AC 15, Fortitude 11, Reflex 15, Will 15		Perception equal to yours +2
+Speed  8 		low-light vision
+TRAITS
+Displacement (illusion)  Aura 1
+Allies gain a +1 power bonus to all defenses while in the aura.
+STANDARD
+Tentacle (illusion)  At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. AC
+Hit: 1d8 + one-half your level damage, and the displacer beast gains partial concealment until the end of its next turn.
+	Level 21: 2d8 + one-half your level damage.
+Str 15 * Dex 20 * Wis 16
+Con 16 * Int 2 * Cha 6
+</RulesElement>
+  <RulesElement name="Trained Fey Panther" type="Associate" internal-id="ID_FMP_ASSOCIATE_55" source="Heroes of the Feywild">
+TRAINED FEY PANTHER		Fey Beast Companion
+Medium fey beast
+HP your bloodied value				Initiative equal to yours
+Defenses (Add your level to each defense)
+AC 13, Fortitude 13, Reflex 15, Will 11		Perception equal to yours +2
+Speed  8 , climb 6 		low-light vision
+TRAITS
+Alert Companion Aura 1
+While in the aura, enemies cannot gain combat advantage against the fey panther's allies.
+STANDARD
+Claw F At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. AC
+Hit: 1d8 + one-half your level damage, and the target grants combat advantage to you until the end of your next turn.
+	Level 21: 2d8 + one-half your level damage.
+Str 15 * Dex 20 * Wis 13
+Con 15 * Int 2 * Cha 6
+</RulesElement>
+  <RulesElement name="Trained Young Owlbear" type="Associate" internal-id="ID_FMP_ASSOCIATE_56" source="Heroes of the Feywild">
+TRAINED YOUNG OWLBEAR		Fey Beast Companion
+Medium fey beast
+HP your bloodied value				Initiative equal to yours
+Defenses (Add your level to each defense)
+AC 13, Fortitude 15, Reflex 11, Will 15		Perception equal to yours +2
+Speed  6 		darkvision
+TRAITS
+Ferocious Companion Aura 1
+Allies gain a +2 power bonus to damage rolls against enemies in the aura.
+STANDARD
+Claw F At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. AC
+Hit: 1d12 + one-half your level damage.
+	Level 21: 2d12 + one-half your level damage.
+Str 20 * Dex 12 * Wis 14
+Con 17 * Int 2 * Cha 6
+</RulesElement>
+  <RulesElement name="Sidhe House Guard" type="Associate" internal-id="ID_FMP_ASSOCIATE_57" source="Heroes of the Feywild">
+    <specific name="_Associated Power"> ID_FMP_POWER_15885 </specific>
+SIDHE HOUSE GUARD		Summoned Creature
+Medium fey humanoid
+HP your healing surge value; Healing Surges none, but you can lose a healing surge for the guard if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed  6
+STANDARD
+Standard Action (weapon)  At-Will
+Attack: Melee 1 (one creature); your level + 7 vs. AC
+Hit: 1d8 + Primary ability damage.
+Level 21: 2d8 + Primary ability damage.
+MOVE
+Move Action (teleportation)  F Encounter
+Effect: The guard teleports up to 6 squares.
+TRIGGERED
+Immediate Interrupt At-Will
+Trigger: You are hit by a melee attack or a ranged attack while the guard is adjacent to you.
+Effect: The attack hits the guard instead of you.
+</RulesElement>
+  <RulesElement name="Sarifal Advisor" type="Associate" internal-id="ID_TIV_ASSOCIATE_01" source="Dragon Magazine 405">
+    <specific name="_Associated Power"> ID_TIV_POWER_DRAGON_MAGAZINE_405_1_2 </specific>
+SARIFAL ADVISOR		Summoned Creature
+Tiny fey humanoid
+HP your healing surge value; Healing Surges none, but you can spend a healing surge for the advisor if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed 4, fly 6 (altitude limit 1);  Low-light vision
+ADVISOR'S ACUMEN
+Advisor's Acumen
+The advisor gains a +2 bonus to Arcana checks, Nature checks, and Stealth checks.
+SPEAK WITH BEASTS
+Speak with Beasts
+The advisor can communicate with natural beasts and fey beasts.
+MINOR
+Minor Action  Encounter
+Effect: Until the end of your next turn, you can sense the world through the advisor's senses. You gain neither line of sight nor line of effect for your powers from the advisor's space, but you can make Perception checks from it.
+MINOR
+Minor Action  At-Will (1/round)
+Effect: The advisor crawls, flies, runs, stands up, shifts, squeezes, or walks.
+</RulesElement>
+  <RulesElement name="Ancestral Defender" type="Associate" internal-id="ID_TIV_ASSOCIATE_02" source="Dragon Magazine 405">
+    <specific name="_Associated Power"> ID_TIV_POWER_DRAGON_MAGAZINE_405_2_3 </specific>
+ANCESTRAL DEFENDER		Summoned Creature
+Medium natural animate
+HP your healing surge value; Healing Surges none, but you can spend a healing surge for the advisor if an effect allows it to spend one
+Defenses your defenses, with a +2 bonus to AC and not including any temporary bonuses or penalties
+Speed 0, fly 6 (hover; altitude limit 1)
+BATTLE BLESSING
+Battle Blessing Aura 1
+You and your allies gain a +2 power bonus to damage rolls while in the aura.
+MINOR
+Minor Action  At-Will
+Effect: The defender administers first aid to an adjacent ally. It uses your Heal skill with a +2 power bonus to the check.
+MINOR
+Minor Action  At-Will (1/round)
+Effect: The advisor crawls, flies, runs, stands up, shifts, squeezes, or walks.
+IMMEDIATE iNTERRUPT
+Immediate interrupt  Encounter
+Trigger: An ally adjacent to the defender is hit by a melee or a ranged attack.
+Effect: The defender is hit by the attack instead.
+</RulesElement>
+  <RulesElement name="Duodrone Balancer" type="Associate" internal-id="ID_TIV_ASSOCIATE_DUODRONE_BALANCER" source="Dragon Magazine 414">
+DUODRONE BALANCER		Summoned Creature
+Medium immortal animate, modron
+HP your bloodied value; Healing Surges none, but you can spend a healing surge for the balancer if an effect allows it to spend one
+Defenses your defenses, not including any temporary bonuses or penalties
+Speed 5, fly 5 (clumsy)
+STANDARD
+Remove Outlier (Standard * At-Will
+Attack: Melee 1 (one creature); your level + 5 vs. AC
+Hit: 2d6 + your level damage, and the target cannot score critical hits until the end of your next turn.
+TRIGGERED
+Probabilistic Understanding * Recharge (when an enemy within 10 squares of the balancer scores a critical hit)
+Trigger: The balancer's summoner makes a d20 roll.
+Effect (Free Action): The summoner treats the triggering roll as though he or she rolled a 10
+Impose Order * At-Will
+Trigger: An enemy willingly leaves a square adjacent to the balancer without shifting or teleporting.
+Effect (Opportunity Action): The balancer uses remove outlier against the triggering enemy.
+</RulesElement>
+
+
+</D20Rules>

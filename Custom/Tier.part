@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Tier.part</Filename>
+    <PartAddress>V0.1</PartAddress>
+    <VersionAddress>V0.1</VersionAddress>
+  </UpdateInfo>
+  <Changelog /> <!-- Original Data -->
+  <RulesElement name="Epic" type="Tier" internal-id="ID_INTERNAL_TIER_EPIC" source="Core" />
+  <RulesElement name="Paragon" type="Tier" internal-id="ID_INTERNAL_TIER_PARAGON" source="Core" />
+  <RulesElement name="Heroic" type="Tier" internal-id="ID_INTERNAL_TIER_HEROIC" source="Core" />
+ </D20Rules>
