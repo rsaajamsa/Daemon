@@ -2,8 +2,9 @@ These files are edited to streamline the applications.
 
 <b>CBLoader</b> Is edited to
 - no longer extract existing data
-- no longer ask to see the log file<p>
+- no longer ask to see the log file
+
 <b>CharacterBuilder</b> Is edited to
-- Accept the new "Damon Note" type as a "specific" tag
+- accept the new "Damon Note" type as a "specific" tag
 
 
