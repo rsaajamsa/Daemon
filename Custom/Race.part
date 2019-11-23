@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <D20Rules game-system="D&amp;amp;D4E">
   <UpdateInfo>
-    <Version> The Annoying Version </Version>
-    <Filename> Annoying </Filename>
-    <PartAddress> http://www.google.com </PartAddress>
+    <Version>0.1</Version>
+    <Filename>Race.part</Filename>
+    <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race.part_version</PartAddress>
     <VersionAddress> V0.1 </VersionAddress>
   </UpdateInfo>
   <Changelog />
