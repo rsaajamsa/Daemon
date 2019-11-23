@@ -6,7 +6,9 @@
     <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race.part</PartAddress>
     <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race.part_version</VersionAddress>
   </UpdateInfo>
-  <Changelog />
+  <Changelog>
+	  - Started to remove obsolete tags
+  </Changelog>
   <!-- Original Data -->
   <RulesElement name="Mul" type="Race" internal-id="ID_FMP_RACE_50" source="Dark Sun Campaign Setting" revision-date="10/12/2010 1:39:24 PM">
     <Prereqs> ~MUL </Prereqs>
