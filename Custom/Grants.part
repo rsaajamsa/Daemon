@@ -7,7 +7,7 @@
     <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Grants.part_version</VersionAddress>
   </UpdateInfo>
   <Changelog />
-  <!-- Original Data -->
+  <!-- Original Data 1 --> 
   <RulesElement name="Hybrid Vampire" type="Grants" internal-id="ID_INTERNAL_GRANTS_HYBRID_VAMPIRE" source="Dragon Magazine 400">
     <specific name="_SupportsID"> ID_FMP_CLASS_817 </specific>
     <rules>
