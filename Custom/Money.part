@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <D20Rules game-system="D&amp;amp;D4E">
   <UpdateInfo>
-    <Version>0.1</Version>
+    <Version>0.2</Version>
     <Filename>Money.part</Filename>
     <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Money.part</PartAddress>
     <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Money.part_version</VersionAddress>
   </UpdateInfo>
-  <Changelog /> <!-- Original Data -->
+  <Changelog> 
+    NO ITEMS ABLE TO BE ADDED TO THIS LIST UNLESS IT IS USED AS AN ITEM AND NOT A CURRENCY
+  </Changelog> 
+    <!-- Original Data -->
   <RulesElement name="Residuum" type="Money" internal-id="ID_INTERNAL_MONEY_RESIDUUM" source="Core">
 Residuum is the magical substance that results from using the Disenchant Magic Item ritual on an item. It's a fine, silvery dust that some describe as concentrated magic, useful as a generic component for rituals (see Chapter 10 in the PHB). In some exotic locales, residuum is traded as currency, measured by weight and carried in small metal vials. It's a convenient way to transport large sums of wealth; 10,000 gp worth of residuum weighs as much as a single gold piece and takes up only slightly more space, so 1 pound of residuum is worth 500,000 gp and fits in a belt pouch.
    </RulesElement>

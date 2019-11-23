@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <D20Rules game-system="D&amp;amp;D4E">
   <UpdateInfo>
-    <Version>0.1</Version>
+    <Version>0.2</Version>
     <Filename>Racial Trait.part</Filename>
     <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Racial%20Trait.part</PartAddress>
     <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Racial%20Trait.part_version</VersionAddress>
   </UpdateInfo>
+	
+	-Added Half Wyvern
+	
   <Changelog />
   <!-- Original Data -->
   <RulesElement name="Past Spirit (Mul)" type="Racial Trait" internal-id="ID_INTERNAL_RACIAL_TRAIT_PAST_SPIRIT_(MUL)" source="Primal Power,Dragon Magazine 385">
@@ -3286,4 +3289,28 @@ You gain proficiency with the throwing hammer and the warhammer.
 You can use dragon breath as an encounter power.
 	</RulesElement>
 
+	  <RulesElement name="Wyvern Heritage" type="Racial Trait" internal-id="ID_TGW_RACIAL_TRAIT_5000" source="Daemon" revision-date="10/27/2019 00:00:00 AM">
+    <specific name="Short Description"> You are considered a Reptile for effects related to keyword. </specific>
+    <specific name="_CS_ShortDescription"> You are considered a Reptile for effects related to keyword. </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="Powers" />
+    <specific name="type" />
+    <specific name="Class"> ID_TGW_RACE_100 </specific>
+    <specific name="_DisplayPowers" />
+    <rules />
+    Half Wyverns are Reptiles as they are not fully fledged wyverns
+  </RulesElement>
+
+  <RulesElement name="Wyvern Wings" type="Racial Trait" internal-id="ID_TGW_RACIAL_TRAIT_5001" source="Daemon" revision-date="10/27/2019 00:00:00 AM">
+    <specific name="Short Description"> You have a fly speed of 6 and an altitude limit of 3 with less than half carry weight, 1 with over half and no fly speed when encumbered. </specific>
+    <specific name="_CS_ShortDescription"> You have a fly speed of 6 and an altitude limit of 3 with less than half carry weight, 1 with over half and no fly speed when encumbered. </specific>
+    <specific name="Level"> 1 </specific>
+    <specific name="Powers" />
+    <specific name="type" />
+    <specific name="Class"> ID_TGW_RACE_100 </specific>
+    <specific name="_DisplayPowers" />
+    <rules />
+    As a Half Wyvern you have very large wings, about as tall as you are when they're folded. This gives you an advantage over the other draconic creatures as you gain a fly speed of 6. When under half of your carry weight you have an altitude limit of 3, when over half your carry weight the altitude limit is reduced to 1 and when you're over encumbered you lose your flight speed.
+  </RulesElement>
+	
 </D20Rules>

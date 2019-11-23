@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <D20Rules game-system="D&amp;amp;D4E">
   <UpdateInfo>
-    <Version>0.1</Version>
+    <Version>0.2</Version>
     <Filename>Race.part</Filename>
     <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race.part</PartAddress>
     <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race.part_version</VersionAddress>
   </UpdateInfo>
   <Changelog>
 	  - Started to remove obsolete tags
+	  - Added Half Wyvern
   </Changelog>
   <!-- Original Data -->
   <RulesElement name="Mul" type="Race" internal-id="ID_FMP_RACE_50" source="Dark Sun Campaign Setting" revision-date="10/12/2010 1:39:24 PM">
@@ -1835,5 +1836,49 @@ Play a Dragonborn if you want ...
  * to breathe acid, cold, fire, lightning, or poison.
  * to be a member of a race that favors the warlord, fighter, and paladin classes.
 </RulesElement>
+	
+<!-- Half Wyvern -->
+  <RulesElement name="Half Wyvern" type="Race" internal-id="ID_TGW_RACE_100" source="Daemon" revision-date="10/27/2019 00:00:00 AM">
+    <Prereqs> ~HALFWYVERN </Prereqs>
+    <Flavor> Half Wyverns are a close relative to Dragonborn. They are just as their name suggests, humanoid wyverns. Although not as strong as their cousins they make up for it by being much more dexterous and having the ability to fly. </Flavor>
+    <specific name="Size"> Although they're small, half wyverns are considered medium because of their large wings. </specific>
+    <specific name="Speed"> 4 squares (Land), 6 Squares (Fly, Altitude Limit 3 with half load, 2 with more than half and no flight speed when encumbered) </specific>
+    <specific name="Characteristics"> Curious, Relaxed, Silly, Pranksters, Loyal Friends </specific>
+    <specific name="Physical Qualities"> Half Wyverns average nearly 4 feet tall and weigh about 50 pounds. They share many simularties to wyverns, the simularities vary on each member of the species however but all will have large wings instead of arms, a tail tipped in a blade and very strong legs tipped with claws. </specific>
+    <specific name="Playing"> Half Wyverns, like wyverns, usually aren't the brightest creatures you'll ever meet and half wyverns can be rather meek when they're alone. As wyverns will fight creatures they believe they're stronger than, half wyverns will do the same but usually live in small groups of other half wyverns to make up for their lack of sheer power compared to wyverns. </specific>
+    <specific name="Vision"> Normal </specific>
+    <specific name="Average Height"> 3'6"-4'2" </specific>
+    <specific name="Average Weight"> 40-55 lb. </specific>
+    <specific name="Ability Scores"> +2 Dexterity, +2 Constitution or +2 Wisdom </specific>
+    <specific name="Languages"> Common, Draconic </specific>
+    <specific name="Skill Bonuses"> +2 Nature, +2 Endurance </specific>
+    <specific name="Male Names"> Knackers </specific>
+    <specific name="Female Names"> Knockers </specific>
+    <specific name="Short Description"> Playful half Wyvern Humanoids </specific>
+    <specific name="Racial Traits"> ID_TGW_RACIAL_TRAIT_5000, ID_TGW_RACIAL_TRAIT_5001</specific>
+    <rules>
+      <grant name="ID_INTERNAL_GRANTS_HALFWYVERN" type="Grants" />
+      <statadd name="Speed" value="+4" />
+      <textstring name="Average Height" value="3'6&quot;-4'2&quot;" />
+      <textstring name="Average Weight" value="40-55 lb." />
+      <textstring name="Size" value="Medium" />
+      <select type="Race Ability Bonus" number="1" Category="Constitution|Wisdom" />
+    </rules>
+    No one is completely sure when the Half Wyverns began to exist or how they came to exist. They're still a rare sight but very rarely, one gets the scent of adventure.
+  </RulesElement>
+  <RulesElement name="Half Wyvern" type="Grants" internal-id="ID_INTERNAL_GRANTS_HALFWYVERN" source="Daemon">
+    <specific name="_SupportsID"> ID_TGW_RACE_100 </specific>
+    <rules>
+      <grant name="ID_INTERNAL_SIZE_MEDIUM" type="Size" />
+      <grant name="ID_INTERNAL_VISION_NORMAL" type="Vision" />
+      <grant name="ID_TGW_RACIAL_TRAIT_5000" type="Racial Trait" />
+      <grant name="ID_TGW_RACIAL_TRAIT_5001" type="Racial Trait" />
+      <grant name="ID_INTERNAL_RACE_ABILITY_BONUS_DEXTERITY" type="Race Ability Bonus" />
+      <grant name="ID_FMP_LANGUAGE_1" type="Language" />
+      <grant name="ID_FMP_LANGUAGE_2" type="Language" />
+      <grant name="ID_INTERNAL_RACIAL_TRAIT_NATURE_BONUS" type="Racial Trait" />
+      <grant name="ID_INTERNAL_RACIAL_TRAIT_ENDURANCE_BONUS" type="Racial Trait" />
+    </rules>
+  </RulesElement>
 
 </D20Rules>
