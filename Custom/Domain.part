@@ -3,8 +3,8 @@
   <UpdateInfo>
     <Version>0.1</Version>
     <Filename>Domain.part</Filename>
-    <PartAddress>V0.1</PartAddress>
-    <VersionAddress>V0.1</VersionAddress>
+    <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Domain.part</PartAddress>
+    <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Domain.part_version</VersionAddress>
   </UpdateInfo>
   <Changelog /> <!-- Original Data -->
   <RulesElement name="Winter" type="Domain" internal-id="ID_FMP_DOMAIN_34" source="Core">

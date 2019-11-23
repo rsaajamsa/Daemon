@@ -3,8 +3,8 @@
   <UpdateInfo>
     <Version>0.1</Version>
     <Filename>Alignment.part</Filename>
-    <PartAddress>V0.1</PartAddress>
-    <VersionAddress>V0.1</VersionAddress>
+    <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Alignment.part</PartAddress>
+    <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Alignment.part_version</VersionAddress>
   </UpdateInfo>
   <Changelog /> <!-- Original Data -->
   <RulesElement name="Chaotic Evil" type="Alignment" internal-id="ID_FMP_ALIGNMENT_5" source="Player's Handbook" revision-date="2/18/2008 11:56:02 AM" />

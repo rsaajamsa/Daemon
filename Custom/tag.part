@@ -3,8 +3,8 @@
   <UpdateInfo>
     <Version>0.1</Version>
     <Filename>tag.part</Filename>
-    <PartAddress>V0.1</PartAddress>
-    <VersionAddress>V0.1</VersionAddress>
+    <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/tag.part</PartAddress>
+    <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/tag.part_version</VersionAddress>
   </UpdateInfo>
   <Changelog /> <!-- Original Data -->
   <RulesElement name="Essentials" type="tag" internal-id="ID_FMP_TAG_1" source="Core" />

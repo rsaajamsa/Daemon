@@ -3,8 +3,8 @@
   <UpdateInfo>
     <Version>0.1</Version>
     <Filename>Money.part</Filename>
-    <PartAddress>V0.1</PartAddress>
-    <VersionAddress>V0.1</VersionAddress>
+    <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Money.part</PartAddress>
+    <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Money.part_version</VersionAddress>
   </UpdateInfo>
   <Changelog /> <!-- Original Data -->
   <RulesElement name="Residuum" type="Money" internal-id="ID_INTERNAL_MONEY_RESIDUUM" source="Core">

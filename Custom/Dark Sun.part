@@ -3,8 +3,8 @@
   <UpdateInfo>
     <Version>0.1</Version>
     <Filename>Dark Sun.part</Filename>
-    <PartAddress>V0.1</PartAddress>
-    <VersionAddress>V0.1</VersionAddress>
+    <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Dark%20Sun.part</PartAddress>
+    <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Dark%20Sun.part_version</VersionAddress>
   </UpdateInfo>
   <Changelog />
     <RulesElement name="Dark Sun" type="tag" internal-id="ID_FMP_TAG_8" source="Core">

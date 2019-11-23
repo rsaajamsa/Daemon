@@ -3,8 +3,8 @@
   <UpdateInfo>
     <Version>0.1</Version>
     <Filename>Tier.part</Filename>
-    <PartAddress>V0.1</PartAddress>
-    <VersionAddress>V0.1</VersionAddress>
+    <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Tier.part</PartAddress>
+    <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Tier.part_version</VersionAddress>
   </UpdateInfo>
   <Changelog /> <!-- Original Data -->
   <RulesElement name="Epic" type="Tier" internal-id="ID_INTERNAL_TIER_EPIC" source="Core" />
