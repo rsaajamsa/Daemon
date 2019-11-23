@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <D20Rules game-system="D&amp;amp;D4E">
   <UpdateInfo>
-    <Version>0.2</Version>
+    <Version>0.1</Version>
     <Filename>Armor.part</Filename>
     <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Armor.part</PartAddress>
     <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Armor.part_version</VersionAddress>
