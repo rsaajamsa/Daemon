@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <D20Rules game-system="D&amp;amp;D4E">
   <UpdateInfo>
-    <Version>0.1</Version>
+    <Version>0.01</Version>
     <Filename>Ability Score.part</Filename>
     <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Ability%20Score.part</PartAddress>
     <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Ability%20Score.part_version</VersionAddress>
