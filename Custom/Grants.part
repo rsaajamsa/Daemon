@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <D20Rules game-system="D&amp;amp;D4E">
   <UpdateInfo>
-    <Version>0.1</Version>
+    <Version>0.2</Version>
     <Filename>Grants.part</Filename>
     <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Grants.part</PartAddress>
     <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Grants.part_version</VersionAddress>
   </UpdateInfo>
   <Changelog />
-  <!-- Original Data -->
+  <!-- Original Data 1 --> 
   <RulesElement name="Hybrid Vampire" type="Grants" internal-id="ID_INTERNAL_GRANTS_HYBRID_VAMPIRE" source="Dragon Magazine 400">
     <specific name="_SupportsID"> ID_FMP_CLASS_817 </specific>
     <rules>
