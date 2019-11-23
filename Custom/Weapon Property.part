@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+    <Version>0.1</Version>
+    <Filename>Weapon Property.part</Filename>
+    <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Weapon%20Property.part</PartAddress>
+    <VersionAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Weapon%20Property.part_version</VersionAddress>
+  </UpdateInfo>
+  <Changelog /> <!-- Original Data -->
+  <RulesElement name="Mounted" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_35" source="Core">
+A mounted weapon is most effective when you use it while riding a mount. When you use such a weapon while not mounted, you take a -2 penalty to attack rolls with it. While you are mounted, your charge attacks with the weapon deal 1[W] extra damage.
+</RulesElement>
+  <RulesElement name="Reaching" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_34" source="Core" revision-date="8/13/2010 6:23:39 PM">
+You gain +1 reach with melee attacks using a reaching implement.
+   </RulesElement>
+  <RulesElement name="Blinking" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_33" source="Core" revision-date="8/13/2010 6:24:16 PM">
+When you hit with a teleportation attack power, you have concealment until the start of your next turn.
+   </RulesElement>
+  <RulesElement name="Mobile" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_32" source="Core" revision-date="8/13/2010 6:24:18 PM">
+When you hit with an attack using a mobile implement, you can shift as a minor action before the end of your turn.
+   </RulesElement>
+  <RulesElement name="Energized (necrotic)" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_31" source="Core" revision-date="8/13/2010 6:24:22 PM">
+When you use an attack power through an energized implement, you gain a +2 bonus to damage rolls if the power has the keyword that matches the implement's damage type. The bonus increases to +3 at 11th level and +4 at 21st level.
+   </RulesElement>
+  <RulesElement name="Energized (force)" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_30" source="Core" revision-date="2/18/2010 8:38:37 AM">
+When you use an attack power through an energized implement, you gain a +2 bonus to damage rolls if the power has the keyword that matches the implement's damage type. The bonus increases to +3 at 11th level and +4 at 21st level.
+   </RulesElement>
+  <RulesElement name="Energized (psychic)" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_29" source="Core" revision-date="2/18/2010 8:38:39 AM">
+When you use an attack power through an energized implement, you gain a +2 bonus to damage rolls if the power has the keyword that matches the implement's damage type. The bonus increases to +3 at 11th level and +4 at 21st level.
+   </RulesElement>
+  <RulesElement name="Energized (radiant)" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_28" source="Core" revision-date="2/18/2010 8:38:40 AM">
+When you use an attack power through an energized implement, you gain a +2 bonus to damage rolls if the power has the keyword that matches the implement's damage type. The bonus increases to +3 at 11th level and +4 at 21st level.
+   </RulesElement>
+  <RulesElement name="Energized (lightning)" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_27" source="Core" revision-date="2/18/2010 8:38:44 AM">
+When you use an attack power through an energized implement, you gain a +2 bonus to damage rolls if the power has the keyword that matches the implement's damage type. The bonus increases to +3 at 11th level and +4 at 21st level.
+   </RulesElement>
+  <RulesElement name="Energized (thunder)" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_26" source="Core" revision-date="2/18/2010 8:38:46 AM">
+When you use an attack power through an energized implement, you gain a +2 bonus to damage rolls if the power has the keyword that matches the implement's damage type. The bonus increases to +3 at 11th level and +4 at 21st level.
+   </RulesElement>
+  <RulesElement name="Energized (fire)" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_25" source="Core" revision-date="2/18/2010 8:38:48 AM">
+When you use an attack power through an energized implement, you gain a +2 bonus to damage rolls if the power has the keyword that matches the implement's damage type. The bonus increases to +3 at 11th level and +4 at 21st level.
+   </RulesElement>
+  <RulesElement name="Energized (cold)" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_24" source="Core" revision-date="2/18/2010 8:38:56 AM">
+When you use an attack power through an energized implement, you gain a +2 bonus to damage rolls if the power has the keyword that matches the implement's damage type. The bonus increases to +3 at 11th level and +4 at 21st level.
+   </RulesElement>
+  <RulesElement name="Unstoppable" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_23" source="Core" revision-date="2/18/2010 8:36:32 AM">
+You gain a +1 bonus to attack rolls against Fortitude when attacking with an unstoppable implement.
+   </RulesElement>
+  <RulesElement name="Unerring" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_22" source="Core" revision-date="2/18/2010 8:36:07 AM">
+You gain a +1 bonus to attack rolls against Reflex when attacking with an unerring implement.
+   </RulesElement>
+  <RulesElement name="Undeniable" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_21" source="Core" revision-date="2/18/2010 8:35:40 AM">
+You gain a +1 bonus to attack rolls against Will when attacking with an undeniable implement.
+   </RulesElement>
+  <RulesElement name="Shielding" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_20" source="Core" revision-date="2/18/2010 8:34:49 AM">
+Whenever you hit at least one target with an attack power using a shielding implement, you gain a +1 shield bonus to AC and Reflex until the start of your next turn.
+   </RulesElement>
+  <RulesElement name="Forceful" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_19" source="Core" revision-date="2/18/2010 8:34:29 AM">
+Whenever you pull, push, or slide a target with an attack power using a forceful implement, the distance of the forced movement increases by 1 square.
+   </RulesElement>
+  <RulesElement name="Energized (acid)" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_18" source="Core" revision-date="2/18/2010 8:37:27 AM">
+When you use an attack power through an energized implement, you gain a +2 bonus to damage rolls if the power has the keyword that matches the implement's damage type. The bonus increases to +3 at 11th level and +4 at 21st level.
+   </RulesElement>
+  <RulesElement name="Empowered Crit" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_17" source="Core" revision-date="2/18/2010 8:33:38 AM">
+When you score a critical hit with an empowered crit implement, the attack deals 1d10 extra damage. The extra damage increases to 2d10 at 11th level and 3d10 at 21st level.
+   </RulesElement>
+  <RulesElement name="Distant" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_16" source="Core" revision-date="2/18/2010 8:33:16 AM">
+The range of your area and ranged attack powers increases by 2 when they're used through a distant implement.
+   </RulesElement>
+  <RulesElement name="Deadly" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_15" source="Core" revision-date="2/18/2010 8:32:54 AM">
+You gain a +1 bonus to damage rolls made with a deadly implement. The bonus increases to +2 at 11th level and +3 at 21st level.
+   </RulesElement>
+  <RulesElement name="Accurate" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_14" source="Core" revision-date="2/18/2010 8:32:30 AM">
+You gain a +1 bonus to attack rolls made with an accurate implement.
+   </RulesElement>
+  <RulesElement name="Stout" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_13" source="Core" revision-date="10/19/2009 10:03:44 AM">
+A weapon that has the stout property can be treated as a two-handed weapon.
+   </RulesElement>
+  <RulesElement name="Defensive" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_11" source="Core" revision-date="2/17/2009 9:51:47 AM">
+A defensive weapon grants you a +1 bonus to AC while you wield the defensive weapon in one hand and wield another melee weapon in your other hand. Wielding more than one defensive weapon does not increase this bonus. To gain this benefit, you need not attack with the defensive weapon, but you must be proficient with it.
+   </RulesElement>
+  <RulesElement name="Brutal" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_10" source="Core" revision-date="2/17/2009 9:51:35 AM">
+A brutal weapon's minimum damage is higher than that of a normal weapon. When rolling the weapon's damage, reroll any die that displays a value equal to or lower than the brutal value given for the weapon. Reroll the die until the value shown exceeds the weapon's brutal value, and then use the new value.
+   </RulesElement>
+  <RulesElement name="Load Free" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_9" source="Core" revision-date="2/17/2009 9:51:33 AM">
+Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. If a power allows you to hit multiple targets, the additional load time is accounted for in the power.
+   </RulesElement>
+  <RulesElement name="Small" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_8" source="Core" revision-date="2/17/2009 9:51:31 AM">
+This property describes a two-handed or a versatile weapon that a Small character can use in the same way a Medium character can. A halfling can use a shortbow, for example, even though halflings can't normally use two-handed weapons.
+   </RulesElement>
+  <RulesElement name="Reach" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_7" source="Core" revision-date="2/17/2009 9:51:30 AM">
+With a reach weapon, you can attack enemies that are 2 squares away from you as well as adjacent enemies, with no attack penalty. You can still make opportunity attacks only against adjacent enemies. Likewise, you can flank only an adjacent enemy.
+   </RulesElement>
+  <RulesElement name="Load Minor" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_6" source="Core" revision-date="2/17/2009 9:51:28 AM">
+Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the weapon table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. If a power allows you to hit multiple targets, the additional load time is accounted for in the power.
+   </RulesElement>
+  <RulesElement name="Light Thrown" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_5" source="Core" revision-date="2/17/2009 9:51:26 AM">
+A basic attack with a light thrown weapon uses your Dexterity. Light thrown weapons don't deal as much damage as heavy thrown weapons, but some powers let you hurl several of them at once or in rapid succession.
+   </RulesElement>
+  <RulesElement name="High Crit" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_4" source="Core" revision-date="2/17/2009 9:51:24 AM">
+A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.
+   </RulesElement>
+  <RulesElement name="Heavy Thrown" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_3" source="Core" revision-date="2/17/2009 9:51:22 AM">
+You hurl a thrown weapon from your hand, rather than using it to loose a projectile. A basic attack with a heavy thrown weapon uses your Strength.
+   </RulesElement>
+  <RulesElement name="Versatile" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_2" source="Core" revision-date="2/17/2009 9:52:56 AM">
+Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.
+A Small character such as a halfling must use a versatile weapon two-handed, and doesn't deal extra damage.
+   </RulesElement>
+  <RulesElement name="Off-hand" type="Weapon Property" internal-id="ID_FMP_WEAPON_PROPERTY_1" source="Core" revision-date="2/17/2009 9:51:20 AM">
+An off-hand weapon is light enough that you can hold it and attack effectively with it while holding a weapon in your main hand. You can't attack with both weapons in the same turn, unless you have a power that lets you do so, but you can attack with either weapon.
+   </RulesElement>
+<!-- End Original Data --> </D20Rules>
