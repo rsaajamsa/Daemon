@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<D20Rules game-system="D&amp;amp;D4E">
+  <UpdateInfo>
+  <Version>0.1</Version>
+    <Filename>Race Ability Bonus.part</Filename>
+    <PartAddress>https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race%20Ability%20Bonus.part</PartAddress>
+    <VersionAddress> https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race%20Ability%20Bonus.part_version </VersionAddress>
+  </UpdateInfo>
+  <Changelog /> <!-- Original Data -->
+  <RulesElement name="Charisma" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_CHARISMA" source="Core">
+    <Category> ID_INTERNAL_RACE_ABILITY_BONUS_CHARISMA </Category>
+    <rules>
+      <statadd name="Charisma" value="+2" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Wisdom" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_WISDOM" source="Core">
+    <Category> ID_INTERNAL_RACE_ABILITY_BONUS_WISDOM </Category>
+    <rules>
+      <statadd name="Wisdom" value="+2" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Intelligence" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_INTELLIGENCE" source="Core">
+    <Category> ID_INTERNAL_RACE_ABILITY_BONUS_INTELLIGENCE </Category>
+    <rules>
+      <statadd name="Intelligence" value="+2" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Dexterity" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_DEXTERITY" source="Core">
+    <Category> ID_INTERNAL_RACE_ABILITY_BONUS_DEXTERITY </Category>
+    <rules>
+      <statadd name="Dexterity" value="+2" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Constitution" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_CONSTITUTION" source="Core">
+    <Category> ID_INTERNAL_RACE_ABILITY_BONUS_CONSTITUTION </Category>
+    <rules>
+      <statadd name="Constitution" value="+2" />
+    </rules>
+  </RulesElement>
+  <RulesElement name="Strength" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_STRENGTH" source="Core">
+    <Category> ID_INTERNAL_RACE_ABILITY_BONUS_STRENGTH </Category>
+    <rules>
+      <statadd name="Strength" value="+2" />
+    </rules>
+  </RulesElement>
+<!-- End Original Data --> </D20Rules>
