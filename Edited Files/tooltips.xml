@@ -1,0 +1,147 @@
+<!-- The tooltips are the name of the control and the tooltip text
+     value. The names of the controls are defined in the XAML, so
+     someone who understands XAML can read it and figure
+     out the name. The programmers will populate the list, with
+     comments in the case of any named control that isnt obvious
+     to what it corresponds too in the GUI, and then the game
+     designers can fill in the values with the text they want for
+     that tooltip.
+
+     If there are elements of the GUI the designers want to assign
+     a tooltip too that we havent done here, they can make a list
+     and we can figure out the correct name and add it for them
+     to populate
+
+     - - -
+
+     For the programmers working on the code, not all elements in
+     the XAML have a name currently, just what needs to be referred
+     to by the code. Adding a name to any element is trivial, its
+     just a Name attribute.
+
+     I may have used some names in multiple places, we will have to
+     make sure all names are globally unique since the tooltip code
+     simply searches the main window and all its children for an
+     element of the given name.
+
+     And remember this is WPF, its completely generic. You can give
+     a name to any element, and the tooltip will apply to that element.
+     That includes compound elements like a StackPanel or anything.
+     Heck, if we want, we can give a tooltip to -CharBuilder- which
+     is the main window and the tooltip would apply to everything.
+     That would be a bad idea, but we could do it.
+
+     Tooltips are inherited and overriden as youd expect. So we
+     could have an area of the display that might be a button,
+     an image, and a few textblocks all packaged up into a grid.
+     If we name the grid and apply a tooltip to it, all those elements
+     will have the tooltip. If we then name the button and give it
+     a tooltip, it would have the new tooltip while all the other
+     elements would still have the one from their containing grid.
+  -->
+
+<DDICharBuilderToolTips>
+
+  <!-- Main Page Activities -->
+  <ToolTip Name="NewChar">
+    Create a new character
+  </ToolTip>
+
+  <ToolTip Name="LoadChar">
+    Select a character from the Character List
+  </ToolTip>
+
+  <ToolTip Name="EditCharacter">
+    Access the build wizard pages for this character.
+  </ToolTip>
+
+  <ToolTip Name="LevelUpPage">
+    View the character's home page.
+  </ToolTip>
+
+  <ToolTip Name="SaveCharacter">      Save your character to disk                             </ToolTip>
+  <ToolTip Name="CharacterSheet">     View the character sheet                                </ToolTip>
+  <ToolTip Name="SignIn">             Sign in to D&amp;D Insider
+              </ToolTip>
+  <ToolTip Name="AboutBtn">
+    Click to view application information
+  </ToolTip>
+
+  <!-- Main Page Tabs -->
+  <ToolTip Name="RaceTab">            Choose your character's race                            </ToolTip>
+  <ToolTip Name="ClassTab">           Choose your character's class                           </ToolTip>
+  <ToolTip Name="AbilityScoreTab">    Assign ability scores                                   </ToolTip>
+  <ToolTip Name="SkillTab">           Choose skills                                           </ToolTip>
+  <ToolTip Name="FeatTab">            Choose feats                                            </ToolTip>
+  <ToolTip Name="PowerTab">           Choose powers                                           </ToolTip>
+  <ToolTip Name="ReplacementsTab">    Change a feat, power or skill                           </ToolTip>
+  <ToolTip Name="GearTab">            Choose your character's equipment                       </ToolTip>
+  <ToolTip Name="DetailsTab">         Add details to your character                           </ToolTip>
+  <ToolTip Name="LevelWizard">        Adjust your character's level/XP, or auto-level
+              </ToolTip>
+  <ToolTip Name="CustomizationTab">   Check your character's customization status             </ToolTip>
+  
+  <ToolTip Name="StatusBlock">        Your character's legality, * indicates an unfinished character.
+              </ToolTip>
+  <!-- Go To Next Step -->
+  <ToolTip Name="NextStep">           Continue customizing your character                     </ToolTip>
+
+  <!-- Character List -->
+  <ToolTip Name="CateGroup">          Pick which block of characters are displayed
+              </ToolTip>
+  <ToolTip Name="ReturnToWizard">     Return to the currently-loaded character
+              </ToolTip>
+
+  <!-- Race -->
+  <ToolTip Name="RaceChooseButton">   Select or unselect the specified option
+              </ToolTip>
+  <!-- Class -->
+  <ToolTip Name="ClassChooseButton">  Select or unselect the specified option
+              </ToolTip>
+  <ToolTip Name="UserLanguage">
+    Grant your character an additional language. This will make your character houseruled.
+  </ToolTip>
+
+  <!-- Ability Scores -->
+  <ToolTip Name="AutoScores">         Automatically fill in ability scores                    </ToolTip>
+  <ToolTip Name="RollScores">         Roll custom ability scores                              </ToolTip>
+  <ToolTip Name="ResetPoints">        Reset custom score assignments                          </ToolTip>
+  <ToolTip Name="ShowArrays">         Show the current assignments                            </ToolTip>
+
+  <!-- Skills, Feats and Powers -->
+  <ToolTip Name="ChooseSkill">        Select the highlighted skill                            </ToolTip>
+  <ToolTip Name="ChooseFeat">         Select the highlighted feat                             </ToolTip>
+  <ToolTip Name="ChoosePower">        Select the highlighted power                            </ToolTip>
+  <ToolTip Name="UserFeat">
+    Grant your character an additional feat. This will make your character houseruled.
+  </ToolTip>
+  <ToolTip Name="UserPower">
+    Grant your character an additional power. This will make your character houseruled.
+  </ToolTip>
+
+
+
+  <!-- Retraining -->
+  <ToolTip Name="LoseButton">         Remove the highlighted element                          </ToolTip>
+  <ToolTip Name="GainButton">         Add the highlighted element                             </ToolTip>
+
+  <!-- Equipment -->
+  <ToolTip Name="AddItem">            Select the highlighted item                             </ToolTip>
+  <ToolTip Name="ToggleTop">          View rituals or equipment                               </ToolTip>
+  <ToolTip Name="ShopMode">           Check to enable shopping mode                           </ToolTip>
+  <ToolTip Name="EquipItem">          Equip/unequip the highlighted item                      </ToolTip>
+
+  <!-- Details -->
+  <ToolTip Name="AddNote">            Add detail to your character                            </ToolTip>
+  <ToolTip Name="AddImage">           Add an image of your character                          </ToolTip>
+  <ToolTip Name="DeleteNote">         Remove the highlighted detail                           </ToolTip>
+
+  <!-- Level Page -->
+  <ToolTip Name="History">            View a lower level version of your character            </ToolTip>
+
+  <!-- Dialog Buttons -->
+  <ToolTip Name="LevelUp">            Adjust your character's level or XP                     </ToolTip>
+  <ToolTip Name="Dismiss">            Close this box                                          </ToolTip>
+  <ToolTip Name="DismissHouseRules">  Close this box                                          </ToolTip>
+
+</DDICharBuilderToolTips>

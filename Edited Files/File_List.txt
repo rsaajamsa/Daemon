@@ -1,0 +1,12 @@
+<File name = "ApplicationUpdate.Client.dll" version="0.1" uri=""></File>
+<File name = "CBLoader.exe" version="0.1" uri=""></File>
+<File name = "CharacterBuilder.exe" version="0.1" uri=""></File>
+<File name = "CharacterSheetViewer.exe" version="0.1" uri=""></File>
+<File name = "D20RulesEngine.dll" version="0.1" uri=""></File>
+<File name = "DDICharacterInterchange.dll" version="0.1" uri=""></File>
+<File name = "default.cbconfig" version="0.1" uri=""></File>
+<File name = "NativeDebugWrappers.dll" version="0.1" uri=""></File>
+<File name = "README.md" version="0.1" uri=""></File>
+<File name = "RulesEngineCommon.dll" version="0.1" uri=""></File>
+<File name = "tooltips.xml" version="0.1" uri=""></File>
+<File name = "XAMLUtilities.dll" version="0.1" uri=""></File>
