@@ -6,7 +6,6 @@
 <File name = "D20RulesEngine.dll" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Edited Files/D20RulesEngine.dll"></File>
 <File name = "DDICharacterInterchange.dll" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Edited Files/DDICharacterInterchange.dll"></File>
 <File name = "default.cbconfig" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Edited Files/default.cbconfig"></File>
-<File name = "File_List.txt" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Edited Files/File_List.txt"></File>
 <File name = "NativeDebugWrappers.dll" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Edited Files/NativeDebugWrappers.dll"></File>
 <File name = "README.md" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Edited Files/README.md"></File>
 <File name = "RulesEngineCommon.dll" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Edited Files/RulesEngineCommon.dll"></File>
