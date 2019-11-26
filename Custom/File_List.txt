@@ -43,7 +43,6 @@
 <File name = "Power.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Power.part"></File>
 <File name = "Proficiency.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Proficiency.part"></File>
 <File name = "Pseudo Class.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Pseudo%20Class.part"></File>
-<File name = "Race Ability Bonus - Copy.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race%20Ability%20Bonus%20-%20Copy.part"></File>
 <File name = "Race Ability Bonus.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race%20Ability%20Bonus.part"></File>
 <File name = "Race.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race.part"></File>
 <File name = "Racial Trait.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Racial%20Trait.part"></File>
