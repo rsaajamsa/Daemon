@@ -1,0 +1,66 @@
+<FileList>
+<File name = "Ability Score.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Ability%20Score.part"></File>
+<File name = "Alignment.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Alignment.part"></File>
+<File name = "Armor.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Armor.part"></File>
+<File name = "Associate.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Associate.part"></File>
+<File name = "Background Association.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Background%20Association.part"></File>
+<File name = "Background Choice.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Background%20Choice.part"></File>
+<File name = "Background.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Background.part"></File>
+<File name = "Build Suggestions.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Build%20Suggestions.part"></File>
+<File name = "Build.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Build.part"></File>
+<File name = "Category.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Category.part"></File>
+<File name = "Class Feature.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Class%20Feature.part"></File>
+<File name = "Class.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Class.part"></File>
+<File name = "Companion.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Companion.part"></File>
+<File name = "CountsAsClass.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/CountsAsClass.part"></File>
+<File name = "CountsAsFeature.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/CountsAsFeature.part"></File>
+<File name = "CountsAsPact.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/CountsAsPact.part"></File>
+<File name = "CountsAsRace.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/CountsAsRace.part"></File>
+<File name = "Dark Sun.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Dark%20Sun.part"></File>
+<File name = "Deity.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Deity.part"></File>
+<File name = "Domain.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Domain.part"></File>
+<File name = "Epic Destiny.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Epic%20Destiny.part"></File>
+<File name = "Essentials.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Essentials.part"></File>
+<File name = "Familiar.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Familiar.part"></File>
+<File name = "Feat.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Feat.part"></File>
+<File name = "Gear.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Gear.part"></File>
+<File name = "Gender.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Gender.part"></File>
+<File name = "God Fragment.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/God%20Fragment.part"></File>
+<File name = "Grants.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Grants.part"></File>
+<File name = "Hybrid Class.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Hybrid%20Class.part"></File>
+<File name = "Information.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Information.part"></File>
+<File name = "Internal.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Internal.part"></File>
+<File name = "Item Set Benefit.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Item%20Set%20Benefit.part"></File>
+<File name = "Item Set.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Item%20Set.part"></File>
+<File name = "Language.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Language.part"></File>
+<File name = "Level.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Level.part"></File>
+<File name = "Level1Rules.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Level1Rules.part"></File>
+<File name = "Magic Item.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Magic%20Item.part"></File>
+<File name = "Money.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Money.part"></File>
+<File name = "Multiclass.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Multiclass.part"></File>
+<File name = "Paragon Path.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Paragon%20Path.part"></File>
+<File name = "Power Source.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Power%20Source.part"></File>
+<File name = "Power.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Power.part"></File>
+<File name = "Proficiency.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Proficiency.part"></File>
+<File name = "Pseudo Class.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Pseudo%20Class.part"></File>
+<File name = "Race Ability Bonus - Copy.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race%20Ability%20Bonus%20-%20Copy.part"></File>
+<File name = "Race Ability Bonus.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race%20Ability%20Bonus.part"></File>
+<File name = "Race.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Race.part"></File>
+<File name = "Racial Trait.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Racial%20Trait.part"></File>
+<File name = "Ritual Scroll.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Ritual%20Scroll.part"></File>
+<File name = "Ritual.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Ritual.part"></File>
+<File name = "Role.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Role.part"></File>
+<File name = "Size.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Size.part"></File>
+<File name = "Skill Training.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Skill%20Training.part"></File>
+<File name = "Skill Usage.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Skill%20Usage.part"></File>
+<File name = "Skill.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Skill.part"></File>
+<File name = "source.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/source.part"></File>
+<File name = "Superior Implement.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Superior%20Implement.part"></File>
+<File name = "tag.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/tag.part"></File>
+<File name = "Theme.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Theme.part"></File>
+<File name = "Tier.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Tier.part"></File>
+<File name = "Trait Package.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Trait%20Package.part"></File>
+<File name = "Vision.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Vision.part"></File>
+<File name = "Weapon Group.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Weapon%20Group.part"></File>
+<File name = "Weapon.part" version="0.1" uri="https://raw.githubusercontent.com/rsaajamsa/Daemon/master/Custom/Weapon.part"></File>
+</FileList>
